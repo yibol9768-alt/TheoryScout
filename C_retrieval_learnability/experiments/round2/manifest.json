@@ -1,0 +1,657 @@
+{
+  "created_utc": "2026-11-05T19:40:46.177586+00:00",
+  "configs": [
+    {
+      "n": 20,
+      "k": 2,
+      "d": 5,
+      "seed": 10,
+      "loss": "nce"
+    },
+    {
+      "n": 20,
+      "k": 2,
+      "d": 5,
+      "seed": 10,
+      "loss": "pe"
+    },
+    {
+      "n": 20,
+      "k": 2,
+      "d": 5,
+      "seed": 10,
+      "loss": "sigmoid"
+    },
+    {
+      "n": 20,
+      "k": 2,
+      "d": 5,
+      "seed": 11,
+      "loss": "nce"
+    },
+    {
+      "n": 20,
+      "k": 2,
+      "d": 5,
+      "seed": 11,
+      "loss": "pe"
+    },
+    {
+      "n": 20,
+      "k": 2,
+      "d": 5,
+      "seed": 11,
+      "loss": "sigmoid"
+    },
+    {
+      "n": 20,
+      "k": 2,
+      "d": 5,
+      "seed": 12,
+      "loss": "nce"
+    },
+    {
+      "n": 20,
+      "k": 2,
+      "d": 5,
+      "seed": 12,
+      "loss": "pe"
+    },
+    {
+      "n": 20,
+      "k": 2,
+      "d": 5,
+      "seed": 12,
+      "loss": "sigmoid"
+    },
+    {
+      "n": 20,
+      "k": 2,
+      "d": 5,
+      "seed": 13,
+      "loss": "nce"
+    },
+    {
+      "n": 20,
+      "k": 2,
+      "d": 5,
+      "seed": 13,
+      "loss": "pe"
+    },
+    {
+      "n": 20,
+      "k": 2,
+      "d": 5,
+      "seed": 13,
+      "loss": "sigmoid"
+    },
+    {
+      "n": 20,
+      "k": 2,
+      "d": 5,
+      "seed": 14,
+      "loss": "nce"
+    },
+    {
+      "n": 20,
+      "k": 2,
+      "d": 5,
+      "seed": 14,
+      "loss": "pe"
+    },
+    {
+      "n": 20,
+      "k": 2,
+      "d": 5,
+      "seed": 14,
+      "loss": "sigmoid"
+    },
+    {
+      "n": 20,
+      "k": 2,
+      "d": 6,
+      "seed": 10,
+      "loss": "nce"
+    },
+    {
+      "n": 20,
+      "k": 2,
+      "d": 6,
+      "seed": 10,
+      "loss": "pe"
+    },
+    {
+      "n": 20,
+      "k": 2,
+      "d": 6,
+      "seed": 10,
+      "loss": "sigmoid"
+    },
+    {
+      "n": 20,
+      "k": 2,
+      "d": 6,
+      "seed": 11,
+      "loss": "nce"
+    },
+    {
+      "n": 20,
+      "k": 2,
+      "d": 6,
+      "seed": 11,
+      "loss": "pe"
+    },
+    {
+      "n": 20,
+      "k": 2,
+      "d": 6,
+      "seed": 11,
+      "loss": "sigmoid"
+    },
+    {
+      "n": 20,
+      "k": 2,
+      "d": 6,
+      "seed": 12,
+      "loss": "nce"
+    },
+    {
+      "n": 20,
+      "k": 2,
+      "d": 6,
+      "seed": 12,
+      "loss": "pe"
+    },
+    {
+      "n": 20,
+      "k": 2,
+      "d": 6,
+      "seed": 12,
+      "loss": "sigmoid"
+    },
+    {
+      "n": 20,
+      "k": 2,
+      "d": 6,
+      "seed": 13,
+      "loss": "nce"
+    },
+    {
+      "n": 20,
+      "k": 2,
+      "d": 6,
+      "seed": 13,
+      "loss": "pe"
+    },
+    {
+      "n": 20,
+      "k": 2,
+      "d": 6,
+      "seed": 13,
+      "loss": "sigmoid"
+    },
+    {
+      "n": 20,
+      "k": 2,
+      "d": 6,
+      "seed": 14,
+      "loss": "nce"
+    },
+    {
+      "n": 20,
+      "k": 2,
+      "d": 6,
+      "seed": 14,
+      "loss": "pe"
+    },
+    {
+      "n": 20,
+      "k": 2,
+      "d": 6,
+      "seed": 14,
+      "loss": "sigmoid"
+    },
+    {
+      "n": 20,
+      "k": 2,
+      "d": 8,
+      "seed": 10,
+      "loss": "nce"
+    },
+    {
+      "n": 20,
+      "k": 2,
+      "d": 8,
+      "seed": 10,
+      "loss": "pe"
+    },
+    {
+      "n": 20,
+      "k": 2,
+      "d": 8,
+      "seed": 10,
+      "loss": "sigmoid"
+    },
+    {
+      "n": 20,
+      "k": 2,
+      "d": 8,
+      "seed": 11,
+      "loss": "nce"
+    },
+    {
+      "n": 20,
+      "k": 2,
+      "d": 8,
+      "seed": 11,
+      "loss": "pe"
+    },
+    {
+      "n": 20,
+      "k": 2,
+      "d": 8,
+      "seed": 11,
+      "loss": "sigmoid"
+    },
+    {
+      "n": 20,
+      "k": 2,
+      "d": 8,
+      "seed": 12,
+      "loss": "nce"
+    },
+    {
+      "n": 20,
+      "k": 2,
+      "d": 8,
+      "seed": 12,
+      "loss": "pe"
+    },
+    {
+      "n": 20,
+      "k": 2,
+      "d": 8,
+      "seed": 12,
+      "loss": "sigmoid"
+    },
+    {
+      "n": 20,
+      "k": 2,
+      "d": 8,
+      "seed": 13,
+      "loss": "nce"
+    },
+    {
+      "n": 20,
+      "k": 2,
+      "d": 8,
+      "seed": 13,
+      "loss": "pe"
+    },
+    {
+      "n": 20,
+      "k": 2,
+      "d": 8,
+      "seed": 13,
+      "loss": "sigmoid"
+    },
+    {
+      "n": 20,
+      "k": 2,
+      "d": 8,
+      "seed": 14,
+      "loss": "nce"
+    },
+    {
+      "n": 20,
+      "k": 2,
+      "d": 8,
+      "seed": 14,
+      "loss": "pe"
+    },
+    {
+      "n": 20,
+      "k": 2,
+      "d": 8,
+      "seed": 14,
+      "loss": "sigmoid"
+    },
+    {
+      "n": 16,
+      "k": 3,
+      "d": 6,
+      "seed": 10,
+      "loss": "nce"
+    },
+    {
+      "n": 16,
+      "k": 3,
+      "d": 6,
+      "seed": 10,
+      "loss": "pe"
+    },
+    {
+      "n": 16,
+      "k": 3,
+      "d": 6,
+      "seed": 10,
+      "loss": "sigmoid"
+    },
+    {
+      "n": 16,
+      "k": 3,
+      "d": 6,
+      "seed": 11,
+      "loss": "nce"
+    },
+    {
+      "n": 16,
+      "k": 3,
+      "d": 6,
+      "seed": 11,
+      "loss": "pe"
+    },
+    {
+      "n": 16,
+      "k": 3,
+      "d": 6,
+      "seed": 11,
+      "loss": "sigmoid"
+    },
+    {
+      "n": 16,
+      "k": 3,
+      "d": 6,
+      "seed": 12,
+      "loss": "nce"
+    },
+    {
+      "n": 16,
+      "k": 3,
+      "d": 6,
+      "seed": 12,
+      "loss": "pe"
+    },
+    {
+      "n": 16,
+      "k": 3,
+      "d": 6,
+      "seed": 12,
+      "loss": "sigmoid"
+    },
+    {
+      "n": 16,
+      "k": 3,
+      "d": 6,
+      "seed": 13,
+      "loss": "nce"
+    },
+    {
+      "n": 16,
+      "k": 3,
+      "d": 6,
+      "seed": 13,
+      "loss": "pe"
+    },
+    {
+      "n": 16,
+      "k": 3,
+      "d": 6,
+      "seed": 13,
+      "loss": "sigmoid"
+    },
+    {
+      "n": 16,
+      "k": 3,
+      "d": 6,
+      "seed": 14,
+      "loss": "nce"
+    },
+    {
+      "n": 16,
+      "k": 3,
+      "d": 6,
+      "seed": 14,
+      "loss": "pe"
+    },
+    {
+      "n": 16,
+      "k": 3,
+      "d": 6,
+      "seed": 14,
+      "loss": "sigmoid"
+    },
+    {
+      "n": 16,
+      "k": 3,
+      "d": 8,
+      "seed": 10,
+      "loss": "nce"
+    },
+    {
+      "n": 16,
+      "k": 3,
+      "d": 8,
+      "seed": 10,
+      "loss": "pe"
+    },
+    {
+      "n": 16,
+      "k": 3,
+      "d": 8,
+      "seed": 10,
+      "loss": "sigmoid"
+    },
+    {
+      "n": 16,
+      "k": 3,
+      "d": 8,
+      "seed": 11,
+      "loss": "nce"
+    },
+    {
+      "n": 16,
+      "k": 3,
+      "d": 8,
+      "seed": 11,
+      "loss": "pe"
+    },
+    {
+      "n": 16,
+      "k": 3,
+      "d": 8,
+      "seed": 11,
+      "loss": "sigmoid"
+    },
+    {
+      "n": 16,
+      "k": 3,
+      "d": 8,
+      "seed": 12,
+      "loss": "nce"
+    },
+    {
+      "n": 16,
+      "k": 3,
+      "d": 8,
+      "seed": 12,
+      "loss": "pe"
+    },
+    {
+      "n": 16,
+      "k": 3,
+      "d": 8,
+      "seed": 12,
+      "loss": "sigmoid"
+    },
+    {
+      "n": 16,
+      "k": 3,
+      "d": 8,
+      "seed": 13,
+      "loss": "nce"
+    },
+    {
+      "n": 16,
+      "k": 3,
+      "d": 8,
+      "seed": 13,
+      "loss": "pe"
+    },
+    {
+      "n": 16,
+      "k": 3,
+      "d": 8,
+      "seed": 13,
+      "loss": "sigmoid"
+    },
+    {
+      "n": 16,
+      "k": 3,
+      "d": 8,
+      "seed": 14,
+      "loss": "nce"
+    },
+    {
+      "n": 16,
+      "k": 3,
+      "d": 8,
+      "seed": 14,
+      "loss": "pe"
+    },
+    {
+      "n": 16,
+      "k": 3,
+      "d": 8,
+      "seed": 14,
+      "loss": "sigmoid"
+    },
+    {
+      "n": 16,
+      "k": 3,
+      "d": 10,
+      "seed": 10,
+      "loss": "nce"
+    },
+    {
+      "n": 16,
+      "k": 3,
+      "d": 10,
+      "seed": 10,
+      "loss": "pe"
+    },
+    {
+      "n": 16,
+      "k": 3,
+      "d": 10,
+      "seed": 10,
+      "loss": "sigmoid"
+    },
+    {
+      "n": 16,
+      "k": 3,
+      "d": 10,
+      "seed": 11,
+      "loss": "nce"
+    },
+    {
+      "n": 16,
+      "k": 3,
+      "d": 10,
+      "seed": 11,
+      "loss": "pe"
+    },
+    {
+      "n": 16,
+      "k": 3,
+      "d": 10,
+      "seed": 11,
+      "loss": "sigmoid"
+    },
+    {
+      "n": 16,
+      "k": 3,
+      "d": 10,
+      "seed": 12,
+      "loss": "nce"
+    },
+    {
+      "n": 16,
+      "k": 3,
+      "d": 10,
+      "seed": 12,
+      "loss": "pe"
+    },
+    {
+      "n": 16,
+      "k": 3,
+      "d": 10,
+      "seed": 12,
+      "loss": "sigmoid"
+    },
+    {
+      "n": 16,
+      "k": 3,
+      "d": 10,
+      "seed": 13,
+      "loss": "nce"
+    },
+    {
+      "n": 16,
+      "k": 3,
+      "d": 10,
+      "seed": 13,
+      "loss": "pe"
+    },
+    {
+      "n": 16,
+      "k": 3,
+      "d": 10,
+      "seed": 13,
+      "loss": "sigmoid"
+    },
+    {
+      "n": 16,
+      "k": 3,
+      "d": 10,
+      "seed": 14,
+      "loss": "nce"
+    },
+    {
+      "n": 16,
+      "k": 3,
+      "d": 10,
+      "seed": 14,
+      "loss": "pe"
+    },
+    {
+      "n": 16,
+      "k": 3,
+      "d": 10,
+      "seed": 14,
+      "loss": "sigmoid"
+    }
+  ],
+  "steps": 84000,
+  "workers": 2,
+  "hashes": {
+    "PREREG_ROUND2.md": "1a8ff967f64ece1d8cfbd7aa9f58558f92e856c22feae2821852b2c2af5656a6",
+    "experiments/round2/core.py": "8b522819296ea56dc1aec3f7a77858d3a141246c218152862bce092a4fde6464",
+    "experiments/round2/prepare.py": "268f875c67812e826c928c0433a659e2d7adaf0287f9338517791100732377cb",
+    "experiments/round2/run.py": "f7559ab74df8e24676d3a22fb65908259650fd26288d20594915e4908bf832d1",
+    "experiments/round2/budget_decision.json": "bf1eeb96e48ed1cde7eace0820eab180ee71e993ff904d7bac6b2248e7668e5a",
+    "experiments/round2/validation.json": "d905afdc1bd0bef9203e78cd641efb35c617f378a9a703572886b97124128e5b",
+    "experiments/week1_common.py": "12804601ad6fc5092c110425d779e05fac109dedc70705db16bacd9c1e16fd76",
+    "FORMULATION.md": "8b237f80133c0a109af9be2b06460ba224be9c710244a7a1a76d752adb4b0e01",
+    "RESULTS_WEEK1.md": "f8dccddd1ff0029c1a66c6e7206317f795a0a5f1c292f8c870af48da5872541a",
+    "/mnt/c/Users/liuyibo/Desktop/auto-llm-driving/TheoryScout/docs/codex_week1_audit.txt": "34237eac675d2a8e7ba17373837c36453e0f601df94ad7c2ecc8f8684bf0d0f0"
+  },
+  "deadline_epoch": 1793913646.177548,
+  "interpreter": "/home/liuyibo/venvs/theory/bin/python",
+  "numpy_version": "2.5.4",
+  "env": {
+    "OMP_NUM_THREADS": "3",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1"
+  }
+}

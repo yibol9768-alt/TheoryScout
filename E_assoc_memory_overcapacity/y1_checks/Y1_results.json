@@ -1,0 +1,33 @@
+{
+  "purpose": "algebra verification only; no probabilistic remainder certification",
+  "checks_passed": 15,
+  "symbolic_residuals": {
+    "FT0_trace_energy": "0",
+    "FT0_wrong_W_equals_J_plus_H": "0",
+    "FT1_trace_energy": "0",
+    "FT1_wrong_W_equals_J_plus_H": "0",
+    "recall_coefficient": "0",
+    "rank_gaussian_integral": "0",
+    "GD_g_simplification": "0",
+    "GD_rank_simplification": "0",
+    "GD_recall_simplification": "0",
+    "exact_special_candidate_second_moment": "0",
+    "exact_radius_second_moment": "0",
+    "exact_correct_score_second_moment": "0",
+    "drift_from_independent_primitive_moments": "0",
+    "diffusion_from_independent_primitive_moments": "0",
+    "root_cross_moment": "0"
+  },
+  "input_hashes_unchanged": true,
+  "resources": {
+    "python": "/home/liuyibo/venvs/theory/bin/python",
+    "seconds": 0.618989648999559,
+    "process_threads": 1,
+    "cgroup": {
+      "memory.max": "3221225472",
+      "memory.swap.max": "0",
+      "memory.peak": "47460352"
+    },
+    "rss_peak_kib": 355096
+  }
+}

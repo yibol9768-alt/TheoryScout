@@ -1,0 +1,9 @@
+{
+  "n": 134217728,
+  "i": 134217727,
+  "computed_p_hex": "0x1.0000000000000p-26",
+  "exact_p": "268435455/18014398509481984",
+  "computed_minus_exact": "1/18014398509481984",
+  "is_exact": false,
+  "effect": "A claimed lower p endpoint can be rounded inward. This does not affect grid 4096."
+}

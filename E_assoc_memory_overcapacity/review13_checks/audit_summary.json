@@ -1,0 +1,509 @@
+{
+  "checks": "independent code; deterministic quadrature and test tensors; old X1 queries only; no new MR data",
+  "frozen_manifest": {
+    "Y3_FINITE_D_NONLINEAR.md": true,
+    "Y3_PREREG_DRAFT.md": true,
+    "y3_checks/Y3_coefficients.py": true,
+    "y3_checks/Y3_decomposition.py": true,
+    "y3_checks/Y3_verify.py": true,
+    "y3_checks/Y3_make_tables.py": true,
+    "y3_checks/Y3_audit.py": true,
+    "y3_checks/Y3_coefficients.csv": true,
+    "y3_checks/Y3_frozen_predictions.csv": true,
+    "experiments/x1/X1_population.json": true,
+    "X1_PREREG.md": true
+  },
+  "existing_nonlog_files_hashed": 3199,
+  "changed_existing_nonlog_files": [],
+  "logs_excluded_from_immutability": {
+    "codex_exp1.log": {
+      "size": 343796
+    },
+    "codex_exp2.log": {
+      "size": 574655
+    },
+    "codex_ext.log": {
+      "size": 594657
+    },
+    "codex_fig.log": {
+      "size": 2152761
+    },
+    "codex_fix.log": {
+      "size": 891489
+    },
+    "codex_fix2.log": {
+      "size": 480576
+    },
+    "codex_fix3.log": {
+      "size": 414444
+    },
+    "codex_formulation.log": {
+      "size": 200379
+    },
+    "codex_ftrev.log": {
+      "size": 251218
+    },
+    "codex_icmlrev.log": {
+      "size": 385536
+    },
+    "codex_int.log": {
+      "size": 714599
+    },
+    "codex_int2.log": {
+      "size": 476281
+    },
+    "codex_p01.log": {
+      "size": 351066
+    },
+    "codex_p03.log": {
+      "size": 368830
+    },
+    "codex_p04.log": {
+      "size": 465928
+    },
+    "codex_p11.log": {
+      "size": 829989
+    },
+    "codex_p123.log": {
+      "size": 542167
+    },
+    "codex_r11.log": {
+      "size": 210240
+    },
+    "codex_r12.log": {
+      "size": 293085
+    },
+    "codex_r13.log": {
+      "size": 359874
+    },
+    "codex_rev10.log": {
+      "size": 413132
+    },
+    "codex_rev4.log": {
+      "size": 169773
+    },
+    "codex_rev5.log": {
+      "size": 721586
+    },
+    "codex_rev6.log": {
+      "size": 544918
+    },
+    "codex_rev7.log": {
+      "size": 632009
+    },
+    "codex_rev8.log": {
+      "size": 592199
+    },
+    "codex_rev9.log": {
+      "size": 395375
+    },
+    "codex_rev_sim2.log": {
+      "size": 296243
+    },
+    "codex_rev_sim3.log": {
+      "size": 304738
+    },
+    "codex_rev_sim4.log": {
+      "size": 362863
+    },
+    "codex_review.log": {
+      "size": 387567
+    },
+    "codex_review2.log": {
+      "size": 352120
+    },
+    "codex_review3.log": {
+      "size": 383413
+    },
+    "codex_tex.log": {
+      "size": 624861
+    },
+    "codex_tex2.log": {
+      "size": 815291
+    },
+    "codex_v2.log": {
+      "size": 433723
+    },
+    "codex_w12.log": {
+      "size": 862821
+    },
+    "codex_w35.log": {
+      "size": 743337
+    },
+    "codex_w4.log": {
+      "size": 544886
+    },
+    "codex_w6.log": {
+      "size": 410560
+    },
+    "codex_w7.log": {
+      "size": 502015
+    },
+    "codex_w8.log": {
+      "size": 518914
+    },
+    "codex_w9.log": {
+      "size": 602626
+    },
+    "codex_x1.log": {
+      "size": 604550
+    },
+    "codex_x2.log": {
+      "size": 1120015
+    },
+    "codex_x3.log": {
+      "size": 731360
+    },
+    "codex_y1.log": {
+      "size": 785216
+    },
+    "codex_y2.log": {
+      "size": 260800
+    },
+    "codex_y3.log": {
+      "size": 434902
+    },
+    "experiments/exp1/analysis.log": {
+      "size": 453
+    },
+    "experiments/exp1/audit.log": {
+      "size": 345
+    },
+    "experiments/exp1/diagnostic_inspection.log": {
+      "size": 2959
+    },
+    "experiments/exp1/formal.log": {
+      "size": 5591
+    },
+    "experiments/exp1/moments.log": {
+      "size": 3019
+    },
+    "experiments/exp1/smoke.log": {
+      "size": 843
+    },
+    "experiments/exp2/analysis.log": {
+      "size": 1964
+    },
+    "experiments/exp2/audit.log": {
+      "size": 811
+    },
+    "experiments/exp2/finalize.log": {
+      "size": 1100
+    },
+    "experiments/exp2/formal.log": {
+      "size": 85545
+    },
+    "experiments/exp2/gradients.log": {
+      "size": 170
+    },
+    "experiments/exp2/smoke.log": {
+      "size": 1658
+    },
+    "experiments/ext/EXT_analysis.log": {
+      "size": 346
+    },
+    "experiments/ext/EXT_audit.log": {
+      "size": 609
+    },
+    "experiments/ext/EXT_formal.log": {
+      "size": 15185
+    },
+    "experiments/ext/EXT_smoke.log": {
+      "size": 343
+    },
+    "experiments/ft/FT_analyze.log": {
+      "size": 317
+    },
+    "experiments/ft/FT_audit.log": {
+      "size": 873
+    },
+    "experiments/ft/FT_final_hashcheck.log": {
+      "size": 1449
+    },
+    "experiments/ft/FT_formal.log": {
+      "size": 22084
+    },
+    "experiments/ft/FT_plot.log": {
+      "size": 110
+    },
+    "experiments/ft/FT_prepare.log": {
+      "size": 110
+    },
+    "experiments/ft/FT_report.log": {
+      "size": 9785
+    },
+    "experiments/ft/FT_resource_probe.log": {
+      "size": 355
+    },
+    "experiments/ft/FT_smoke.log": {
+      "size": 430
+    },
+    "experiments/p1num/P1NUM_analysis.log": {
+      "size": 10846
+    },
+    "experiments/p1num/P1NUM_audit.log": {
+      "size": 230
+    },
+    "experiments/p1num/P1NUM_formal.log": {
+      "size": 83499
+    },
+    "experiments/p1num/P1NUM_plot.log": {
+      "size": 110
+    },
+    "experiments/p1num/P1NUM_report.log": {
+      "size": 203
+    },
+    "experiments/p1num/P1NUM_smoke.log": {
+      "size": 576
+    },
+    "experiments/w4/W4_analysis.log": {
+      "size": 8214
+    },
+    "experiments/w4/W4_delivery_check.log": {
+      "size": 6037
+    },
+    "experiments/w4/W4_formal.log": {
+      "size": 9028
+    },
+    "experiments/w4/W4_portable.log": {
+      "size": 385
+    },
+    "experiments/w4/W4_replay.log": {
+      "size": 385
+    },
+    "paper/build/main.log": {
+      "size": 38475
+    },
+    "paper_v3_gpt/build/main.log": {
+      "size": 38475
+    },
+    "review12_checks/audit.log": {
+      "size": 2385
+    },
+    "review12_checks/interval_recheck.log": {
+      "size": 1857
+    },
+    "review12_checks/interval_recheck_retry.log": {
+      "size": 6763
+    },
+    "review12_checks/monte_carlo.log": {
+      "size": 5065
+    },
+    "review5_checks/final_audit_run.log": {
+      "size": 1113
+    },
+    "review5_checks/interval_run.log": {
+      "size": 1160
+    },
+    "review5_checks/numeric_final_run.log": {
+      "size": 9453
+    },
+    "review5_checks/numeric_run.log": {
+      "size": 110
+    },
+    "review5_checks/refined_run.log": {
+      "size": 3246
+    },
+    "review6_checks/edges.log": {
+      "size": 737
+    },
+    "review6_checks/run.log": {
+      "size": 570
+    },
+    "review6_checks/summary.log": {
+      "size": 2017
+    },
+    "review6_checks/verification.log": {
+      "size": 440
+    },
+    "review7_checks/final_audit.log": {
+      "size": 208
+    },
+    "review7_checks/final_audit_complete.log": {
+      "size": 208
+    },
+    "review7_checks/final_validation.log": {
+      "size": 208
+    },
+    "review7_checks/run.log": {
+      "size": 398
+    },
+    "review7_checks/run_complete.log": {
+      "size": 327
+    },
+    "review7_checks/sign16_followup.log": {
+      "size": 963
+    },
+    "review7_checks/summary.log": {
+      "size": 7914
+    },
+    "review8_checks/artifact_audit.log": {
+      "size": 2138
+    },
+    "review8_checks/computation.log": {
+      "size": 2070
+    },
+    "review8_checks/final_verify.log": {
+      "size": 746
+    },
+    "review8_checks/run.log": {
+      "size": 398
+    },
+    "review8_checks/strict_artifact_audit.log": {
+      "size": 2217
+    },
+    "review8_checks/strict_computation.log": {
+      "size": 2103
+    },
+    "review_ft_checks/boundary_run.log": {
+      "size": 915
+    },
+    "review_ft_checks/input_hashcheck.log": {
+      "size": 213
+    },
+    "review_ft_checks/run.log": {
+      "size": 375
+    },
+    "review_ft_checks/run_main.log": {
+      "size": 5747
+    },
+    "w6_checks/certificate_run.log": {
+      "size": 1247
+    },
+    "w6_checks/certificate_run_v2.log": {
+      "size": 1289
+    },
+    "w6_checks/probe.log": {
+      "size": 1930
+    },
+    "w6_checks/probe_quadratic.log": {
+      "size": 1917
+    },
+    "w6_checks/verification_final_run.log": {
+      "size": 6110
+    },
+    "w6_checks/verification_run.log": {
+      "size": 5940
+    },
+    "w7_checks/final_validation.log": {
+      "size": 277
+    },
+    "w7_checks/report.log": {
+      "size": 2431
+    },
+    "w7_checks/run.log": {
+      "size": 1587
+    },
+    "w8_checks/W8_simulation.log": {
+      "size": 5682
+    },
+    "w8_checks/W8_verification.log": {
+      "size": 3060
+    },
+    "w9_checks/audit.log": {
+      "size": 1096
+    },
+    "w9_checks/focus.log": {
+      "size": 5971
+    },
+    "w9_checks/formal.log": {
+      "size": 7095
+    },
+    "w9_checks/report.log": {
+      "size": 4459
+    },
+    "w9_checks/repro_smoke.log": {
+      "size": 165
+    },
+    "w9_checks/smoke.log": {
+      "size": 165
+    },
+    "x2_checks/analytic.log": {
+      "size": 5629
+    },
+    "x2_checks/audit.log": {
+      "size": 1344
+    },
+    "x2_checks/ft_rank.log": {
+      "size": 985
+    },
+    "x2_checks/rank.log": {
+      "size": 1156
+    },
+    "x2_checks/replay_check.log": {
+      "size": 14200
+    },
+    "x2_checks/scatter.log": {
+      "size": 1298
+    },
+    "x2_checks/summary.log": {
+      "size": 4247
+    },
+    "x2_checks/verified/analytic.log": {
+      "size": 5629
+    },
+    "x3_checks/X3_POLAR_APPENDIX_PREVIEW.log": {
+      "size": 6015
+    },
+    "y2_checks/explore.log": {
+      "size": 4652
+    },
+    "y2_checks/explore_history.log": {
+      "size": 490
+    },
+    "y2_checks/final_audit_run.log": {
+      "size": 182
+    },
+    "y2_checks/history_run.log": {
+      "size": 964
+    },
+    "y2_checks/points_run.log": {
+      "size": 871
+    },
+    "y2_checks/probe.log": {
+      "size": 2770
+    },
+    "y2_checks/probe_boxes.log": {
+      "size": 1549
+    },
+    "y2_checks/region_run.log": {
+      "size": 1019
+    },
+    "y2_checks/verification_run.log": {
+      "size": 1479
+    }
+  },
+  "symlinks_skipped": [],
+  "max_scalar_csv_error": 1.1027623258996755e-11,
+  "max_response_derivative_error": 2.6684210396865637e-13,
+  "max_exact_block_slope_error": 1.1470385530287786e-07,
+  "max_direct_joint_identity_error": 4.440892098500626e-16,
+  "max_sphere_polynomial_moment_error": 3.469446951953614e-18,
+  "recall_algebra_identity": true,
+  "recall_remainder_proved": false,
+  "x1_rmse": {
+    "old_pp_before": 0.8682891656393422,
+    "old_pp_after": 0.09588259948705512,
+    "new_pp_before": 1.0625139373764714,
+    "new_pp_after": 0.10095334673715975
+  },
+  "planned_rng_streams": 2304,
+  "old_entropy_tuples_checked": 38251,
+  "state_collisions": 0,
+  "cpu_seconds": 13.998788579000001,
+  "peak_rss_mib": 163.6484375,
+  "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+  "numpy": "2.5.4",
+  "threadpools": [
+    {
+      "library": "/home/liuyibo/venvs/theory/lib/python3.12/site-packages/numpy.libs/libscipy_openblas64_-f48b354e.so",
+      "threads": 2
+    },
+    {
+      "library": "/home/liuyibo/venvs/theory/lib/python3.12/site-packages/scipy.libs/libscipy_openblas-5f890258.so",
+      "threads": 2
+    }
+  ],
+  "memory_max": "3221225472",
+  "memory_swap_max": "0"
+}

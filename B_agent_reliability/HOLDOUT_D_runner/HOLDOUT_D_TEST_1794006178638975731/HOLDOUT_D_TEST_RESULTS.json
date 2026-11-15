@@ -1,0 +1,11 @@
+{
+  "tests": 22,
+  "failures": 0,
+  "errors": 0,
+  "passed": true,
+  "seconds": 41.08864641189575,
+  "artifacts": "HOLDOUT_D_runner/HOLDOUT_D_TEST_1794006178638975731",
+  "no_real_llm": true,
+  "mock_http_only": true,
+  "thread_limit": 2
+}

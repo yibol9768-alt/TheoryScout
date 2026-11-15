@@ -1,0 +1,740 @@
+{
+  "no_network": true,
+  "no_llm": true,
+  "N": 144,
+  "successful_cap": 9000,
+  "attempt_cap": 12000,
+  "decision": "保持N=144，接受较低规划成功率与触限缺失风险，绝不突破硬限/放宽门槛",
+  "group_sizes": {
+    "('calib1', '32')": 50,
+    "('holdout_b', '64')": 13,
+    "('holdout_b', '16')": 13,
+    "('holdout_c', '16')": 20,
+    "('holdout_c', '64')": 20
+  },
+  "batch_counts": {
+    "calib1": [
+      [
+        702.0,
+        10.0,
+        169.0,
+        31.0,
+        21.0
+      ],
+      [
+        577.0,
+        9.0,
+        114.0,
+        30.0,
+        21.0
+      ]
+    ],
+    "holdout_b": [
+      [
+        289.0,
+        7.0,
+        60.0,
+        14.0,
+        7.0
+      ],
+      [
+        219.0,
+        2.0,
+        50.0,
+        9.0,
+        7.0
+      ]
+    ],
+    "holdout_c": [
+      [
+        472.0,
+        17.0,
+        104.0,
+        27.0,
+        10.0
+      ],
+      [
+        543.0,
+        3.0,
+        125.0,
+        17.0,
+        14.0
+      ]
+    ]
+  },
+  "joint_kernel_columns": [
+    "p",
+    "r1",
+    "r2",
+    "h"
+  ],
+  "kernel_quantiles": [
+    [
+      [
+        0.20540512504205452,
+        0.7407407407407407,
+        0.41379310344827586,
+        0.015999872040946897
+      ],
+      [
+        0.19403986749847577,
+        0.7638376383763837,
+        0.6326530612244898,
+        0.005434782608695652
+      ]
+    ],
+    [
+      [
+        0.22772964447113347,
+        0.7836623952776403,
+        0.5285714285714286,
+        0.0231593288398107
+      ],
+      [
+        0.21594216347086662,
+        0.8064516129032258,
+        0.75,
+        0.010424422933730455
+      ]
+    ],
+    [
+      [
+        0.25099712108569877,
+        0.8238636363636364,
+        0.637702985856469,
+        0.031677717809104375
+      ],
+      [
+        0.23876509307395605,
+        0.8434163701067615,
+        0.8545454545454545,
+        0.016885636856368562
+      ]
+    ]
+  ],
+  "parameter_seed": 116990004,
+  "simulations_per_scenario": 10000,
+  "max_MC_SE": 0.005,
+  "scope": "一次参数抽样由未来144题共用；模拟停止/修复及潜在未截断需求，超过9000的实验所有确认门槛均失败。无传输失败，12000尝试尾部不从本概率模型推算。",
+  "inputs": {
+    "HOLDOUT_D_DESIGN.json": "550cf28e8c519e626263df984598348575ec27ddc2927d79bad4627e88f41f9d",
+    "HOLDOUT_D_PREREG.md": "b3a714bd6b9ba6f74ecd13a95b3b793d2067d43b733fff33f8f2fed4a70bb2d3",
+    "HOLDOUT_D_offline.py": "9d3906083a2759f5f20ad4da8f3a6a3a03d9c842071655ed125ead4ca5235577",
+    "experiments/real/analysis_length/ANALYSIS_LENGTH_C_tasks.csv": "bda3117c7820ebc978a58df7d9b566354076a29a45955804fc9f85af2ee61a5b",
+    "experiments/real/analysis_length/ANALYSIS_LENGTH_C_steps.csv": "91f1a844a3e3f5e2c34928fa754c53feae5bb1f70ddeba6cdba4dafa838e99a2"
+  },
+  "scenarios": {
+    "parameter_resampling": {
+      "note": "训练分层整题参数混合，非后验/非跨批保证",
+      "simulations": 10000,
+      "seed": 216990101,
+      "rates": {
+        "potential_primary": 0.8451,
+        "potential_calibration": 0.7253,
+        "potential_primary_calibration": 0.6343,
+        "budget_complete": 0.999,
+        "primary": 0.8442,
+        "calibration": 0.7253,
+        "joint": 0.6343,
+        "potential_count_eligibility": 0.9995,
+        "count_eligibility": 0.9985,
+        "fatal_normal": 0.8249,
+        "r2_normal": 0.832,
+        "mechanisms_normal": 0.7725,
+        "all_gates_normal": 0.5833
+      },
+      "counts": {
+        "potential_primary": 8451,
+        "potential_calibration": 7253,
+        "potential_primary_calibration": 6343,
+        "budget_complete": 9990,
+        "primary": 8442,
+        "calibration": 7253,
+        "joint": 6343,
+        "potential_count_eligibility": 9995,
+        "count_eligibility": 9985,
+        "fatal_normal": 8249,
+        "r2_normal": 8320,
+        "mechanisms_normal": 7725,
+        "all_gates_normal": 5833
+      },
+      "uncapped_demand_mean": 7192.2229,
+      "uncapped_demand_quantiles": {
+        "0.5": 7192.0,
+        "0.95": 8168.049999999999,
+        "0.99": 8528.0,
+        "0.999": 8959.061000000012
+      },
+      "uncapped_demand_max": 9662,
+      "exhaustions": 10,
+      "actual_return_cap": 9000,
+      "actual_returns_mean": 7192.0305,
+      "mean_segment_counts": [
+        [
+          1941.9142,
+          45.1064,
+          442.5543,
+          95.7009,
+          50.5945
+        ],
+        [
+          3746.516,
+          39.0089,
+          808.9581,
+          156.5794,
+          117.5705
+        ]
+      ],
+      "actual_bootstrap": {
+        "outer": 300,
+        "inner": 10000,
+        "bootstrap_seed_each_experiment": 116990005,
+        "rates": {
+          "potential_bootstrap_eligible": 1.0,
+          "bootstrap_eligible": 0.9966666666666667,
+          "fatal_bootstrap": 0.86,
+          "r2_bootstrap": 0.8433333333333334,
+          "mechanisms_bootstrap": 0.8,
+          "all_gates_bootstrap": 0.6333333333333333
+        },
+        "counts": {
+          "potential_bootstrap_eligible": 300,
+          "bootstrap_eligible": 299,
+          "fatal_bootstrap": 258,
+          "r2_bootstrap": 253,
+          "mechanisms_bootstrap": 240,
+          "all_gates_bootstrap": 190
+        },
+        "valid_min": 10000,
+        "valid_max": 10000,
+        "normal_same_outer": {
+          "potential_primary": 0.8633333333333333,
+          "potential_calibration": 0.7633333333333333,
+          "potential_primary_calibration": 0.6866666666666666,
+          "budget_complete": 0.9966666666666667,
+          "primary": 0.86,
+          "calibration": 0.7633333333333333,
+          "joint": 0.6866666666666666,
+          "potential_count_eligibility": 1.0,
+          "count_eligibility": 0.9966666666666667,
+          "fatal_normal": 0.8566666666666667,
+          "r2_normal": 0.8466666666666667,
+          "mechanisms_normal": 0.8,
+          "all_gates_normal": 0.6333333333333333
+        },
+        "max_MC_SE": 0.02886751345948129,
+        "note": "实际冻结配对整题bootstrap，有限外层模拟；不是精确认证概率"
+      }
+    },
+    "point_reference": {
+      "note": "冻结点参数参考",
+      "simulations": 10000,
+      "seed": 216990102,
+      "rates": {
+        "potential_primary": 0.9549,
+        "potential_calibration": 0.9612,
+        "potential_primary_calibration": 0.9207,
+        "budget_complete": 1.0,
+        "primary": 0.9549,
+        "calibration": 0.9612,
+        "joint": 0.9207,
+        "potential_count_eligibility": 1.0,
+        "count_eligibility": 1.0,
+        "fatal_normal": 0.9431,
+        "r2_normal": 0.9489,
+        "mechanisms_normal": 0.9195,
+        "all_gates_normal": 0.8875
+      },
+      "counts": {
+        "potential_primary": 9549,
+        "potential_calibration": 9612,
+        "potential_primary_calibration": 9207,
+        "budget_complete": 10000,
+        "primary": 9549,
+        "calibration": 9612,
+        "joint": 9207,
+        "potential_count_eligibility": 10000,
+        "count_eligibility": 10000,
+        "fatal_normal": 9431,
+        "r2_normal": 9489,
+        "mechanisms_normal": 9195,
+        "all_gates_normal": 8875
+      },
+      "uncapped_demand_mean": 7194.168,
+      "uncapped_demand_quantiles": {
+        "0.5": 7195.0,
+        "0.95": 7787.0,
+        "0.99": 8019.0,
+        "0.999": 8298.005000000001
+      },
+      "uncapped_demand_max": 8507,
+      "exhaustions": 0,
+      "actual_return_cap": 9000,
+      "actual_returns_mean": 7194.168,
+      "mean_segment_counts": [
+        [
+          1943.5165,
+          45.1097,
+          442.4893,
+          95.6211,
+          50.5114
+        ],
+        [
+          3746.9357,
+          39.2275,
+          808.7942,
+          156.8112,
+          117.5837
+        ]
+      ],
+      "actual_bootstrap": {
+        "outer": 300,
+        "inner": 10000,
+        "bootstrap_seed_each_experiment": 116990005,
+        "rates": {
+          "potential_bootstrap_eligible": 1.0,
+          "bootstrap_eligible": 1.0,
+          "fatal_bootstrap": 0.9533333333333334,
+          "r2_bootstrap": 0.94,
+          "mechanisms_bootstrap": 0.9133333333333333,
+          "all_gates_bootstrap": 0.88
+        },
+        "counts": {
+          "potential_bootstrap_eligible": 300,
+          "bootstrap_eligible": 300,
+          "fatal_bootstrap": 286,
+          "r2_bootstrap": 282,
+          "mechanisms_bootstrap": 274,
+          "all_gates_bootstrap": 264
+        },
+        "valid_min": 10000,
+        "valid_max": 10000,
+        "normal_same_outer": {
+          "potential_primary": 0.96,
+          "potential_calibration": 0.9666666666666667,
+          "potential_primary_calibration": 0.9266666666666666,
+          "budget_complete": 1.0,
+          "primary": 0.96,
+          "calibration": 0.9666666666666667,
+          "joint": 0.9266666666666666,
+          "potential_count_eligibility": 1.0,
+          "count_eligibility": 1.0,
+          "fatal_normal": 0.9433333333333334,
+          "r2_normal": 0.9366666666666666,
+          "mechanisms_normal": 0.9033333333333333,
+          "all_gates_normal": 0.8733333333333333
+        },
+        "max_MC_SE": 0.02886751345948129,
+        "note": "实际冻结配对整题bootstrap，有限外层模拟；不是精确认证概率"
+      }
+    },
+    "weak_effect_stress": {
+      "note": "较小分段效应压力测试，无发生权重",
+      "simulations": 10000,
+      "seed": 216990103,
+      "rates": {
+        "potential_primary": 0.2073,
+        "potential_calibration": 0.7872,
+        "potential_primary_calibration": 0.1989,
+        "budget_complete": 1.0,
+        "primary": 0.2073,
+        "calibration": 0.7872,
+        "joint": 0.1989,
+        "potential_count_eligibility": 1.0,
+        "count_eligibility": 1.0,
+        "fatal_normal": 0.1913,
+        "r2_normal": 0.0705,
+        "mechanisms_normal": 0.0597,
+        "all_gates_normal": 0.0582
+      },
+      "counts": {
+        "potential_primary": 2073,
+        "potential_calibration": 7872,
+        "potential_primary_calibration": 1989,
+        "budget_complete": 10000,
+        "primary": 2073,
+        "calibration": 7872,
+        "joint": 1989,
+        "potential_count_eligibility": 10000,
+        "count_eligibility": 10000,
+        "fatal_normal": 1913,
+        "r2_normal": 705,
+        "mechanisms_normal": 597,
+        "all_gates_normal": 582
+      },
+      "uncapped_demand_mean": 7329.5652,
+      "uncapped_demand_quantiles": {
+        "0.5": 7332.0,
+        "0.95": 7880.0,
+        "0.99": 8107.030000000001,
+        "0.999": 8329.009000000002
+      },
+      "uncapped_demand_max": 8589,
+      "exhaustions": 0,
+      "actual_return_cap": 9000,
+      "actual_returns_mean": 7329.5652,
+      "mean_segment_counts": [
+        [
+          2016.8514,
+          36.3517,
+          459.0248,
+          99.192,
+          62.8403
+        ],
+        [
+          3780.4682,
+          52.9035,
+          815.9683,
+          158.0605,
+          105.157
+        ]
+      ],
+      "actual_bootstrap": {
+        "outer": 300,
+        "inner": 10000,
+        "bootstrap_seed_each_experiment": 116990005,
+        "rates": {
+          "potential_bootstrap_eligible": 1.0,
+          "bootstrap_eligible": 1.0,
+          "fatal_bootstrap": 0.24333333333333335,
+          "r2_bootstrap": 0.07,
+          "mechanisms_bootstrap": 0.06,
+          "all_gates_bootstrap": 0.06
+        },
+        "counts": {
+          "potential_bootstrap_eligible": 300,
+          "bootstrap_eligible": 300,
+          "fatal_bootstrap": 73,
+          "r2_bootstrap": 21,
+          "mechanisms_bootstrap": 18,
+          "all_gates_bootstrap": 18
+        },
+        "valid_min": 10000,
+        "valid_max": 10000,
+        "normal_same_outer": {
+          "potential_primary": 0.24666666666666667,
+          "potential_calibration": 0.75,
+          "potential_primary_calibration": 0.23333333333333334,
+          "budget_complete": 1.0,
+          "primary": 0.24666666666666667,
+          "calibration": 0.75,
+          "joint": 0.23333333333333334,
+          "potential_count_eligibility": 1.0,
+          "count_eligibility": 1.0,
+          "fatal_normal": 0.22666666666666666,
+          "r2_normal": 0.06,
+          "mechanisms_normal": 0.05333333333333334,
+          "all_gates_normal": 0.05333333333333334
+        },
+        "max_MC_SE": 0.02886751345948129,
+        "note": "实际冻结配对整题bootstrap，有限外层模拟；不是精确认证概率"
+      }
+    },
+    "batch_calib1_stress": {
+      "note": "仅用旧批次核的漂移压力测试，无发生权重；不是新的拟合对照",
+      "simulations": 10000,
+      "seed": 216990104,
+      "rates": {
+        "potential_primary": 0.0076,
+        "potential_calibration": 0.3284,
+        "potential_primary_calibration": 0.0076,
+        "budget_complete": 1.0,
+        "primary": 0.0076,
+        "calibration": 0.3284,
+        "joint": 0.0076,
+        "potential_count_eligibility": 1.0,
+        "count_eligibility": 1.0,
+        "fatal_normal": 0.0052,
+        "r2_normal": 0.0544,
+        "mechanisms_normal": 0.0047,
+        "all_gates_normal": 0.0047
+      },
+      "counts": {
+        "potential_primary": 76,
+        "potential_calibration": 3284,
+        "potential_primary_calibration": 76,
+        "budget_complete": 10000,
+        "primary": 76,
+        "calibration": 3284,
+        "joint": 76,
+        "potential_count_eligibility": 10000,
+        "count_eligibility": 10000,
+        "fatal_normal": 52,
+        "r2_normal": 544,
+        "mechanisms_normal": 47,
+        "all_gates_normal": 47
+      },
+      "uncapped_demand_mean": 7522.7721,
+      "uncapped_demand_quantiles": {
+        "0.5": 7522.0,
+        "0.95": 8060.049999999999,
+        "0.99": 8275.0,
+        "0.999": 8513.030000000006
+      },
+      "uncapped_demand_max": 8864,
+      "exhaustions": 0,
+      "actual_return_cap": 9000,
+      "actual_returns_mean": 7522.7721,
+      "mean_segment_counts": [
+        [
+          2073.7061,
+          29.5443,
+          499.0162,
+          91.6045,
+          62.0602
+        ],
+        [
+          3888.2056,
+          60.6006,
+          767.9707,
+          202.269,
+          141.6684
+        ]
+      ],
+      "actual_bootstrap": {
+        "outer": 300,
+        "inner": 10000,
+        "bootstrap_seed_each_experiment": 116990005,
+        "rates": {
+          "potential_bootstrap_eligible": 1.0,
+          "bootstrap_eligible": 1.0,
+          "fatal_bootstrap": 0.01,
+          "r2_bootstrap": 0.04666666666666667,
+          "mechanisms_bootstrap": 0.006666666666666667,
+          "all_gates_bootstrap": 0.006666666666666667
+        },
+        "counts": {
+          "potential_bootstrap_eligible": 300,
+          "bootstrap_eligible": 300,
+          "fatal_bootstrap": 3,
+          "r2_bootstrap": 14,
+          "mechanisms_bootstrap": 2,
+          "all_gates_bootstrap": 2
+        },
+        "valid_min": 10000,
+        "valid_max": 10000,
+        "normal_same_outer": {
+          "potential_primary": 0.01,
+          "potential_calibration": 0.3233333333333333,
+          "potential_primary_calibration": 0.01,
+          "budget_complete": 1.0,
+          "primary": 0.01,
+          "calibration": 0.3233333333333333,
+          "joint": 0.01,
+          "potential_count_eligibility": 1.0,
+          "count_eligibility": 1.0,
+          "fatal_normal": 0.01,
+          "r2_normal": 0.03666666666666667,
+          "mechanisms_normal": 0.006666666666666667,
+          "all_gates_normal": 0.006666666666666667
+        },
+        "max_MC_SE": 0.02886751345948129,
+        "note": "实际冻结配对整题bootstrap，有限外层模拟；不是精确认证概率"
+      }
+    },
+    "batch_holdout_b_stress": {
+      "note": "仅用旧批次核的漂移压力测试，无发生权重；不是新的拟合对照",
+      "simulations": 10000,
+      "seed": 216990105,
+      "rates": {
+        "potential_primary": 0.9938,
+        "potential_calibration": 0.9532,
+        "potential_primary_calibration": 0.9478,
+        "budget_complete": 1.0,
+        "primary": 0.9938,
+        "calibration": 0.9532,
+        "joint": 0.9478,
+        "potential_count_eligibility": 1.0,
+        "count_eligibility": 1.0,
+        "fatal_normal": 0.9904,
+        "r2_normal": 0.995,
+        "mechanisms_normal": 0.9881,
+        "all_gates_normal": 0.943
+      },
+      "counts": {
+        "potential_primary": 9938,
+        "potential_calibration": 9532,
+        "potential_primary_calibration": 9478,
+        "budget_complete": 10000,
+        "primary": 9938,
+        "calibration": 9532,
+        "joint": 9478,
+        "potential_count_eligibility": 10000,
+        "count_eligibility": 10000,
+        "fatal_normal": 9904,
+        "r2_normal": 9950,
+        "mechanisms_normal": 9881,
+        "all_gates_normal": 9430
+      },
+      "uncapped_demand_mean": 7239.0098,
+      "uncapped_demand_quantiles": {
+        "0.5": 7240.0,
+        "0.95": 7849.0,
+        "0.99": 8094.02,
+        "0.999": 8354.003
+      },
+      "uncapped_demand_max": 8665,
+      "exhaustions": 0,
+      "actual_return_cap": 9000,
+      "actual_returns_mean": 7239.0098,
+      "mean_segment_counts": [
+        [
+          1929.2688,
+          46.7374,
+          400.9902,
+          93.5175,
+          46.7801
+        ],
+        [
+          3793.1334,
+          34.6596,
+          866.2035,
+          155.8964,
+          121.2368
+        ]
+      ],
+      "actual_bootstrap": {
+        "outer": 300,
+        "inner": 10000,
+        "bootstrap_seed_each_experiment": 116990005,
+        "rates": {
+          "potential_bootstrap_eligible": 1.0,
+          "bootstrap_eligible": 1.0,
+          "fatal_bootstrap": 0.99,
+          "r2_bootstrap": 0.9866666666666667,
+          "mechanisms_bootstrap": 0.98,
+          "all_gates_bootstrap": 0.94
+        },
+        "counts": {
+          "potential_bootstrap_eligible": 300,
+          "bootstrap_eligible": 300,
+          "fatal_bootstrap": 297,
+          "r2_bootstrap": 296,
+          "mechanisms_bootstrap": 294,
+          "all_gates_bootstrap": 282
+        },
+        "valid_min": 10000,
+        "valid_max": 10000,
+        "normal_same_outer": {
+          "potential_primary": 0.9933333333333333,
+          "potential_calibration": 0.96,
+          "potential_primary_calibration": 0.9533333333333334,
+          "budget_complete": 1.0,
+          "primary": 0.9933333333333333,
+          "calibration": 0.96,
+          "joint": 0.9533333333333334,
+          "potential_count_eligibility": 1.0,
+          "count_eligibility": 1.0,
+          "fatal_normal": 0.99,
+          "r2_normal": 0.99,
+          "mechanisms_normal": 0.9833333333333333,
+          "all_gates_normal": 0.9433333333333334
+        },
+        "max_MC_SE": 0.02886751345948129,
+        "note": "实际冻结配对整题bootstrap，有限外层模拟；不是精确认证概率"
+      }
+    },
+    "batch_holdout_c_stress": {
+      "note": "仅用旧批次核的漂移压力测试，无发生权重；不是新的拟合对照",
+      "simulations": 10000,
+      "seed": 216990106,
+      "rates": {
+        "potential_primary": 1.0,
+        "potential_calibration": 0.1921,
+        "potential_primary_calibration": 0.1921,
+        "budget_complete": 1.0,
+        "primary": 1.0,
+        "calibration": 0.1921,
+        "joint": 0.1921,
+        "potential_count_eligibility": 0.993,
+        "count_eligibility": 0.993,
+        "fatal_normal": 0.993,
+        "r2_normal": 0.993,
+        "mechanisms_normal": 0.993,
+        "all_gates_normal": 0.1921
+      },
+      "counts": {
+        "potential_primary": 10000,
+        "potential_calibration": 1921,
+        "potential_primary_calibration": 1921,
+        "budget_complete": 10000,
+        "primary": 10000,
+        "calibration": 1921,
+        "joint": 1921,
+        "potential_count_eligibility": 9930,
+        "count_eligibility": 9930,
+        "fatal_normal": 9930,
+        "r2_normal": 9930,
+        "mechanisms_normal": 9930,
+        "all_gates_normal": 1921
+      },
+      "uncapped_demand_mean": 6531.1627,
+      "uncapped_demand_quantiles": {
+        "0.5": 6526.0,
+        "0.95": 7184.0,
+        "0.99": 7455.01,
+        "0.999": 7722.011000000002
+      },
+      "uncapped_demand_max": 8094,
+      "exhaustions": 0,
+      "actual_return_cap": 9000,
+      "actual_returns_mean": 6531.1627,
+      "mean_segment_counts": [
+        [
+          1774.0602,
+          64.0252,
+          391.0733,
+          101.6543,
+          37.6291
+        ],
+        [
+          3380.3154,
+          18.7023,
+          778.2265,
+          105.833,
+          87.1307
+        ]
+      ],
+      "actual_bootstrap": {
+        "outer": 300,
+        "inner": 10000,
+        "bootstrap_seed_each_experiment": 116990005,
+        "rates": {
+          "potential_bootstrap_eligible": 1.0,
+          "bootstrap_eligible": 1.0,
+          "fatal_bootstrap": 1.0,
+          "r2_bootstrap": 1.0,
+          "mechanisms_bootstrap": 1.0,
+          "all_gates_bootstrap": 0.19
+        },
+        "counts": {
+          "potential_bootstrap_eligible": 300,
+          "bootstrap_eligible": 300,
+          "fatal_bootstrap": 300,
+          "r2_bootstrap": 300,
+          "mechanisms_bootstrap": 300,
+          "all_gates_bootstrap": 57
+        },
+        "valid_min": 10000,
+        "valid_max": 10000,
+        "normal_same_outer": {
+          "potential_primary": 1.0,
+          "potential_calibration": 0.19,
+          "potential_primary_calibration": 0.19,
+          "budget_complete": 1.0,
+          "primary": 1.0,
+          "calibration": 0.19,
+          "joint": 0.19,
+          "potential_count_eligibility": 1.0,
+          "count_eligibility": 1.0,
+          "fatal_normal": 1.0,
+          "r2_normal": 1.0,
+          "mechanisms_normal": 1.0,
+          "all_gates_normal": 0.19
+        },
+        "max_MC_SE": 0.02886751345948129,
+        "note": "实际冻结配对整题bootstrap，有限外层模拟；不是精确认证概率"
+      }
+    }
+  }
+}

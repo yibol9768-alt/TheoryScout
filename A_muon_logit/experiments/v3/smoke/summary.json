@@ -1,0 +1,50 @@
+{
+  "mode": "smoke",
+  "strata": [
+    {
+      "condition": "anisotropic",
+      "eta": 0.01,
+      "seeds": [
+        11
+      ],
+      "passes": {
+        "G0": 1,
+        "G1": 0,
+        "G2": 0,
+        "G3": 0
+      },
+      "stratum_pass": {
+        "G0": true,
+        "G1": false,
+        "G2": false,
+        "G3": false
+      }
+    }
+  ],
+  "run_ids": [
+    "e1_anisotropic_muon0_eta0.01_seed11_base"
+  ],
+  "prereg_sha256": "fbba8417b81069153c4f969a8830f9589386b6fb38bd9d16d3432c9a9c037138",
+  "script_sha256": "f00451c71cb36e4b749dc40545df0688f1815ffea6e24e08206f6c516383bd10",
+  "model_sha256": "24aff4ae05ee6e93cbd59d67941210ef2114d6148e5317c119ae3e2622c8be10",
+  "elapsed_seconds": 1.2130721090070438,
+  "peak_RSS_bytes": 121044992,
+  "executable": "/home/liuyibo/venvs/theory/bin/python",
+  "numpy": "2.5.4",
+  "threads": {
+    "OMP_NUM_THREADS": "4",
+    "OPENBLAS_NUM_THREADS": "4",
+    "MKL_NUM_THREADS": "4",
+    "NUMEXPR_NUM_THREADS": "4"
+  },
+  "scope": "systemd-run --user --scope -p MemoryMax=3G -p MemorySwapMax=0",
+  "no_torch_import": true,
+  "device": "CPU",
+  "api_calls": 0,
+  "all_gates": {
+    "G0": true,
+    "G1": false,
+    "G2": false,
+    "G3": false
+  }
+}

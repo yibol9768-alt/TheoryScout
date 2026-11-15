@@ -1,0 +1,64 @@
+{
+  "seed": 20261106071,
+  "d": 512,
+  "outer": 2048,
+  "inner": 16,
+  "correlations": [
+    0.0,
+    -0.5
+  ],
+  "task": "old",
+  "rho": 0.1,
+  "delta_joint": 0.01,
+  "methods": [
+    "GD",
+    "Sign"
+  ],
+  "results": [
+    {
+      "r": 0.0,
+      "mean_lower": 0.4297936776401202,
+      "mean_upper": 0.4297936776401202,
+      "sd_lower": 0.008343074087570452,
+      "radius_lower": 0.01591338803160244,
+      "radius_upper": 0.01591338803160244,
+      "interval_lower": 0.4138802896085178,
+      "interval_upper": 0.44570706567172264,
+      "interval_width": 0.03182677606320488,
+      "total_invalid": 0,
+      "limit": 0.4342184879791595,
+      "BR_prediction": 0.43028413080971645
+    },
+    {
+      "r": -0.5,
+      "mean_lower": 0.2310023812999373,
+      "mean_upper": 0.2310023812999373,
+      "sd_lower": 0.007210775412563817,
+      "radius_lower": 0.01582190319556221,
+      "radius_upper": 0.01582190319556221,
+      "interval_lower": 0.2151804781043751,
+      "interval_upper": 0.2468242844954995,
+      "interval_width": 0.03164380639112442,
+      "total_invalid": 0,
+      "limit": 0.23745099259962651,
+      "BR_prediction": 0.23096337649934967
+    }
+  ],
+  "wall_seconds": 103.29493775300216,
+  "cpu_seconds": 207.586767484,
+  "peak_rss_kib": 99400,
+  "memory_max": "3221225472",
+  "memory_swap_max": "0",
+  "threadpools": [
+    {
+      "path": "/home/liuyibo/venvs/theory/lib/python3.12/site-packages/numpy.libs/libscipy_openblas64_-f48b354e.so",
+      "threads": 2
+    },
+    {
+      "path": "/home/liuyibo/venvs/theory/lib/python3.12/site-packages/scipy.libs/libscipy_openblas-5f890258.so",
+      "threads": 2
+    }
+  ],
+  "input_hashes_unchanged": true,
+  "arithmetic": "ordinary float64, not an outward-rounded numerical certificate"
+}

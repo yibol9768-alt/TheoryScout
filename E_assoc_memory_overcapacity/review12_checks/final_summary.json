@@ -1,0 +1,157 @@
+{
+  "symbolic_identities": "PASS",
+  "reviewed_files_unchanged": true,
+  "original_rectangle_count": 1027,
+  "library_recomputed_original_rectangles": 9,
+  "library_recomputed_subrectangles": 21,
+  "library_recomputed_edge_intervals": 2,
+  "resources_by_check": {
+    "audit": {
+      "memory.max": "3221225472",
+      "memory.swap.max": "0",
+      "memory.peak": "65024000",
+      "memory.events": "low 0\nhigh 0\nmax 0\noom 0\noom_kill 0\noom_group_kill 0",
+      "threads": 1
+    },
+    "interval_recheck": {
+      "memory.max": "3221225472",
+      "memory.swap.max": "0",
+      "memory.peak": "24723456",
+      "memory.events": "low 0\nhigh 0\nmax 0\noom 0\noom_kill 0\noom_group_kill 0",
+      "threads": 1
+    },
+    "extra_checks": {
+      "memory.max": "3221225472",
+      "memory.swap.max": "0",
+      "memory.peak": "54947840",
+      "memory.events": "low 0\nhigh 0\nmax 0\noom 0\noom_kill 0\noom_group_kill 0",
+      "threads": 1
+    },
+    "monte_carlo": {
+      "memory.max": "3221225472",
+      "memory.swap.max": "0",
+      "memory.peak": "1301790720",
+      "memory.events": "low 0\nhigh 0\nmax 0\noom 0\noom_kill 0\noom_group_kill 0",
+      "threads": 1
+    }
+  },
+  "mc_summary": [
+    {
+      "d": 256,
+      "algorithms": {
+        "GD": {
+          "full_training_signal_c0": 0.9156471660689105,
+          "full_training_signal_c1": 0.4011238119151847,
+          "old_recall": 0.6949869791666666,
+          "new_recall": 0.32421875
+        },
+        "Adam_1": {
+          "full_training_signal_c0": 0.9041430924558563,
+          "full_training_signal_c1": 0.40023064647905193,
+          "old_recall": 0.6910807291666666,
+          "new_recall": 0.3196614583333333
+        },
+        "Adam_0.1": {
+          "full_training_signal_c0": 0.8673156075519693,
+          "full_training_signal_c1": 0.39974977713528675,
+          "old_recall": 0.6705729166666666,
+          "new_recall": 0.322265625
+        },
+        "Sign": {
+          "full_training_signal_c0": 0.8489290844031437,
+          "full_training_signal_c1": 0.39996462456242116,
+          "old_recall": 0.6552734375,
+          "new_recall": 0.3180338541666667
+        }
+      },
+      "paired_old_differences": {
+        "GD minus Adam_1": {
+          "mean": 0.00390625,
+          "seed_cluster_t95": [
+            -0.008930489468219586,
+            0.016742989468219588
+          ],
+          "direction_positive": true
+        },
+        "Adam_1 minus Adam_0.1": {
+          "mean": 0.0205078125,
+          "seed_cluster_t95": [
+            0.0035264023610817284,
+            0.03748922263891827
+          ],
+          "direction_positive": true
+        },
+        "Adam_0.1 minus Sign": {
+          "mean": 0.015299479166666666,
+          "seed_cluster_t95": [
+            0.00677994309719877,
+            0.023819015236134562
+          ],
+          "direction_positive": true
+        }
+      }
+    },
+    {
+      "d": 512,
+      "algorithms": {
+        "GD": {
+          "full_training_signal_c0": 0.9157396258070055,
+          "full_training_signal_c1": 0.3983420628224437,
+          "old_recall": 0.6927083333333334,
+          "new_recall": 0.30859375
+        },
+        "Adam_1": {
+          "full_training_signal_c0": 0.903926914762249,
+          "full_training_signal_c1": 0.3983451821030634,
+          "old_recall": 0.6822916666666666,
+          "new_recall": 0.3089192708333333
+        },
+        "Adam_0.1": {
+          "full_training_signal_c0": 0.8667994540859701,
+          "full_training_signal_c1": 0.3982607210567517,
+          "old_recall": 0.6585286458333334,
+          "new_recall": 0.3102213541666667
+        },
+        "Sign": {
+          "full_training_signal_c0": 0.8483539390238485,
+          "full_training_signal_c1": 0.3983252127190881,
+          "old_recall": 0.6461588541666666,
+          "new_recall": 0.3053385416666667
+        }
+      },
+      "paired_old_differences": {
+        "GD minus Adam_1": {
+          "mean": 0.010416666666666666,
+          "seed_cluster_t95": [
+            0.00671101917291983,
+            0.014122314160413502
+          ],
+          "direction_positive": true
+        },
+        "Adam_1 minus Adam_0.1": {
+          "mean": 0.023763020833333332,
+          "seed_cluster_t95": [
+            0.002568049911397644,
+            0.04495799175526902
+          ],
+          "direction_positive": true
+        },
+        "Adam_0.1 minus Sign": {
+          "mean": 0.012369791666666666,
+          "seed_cluster_t95": [
+            0.006264704284463761,
+            0.01847487904886957
+          ],
+          "direction_positive": true
+        }
+      }
+    }
+  ],
+  "resources": {
+    "memory.max": "3221225472",
+    "memory.swap.max": "0",
+    "memory.peak": "51392512",
+    "memory.events": "low 0\nhigh 0\nmax 0\noom 0\noom_kill 0\noom_group_kill 0",
+    "threads": 1
+  }
+}

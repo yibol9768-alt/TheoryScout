@@ -1,0 +1,146 @@
+# SPECIFICATION REVIEW REQUIRED: the unchanged GOAL is false.
+# This file records a quantitative certificate for the specification decision.
+# Its STEP nodes certify an obstruction, not an affirmative proof of GOAL.
+# Another affirmative prover run cannot succeed without an authorized change.
+metadata:
+  problem_id: "p4_false_psd_product.tex"
+  mode: "REWRITE"
+  attempt: 4
+  revision: 1
+  timestamp: "2026-11-05T11:46:08.519646"
+
+sources:
+  - id: S1
+    type: literature
+    statement: |
+      For every integer d >= 1 and all real symmetric positive semidefinite
+      A,B in R^{d x d}, the following three conditions are equivalent:
+        (i) (AB)^T = AB;
+        (ii) AB = BA;
+        (iii) AB is symmetric positive semidefinite.
+    citation: |
+      <cite>type=theorem; label=Section 4.1, Closedness Under Multiplication;
+      title=A Fresh Variational-Analysis Look at the Positive Semidefinite Matrices World;
+      authors=Jean-Baptiste Hiriart-Urruty and Jérôme Malick;
+      source_url=https://www.math.univ-toulouse.fr/~jbhu/SDP-HU-Malick-2012pdf.pdf;
+      verifier_locator=Journal of Optimization Theory and Applications 153 (2012), 551–577, Section 4.1, p. 563, paragraph immediately preceding the Wigner and Ballantine results;
+      statement_match=exact;
+      statement=For real symmetric PSD A and B, AB is symmetric if and only if AB=BA, and in that case AB is PSD;
+      usage=Applied in STEP2 to a noncommuting admissible pair to certify failure of the symmetry conclusion.</cite>
+
+steps:
+  - id: STEP1
+    statement: |
+      Set
+        A_* = [[1,0],[0,16]],  B_* = [[2,1],[1,2]].
+      Then A_*^T=A_* and B_*^T=B_*. For every z=(u,v)^T in R^2,
+        z^T A_* z = u^2+16v^2
+                  = ||z||_2^2+15v^2 >= ||z||_2^2,
+        z^T B_* z = 2u^2+2uv+2v^2
+                  = ||z||_2^2+(u+v)^2 >= ||z||_2^2.
+      Thus both matrices are positive definite and satisfy all the original
+      positive semidefinite hypotheses at the allowed dimension d=2.
+    inputs: []
+    difficulty: easy
+    is_key_step: false
+    rationale: |
+      These identities establish the hypotheses for an interior example
+      already recorded in the literature survey. Their lower bounds hold
+      for every vector, so no numerical PSD test is required.
+    strategy_hint: |
+      Expand both quadratic forms and use ||z||_2^2=u^2+v^2.
+
+  - id: STEP2
+    statement: |
+      For the matrices in STEP1,
+        A_* B_* = [[2,1],[16,32]],
+        B_* A_* = [[2,16],[1,32]] = (A_* B_*)^T,
+        ||A_* B_*-B_* A_*||_F^2 = 15^2+15^2 = 450 > 0.
+      Hence (A_* B_*)^T != A_* B_*, by S1.
+      In addition, for x_*=(-4,1)^T,
+        A_* B_* x_*=(-7,-32)^T,
+        x_*^T A_* B_* x_* = 28-32 = -4 < 0.
+      In particular, there exist d=2 and symmetric PSD A_*,B_* for which
+      the first conclusion of GOAL is false.
+    inputs: [S1, STEP1]
+    difficulty: easy
+    is_key_step: false
+    rationale: |
+      This is an exact certificate of incompatibility between the target
+      and its stated hypotheses. Failure of the first conjunct suffices to
+      refute the requested conjunction. The negative quadratic form also
+      verifies failure of positivity under a quadratic-form interpretation.
+    strategy_hint: |
+      Multiply the displayed matrices and vector over the integers.
+      Use the contrapositive of the equivalence in S1.
+
+target:
+  id: GOAL
+  statement: |
+    \begin{problem}
+    Let $A,B\in\mathbb{R}^{d\times d}$ be symmetric positive semidefinite matrices. Prove that $AB$ is symmetric positive semidefinite and that $\lambda_{\max}(AB)\le\lambda_{\max}(A)\,\lambda_{\max}(B)$.
+    \end{problem}
+  # No sound dependencies can establish this false universal assertion.
+  inputs: []
+
+# Diagnostic order only. GOAL has no affirmative proof and is not scheduled.
+proof_order: [STEP1, STEP2]
+# The obstruction is elementary; designating a novel key step would be misleading.
+key_steps: []
+
+self_critique:
+  plausibility_issues:
+    - |
+      The original target is false. STEP1 and STEP2 give exact hypothesis
+      checks and a violation even with positive definite factors. A chain
+      of true intermediate results cannot establish GOAL.
+    - |
+      This artifact is a specification review certificate, not a completed
+      proof decomposition. GOAL has no proving inputs and is absent from
+      the diagnostic order. The affirmative completeness requirement is
+      impossible under the unchanged statement and acceptance rule.
+  contradiction_checks:
+    - |
+      Read all three plan-history entries and the attempt-3 structural
+      verification report, including Phase 4f. Independently recomputed
+      its A=diag(1,0), B=[[1,1],[1,1]] example: AB=[[1,1],[0,0]]
+      and (-1,2)AB(-1,2)^T=-1. The verified factual obstruction is retained.
+    - |
+      Checked S1 against the survey and the available primary-source text
+      at Section 4.1, p. 563. Its commuting-product criterion agrees with
+      the explicit nonzero commutator in STEP2.
+    - |
+      Independently checked the positive definite example in STEP1 and
+      STEP2 with exact integer arithmetic. The survey records the same
+      example. Neither singularity nor a convention about quadratic-form
+      positivity accounts for the failure.
+  refinements_made:
+    - |
+      Followed the regulator's request to surface the specification
+      defect to the problem owner: a session question requests an explicit
+      choice among accepting a refutation, adding AB=BA, and retaining
+      only the eigenvalue inequality. No amended task has been authorized
+      in the inputs or in a received response.
+    - |
+      Preserved the original GOAL verbatim. The impossibility of a new
+      affirmative strategy follows from the verified counterexample;
+      REWRITE supplies no mathematical way around that obstruction.
+    - |
+      Supplied a populated quantitative certificate for the specification
+      decision. Do not interpret its diagnostic steps as dependencies
+      proving GOAL or initiate another affirmative run on that basis.
+      The earlier empty records and the earlier refutation-plus-spectral
+      proof proposal are not resubmitted as affirmative decompositions.
+    - |
+      No claim that the general eigenvalue inequality was verified is
+      inferred from prior reports. That separate true assertion cannot
+      repair the false symmetry conjunct. A proof plan for an amended
+      theorem requires an explicit specification decision first.
+  difficulty_assessment: |
+    Both diagnostic steps are elementary and their statements are
+    completely justified by the displayed identities. There is no novel
+    key step to identify. The source precedes all steps, STEP2 uses S1
+    and STEP1, and the diagnostic order respects those dependencies.
+    These facts establish the obstruction only. No sound proof order
+    ending in the unchanged GOAL exists, so the requested affirmative
+    decomposition cannot be completed without a specification change.

@@ -1,0 +1,27 @@
+{
+  "status": "deterministic_quadrature_and_previously_observed_X1_only",
+  "recall_coefficient_status": "proposed_not_proved",
+  "new_improved": 27,
+  "new_total": 30,
+  "contrast_improved": 17,
+  "contrast_total": 18,
+  "new_rmse_before": 0.010625139373764712,
+  "new_rmse_after": 0.001009533467377765,
+  "contrast_rmse_before": 0.008682891656393412,
+  "contrast_rmse_after": 0.000958825994872179,
+  "elapsed_seconds": 0.12967123400085256,
+  "cpu_seconds": 0.844730282,
+  "peak_rss_mib": 360.25,
+  "memory_max": "3221225472",
+  "memory_swap_max": "0",
+  "threads": [
+    {
+      "path": "/home/liuyibo/venvs/theory/lib/python3.12/site-packages/numpy.libs/libscipy_openblas64_-f48b354e.so",
+      "num_threads": 2
+    },
+    {
+      "path": "/home/liuyibo/venvs/theory/lib/python3.12/site-packages/scipy.libs/libscipy_openblas-5f890258.so",
+      "num_threads": 2
+    }
+  ]
+}

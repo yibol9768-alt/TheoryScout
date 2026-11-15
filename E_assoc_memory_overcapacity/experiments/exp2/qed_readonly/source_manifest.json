@@ -1,0 +1,90 @@
+{
+  "read_time_utc": "2026-11-06T09:12:04.563858+00:00",
+  "scope": "only explicitly requested E_assoc_memory_overcapacity__v2_* paths; read-only; no execution",
+  "files": [
+    {
+      "local": "experiments/exp2/qed_readonly/L1.problem.tex",
+      "source": "/home/liuyibo/auto-llm-driving/TheoryScout/qed_runs/out/E_assoc_memory_overcapacity__v2_L1/problem.tex",
+      "sha256": "5a23d7894ed9f326ae54d2adaa84340609951404346f6f279a9ae8cc4004c0a3",
+      "matches_local_problem": true
+    },
+    {
+      "local": "experiments/exp2/qed_readonly/L1.proof.md",
+      "source": "/home/liuyibo/auto-llm-driving/TheoryScout/qed_runs/out/E_assoc_memory_overcapacity__v2_L1/decomposition/attempt_1/revision_1/proof_1/proof.md",
+      "sha256": "540ed939ccaa06733891dad5c3ceee2b82c2ef9440190361feb2052122b22c4b",
+      "overall_PASS": null
+    },
+    {
+      "local": "experiments/exp2/qed_readonly/L1.verification.md",
+      "source": "/home/liuyibo/auto-llm-driving/TheoryScout/qed_runs/out/E_assoc_memory_overcapacity__v2_L1/decomposition/attempt_1/revision_1/proof_1/detailed_verification.md",
+      "sha256": "eecb8c693451364daf8773dbe40ecd9377807258252d57529a705ac5b3352f16",
+      "overall_PASS": true
+    },
+    {
+      "local": "experiments/exp2/qed_readonly/L2.problem.tex",
+      "source": "/home/liuyibo/auto-llm-driving/TheoryScout/qed_runs/out/E_assoc_memory_overcapacity__v2_L2/problem.tex",
+      "sha256": "353f334559ee7352f18142c08afc04d748076f03972e1e91566dcc567f3da1cd",
+      "matches_local_problem": true
+    },
+    {
+      "local": "experiments/exp2/qed_readonly/L2.proof2.md",
+      "source": "/home/liuyibo/auto-llm-driving/TheoryScout/qed_runs/out/E_assoc_memory_overcapacity__v2_L2/decomposition/attempt_1/revision_1/proof_2/proof.md",
+      "sha256": "ca4e930cfd74d2f9fc6addcadcfddae2d85e5c338755d00fa2537722abc132ef",
+      "overall_PASS": null
+    },
+    {
+      "local": "experiments/exp2/qed_readonly/L2.verification.md",
+      "source": "/home/liuyibo/auto-llm-driving/TheoryScout/qed_runs/out/E_assoc_memory_overcapacity__v2_L2/decomposition/attempt_1/revision_1/proof_2/detailed_verification.md",
+      "sha256": "d2c9f2fed86187c2918aaf5d7e207ae7a277de0a9e69ec4eddf90224abc25ae9",
+      "overall_PASS": true
+    },
+    {
+      "local": "experiments/exp2/qed_readonly/L3.problem.tex",
+      "source": "/home/liuyibo/auto-llm-driving/TheoryScout/qed_runs/out/E_assoc_memory_overcapacity__v2_L3/problem.tex",
+      "sha256": "1945f898a4fb4e7c79ebef3c1dbfc5bde534c51a78b7b9748a69d70917e0102e",
+      "matches_local_problem": true
+    },
+    {
+      "local": "experiments/exp2/qed_readonly/L3.proof.md",
+      "source": "/home/liuyibo/auto-llm-driving/TheoryScout/qed_runs/out/E_assoc_memory_overcapacity__v2_L3/decomposition/attempt_1/revision_1/proof_1/proof.md",
+      "sha256": "b62e1efd3bcacc11a949a6a0ce3ae9c0dd3491130900a93bb00c24addf83bda6",
+      "overall_PASS": null
+    },
+    {
+      "local": "experiments/exp2/qed_readonly/L3.verification.md",
+      "source": "/home/liuyibo/auto-llm-driving/TheoryScout/qed_runs/out/E_assoc_memory_overcapacity__v2_L3/decomposition/attempt_1/revision_1/proof_1/detailed_verification.md",
+      "sha256": "81a04622a68f7786b44fc3f3bb77b980420b4c30c028af62917c7af773167479",
+      "overall_PASS": true
+    },
+    {
+      "local": "experiments/exp2/qed_readonly/L4.problem.tex",
+      "source": "/home/liuyibo/auto-llm-driving/TheoryScout/qed_runs/out/E_assoc_memory_overcapacity__v2_L4/problem.tex",
+      "sha256": "d5494202156ac58c77627f351f43e38046df0459d64af63a32dac628d217d830",
+      "matches_local_problem": true
+    },
+    {
+      "local": "experiments/exp2/qed_readonly/L4.proof.md",
+      "source": "/home/liuyibo/auto-llm-driving/TheoryScout/qed_runs/out/E_assoc_memory_overcapacity__v2_L4/proof.md",
+      "sha256": "6c0f14c8525288a3d5d50ac32952ae99a1255bb557bf6e4f6aa2b32b108e2b22",
+      "overall_PASS": null
+    },
+    {
+      "local": "experiments/exp2/qed_readonly/L5.problem.tex",
+      "source": "/home/liuyibo/auto-llm-driving/TheoryScout/qed_runs/out/E_assoc_memory_overcapacity__v2_L5/problem.tex",
+      "sha256": "874ea9d06373784fab82051b26b32a1050b46bee082e009a02b9a76343aef53a",
+      "matches_local_problem": true
+    },
+    {
+      "local": "experiments/exp2/qed_readonly/L5.proof.md",
+      "source": "/home/liuyibo/auto-llm-driving/TheoryScout/qed_runs/out/E_assoc_memory_overcapacity__v2_L5/decomposition/attempt_1/revision_1/proof_1/proof.md",
+      "sha256": "a8ab5c6f5d154140016588089d4010fa2874ab2f6fba109588073472db2054e2",
+      "overall_PASS": null
+    },
+    {
+      "local": "experiments/exp2/qed_readonly/L5.verification.md",
+      "source": "/home/liuyibo/auto-llm-driving/TheoryScout/qed_runs/out/E_assoc_memory_overcapacity__v2_L5/decomposition/attempt_1/revision_1/proof_1/detailed_verification.md",
+      "sha256": "08e43b672d7de88f4473dfa4a4c7adb0cda6a2a206392281bacd19cee70b6af3",
+      "overall_PASS": true
+    }
+  ]
+}

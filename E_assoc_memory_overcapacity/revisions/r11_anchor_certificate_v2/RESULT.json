@@ -1,0 +1,15 @@
+{
+  "probability": {
+    "lower_integer": "607077752265435279421222320389442673236424599578",
+    "upper_integer": "607077755391007863841121745737602462491710689817",
+    "denominator_power2": 160,
+    "approximate": [
+      0.4153794540895099,
+      0.4153794562281134
+    ],
+    "width_approximate": 2.1386035462321066e-09
+  },
+  "wall_seconds": 61.23549036699842,
+  "certified_from": "Exact saved B, center, alpha, threshold; matrix construction + spectrum + integral",
+  "caveat": "Single anchored lower event, no original model/optimizer certification and no full threshold integration"
+}

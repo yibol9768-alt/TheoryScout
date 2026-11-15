@@ -1,0 +1,123 @@
+{
+  "zero_Sign2": {
+    "d": 3,
+    "n": 17,
+    "S": [
+      [
+        1.0000000000000002,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0000000000000002,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0000000000000002
+      ]
+    ],
+    "Z": [
+      [
+        0.15,
+        -0.24,
+        0.31
+      ],
+      [
+        -0.19,
+        0.28,
+        -0.34
+      ],
+      [
+        0.22000000000000003,
+        0.18,
+        -0.26
+      ]
+    ],
+    "states": [
+      [
+        [
+          0.6,
+          -0.6,
+          0.6
+        ],
+        [
+          -0.6,
+          0.6,
+          -0.6
+        ],
+        [
+          0.6,
+          0.6,
+          -0.6
+        ]
+      ],
+      [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ]
+    ],
+    "strict_exceedance_recall": [
+      1.0,
+      1.0
+    ],
+    "uniform_tie_expected_recall": [
+      0.058823529411764705,
+      0.29411764705882354
+    ],
+    "open_set_sufficient_op_radius": 0.048112522432468816
+  },
+  "published_all_one_rows": 0,
+  "fresh_all_one_rows": 0,
+  "fresh_rows_so_far": 446,
+  "leading_load_equivalence_alone_is_not_window_centering": [
+    {
+      "log_log_d": 16.0,
+      "relative_load_perturbation": 0.5,
+      "mu0": 4.618802153517006,
+      "threshold": 5.305223230269001,
+      "window_center": -0.6864210767519952
+    },
+    {
+      "log_log_d": 64.0,
+      "relative_load_perturbation": 0.3535533905932738,
+      "mu0": 9.724500193050597,
+      "threshold": 11.078019403767636,
+      "window_center": -1.3535192107170388
+    },
+    {
+      "log_log_d": 256.0,
+      "relative_load_perturbation": 0.25,
+      "mu0": 20.23857702507763,
+      "threshold": 22.479308003364853,
+      "window_center": -2.2407309782872247
+    }
+  ],
+  "negative_control": {
+    "C": "I",
+    "mu": 0,
+    "rank_one_U": "e1 e1^T",
+    "correct_score_limit": "G1*G2",
+    "variance": 1,
+    "fourth_moment": 9,
+    "spread_U": "I/sqrt(d)",
+    "spread_limit": "N(0,1)",
+    "spread_fourth_moment": 3,
+    "rank_one_S1_fails": true
+  }
+}

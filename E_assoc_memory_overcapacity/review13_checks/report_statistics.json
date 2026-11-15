@@ -1,0 +1,116 @@
+{
+  "d512_cell_ranges": [
+    {
+      "task": "old",
+      "min_shift_pp": -0.648761610027602,
+      "max_shift_pp": 0.000740620762714317,
+      "min_halfwidth72_pp": 0.2928367749689468,
+      "max_halfwidth72_pp": 1.0649533770171946,
+      "min_power72": 0.0006946561214420766,
+      "max_power72": 0.22529136156886148
+    },
+    {
+      "task": "new",
+      "min_shift_pp": -0.5680092613791768,
+      "max_shift_pp": 0.0045041459216040025,
+      "min_halfwidth72_pp": 0.96537340143705,
+      "max_halfwidth72_pp": 0.9959631586901243,
+      "min_power72": 0.0006955326135750696,
+      "max_power72": 0.07646735293478667
+    }
+  ],
+  "selected_cells": [
+    {
+      "ir": "0",
+      "r": "0.5",
+      "task": "old",
+      "label": "GD-Sign",
+      "B": "-0.21329461522158666",
+      "shift_pp": "-0.041659104535466146",
+      "N": "64",
+      "projected_sd512_queries_pp": "1.050679772204777",
+      "SE_pp": "0.13133497152559712",
+      "halfwidth72_pp": "0.4685872382431768",
+      "approximate_two_sided_power72": "0.0011154586071691018",
+      "approximate_two_sided_power_unadjusted": "0.06125265724000127",
+      "approximate_positive_loss_power_family2": "0.018492545850921225",
+      "N_normal_80_family72": "11397.705162730876",
+      "normal_N_80pct_family72": 11399.775175612316
+    },
+    {
+      "ir": "2",
+      "r": "-0.5",
+      "task": "old",
+      "label": "GD-Sign",
+      "B": "-3.3216594433413222",
+      "shift_pp": "-0.648761610027602",
+      "N": "64",
+      "projected_sd512_queries_pp": "1.8790599480142425",
+      "SE_pp": "0.2348824935017803",
+      "halfwidth72_pp": "0.8380322290641297",
+      "approximate_two_sided_power72": "0.22529136156886148",
+      "approximate_two_sided_power_unadjusted": "0.7763077706539017",
+      "approximate_positive_loss_power_family2": "0.1873320441893445",
+      "N_normal_80_family72": "150.31680025831642",
+      "normal_N_80pct_family72": 150.34410029006744
+    },
+    {
+      "ir": "2",
+      "r": "-0.5",
+      "task": "old",
+      "label": "Adam.1-Sign",
+      "B": "0.003791978305097303",
+      "shift_pp": "0.000740620762714317",
+      "N": "64",
+      "projected_sd512_queries_pp": "0.8069352915064394",
+      "SE_pp": "0.10086691143830492",
+      "halfwidth72_pp": "0.35988089776821164",
+      "approximate_two_sided_power72": "0.0006946561214420766",
+      "approximate_two_sided_power_unadjusted": "0.05000599007688736",
+      "approximate_positive_loss_power_family2": "0.012616929111421427",
+      "N_normal_80_family72": "21270719.99757421",
+      "normal_N_80pct_family72": 21274583.114207227
+    },
+    {
+      "ir": "2",
+      "r": "-0.5",
+      "task": "new",
+      "label": "GD",
+      "B": "0.023061227118612495",
+      "shift_pp": "0.0045041459216040025",
+      "N": "64",
+      "projected_sd512_queries_pp": "2.1645879843361264",
+      "SE_pp": "0.2705734980420158",
+      "halfwidth72_pp": "0.96537340143705",
+      "approximate_two_sided_power72": "0.0006955326135750696",
+      "approximate_two_sided_power_unadjusted": "0.05003078924575147",
+      "approximate_positive_loss_power_family2": "0.012766454508822675",
+      "N_normal_80_family72": "4138301.41642158",
+      "normal_N_80pct_family72": 4139053.0008078204
+    },
+    {
+      "ir": "2",
+      "r": "-0.5",
+      "task": "new",
+      "label": "Adam.1",
+      "B": "-2.9082074182613855",
+      "shift_pp": "-0.5680092613791768",
+      "N": "64",
+      "projected_sd512_queries_pp": "2.211471065918043",
+      "SE_pp": "0.2764338832397554",
+      "halfwidth72_pp": "0.9862825445460868",
+      "approximate_two_sided_power72": "0.07646735293478667",
+      "approximate_two_sided_power_unadjusted": "0.5253240117675646",
+      "approximate_positive_loss_power_family2": "0.10853458237416508",
+      "N_normal_80_family72": "271.61154521255236",
+      "normal_N_80pct_family72": 271.6608743879705
+    }
+  ],
+  "normal_family72_critical": 3.3917631405879525,
+  "expected_loss_dimension_shares": {
+    "d128": 0.7619047619047619,
+    "d256": 0.19047619047619047,
+    "d512": 0.047619047619047616
+  },
+  "note": "Power is approximate and X1-covariance-based, with d512 variance extrapolated from d256; scientific truth not assumed known."
+}

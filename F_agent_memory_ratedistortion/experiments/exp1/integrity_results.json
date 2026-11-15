@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "completed_configurations": 1275,
+  "verified_strategy_rows": 67575,
+  "prereg_unchanged": true,
+  "all_completed_npz_verified": true,
+  "formal_seconds": 2283.4715617879992,
+  "invalid_plus_valid_formal_seconds": 3320.4583025500033,
+  "peak_rss_mib": 89.03515625
+}

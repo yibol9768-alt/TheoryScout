@@ -1,0 +1,108 @@
+{
+  "results": [
+    {
+      "pair": "GD-Sign",
+      "point_correction_pp": -0.20665080476024691,
+      "correction_range": {
+        "lower": "-97261969628537778406361726569385/20769187434139310514121985316880384",
+        "upper": "22845167357823687290111962154263/41538374868278621028243970633760768",
+        "pp": [
+          -0.4682993493942069,
+          0.054997739873713085
+        ]
+      },
+      "full_gate_range": {
+        "lower": "-980117719443887/45035996273704960",
+        "upper": "980117719443887/45035996273704960",
+        "pp": [
+          -2.1762985179394057,
+          2.1762985179394057
+        ]
+      },
+      "linearized_old_proxy_range": {
+        "lower": "4025134395443804938705600931312727/20769187434139310514121985316880384",
+        "upper": "8357020812298036480540819517900055/41538374868278621028243970633760768",
+        "pp": [
+          19.380317155920594,
+          20.11879578534016
+        ]
+      }
+    },
+    {
+      "pair": "Adam2-Adam.1",
+      "point_correction_pp": -0.32176930782321433,
+      "correction_range": {
+        "lower": "-96057293847898219744414819029153/20769187434139310514121985316880384",
+        "upper": "-75200894893547851028191658636475/41538374868278621028243970633760768",
+        "pp": [
+          -0.46249904649617746,
+          -0.1810395691502512
+        ]
+      },
+      "full_gate_range": {
+        "lower": "-3064913316712781/225179981368524800",
+        "upper": "3064913316712781/225179981368524800",
+        "pp": [
+          -1.3610949330779136,
+          1.3610949330779136
+        ]
+      },
+      "linearized_old_proxy_range": {
+        "lower": "1821441741438453305996176610160479/20769187434139310514121985316880384",
+        "upper": "3827603680856873006280877605129029/41538374868278621028243970633760768",
+        "pp": [
+          8.769922979482876,
+          9.214620680261321
+        ]
+      }
+    },
+    {
+      "pair": "Adam.1-Sign",
+      "point_correction_pp": 0.14608064711984023,
+      "correction_range": {
+        "lower": "-5348876246304975350811276359389/10384593717069655257060992658440192",
+        "upper": "35688639651628221030322950125287/10384593717069655257060992658440192",
+        "pp": [
+          -0.051507804657901744,
+          0.3436690988975822
+        ]
+      },
+      "full_gate_range": {
+        "lower": "-980117719443887/45035996273704960",
+        "upper": "980117719443887/45035996273704960",
+        "pp": [
+          -2.1762985179394057,
+          2.1762985179394057
+        ]
+      },
+      "linearized_old_proxy_range": {
+        "lower": "989134127010288959395406443956515/10384593717069655257060992658440192",
+        "upper": "1045440463518379234387986541459175/10384593717069655257060992658440192",
+        "pp": [
+          9.525015171122215,
+          10.067225468820592
+        ]
+      }
+    }
+  ],
+  "matching_polytope_vertices": 44,
+  "full_gate_vertices": 28,
+  "exact_polytope_reference_cases": 2,
+  "inference": "Post hoc local linear model diagnostic; joint nominal95% t region; not actual exactly matched recall",
+  "formula": "chi_ab=-k_a theta_a+k_b theta_b; theta true mean-new minus target at fixed locks",
+  "statistical_unit": "1280 datasets, never 1310720 independent queries",
+  "coverage_error_budgets": {
+    "matching": 0.025,
+    "old": 0.025
+  },
+  "unchanged_registered_decisions": {
+    "primary_plan_complete": true,
+    "primary_pair_count": 3,
+    "primary_match_count": 7,
+    "primary_all7_matching": true,
+    "primary_all3_directions": true,
+    "primary_all3_finite_agreement": true,
+    "coefficient_confirmation": false,
+    "descriptive_confirmation": false
+  }
+}

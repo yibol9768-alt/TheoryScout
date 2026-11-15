@@ -1,0 +1,4425 @@
+{
+  "elapsed_seconds": 10.534478051002225,
+  "max_rss_MiB": 83.8671875,
+  "checks": "loss decomposition and discrete spectral bound passed",
+  "summary": [
+    {
+      "d": 256,
+      "gamma": 1.25,
+      "method": "GD",
+      "mean": 0.852783203125,
+      "seed_se": 0.0012367897557919994,
+      "limit": 0.8524163823495667
+    },
+    {
+      "d": 256,
+      "gamma": 1.25,
+      "method": "polar",
+      "mean": 0.7738134765625,
+      "seed_se": 0.0005350301552233257,
+      "limit": 0.7744161120389299
+    },
+    {
+      "d": 256,
+      "gamma": 1.25,
+      "method": "Adam_first_eps0",
+      "mean": 0.7521093750000001,
+      "seed_se": 0.0005100494413158985,
+      "limit": 0.7529591212220526
+    },
+    {
+      "d": 256,
+      "gamma": 2.0,
+      "method": "GD",
+      "mean": 0.7501052856445313,
+      "seed_se": 0.0007379143133546402,
+      "limit": 0.75
+    },
+    {
+      "d": 256,
+      "gamma": 2.0,
+      "method": "polar",
+      "mean": 0.7039321899414063,
+      "seed_se": 0.0006043443699366108,
+      "limit": 0.7049166784623391
+    },
+    {
+      "d": 256,
+      "gamma": 2.0,
+      "method": "Adam_first_eps0",
+      "mean": 0.6912994384765625,
+      "seed_se": 0.0005420253932506705,
+      "limit": 0.6908112969663592
+    },
+    {
+      "d": 256,
+      "gamma": 4.0,
+      "method": "GD",
+      "mean": 0.6663284301757812,
+      "seed_se": 0.0003277599789333234,
+      "limit": 0.6666666666666667
+    },
+    {
+      "d": 256,
+      "gamma": 4.0,
+      "method": "polar",
+      "mean": 0.6392784118652344,
+      "seed_se": 0.0005857591556293172,
+      "limit": 0.6395195854085791
+    },
+    {
+      "d": 256,
+      "gamma": 4.0,
+      "method": "Adam_first_eps0",
+      "mean": 0.6303535461425781,
+      "seed_se": 0.00038746622064759253,
+      "limit": 0.6306226219805875
+    },
+    {
+      "d": 256,
+      "gamma": 8.0,
+      "method": "GD",
+      "mean": 0.6147983551025391,
+      "seed_se": 0.0004762121300359314,
+      "limit": 0.615026728081308
+    },
+    {
+      "d": 256,
+      "gamma": 8.0,
+      "method": "polar",
+      "mean": 0.5969985961914063,
+      "seed_se": 0.00026251270992157266,
+      "limit": 0.5970218673636055
+    },
+    {
+      "d": 256,
+      "gamma": 8.0,
+      "method": "Adam_first_eps0",
+      "mean": 0.5909305572509765,
+      "seed_se": 0.0004448816170022399,
+      "limit": 0.5910292682918585
+    }
+  ],
+  "rows": [
+    {
+      "d": 64,
+      "gamma": 1.25,
+      "seed": 0,
+      "method": "GD",
+      "accuracy": 0.854296875,
+      "limit": 0.8524163823495667,
+      "finite_angle": 0.8501756301904755
+    },
+    {
+      "d": 64,
+      "gamma": 1.25,
+      "seed": 0,
+      "method": "polar",
+      "accuracy": 0.76796875,
+      "limit": 0.7744161120389299,
+      "finite_angle": 0.7715696136838494
+    },
+    {
+      "d": 64,
+      "gamma": 1.25,
+      "seed": 0,
+      "method": "Adam_first_eps0",
+      "accuracy": 0.7611328125,
+      "limit": 0.7529591212220526,
+      "finite_angle": 0.7525124749828053
+    },
+    {
+      "d": 64,
+      "gamma": 1.25,
+      "seed": 0,
+      "method": "spectral_t0.05",
+      "accuracy": 0.7728515625,
+      "limit": 0.778330326945883,
+      "finite_angle": 0.7758928763295541
+    },
+    {
+      "d": 64,
+      "gamma": 1.25,
+      "seed": 0,
+      "method": "spectral_t0.25",
+      "accuracy": 0.790625,
+      "limit": 0.7934101540997962,
+      "finite_angle": 0.792094799071451
+    },
+    {
+      "d": 64,
+      "gamma": 1.25,
+      "seed": 0,
+      "method": "spectral_t0.5",
+      "accuracy": 0.8119140625,
+      "limit": 0.8106334886485091,
+      "finite_angle": 0.8086520579135483
+    },
+    {
+      "d": 64,
+      "gamma": 1.25,
+      "seed": 0,
+      "method": "spectral_t1.0",
+      "accuracy": 0.8408203125,
+      "limit": 0.8373274381449259,
+      "finite_angle": 0.8355680315667648
+    },
+    {
+      "d": 64,
+      "gamma": 1.25,
+      "seed": 0,
+      "method": "spectral_t2.5",
+      "accuracy": 0.854296875,
+      "limit": 0.852416383910283,
+      "finite_angle": 0.8501756301904755
+    },
+    {
+      "d": 64,
+      "gamma": 1.25,
+      "seed": 1,
+      "method": "GD",
+      "accuracy": 0.866015625,
+      "limit": 0.8524163823495667,
+      "finite_angle": 0.8573151666124057
+    },
+    {
+      "d": 64,
+      "gamma": 1.25,
+      "seed": 1,
+      "method": "polar",
+      "accuracy": 0.7890625,
+      "limit": 0.7744161120389299,
+      "finite_angle": 0.77924709490906
+    },
+    {
+      "d": 64,
+      "gamma": 1.25,
+      "seed": 1,
+      "method": "Adam_first_eps0",
+      "accuracy": 0.7607421875,
+      "limit": 0.7529591212220526,
+      "finite_angle": 0.7561536368236339
+    },
+    {
+      "d": 64,
+      "gamma": 1.25,
+      "seed": 1,
+      "method": "spectral_t0.05",
+      "accuracy": 0.788671875,
+      "limit": 0.778330326945883,
+      "finite_angle": 0.7832091972871795
+    },
+    {
+      "d": 64,
+      "gamma": 1.25,
+      "seed": 1,
+      "method": "spectral_t0.25",
+      "accuracy": 0.7994140625,
+      "limit": 0.7934101540997962,
+      "finite_angle": 0.7978219431650944
+    },
+    {
+      "d": 64,
+      "gamma": 1.25,
+      "seed": 1,
+      "method": "spectral_t0.5",
+      "accuracy": 0.82109375,
+      "limit": 0.8106334886485091,
+      "finite_angle": 0.815218643189095
+    },
+    {
+      "d": 64,
+      "gamma": 1.25,
+      "seed": 1,
+      "method": "spectral_t1.0",
+      "accuracy": 0.848046875,
+      "limit": 0.8373274381449259,
+      "finite_angle": 0.8420339857599684
+    },
+    {
+      "d": 64,
+      "gamma": 1.25,
+      "seed": 1,
+      "method": "spectral_t2.5",
+      "accuracy": 0.866015625,
+      "limit": 0.852416383910283,
+      "finite_angle": 0.8573151666124057
+    },
+    {
+      "d": 64,
+      "gamma": 1.25,
+      "seed": 2,
+      "method": "GD",
+      "accuracy": 0.84921875,
+      "limit": 0.8524163823495667,
+      "finite_angle": 0.8480029302827993
+    },
+    {
+      "d": 64,
+      "gamma": 1.25,
+      "seed": 2,
+      "method": "polar",
+      "accuracy": 0.769921875,
+      "limit": 0.7744161120389299,
+      "finite_angle": 0.7702960119277553
+    },
+    {
+      "d": 64,
+      "gamma": 1.25,
+      "seed": 2,
+      "method": "Adam_first_eps0",
+      "accuracy": 0.7494140625,
+      "limit": 0.7529591212220526,
+      "finite_angle": 0.7520855618434519
+    },
+    {
+      "d": 64,
+      "gamma": 1.25,
+      "seed": 2,
+      "method": "spectral_t0.05",
+      "accuracy": 0.77421875,
+      "limit": 0.778330326945883,
+      "finite_angle": 0.7746724705426806
+    },
+    {
+      "d": 64,
+      "gamma": 1.25,
+      "seed": 2,
+      "method": "spectral_t0.25",
+      "accuracy": 0.7869140625,
+      "limit": 0.7934101540997962,
+      "finite_angle": 0.787647658038016
+    },
+    {
+      "d": 64,
+      "gamma": 1.25,
+      "seed": 2,
+      "method": "spectral_t0.5",
+      "accuracy": 0.801953125,
+      "limit": 0.8106334886485091,
+      "finite_angle": 0.806624213254397
+    },
+    {
+      "d": 64,
+      "gamma": 1.25,
+      "seed": 2,
+      "method": "spectral_t1.0",
+      "accuracy": 0.8349609375,
+      "limit": 0.8373274381449259,
+      "finite_angle": 0.8330813111528272
+    },
+    {
+      "d": 64,
+      "gamma": 1.25,
+      "seed": 2,
+      "method": "spectral_t2.5",
+      "accuracy": 0.84921875,
+      "limit": 0.852416383910283,
+      "finite_angle": 0.8480029302827992
+    },
+    {
+      "d": 64,
+      "gamma": 1.25,
+      "seed": 3,
+      "method": "GD",
+      "accuracy": 0.85703125,
+      "limit": 0.8524163823495667,
+      "finite_angle": 0.8566753316976616
+    },
+    {
+      "d": 64,
+      "gamma": 1.25,
+      "seed": 3,
+      "method": "polar",
+      "accuracy": 0.7732421875,
+      "limit": 0.7744161120389299,
+      "finite_angle": 0.7771656842766838
+    },
+    {
+      "d": 64,
+      "gamma": 1.25,
+      "seed": 3,
+      "method": "Adam_first_eps0",
+      "accuracy": 0.75,
+      "limit": 0.7529591212220526,
+      "finite_angle": 0.756131144462403
+    },
+    {
+      "d": 64,
+      "gamma": 1.25,
+      "seed": 3,
+      "method": "spectral_t0.05",
+      "accuracy": 0.78125,
+      "limit": 0.778330326945883,
+      "finite_angle": 0.782843461147296
+    },
+    {
+      "d": 64,
+      "gamma": 1.25,
+      "seed": 3,
+      "method": "spectral_t0.25",
+      "accuracy": 0.7923828125,
+      "limit": 0.7934101540997962,
+      "finite_angle": 0.7955355730667117
+    },
+    {
+      "d": 64,
+      "gamma": 1.25,
+      "seed": 3,
+      "method": "spectral_t0.5",
+      "accuracy": 0.812109375,
+      "limit": 0.8106334886485091,
+      "finite_angle": 0.8157591704641881
+    },
+    {
+      "d": 64,
+      "gamma": 1.25,
+      "seed": 3,
+      "method": "spectral_t1.0",
+      "accuracy": 0.83984375,
+      "limit": 0.8373274381449259,
+      "finite_angle": 0.8423075086265097
+    },
+    {
+      "d": 64,
+      "gamma": 1.25,
+      "seed": 3,
+      "method": "spectral_t2.5",
+      "accuracy": 0.85703125,
+      "limit": 0.852416383910283,
+      "finite_angle": 0.8566753316976616
+    },
+    {
+      "d": 64,
+      "gamma": 1.25,
+      "seed": 4,
+      "method": "GD",
+      "accuracy": 0.854296875,
+      "limit": 0.8524163823495667,
+      "finite_angle": 0.854458406233636
+    },
+    {
+      "d": 64,
+      "gamma": 1.25,
+      "seed": 4,
+      "method": "polar",
+      "accuracy": 0.7765625,
+      "limit": 0.7744161120389299,
+      "finite_angle": 0.7764324364210493
+    },
+    {
+      "d": 64,
+      "gamma": 1.25,
+      "seed": 4,
+      "method": "Adam_first_eps0",
+      "accuracy": 0.757421875,
+      "limit": 0.7529591212220526,
+      "finite_angle": 0.7542832691359326
+    },
+    {
+      "d": 64,
+      "gamma": 1.25,
+      "seed": 4,
+      "method": "spectral_t0.05",
+      "accuracy": 0.7859375,
+      "limit": 0.778330326945883,
+      "finite_angle": 0.7830038302530135
+    },
+    {
+      "d": 64,
+      "gamma": 1.25,
+      "seed": 4,
+      "method": "spectral_t0.25",
+      "accuracy": 0.79609375,
+      "limit": 0.7934101540997962,
+      "finite_angle": 0.7983040214273379
+    },
+    {
+      "d": 64,
+      "gamma": 1.25,
+      "seed": 4,
+      "method": "spectral_t0.5",
+      "accuracy": 0.8111328125,
+      "limit": 0.8106334886485091,
+      "finite_angle": 0.8143854688280185
+    },
+    {
+      "d": 64,
+      "gamma": 1.25,
+      "seed": 4,
+      "method": "spectral_t1.0",
+      "accuracy": 0.837890625,
+      "limit": 0.8373274381449259,
+      "finite_angle": 0.8400462671019873
+    },
+    {
+      "d": 64,
+      "gamma": 1.25,
+      "seed": 4,
+      "method": "spectral_t2.5",
+      "accuracy": 0.854296875,
+      "limit": 0.852416383910283,
+      "finite_angle": 0.854458406233636
+    },
+    {
+      "d": 64,
+      "gamma": 2.0,
+      "seed": 0,
+      "method": "GD",
+      "accuracy": 0.75634765625,
+      "limit": 0.75,
+      "finite_angle": 0.7492211636727719
+    },
+    {
+      "d": 64,
+      "gamma": 2.0,
+      "seed": 0,
+      "method": "polar",
+      "accuracy": 0.7047119140625,
+      "limit": 0.7049166784623391,
+      "finite_angle": 0.7042969547605966
+    },
+    {
+      "d": 64,
+      "gamma": 2.0,
+      "seed": 0,
+      "method": "Adam_first_eps0",
+      "accuracy": 0.6929931640625,
+      "limit": 0.6908112969663592,
+      "finite_angle": 0.6911238336533263
+    },
+    {
+      "d": 64,
+      "gamma": 2.0,
+      "seed": 0,
+      "method": "spectral_t0.05",
+      "accuracy": 0.709716796875,
+      "limit": 0.7074239934885104,
+      "finite_angle": 0.7076054001788359
+    },
+    {
+      "d": 64,
+      "gamma": 2.0,
+      "seed": 0,
+      "method": "spectral_t0.25",
+      "accuracy": 0.71826171875,
+      "limit": 0.7168744389128823,
+      "finite_angle": 0.7166428945139306
+    },
+    {
+      "d": 64,
+      "gamma": 2.0,
+      "seed": 0,
+      "method": "spectral_t0.5",
+      "accuracy": 0.7279052734375,
+      "limit": 0.7272251100459832,
+      "finite_angle": 0.7269855622067904
+    },
+    {
+      "d": 64,
+      "gamma": 2.0,
+      "seed": 0,
+      "method": "spectral_t1.0",
+      "accuracy": 0.7432861328125,
+      "limit": 0.742195673662304,
+      "finite_angle": 0.7417762324120406
+    },
+    {
+      "d": 64,
+      "gamma": 2.0,
+      "seed": 0,
+      "method": "spectral_t2.5",
+      "accuracy": 0.75634765625,
+      "limit": 0.7500000007803581,
+      "finite_angle": 0.7492211636727719
+    },
+    {
+      "d": 64,
+      "gamma": 2.0,
+      "seed": 1,
+      "method": "GD",
+      "accuracy": 0.742431640625,
+      "limit": 0.75,
+      "finite_angle": 0.7490525418707918
+    },
+    {
+      "d": 64,
+      "gamma": 2.0,
+      "seed": 1,
+      "method": "polar",
+      "accuracy": 0.6990966796875,
+      "limit": 0.7049166784623391,
+      "finite_angle": 0.7027407774550163
+    },
+    {
+      "d": 64,
+      "gamma": 2.0,
+      "seed": 1,
+      "method": "Adam_first_eps0",
+      "accuracy": 0.687744140625,
+      "limit": 0.6908112969663592,
+      "finite_angle": 0.6885060058112978
+    },
+    {
+      "d": 64,
+      "gamma": 2.0,
+      "seed": 1,
+      "method": "spectral_t0.05",
+      "accuracy": 0.7060546875,
+      "limit": 0.7074239934885104,
+      "finite_angle": 0.706879649357548
+    },
+    {
+      "d": 64,
+      "gamma": 2.0,
+      "seed": 1,
+      "method": "spectral_t0.25",
+      "accuracy": 0.7127685546875,
+      "limit": 0.7168744389128823,
+      "finite_angle": 0.7161002933981244
+    },
+    {
+      "d": 64,
+      "gamma": 2.0,
+      "seed": 1,
+      "method": "spectral_t0.5",
+      "accuracy": 0.7210693359375,
+      "limit": 0.7272251100459832,
+      "finite_angle": 0.7268250727537986
+    },
+    {
+      "d": 64,
+      "gamma": 2.0,
+      "seed": 1,
+      "method": "spectral_t1.0",
+      "accuracy": 0.737548828125,
+      "limit": 0.742195673662304,
+      "finite_angle": 0.7415216990644979
+    },
+    {
+      "d": 64,
+      "gamma": 2.0,
+      "seed": 1,
+      "method": "spectral_t2.5",
+      "accuracy": 0.742431640625,
+      "limit": 0.7500000007803581,
+      "finite_angle": 0.7490525418707917
+    },
+    {
+      "d": 64,
+      "gamma": 2.0,
+      "seed": 2,
+      "method": "GD",
+      "accuracy": 0.755615234375,
+      "limit": 0.75,
+      "finite_angle": 0.7517119860277246
+    },
+    {
+      "d": 64,
+      "gamma": 2.0,
+      "seed": 2,
+      "method": "polar",
+      "accuracy": 0.70751953125,
+      "limit": 0.7049166784623391,
+      "finite_angle": 0.706815854462216
+    },
+    {
+      "d": 64,
+      "gamma": 2.0,
+      "seed": 2,
+      "method": "Adam_first_eps0",
+      "accuracy": 0.695068359375,
+      "limit": 0.6908112969663592,
+      "finite_angle": 0.6927655203251737
+    },
+    {
+      "d": 64,
+      "gamma": 2.0,
+      "seed": 2,
+      "method": "spectral_t0.05",
+      "accuracy": 0.709716796875,
+      "limit": 0.7074239934885104,
+      "finite_angle": 0.7100002499694001
+    },
+    {
+      "d": 64,
+      "gamma": 2.0,
+      "seed": 2,
+      "method": "spectral_t0.25",
+      "accuracy": 0.723388671875,
+      "limit": 0.7168744389128823,
+      "finite_angle": 0.7189003559840457
+    },
+    {
+      "d": 64,
+      "gamma": 2.0,
+      "seed": 2,
+      "method": "spectral_t0.5",
+      "accuracy": 0.7333984375,
+      "limit": 0.7272251100459832,
+      "finite_angle": 0.7284499843096655
+    },
+    {
+      "d": 64,
+      "gamma": 2.0,
+      "seed": 2,
+      "method": "spectral_t1.0",
+      "accuracy": 0.747314453125,
+      "limit": 0.742195673662304,
+      "finite_angle": 0.743807621151579
+    },
+    {
+      "d": 64,
+      "gamma": 2.0,
+      "seed": 2,
+      "method": "spectral_t2.5",
+      "accuracy": 0.755615234375,
+      "limit": 0.7500000007803581,
+      "finite_angle": 0.7517119860277246
+    },
+    {
+      "d": 64,
+      "gamma": 2.0,
+      "seed": 3,
+      "method": "GD",
+      "accuracy": 0.754150390625,
+      "limit": 0.75,
+      "finite_angle": 0.7524598326255882
+    },
+    {
+      "d": 64,
+      "gamma": 2.0,
+      "seed": 3,
+      "method": "polar",
+      "accuracy": 0.709228515625,
+      "limit": 0.7049166784623391,
+      "finite_angle": 0.7072523214604707
+    },
+    {
+      "d": 64,
+      "gamma": 2.0,
+      "seed": 3,
+      "method": "Adam_first_eps0",
+      "accuracy": 0.6971435546875,
+      "limit": 0.6908112969663592,
+      "finite_angle": 0.6934566396296875
+    },
+    {
+      "d": 64,
+      "gamma": 2.0,
+      "seed": 3,
+      "method": "spectral_t0.05",
+      "accuracy": 0.7161865234375,
+      "limit": 0.7074239934885104,
+      "finite_angle": 0.7107615634684706
+    },
+    {
+      "d": 64,
+      "gamma": 2.0,
+      "seed": 3,
+      "method": "spectral_t0.25",
+      "accuracy": 0.7255859375,
+      "limit": 0.7168744389128823,
+      "finite_angle": 0.7201123838681862
+    },
+    {
+      "d": 64,
+      "gamma": 2.0,
+      "seed": 3,
+      "method": "spectral_t0.5",
+      "accuracy": 0.7344970703125,
+      "limit": 0.7272251100459832,
+      "finite_angle": 0.7301705713580986
+    },
+    {
+      "d": 64,
+      "gamma": 2.0,
+      "seed": 3,
+      "method": "spectral_t1.0",
+      "accuracy": 0.752685546875,
+      "limit": 0.742195673662304,
+      "finite_angle": 0.7448903502770826
+    },
+    {
+      "d": 64,
+      "gamma": 2.0,
+      "seed": 3,
+      "method": "spectral_t2.5",
+      "accuracy": 0.754150390625,
+      "limit": 0.7500000007803581,
+      "finite_angle": 0.7524598326255882
+    },
+    {
+      "d": 64,
+      "gamma": 2.0,
+      "seed": 4,
+      "method": "GD",
+      "accuracy": 0.7496337890625,
+      "limit": 0.75,
+      "finite_angle": 0.751822378454736
+    },
+    {
+      "d": 64,
+      "gamma": 2.0,
+      "seed": 4,
+      "method": "polar",
+      "accuracy": 0.7044677734375,
+      "limit": 0.7049166784623391,
+      "finite_angle": 0.7057438731472025
+    },
+    {
+      "d": 64,
+      "gamma": 2.0,
+      "seed": 4,
+      "method": "Adam_first_eps0",
+      "accuracy": 0.6934814453125,
+      "limit": 0.6908112969663592,
+      "finite_angle": 0.6931915752346605
+    },
+    {
+      "d": 64,
+      "gamma": 2.0,
+      "seed": 4,
+      "method": "spectral_t0.05",
+      "accuracy": 0.7110595703125,
+      "limit": 0.7074239934885104,
+      "finite_angle": 0.7097795762625431
+    },
+    {
+      "d": 64,
+      "gamma": 2.0,
+      "seed": 4,
+      "method": "spectral_t0.25",
+      "accuracy": 0.7178955078125,
+      "limit": 0.7168744389128823,
+      "finite_angle": 0.718701606283172
+    },
+    {
+      "d": 64,
+      "gamma": 2.0,
+      "seed": 4,
+      "method": "spectral_t0.5",
+      "accuracy": 0.7305908203125,
+      "limit": 0.7272251100459832,
+      "finite_angle": 0.7289469278633312
+    },
+    {
+      "d": 64,
+      "gamma": 2.0,
+      "seed": 4,
+      "method": "spectral_t1.0",
+      "accuracy": 0.7449951171875,
+      "limit": 0.742195673662304,
+      "finite_angle": 0.7436861782463329
+    },
+    {
+      "d": 64,
+      "gamma": 2.0,
+      "seed": 4,
+      "method": "spectral_t2.5",
+      "accuracy": 0.7496337890625,
+      "limit": 0.7500000007803581,
+      "finite_angle": 0.751822378454736
+    },
+    {
+      "d": 64,
+      "gamma": 4.0,
+      "seed": 0,
+      "method": "GD",
+      "accuracy": 0.667724609375,
+      "limit": 0.6666666666666667,
+      "finite_angle": 0.6669528015413455
+    },
+    {
+      "d": 64,
+      "gamma": 4.0,
+      "seed": 0,
+      "method": "polar",
+      "accuracy": 0.64251708984375,
+      "limit": 0.6395195854085791,
+      "finite_angle": 0.6402300710112836
+    },
+    {
+      "d": 64,
+      "gamma": 4.0,
+      "seed": 0,
+      "method": "Adam_first_eps0",
+      "accuracy": 0.63372802734375,
+      "limit": 0.6306226219805875,
+      "finite_angle": 0.6309699524496981
+    },
+    {
+      "d": 64,
+      "gamma": 4.0,
+      "seed": 0,
+      "method": "spectral_t0.05",
+      "accuracy": 0.6444091796875,
+      "limit": 0.6410828645924431,
+      "finite_angle": 0.6428878716430375
+    },
+    {
+      "d": 64,
+      "gamma": 4.0,
+      "seed": 0,
+      "method": "spectral_t0.25",
+      "accuracy": 0.64788818359375,
+      "limit": 0.6469226334310959,
+      "finite_angle": 0.6479992378737478
+    },
+    {
+      "d": 64,
+      "gamma": 4.0,
+      "seed": 0,
+      "method": "spectral_t0.5",
+      "accuracy": 0.654296875,
+      "limit": 0.6532185788658863,
+      "finite_angle": 0.6540616620834139
+    },
+    {
+      "d": 64,
+      "gamma": 4.0,
+      "seed": 0,
+      "method": "spectral_t1.0",
+      "accuracy": 0.6624755859375,
+      "limit": 0.662124609089022,
+      "finite_angle": 0.6625872132366437
+    },
+    {
+      "d": 64,
+      "gamma": 4.0,
+      "seed": 0,
+      "method": "spectral_t2.5",
+      "accuracy": 0.667724609375,
+      "limit": 0.6666666671172067,
+      "finite_angle": 0.6669528015413455
+    },
+    {
+      "d": 64,
+      "gamma": 4.0,
+      "seed": 1,
+      "method": "GD",
+      "accuracy": 0.66632080078125,
+      "limit": 0.6666666666666667,
+      "finite_angle": 0.6671406976632577
+    },
+    {
+      "d": 64,
+      "gamma": 4.0,
+      "seed": 1,
+      "method": "polar",
+      "accuracy": 0.63690185546875,
+      "limit": 0.6395195854085791,
+      "finite_angle": 0.6407181979187986
+    },
+    {
+      "d": 64,
+      "gamma": 4.0,
+      "seed": 1,
+      "method": "Adam_first_eps0",
+      "accuracy": 0.62872314453125,
+      "limit": 0.6306226219805875,
+      "finite_angle": 0.6318645508186844
+    },
+    {
+      "d": 64,
+      "gamma": 4.0,
+      "seed": 1,
+      "method": "spectral_t0.05",
+      "accuracy": 0.6412353515625,
+      "limit": 0.6410828645924431,
+      "finite_angle": 0.6437874840697398
+    },
+    {
+      "d": 64,
+      "gamma": 4.0,
+      "seed": 1,
+      "method": "spectral_t0.25",
+      "accuracy": 0.6463623046875,
+      "limit": 0.6469226334310959,
+      "finite_angle": 0.6482209428990053
+    },
+    {
+      "d": 64,
+      "gamma": 4.0,
+      "seed": 1,
+      "method": "spectral_t0.5",
+      "accuracy": 0.6533203125,
+      "limit": 0.6532185788658863,
+      "finite_angle": 0.6544603064172971
+    },
+    {
+      "d": 64,
+      "gamma": 4.0,
+      "seed": 1,
+      "method": "spectral_t1.0",
+      "accuracy": 0.66387939453125,
+      "limit": 0.662124609089022,
+      "finite_angle": 0.6632363181877706
+    },
+    {
+      "d": 64,
+      "gamma": 4.0,
+      "seed": 1,
+      "method": "spectral_t2.5",
+      "accuracy": 0.66632080078125,
+      "limit": 0.6666666671172067,
+      "finite_angle": 0.6671406976632577
+    },
+    {
+      "d": 64,
+      "gamma": 4.0,
+      "seed": 2,
+      "method": "GD",
+      "accuracy": 0.67181396484375,
+      "limit": 0.6666666666666667,
+      "finite_angle": 0.6673377853068421
+    },
+    {
+      "d": 64,
+      "gamma": 4.0,
+      "seed": 2,
+      "method": "polar",
+      "accuracy": 0.6446533203125,
+      "limit": 0.6395195854085791,
+      "finite_angle": 0.6402266238244707
+    },
+    {
+      "d": 64,
+      "gamma": 4.0,
+      "seed": 2,
+      "method": "Adam_first_eps0",
+      "accuracy": 0.63482666015625,
+      "limit": 0.6306226219805875,
+      "finite_angle": 0.6310585321577253
+    },
+    {
+      "d": 64,
+      "gamma": 4.0,
+      "seed": 2,
+      "method": "spectral_t0.05",
+      "accuracy": 0.6466064453125,
+      "limit": 0.6410828645924431,
+      "finite_angle": 0.6421602048391143
+    },
+    {
+      "d": 64,
+      "gamma": 4.0,
+      "seed": 2,
+      "method": "spectral_t0.25",
+      "accuracy": 0.65191650390625,
+      "limit": 0.6469226334310959,
+      "finite_angle": 0.6478612613105854
+    },
+    {
+      "d": 64,
+      "gamma": 4.0,
+      "seed": 2,
+      "method": "spectral_t0.5",
+      "accuracy": 0.6572265625,
+      "limit": 0.6532185788658863,
+      "finite_angle": 0.6543946027445332
+    },
+    {
+      "d": 64,
+      "gamma": 4.0,
+      "seed": 2,
+      "method": "spectral_t1.0",
+      "accuracy": 0.6673583984375,
+      "limit": 0.662124609089022,
+      "finite_angle": 0.6628233017850758
+    },
+    {
+      "d": 64,
+      "gamma": 4.0,
+      "seed": 2,
+      "method": "spectral_t2.5",
+      "accuracy": 0.67181396484375,
+      "limit": 0.6666666671172067,
+      "finite_angle": 0.6673377853068421
+    },
+    {
+      "d": 64,
+      "gamma": 4.0,
+      "seed": 3,
+      "method": "GD",
+      "accuracy": 0.6580810546875,
+      "limit": 0.6666666666666667,
+      "finite_angle": 0.6641401829502271
+    },
+    {
+      "d": 64,
+      "gamma": 4.0,
+      "seed": 3,
+      "method": "polar",
+      "accuracy": 0.6373291015625,
+      "limit": 0.6395195854085791,
+      "finite_angle": 0.6388719553411726
+    },
+    {
+      "d": 64,
+      "gamma": 4.0,
+      "seed": 3,
+      "method": "Adam_first_eps0",
+      "accuracy": 0.6199951171875,
+      "limit": 0.6306226219805875,
+      "finite_angle": 0.628353103775426
+    },
+    {
+      "d": 64,
+      "gamma": 4.0,
+      "seed": 3,
+      "method": "spectral_t0.05",
+      "accuracy": 0.63873291015625,
+      "limit": 0.6410828645924431,
+      "finite_angle": 0.6399741872040776
+    },
+    {
+      "d": 64,
+      "gamma": 4.0,
+      "seed": 3,
+      "method": "spectral_t0.25",
+      "accuracy": 0.64208984375,
+      "limit": 0.6469226334310959,
+      "finite_angle": 0.6457578912986379
+    },
+    {
+      "d": 64,
+      "gamma": 4.0,
+      "seed": 3,
+      "method": "spectral_t0.5",
+      "accuracy": 0.6461181640625,
+      "limit": 0.6532185788658863,
+      "finite_angle": 0.651535987482966
+    },
+    {
+      "d": 64,
+      "gamma": 4.0,
+      "seed": 3,
+      "method": "spectral_t1.0",
+      "accuracy": 0.652099609375,
+      "limit": 0.662124609089022,
+      "finite_angle": 0.6600565837922592
+    },
+    {
+      "d": 64,
+      "gamma": 4.0,
+      "seed": 3,
+      "method": "spectral_t2.5",
+      "accuracy": 0.6580810546875,
+      "limit": 0.6666666671172067,
+      "finite_angle": 0.6641401829502271
+    },
+    {
+      "d": 64,
+      "gamma": 4.0,
+      "seed": 4,
+      "method": "GD",
+      "accuracy": 0.66766357421875,
+      "limit": 0.6666666666666667,
+      "finite_angle": 0.6674246585898489
+    },
+    {
+      "d": 64,
+      "gamma": 4.0,
+      "seed": 4,
+      "method": "polar",
+      "accuracy": 0.64117431640625,
+      "limit": 0.6395195854085791,
+      "finite_angle": 0.6393577159058621
+    },
+    {
+      "d": 64,
+      "gamma": 4.0,
+      "seed": 4,
+      "method": "Adam_first_eps0",
+      "accuracy": 0.62841796875,
+      "limit": 0.6306226219805875,
+      "finite_angle": 0.6311702697577624
+    },
+    {
+      "d": 64,
+      "gamma": 4.0,
+      "seed": 4,
+      "method": "spectral_t0.05",
+      "accuracy": 0.642578125,
+      "limit": 0.6410828645924431,
+      "finite_angle": 0.6415854541724505
+    },
+    {
+      "d": 64,
+      "gamma": 4.0,
+      "seed": 4,
+      "method": "spectral_t0.25",
+      "accuracy": 0.6527099609375,
+      "limit": 0.6469226334310959,
+      "finite_angle": 0.6478927759280119
+    },
+    {
+      "d": 64,
+      "gamma": 4.0,
+      "seed": 4,
+      "method": "spectral_t0.5",
+      "accuracy": 0.656494140625,
+      "limit": 0.6532185788658863,
+      "finite_angle": 0.6539221999758984
+    },
+    {
+      "d": 64,
+      "gamma": 4.0,
+      "seed": 4,
+      "method": "spectral_t1.0",
+      "accuracy": 0.66436767578125,
+      "limit": 0.662124609089022,
+      "finite_angle": 0.6627181117870191
+    },
+    {
+      "d": 64,
+      "gamma": 4.0,
+      "seed": 4,
+      "method": "spectral_t2.5",
+      "accuracy": 0.66766357421875,
+      "limit": 0.6666666671172067,
+      "finite_angle": 0.6674246585898489
+    },
+    {
+      "d": 64,
+      "gamma": 8.0,
+      "seed": 0,
+      "method": "GD",
+      "accuracy": 0.616424560546875,
+      "limit": 0.615026728081308,
+      "finite_angle": 0.6154195139839147
+    },
+    {
+      "d": 64,
+      "gamma": 8.0,
+      "seed": 0,
+      "method": "polar",
+      "accuracy": 0.59442138671875,
+      "limit": 0.5970218673636055,
+      "finite_angle": 0.5970719559629617
+    },
+    {
+      "d": 64,
+      "gamma": 8.0,
+      "seed": 0,
+      "method": "Adam_first_eps0",
+      "accuracy": 0.59320068359375,
+      "limit": 0.5910292682918585,
+      "finite_angle": 0.591738105057672
+    },
+    {
+      "d": 64,
+      "gamma": 8.0,
+      "seed": 0,
+      "method": "spectral_t0.05",
+      "accuracy": 0.595123291015625,
+      "limit": 0.5980704758204413,
+      "finite_angle": 0.5979091722195133
+    },
+    {
+      "d": 64,
+      "gamma": 8.0,
+      "seed": 0,
+      "method": "spectral_t0.25",
+      "accuracy": 0.59912109375,
+      "limit": 0.6019755993486708,
+      "finite_angle": 0.6026823739901608
+    },
+    {
+      "d": 64,
+      "gamma": 8.0,
+      "seed": 0,
+      "method": "spectral_t0.5",
+      "accuracy": 0.604034423828125,
+      "limit": 0.6061636404755736,
+      "finite_angle": 0.6063343041834275
+    },
+    {
+      "d": 64,
+      "gamma": 8.0,
+      "seed": 0,
+      "method": "spectral_t1.0",
+      "accuracy": 0.61248779296875,
+      "limit": 0.6120463363592891,
+      "finite_angle": 0.6123523862023472
+    },
+    {
+      "d": 64,
+      "gamma": 8.0,
+      "seed": 0,
+      "method": "spectral_t2.5",
+      "accuracy": 0.616424560546875,
+      "limit": 0.6150267283762556,
+      "finite_angle": 0.6154195139839147
+    },
+    {
+      "d": 64,
+      "gamma": 8.0,
+      "seed": 1,
+      "method": "GD",
+      "accuracy": 0.612091064453125,
+      "limit": 0.615026728081308,
+      "finite_angle": 0.614223469376215
+    },
+    {
+      "d": 64,
+      "gamma": 8.0,
+      "seed": 1,
+      "method": "polar",
+      "accuracy": 0.592987060546875,
+      "limit": 0.5970218673636055,
+      "finite_angle": 0.5967580779363137
+    },
+    {
+      "d": 64,
+      "gamma": 8.0,
+      "seed": 1,
+      "method": "Adam_first_eps0",
+      "accuracy": 0.591766357421875,
+      "limit": 0.5910292682918585,
+      "finite_angle": 0.590959925490404
+    },
+    {
+      "d": 64,
+      "gamma": 8.0,
+      "seed": 1,
+      "method": "spectral_t0.05",
+      "accuracy": 0.594207763671875,
+      "limit": 0.5980704758204413,
+      "finite_angle": 0.5975517650525632
+    },
+    {
+      "d": 64,
+      "gamma": 8.0,
+      "seed": 1,
+      "method": "spectral_t0.25",
+      "accuracy": 0.598907470703125,
+      "limit": 0.6019755993486708,
+      "finite_angle": 0.601684106651099
+    },
+    {
+      "d": 64,
+      "gamma": 8.0,
+      "seed": 1,
+      "method": "spectral_t0.5",
+      "accuracy": 0.601715087890625,
+      "limit": 0.6061636404755736,
+      "finite_angle": 0.6056383128458056
+    },
+    {
+      "d": 64,
+      "gamma": 8.0,
+      "seed": 1,
+      "method": "spectral_t1.0",
+      "accuracy": 0.608489990234375,
+      "limit": 0.6120463363592891,
+      "finite_angle": 0.6113667575886419
+    },
+    {
+      "d": 64,
+      "gamma": 8.0,
+      "seed": 1,
+      "method": "spectral_t2.5",
+      "accuracy": 0.612091064453125,
+      "limit": 0.6150267283762556,
+      "finite_angle": 0.614223469376215
+    },
+    {
+      "d": 64,
+      "gamma": 8.0,
+      "seed": 2,
+      "method": "GD",
+      "accuracy": 0.613494873046875,
+      "limit": 0.615026728081308,
+      "finite_angle": 0.6137853918380716
+    },
+    {
+      "d": 64,
+      "gamma": 8.0,
+      "seed": 2,
+      "method": "polar",
+      "accuracy": 0.59283447265625,
+      "limit": 0.5970218673636055,
+      "finite_angle": 0.5957403769163331
+    },
+    {
+      "d": 64,
+      "gamma": 8.0,
+      "seed": 2,
+      "method": "Adam_first_eps0",
+      "accuracy": 0.593170166015625,
+      "limit": 0.5910292682918585,
+      "finite_angle": 0.5904145582078701
+    },
+    {
+      "d": 64,
+      "gamma": 8.0,
+      "seed": 2,
+      "method": "spectral_t0.05",
+      "accuracy": 0.595001220703125,
+      "limit": 0.5980704758204413,
+      "finite_angle": 0.5968219778789429
+    },
+    {
+      "d": 64,
+      "gamma": 8.0,
+      "seed": 2,
+      "method": "spectral_t0.25",
+      "accuracy": 0.601318359375,
+      "limit": 0.6019755993486708,
+      "finite_angle": 0.6006929235223828
+    },
+    {
+      "d": 64,
+      "gamma": 8.0,
+      "seed": 2,
+      "method": "spectral_t0.5",
+      "accuracy": 0.6053466796875,
+      "limit": 0.6061636404755736,
+      "finite_angle": 0.604938751858098
+    },
+    {
+      "d": 64,
+      "gamma": 8.0,
+      "seed": 2,
+      "method": "spectral_t1.0",
+      "accuracy": 0.61175537109375,
+      "limit": 0.6120463363592891,
+      "finite_angle": 0.6109324013945183
+    },
+    {
+      "d": 64,
+      "gamma": 8.0,
+      "seed": 2,
+      "method": "spectral_t2.5",
+      "accuracy": 0.613494873046875,
+      "limit": 0.6150267283762556,
+      "finite_angle": 0.6137853918380716
+    },
+    {
+      "d": 64,
+      "gamma": 8.0,
+      "seed": 3,
+      "method": "GD",
+      "accuracy": 0.613983154296875,
+      "limit": 0.615026728081308,
+      "finite_angle": 0.6146272085168143
+    },
+    {
+      "d": 64,
+      "gamma": 8.0,
+      "seed": 3,
+      "method": "polar",
+      "accuracy": 0.59906005859375,
+      "limit": 0.5970218673636055,
+      "finite_angle": 0.5964682367889922
+    },
+    {
+      "d": 64,
+      "gamma": 8.0,
+      "seed": 3,
+      "method": "Adam_first_eps0",
+      "accuracy": 0.5933837890625,
+      "limit": 0.5910292682918585,
+      "finite_angle": 0.590111749624043
+    },
+    {
+      "d": 64,
+      "gamma": 8.0,
+      "seed": 3,
+      "method": "spectral_t0.05",
+      "accuracy": 0.599945068359375,
+      "limit": 0.5980704758204413,
+      "finite_angle": 0.5979549071403885
+    },
+    {
+      "d": 64,
+      "gamma": 8.0,
+      "seed": 3,
+      "method": "spectral_t0.25",
+      "accuracy": 0.60333251953125,
+      "limit": 0.6019755993486708,
+      "finite_angle": 0.6016788020876666
+    },
+    {
+      "d": 64,
+      "gamma": 8.0,
+      "seed": 3,
+      "method": "spectral_t0.5",
+      "accuracy": 0.607635498046875,
+      "limit": 0.6061636404755736,
+      "finite_angle": 0.6059318400340155
+    },
+    {
+      "d": 64,
+      "gamma": 8.0,
+      "seed": 3,
+      "method": "spectral_t1.0",
+      "accuracy": 0.61248779296875,
+      "limit": 0.6120463363592891,
+      "finite_angle": 0.6118127905554804
+    },
+    {
+      "d": 64,
+      "gamma": 8.0,
+      "seed": 3,
+      "method": "spectral_t2.5",
+      "accuracy": 0.613983154296875,
+      "limit": 0.6150267283762556,
+      "finite_angle": 0.6146272085168143
+    },
+    {
+      "d": 64,
+      "gamma": 8.0,
+      "seed": 4,
+      "method": "GD",
+      "accuracy": 0.614227294921875,
+      "limit": 0.615026728081308,
+      "finite_angle": 0.6165081236441736
+    },
+    {
+      "d": 64,
+      "gamma": 8.0,
+      "seed": 4,
+      "method": "polar",
+      "accuracy": 0.5950927734375,
+      "limit": 0.5970218673636055,
+      "finite_angle": 0.5976936492660119
+    },
+    {
+      "d": 64,
+      "gamma": 8.0,
+      "seed": 4,
+      "method": "Adam_first_eps0",
+      "accuracy": 0.5899658203125,
+      "limit": 0.5910292682918585,
+      "finite_angle": 0.5923798697519107
+    },
+    {
+      "d": 64,
+      "gamma": 8.0,
+      "seed": 4,
+      "method": "spectral_t0.05",
+      "accuracy": 0.59539794921875,
+      "limit": 0.5980704758204413,
+      "finite_angle": 0.5987778066914733
+    },
+    {
+      "d": 64,
+      "gamma": 8.0,
+      "seed": 4,
+      "method": "spectral_t0.25",
+      "accuracy": 0.60174560546875,
+      "limit": 0.6019755993486708,
+      "finite_angle": 0.602911905793794
+    },
+    {
+      "d": 64,
+      "gamma": 8.0,
+      "seed": 4,
+      "method": "spectral_t0.5",
+      "accuracy": 0.605438232421875,
+      "limit": 0.6061636404755736,
+      "finite_angle": 0.6072312150792902
+    },
+    {
+      "d": 64,
+      "gamma": 8.0,
+      "seed": 4,
+      "method": "spectral_t1.0",
+      "accuracy": 0.612213134765625,
+      "limit": 0.6120463363592891,
+      "finite_angle": 0.6132101753993766
+    },
+    {
+      "d": 64,
+      "gamma": 8.0,
+      "seed": 4,
+      "method": "spectral_t2.5",
+      "accuracy": 0.614227294921875,
+      "limit": 0.6150267283762556,
+      "finite_angle": 0.6165081236441736
+    },
+    {
+      "d": 128,
+      "gamma": 1.25,
+      "seed": 0,
+      "method": "GD",
+      "accuracy": 0.856884765625,
+      "limit": 0.8524163823495667,
+      "finite_angle": 0.8569783625993144
+    },
+    {
+      "d": 128,
+      "gamma": 1.25,
+      "seed": 0,
+      "method": "polar",
+      "accuracy": 0.777734375,
+      "limit": 0.7744161120389299,
+      "finite_angle": 0.7768359884672427
+    },
+    {
+      "d": 128,
+      "gamma": 1.25,
+      "seed": 0,
+      "method": "Adam_first_eps0",
+      "accuracy": 0.750537109375,
+      "limit": 0.7529591212220526,
+      "finite_angle": 0.7551117599047623
+    },
+    {
+      "d": 128,
+      "gamma": 1.25,
+      "seed": 0,
+      "method": "spectral_t0.05",
+      "accuracy": 0.780712890625,
+      "limit": 0.778330326945883,
+      "finite_angle": 0.7796780009546681
+    },
+    {
+      "d": 128,
+      "gamma": 1.25,
+      "seed": 0,
+      "method": "spectral_t0.25",
+      "accuracy": 0.79794921875,
+      "limit": 0.7934101540997962,
+      "finite_angle": 0.7962711047173328
+    },
+    {
+      "d": 128,
+      "gamma": 1.25,
+      "seed": 0,
+      "method": "spectral_t0.5",
+      "accuracy": 0.8166015625,
+      "limit": 0.8106334886485091,
+      "finite_angle": 0.8135552142070162
+    },
+    {
+      "d": 128,
+      "gamma": 1.25,
+      "seed": 0,
+      "method": "spectral_t1.0",
+      "accuracy": 0.84130859375,
+      "limit": 0.8373274381449259,
+      "finite_angle": 0.8408006329781312
+    },
+    {
+      "d": 128,
+      "gamma": 1.25,
+      "seed": 0,
+      "method": "spectral_t2.5",
+      "accuracy": 0.856884765625,
+      "limit": 0.852416383910283,
+      "finite_angle": 0.8569783625993144
+    },
+    {
+      "d": 128,
+      "gamma": 1.25,
+      "seed": 1,
+      "method": "GD",
+      "accuracy": 0.84775390625,
+      "limit": 0.8524163823495667,
+      "finite_angle": 0.851371224070175
+    },
+    {
+      "d": 128,
+      "gamma": 1.25,
+      "seed": 1,
+      "method": "polar",
+      "accuracy": 0.769384765625,
+      "limit": 0.7744161120389299,
+      "finite_angle": 0.7738529254642472
+    },
+    {
+      "d": 128,
+      "gamma": 1.25,
+      "seed": 1,
+      "method": "Adam_first_eps0",
+      "accuracy": 0.747412109375,
+      "limit": 0.7529591212220526,
+      "finite_angle": 0.7528906779123237
+    },
+    {
+      "d": 128,
+      "gamma": 1.25,
+      "seed": 1,
+      "method": "spectral_t0.05",
+      "accuracy": 0.774609375,
+      "limit": 0.778330326945883,
+      "finite_angle": 0.7782476261993849
+    },
+    {
+      "d": 128,
+      "gamma": 1.25,
+      "seed": 1,
+      "method": "spectral_t0.25",
+      "accuracy": 0.7890625,
+      "limit": 0.7934101540997962,
+      "finite_angle": 0.7927343166370968
+    },
+    {
+      "d": 128,
+      "gamma": 1.25,
+      "seed": 1,
+      "method": "spectral_t0.5",
+      "accuracy": 0.804296875,
+      "limit": 0.8106334886485091,
+      "finite_angle": 0.8100550486676532
+    },
+    {
+      "d": 128,
+      "gamma": 1.25,
+      "seed": 1,
+      "method": "spectral_t1.0",
+      "accuracy": 0.83046875,
+      "limit": 0.8373274381449259,
+      "finite_angle": 0.8366932429185276
+    },
+    {
+      "d": 128,
+      "gamma": 1.25,
+      "seed": 1,
+      "method": "spectral_t2.5",
+      "accuracy": 0.84775390625,
+      "limit": 0.852416383910283,
+      "finite_angle": 0.851371224070175
+    },
+    {
+      "d": 128,
+      "gamma": 1.25,
+      "seed": 2,
+      "method": "GD",
+      "accuracy": 0.85185546875,
+      "limit": 0.8524163823495667,
+      "finite_angle": 0.8519346829214858
+    },
+    {
+      "d": 128,
+      "gamma": 1.25,
+      "seed": 2,
+      "method": "polar",
+      "accuracy": 0.7732421875,
+      "limit": 0.7744161120389299,
+      "finite_angle": 0.7748206566336315
+    },
+    {
+      "d": 128,
+      "gamma": 1.25,
+      "seed": 2,
+      "method": "Adam_first_eps0",
+      "accuracy": 0.747998046875,
+      "limit": 0.7529591212220526,
+      "finite_angle": 0.752827664147155
+    },
+    {
+      "d": 128,
+      "gamma": 1.25,
+      "seed": 2,
+      "method": "spectral_t0.05",
+      "accuracy": 0.775244140625,
+      "limit": 0.778330326945883,
+      "finite_angle": 0.7797630401154378
+    },
+    {
+      "d": 128,
+      "gamma": 1.25,
+      "seed": 2,
+      "method": "spectral_t0.25",
+      "accuracy": 0.790478515625,
+      "limit": 0.7934101540997962,
+      "finite_angle": 0.7934073292474553
+    },
+    {
+      "d": 128,
+      "gamma": 1.25,
+      "seed": 2,
+      "method": "spectral_t0.5",
+      "accuracy": 0.8078125,
+      "limit": 0.8106334886485091,
+      "finite_angle": 0.8109293294386903
+    },
+    {
+      "d": 128,
+      "gamma": 1.25,
+      "seed": 2,
+      "method": "spectral_t1.0",
+      "accuracy": 0.836328125,
+      "limit": 0.8373274381449259,
+      "finite_angle": 0.8374909204317866
+    },
+    {
+      "d": 128,
+      "gamma": 1.25,
+      "seed": 2,
+      "method": "spectral_t2.5",
+      "accuracy": 0.85185546875,
+      "limit": 0.852416383910283,
+      "finite_angle": 0.8519346829214858
+    },
+    {
+      "d": 128,
+      "gamma": 1.25,
+      "seed": 3,
+      "method": "GD",
+      "accuracy": 0.853662109375,
+      "limit": 0.8524163823495667,
+      "finite_angle": 0.8501050447548959
+    },
+    {
+      "d": 128,
+      "gamma": 1.25,
+      "seed": 3,
+      "method": "polar",
+      "accuracy": 0.775537109375,
+      "limit": 0.7744161120389299,
+      "finite_angle": 0.7734768283520012
+    },
+    {
+      "d": 128,
+      "gamma": 1.25,
+      "seed": 3,
+      "method": "Adam_first_eps0",
+      "accuracy": 0.75478515625,
+      "limit": 0.7529591212220526,
+      "finite_angle": 0.7521197604806109
+    },
+    {
+      "d": 128,
+      "gamma": 1.25,
+      "seed": 3,
+      "method": "spectral_t0.05",
+      "accuracy": 0.779443359375,
+      "limit": 0.778330326945883,
+      "finite_angle": 0.77867427660657
+    },
+    {
+      "d": 128,
+      "gamma": 1.25,
+      "seed": 3,
+      "method": "spectral_t0.25",
+      "accuracy": 0.79580078125,
+      "limit": 0.7934101540997962,
+      "finite_angle": 0.7926845983653918
+    },
+    {
+      "d": 128,
+      "gamma": 1.25,
+      "seed": 3,
+      "method": "spectral_t0.5",
+      "accuracy": 0.81181640625,
+      "limit": 0.8106334886485091,
+      "finite_angle": 0.8089871534663674
+    },
+    {
+      "d": 128,
+      "gamma": 1.25,
+      "seed": 3,
+      "method": "spectral_t1.0",
+      "accuracy": 0.837255859375,
+      "limit": 0.8373274381449259,
+      "finite_angle": 0.8356093738885382
+    },
+    {
+      "d": 128,
+      "gamma": 1.25,
+      "seed": 3,
+      "method": "spectral_t2.5",
+      "accuracy": 0.853662109375,
+      "limit": 0.852416383910283,
+      "finite_angle": 0.8501050447548959
+    },
+    {
+      "d": 128,
+      "gamma": 1.25,
+      "seed": 4,
+      "method": "GD",
+      "accuracy": 0.84892578125,
+      "limit": 0.8524163823495667,
+      "finite_angle": 0.85136837837034
+    },
+    {
+      "d": 128,
+      "gamma": 1.25,
+      "seed": 4,
+      "method": "polar",
+      "accuracy": 0.776171875,
+      "limit": 0.7744161120389299,
+      "finite_angle": 0.7736612804116838
+    },
+    {
+      "d": 128,
+      "gamma": 1.25,
+      "seed": 4,
+      "method": "Adam_first_eps0",
+      "accuracy": 0.7515625,
+      "limit": 0.7529591212220526,
+      "finite_angle": 0.7528259875164136
+    },
+    {
+      "d": 128,
+      "gamma": 1.25,
+      "seed": 4,
+      "method": "spectral_t0.05",
+      "accuracy": 0.77998046875,
+      "limit": 0.778330326945883,
+      "finite_angle": 0.777522865511932
+    },
+    {
+      "d": 128,
+      "gamma": 1.25,
+      "seed": 4,
+      "method": "spectral_t0.25",
+      "accuracy": 0.79443359375,
+      "limit": 0.7934101540997962,
+      "finite_angle": 0.7925948500512582
+    },
+    {
+      "d": 128,
+      "gamma": 1.25,
+      "seed": 4,
+      "method": "spectral_t0.5",
+      "accuracy": 0.8103515625,
+      "limit": 0.8106334886485091,
+      "finite_angle": 0.8096630184940147
+    },
+    {
+      "d": 128,
+      "gamma": 1.25,
+      "seed": 4,
+      "method": "spectral_t1.0",
+      "accuracy": 0.837109375,
+      "limit": 0.8373274381449259,
+      "finite_angle": 0.8362216448733417
+    },
+    {
+      "d": 128,
+      "gamma": 1.25,
+      "seed": 4,
+      "method": "spectral_t2.5",
+      "accuracy": 0.84892578125,
+      "limit": 0.852416383910283,
+      "finite_angle": 0.8513683783703399
+    },
+    {
+      "d": 128,
+      "gamma": 2.0,
+      "seed": 0,
+      "method": "GD",
+      "accuracy": 0.74835205078125,
+      "limit": 0.75,
+      "finite_angle": 0.7508068576672113
+    },
+    {
+      "d": 128,
+      "gamma": 2.0,
+      "seed": 0,
+      "method": "polar",
+      "accuracy": 0.7008056640625,
+      "limit": 0.7049166784623391,
+      "finite_angle": 0.7060945576974453
+    },
+    {
+      "d": 128,
+      "gamma": 2.0,
+      "seed": 0,
+      "method": "Adam_first_eps0",
+      "accuracy": 0.692230224609375,
+      "limit": 0.6908112969663592,
+      "finite_angle": 0.6920433796013836
+    },
+    {
+      "d": 128,
+      "gamma": 2.0,
+      "seed": 0,
+      "method": "spectral_t0.05",
+      "accuracy": 0.705169677734375,
+      "limit": 0.7074239934885104,
+      "finite_angle": 0.7088588208322927
+    },
+    {
+      "d": 128,
+      "gamma": 2.0,
+      "seed": 0,
+      "method": "spectral_t0.25",
+      "accuracy": 0.717315673828125,
+      "limit": 0.7168744389128823,
+      "finite_angle": 0.7186567289065914
+    },
+    {
+      "d": 128,
+      "gamma": 2.0,
+      "seed": 0,
+      "method": "spectral_t0.5",
+      "accuracy": 0.7271728515625,
+      "limit": 0.7272251100459832,
+      "finite_angle": 0.7284887302813885
+    },
+    {
+      "d": 128,
+      "gamma": 2.0,
+      "seed": 0,
+      "method": "spectral_t1.0",
+      "accuracy": 0.7398681640625,
+      "limit": 0.742195673662304,
+      "finite_angle": 0.7429772400311769
+    },
+    {
+      "d": 128,
+      "gamma": 2.0,
+      "seed": 0,
+      "method": "spectral_t2.5",
+      "accuracy": 0.74835205078125,
+      "limit": 0.7500000007803581,
+      "finite_angle": 0.7508068576672113
+    },
+    {
+      "d": 128,
+      "gamma": 2.0,
+      "seed": 1,
+      "method": "GD",
+      "accuracy": 0.748809814453125,
+      "limit": 0.75,
+      "finite_angle": 0.7488574710619595
+    },
+    {
+      "d": 128,
+      "gamma": 2.0,
+      "seed": 1,
+      "method": "polar",
+      "accuracy": 0.706268310546875,
+      "limit": 0.7049166784623391,
+      "finite_angle": 0.7042843603265458
+    },
+    {
+      "d": 128,
+      "gamma": 2.0,
+      "seed": 1,
+      "method": "Adam_first_eps0",
+      "accuracy": 0.690093994140625,
+      "limit": 0.6908112969663592,
+      "finite_angle": 0.6898124695252909
+    },
+    {
+      "d": 128,
+      "gamma": 2.0,
+      "seed": 1,
+      "method": "spectral_t0.05",
+      "accuracy": 0.7076416015625,
+      "limit": 0.7074239934885104,
+      "finite_angle": 0.7065468376326592
+    },
+    {
+      "d": 128,
+      "gamma": 2.0,
+      "seed": 1,
+      "method": "spectral_t0.25",
+      "accuracy": 0.717193603515625,
+      "limit": 0.7168744389128823,
+      "finite_angle": 0.7158902275577538
+    },
+    {
+      "d": 128,
+      "gamma": 2.0,
+      "seed": 1,
+      "method": "spectral_t0.5",
+      "accuracy": 0.72967529296875,
+      "limit": 0.7272251100459832,
+      "finite_angle": 0.7266118944282813
+    },
+    {
+      "d": 128,
+      "gamma": 2.0,
+      "seed": 1,
+      "method": "spectral_t1.0",
+      "accuracy": 0.742889404296875,
+      "limit": 0.742195673662304,
+      "finite_angle": 0.7411823001222961
+    },
+    {
+      "d": 128,
+      "gamma": 2.0,
+      "seed": 1,
+      "method": "spectral_t2.5",
+      "accuracy": 0.748809814453125,
+      "limit": 0.7500000007803581,
+      "finite_angle": 0.7488574710619595
+    },
+    {
+      "d": 128,
+      "gamma": 2.0,
+      "seed": 2,
+      "method": "GD",
+      "accuracy": 0.747894287109375,
+      "limit": 0.75,
+      "finite_angle": 0.7500353973485352
+    },
+    {
+      "d": 128,
+      "gamma": 2.0,
+      "seed": 2,
+      "method": "polar",
+      "accuracy": 0.700531005859375,
+      "limit": 0.7049166784623391,
+      "finite_angle": 0.7040364120017111
+    },
+    {
+      "d": 128,
+      "gamma": 2.0,
+      "seed": 2,
+      "method": "Adam_first_eps0",
+      "accuracy": 0.6915283203125,
+      "limit": 0.6908112969663592,
+      "finite_angle": 0.6920336264026009
+    },
+    {
+      "d": 128,
+      "gamma": 2.0,
+      "seed": 2,
+      "method": "spectral_t0.05",
+      "accuracy": 0.701751708984375,
+      "limit": 0.7074239934885104,
+      "finite_angle": 0.7064294508936881
+    },
+    {
+      "d": 128,
+      "gamma": 2.0,
+      "seed": 2,
+      "method": "spectral_t0.25",
+      "accuracy": 0.712921142578125,
+      "limit": 0.7168744389128823,
+      "finite_angle": 0.7161000151185382
+    },
+    {
+      "d": 128,
+      "gamma": 2.0,
+      "seed": 2,
+      "method": "spectral_t0.5",
+      "accuracy": 0.723052978515625,
+      "limit": 0.7272251100459832,
+      "finite_angle": 0.7269184308690997
+    },
+    {
+      "d": 128,
+      "gamma": 2.0,
+      "seed": 2,
+      "method": "spectral_t1.0",
+      "accuracy": 0.737213134765625,
+      "limit": 0.742195673662304,
+      "finite_angle": 0.7420891318159661
+    },
+    {
+      "d": 128,
+      "gamma": 2.0,
+      "seed": 2,
+      "method": "spectral_t2.5",
+      "accuracy": 0.747894287109375,
+      "limit": 0.7500000007803581,
+      "finite_angle": 0.7500353973485352
+    },
+    {
+      "d": 128,
+      "gamma": 2.0,
+      "seed": 3,
+      "method": "GD",
+      "accuracy": 0.753143310546875,
+      "limit": 0.75,
+      "finite_angle": 0.7503262748061919
+    },
+    {
+      "d": 128,
+      "gamma": 2.0,
+      "seed": 3,
+      "method": "polar",
+      "accuracy": 0.70574951171875,
+      "limit": 0.7049166784623391,
+      "finite_angle": 0.7048595405127152
+    },
+    {
+      "d": 128,
+      "gamma": 2.0,
+      "seed": 3,
+      "method": "Adam_first_eps0",
+      "accuracy": 0.693389892578125,
+      "limit": 0.6908112969663592,
+      "finite_angle": 0.6911424398302011
+    },
+    {
+      "d": 128,
+      "gamma": 2.0,
+      "seed": 3,
+      "method": "spectral_t0.05",
+      "accuracy": 0.7083740234375,
+      "limit": 0.7074239934885104,
+      "finite_angle": 0.707520038344374
+    },
+    {
+      "d": 128,
+      "gamma": 2.0,
+      "seed": 3,
+      "method": "spectral_t0.25",
+      "accuracy": 0.71728515625,
+      "limit": 0.7168744389128823,
+      "finite_angle": 0.7174317040863821
+    },
+    {
+      "d": 128,
+      "gamma": 2.0,
+      "seed": 3,
+      "method": "spectral_t0.5",
+      "accuracy": 0.728240966796875,
+      "limit": 0.7272251100459832,
+      "finite_angle": 0.7275778654079015
+    },
+    {
+      "d": 128,
+      "gamma": 2.0,
+      "seed": 3,
+      "method": "spectral_t1.0",
+      "accuracy": 0.744140625,
+      "limit": 0.742195673662304,
+      "finite_angle": 0.7426028759014603
+    },
+    {
+      "d": 128,
+      "gamma": 2.0,
+      "seed": 3,
+      "method": "spectral_t2.5",
+      "accuracy": 0.753143310546875,
+      "limit": 0.7500000007803581,
+      "finite_angle": 0.7503262748061919
+    },
+    {
+      "d": 128,
+      "gamma": 2.0,
+      "seed": 4,
+      "method": "GD",
+      "accuracy": 0.74969482421875,
+      "limit": 0.75,
+      "finite_angle": 0.751359071108418
+    },
+    {
+      "d": 128,
+      "gamma": 2.0,
+      "seed": 4,
+      "method": "polar",
+      "accuracy": 0.70703125,
+      "limit": 0.7049166784623391,
+      "finite_angle": 0.7055578761416461
+    },
+    {
+      "d": 128,
+      "gamma": 2.0,
+      "seed": 4,
+      "method": "Adam_first_eps0",
+      "accuracy": 0.690673828125,
+      "limit": 0.6908112969663592,
+      "finite_angle": 0.6920955107069835
+    },
+    {
+      "d": 128,
+      "gamma": 2.0,
+      "seed": 4,
+      "method": "spectral_t0.05",
+      "accuracy": 0.708953857421875,
+      "limit": 0.7074239934885104,
+      "finite_angle": 0.7073113028155191
+    },
+    {
+      "d": 128,
+      "gamma": 2.0,
+      "seed": 4,
+      "method": "spectral_t0.25",
+      "accuracy": 0.71820068359375,
+      "limit": 0.7168744389128823,
+      "finite_angle": 0.7170079026226946
+    },
+    {
+      "d": 128,
+      "gamma": 2.0,
+      "seed": 4,
+      "method": "spectral_t0.5",
+      "accuracy": 0.726654052734375,
+      "limit": 0.7272251100459832,
+      "finite_angle": 0.7277696565571015
+    },
+    {
+      "d": 128,
+      "gamma": 2.0,
+      "seed": 4,
+      "method": "spectral_t1.0",
+      "accuracy": 0.73968505859375,
+      "limit": 0.742195673662304,
+      "finite_angle": 0.7429478696979344
+    },
+    {
+      "d": 128,
+      "gamma": 2.0,
+      "seed": 4,
+      "method": "spectral_t2.5",
+      "accuracy": 0.74969482421875,
+      "limit": 0.7500000007803581,
+      "finite_angle": 0.751359071108418
+    },
+    {
+      "d": 128,
+      "gamma": 4.0,
+      "seed": 0,
+      "method": "GD",
+      "accuracy": 0.6666717529296875,
+      "limit": 0.6666666666666667,
+      "finite_angle": 0.6665952242470532
+    },
+    {
+      "d": 128,
+      "gamma": 4.0,
+      "seed": 0,
+      "method": "polar",
+      "accuracy": 0.6414947509765625,
+      "limit": 0.6395195854085791,
+      "finite_angle": 0.639600607231855
+    },
+    {
+      "d": 128,
+      "gamma": 4.0,
+      "seed": 0,
+      "method": "Adam_first_eps0",
+      "accuracy": 0.6314697265625,
+      "limit": 0.6306226219805875,
+      "finite_angle": 0.6310562539329501
+    },
+    {
+      "d": 128,
+      "gamma": 4.0,
+      "seed": 0,
+      "method": "spectral_t0.05",
+      "accuracy": 0.64404296875,
+      "limit": 0.6410828645924431,
+      "finite_angle": 0.6412506793875029
+    },
+    {
+      "d": 128,
+      "gamma": 4.0,
+      "seed": 0,
+      "method": "spectral_t0.25",
+      "accuracy": 0.6490020751953125,
+      "limit": 0.6469226334310959,
+      "finite_angle": 0.6470613690183076
+    },
+    {
+      "d": 128,
+      "gamma": 4.0,
+      "seed": 0,
+      "method": "spectral_t0.5",
+      "accuracy": 0.652984619140625,
+      "limit": 0.6532185788658863,
+      "finite_angle": 0.6533526637521037
+    },
+    {
+      "d": 128,
+      "gamma": 4.0,
+      "seed": 0,
+      "method": "spectral_t1.0",
+      "accuracy": 0.662841796875,
+      "limit": 0.662124609089022,
+      "finite_angle": 0.6620640565763689
+    },
+    {
+      "d": 128,
+      "gamma": 4.0,
+      "seed": 0,
+      "method": "spectral_t2.5",
+      "accuracy": 0.6666717529296875,
+      "limit": 0.6666666671172067,
+      "finite_angle": 0.6665952242470532
+    },
+    {
+      "d": 128,
+      "gamma": 4.0,
+      "seed": 1,
+      "method": "GD",
+      "accuracy": 0.6660919189453125,
+      "limit": 0.6666666666666667,
+      "finite_angle": 0.6660244437786258
+    },
+    {
+      "d": 128,
+      "gamma": 4.0,
+      "seed": 1,
+      "method": "polar",
+      "accuracy": 0.6384735107421875,
+      "limit": 0.6395195854085791,
+      "finite_angle": 0.6393963913519616
+    },
+    {
+      "d": 128,
+      "gamma": 4.0,
+      "seed": 1,
+      "method": "Adam_first_eps0",
+      "accuracy": 0.6306915283203125,
+      "limit": 0.6306226219805875,
+      "finite_angle": 0.6304189391735852
+    },
+    {
+      "d": 128,
+      "gamma": 4.0,
+      "seed": 1,
+      "method": "spectral_t0.05",
+      "accuracy": 0.640655517578125,
+      "limit": 0.6410828645924431,
+      "finite_angle": 0.641236909802195
+    },
+    {
+      "d": 128,
+      "gamma": 4.0,
+      "seed": 1,
+      "method": "spectral_t0.25",
+      "accuracy": 0.6457366943359375,
+      "limit": 0.6469226334310959,
+      "finite_angle": 0.6466394447581223
+    },
+    {
+      "d": 128,
+      "gamma": 4.0,
+      "seed": 1,
+      "method": "spectral_t0.5",
+      "accuracy": 0.651947021484375,
+      "limit": 0.6532185788658863,
+      "finite_angle": 0.6528043280170482
+    },
+    {
+      "d": 128,
+      "gamma": 4.0,
+      "seed": 1,
+      "method": "spectral_t1.0",
+      "accuracy": 0.6616363525390625,
+      "limit": 0.662124609089022,
+      "finite_angle": 0.6616875434291537
+    },
+    {
+      "d": 128,
+      "gamma": 4.0,
+      "seed": 1,
+      "method": "spectral_t2.5",
+      "accuracy": 0.6660919189453125,
+      "limit": 0.6666666671172067,
+      "finite_angle": 0.6660244437786258
+    },
+    {
+      "d": 128,
+      "gamma": 4.0,
+      "seed": 2,
+      "method": "GD",
+      "accuracy": 0.6671295166015625,
+      "limit": 0.6666666666666667,
+      "finite_angle": 0.6662494520750666
+    },
+    {
+      "d": 128,
+      "gamma": 4.0,
+      "seed": 2,
+      "method": "polar",
+      "accuracy": 0.6408538818359375,
+      "limit": 0.6395195854085791,
+      "finite_angle": 0.6394200963166443
+    },
+    {
+      "d": 128,
+      "gamma": 4.0,
+      "seed": 2,
+      "method": "Adam_first_eps0",
+      "accuracy": 0.6300048828125,
+      "limit": 0.6306226219805875,
+      "finite_angle": 0.6303972521420401
+    },
+    {
+      "d": 128,
+      "gamma": 4.0,
+      "seed": 2,
+      "method": "spectral_t0.05",
+      "accuracy": 0.6409454345703125,
+      "limit": 0.6410828645924431,
+      "finite_angle": 0.6410228146732433
+    },
+    {
+      "d": 128,
+      "gamma": 4.0,
+      "seed": 2,
+      "method": "spectral_t0.25",
+      "accuracy": 0.64727783203125,
+      "limit": 0.6469226334310959,
+      "finite_angle": 0.6467172502700965
+    },
+    {
+      "d": 128,
+      "gamma": 4.0,
+      "seed": 2,
+      "method": "spectral_t0.5",
+      "accuracy": 0.6552581787109375,
+      "limit": 0.6532185788658863,
+      "finite_angle": 0.6529532965074772
+    },
+    {
+      "d": 128,
+      "gamma": 4.0,
+      "seed": 2,
+      "method": "spectral_t1.0",
+      "accuracy": 0.66339111328125,
+      "limit": 0.662124609089022,
+      "finite_angle": 0.6618242264856031
+    },
+    {
+      "d": 128,
+      "gamma": 4.0,
+      "seed": 2,
+      "method": "spectral_t2.5",
+      "accuracy": 0.6671295166015625,
+      "limit": 0.6666666671172067,
+      "finite_angle": 0.6662494520750666
+    },
+    {
+      "d": 128,
+      "gamma": 4.0,
+      "seed": 3,
+      "method": "GD",
+      "accuracy": 0.664459228515625,
+      "limit": 0.6666666666666667,
+      "finite_angle": 0.6655672791411349
+    },
+    {
+      "d": 128,
+      "gamma": 4.0,
+      "seed": 3,
+      "method": "polar",
+      "accuracy": 0.6377716064453125,
+      "limit": 0.6395195854085791,
+      "finite_angle": 0.638954667389021
+    },
+    {
+      "d": 128,
+      "gamma": 4.0,
+      "seed": 3,
+      "method": "Adam_first_eps0",
+      "accuracy": 0.62811279296875,
+      "limit": 0.6306226219805875,
+      "finite_angle": 0.6300456351477322
+    },
+    {
+      "d": 128,
+      "gamma": 4.0,
+      "seed": 3,
+      "method": "spectral_t0.05",
+      "accuracy": 0.6397705078125,
+      "limit": 0.6410828645924431,
+      "finite_angle": 0.6406640397191399
+    },
+    {
+      "d": 128,
+      "gamma": 4.0,
+      "seed": 3,
+      "method": "spectral_t0.25",
+      "accuracy": 0.646392822265625,
+      "limit": 0.6469226334310959,
+      "finite_angle": 0.6462770690338875
+    },
+    {
+      "d": 128,
+      "gamma": 4.0,
+      "seed": 3,
+      "method": "spectral_t0.5",
+      "accuracy": 0.652496337890625,
+      "limit": 0.6532185788658863,
+      "finite_angle": 0.6524856275834665
+    },
+    {
+      "d": 128,
+      "gamma": 4.0,
+      "seed": 3,
+      "method": "spectral_t1.0",
+      "accuracy": 0.659515380859375,
+      "limit": 0.662124609089022,
+      "finite_angle": 0.6612301659276233
+    },
+    {
+      "d": 128,
+      "gamma": 4.0,
+      "seed": 3,
+      "method": "spectral_t2.5",
+      "accuracy": 0.664459228515625,
+      "limit": 0.6666666671172067,
+      "finite_angle": 0.6655672791411349
+    },
+    {
+      "d": 128,
+      "gamma": 4.0,
+      "seed": 4,
+      "method": "GD",
+      "accuracy": 0.6641845703125,
+      "limit": 0.6666666666666667,
+      "finite_angle": 0.6646883893356441
+    },
+    {
+      "d": 128,
+      "gamma": 4.0,
+      "seed": 4,
+      "method": "polar",
+      "accuracy": 0.6411590576171875,
+      "limit": 0.6395195854085791,
+      "finite_angle": 0.6378024456313383
+    },
+    {
+      "d": 128,
+      "gamma": 4.0,
+      "seed": 4,
+      "method": "Adam_first_eps0",
+      "accuracy": 0.627685546875,
+      "limit": 0.6306226219805875,
+      "finite_angle": 0.6287569557820977
+    },
+    {
+      "d": 128,
+      "gamma": 4.0,
+      "seed": 4,
+      "method": "spectral_t0.05",
+      "accuracy": 0.6433868408203125,
+      "limit": 0.6410828645924431,
+      "finite_angle": 0.6393554950578241
+    },
+    {
+      "d": 128,
+      "gamma": 4.0,
+      "seed": 4,
+      "method": "spectral_t0.25",
+      "accuracy": 0.6479949951171875,
+      "limit": 0.6469226334310959,
+      "finite_angle": 0.6454347190063607
+    },
+    {
+      "d": 128,
+      "gamma": 4.0,
+      "seed": 4,
+      "method": "spectral_t0.5",
+      "accuracy": 0.652618408203125,
+      "limit": 0.6532185788658863,
+      "finite_angle": 0.6516377515928578
+    },
+    {
+      "d": 128,
+      "gamma": 4.0,
+      "seed": 4,
+      "method": "spectral_t1.0",
+      "accuracy": 0.660003662109375,
+      "limit": 0.662124609089022,
+      "finite_angle": 0.6603309687479423
+    },
+    {
+      "d": 128,
+      "gamma": 4.0,
+      "seed": 4,
+      "method": "spectral_t2.5",
+      "accuracy": 0.6641845703125,
+      "limit": 0.6666666671172067,
+      "finite_angle": 0.6646883893356441
+    },
+    {
+      "d": 128,
+      "gamma": 8.0,
+      "seed": 0,
+      "method": "GD",
+      "accuracy": 0.6148605346679688,
+      "limit": 0.615026728081308,
+      "finite_angle": 0.6154197324696398
+    },
+    {
+      "d": 128,
+      "gamma": 8.0,
+      "seed": 0,
+      "method": "polar",
+      "accuracy": 0.597320556640625,
+      "limit": 0.5970218673636055,
+      "finite_angle": 0.5973749135000144
+    },
+    {
+      "d": 128,
+      "gamma": 8.0,
+      "seed": 0,
+      "method": "Adam_first_eps0",
+      "accuracy": 0.5924072265625,
+      "limit": 0.5910292682918585,
+      "finite_angle": 0.5915547732191212
+    },
+    {
+      "d": 128,
+      "gamma": 8.0,
+      "seed": 0,
+      "method": "spectral_t0.05",
+      "accuracy": 0.5990066528320312,
+      "limit": 0.5980704758204413,
+      "finite_angle": 0.5985490543469365
+    },
+    {
+      "d": 128,
+      "gamma": 8.0,
+      "seed": 0,
+      "method": "spectral_t0.25",
+      "accuracy": 0.601654052734375,
+      "limit": 0.6019755993486708,
+      "finite_angle": 0.6024265526082901
+    },
+    {
+      "d": 128,
+      "gamma": 8.0,
+      "seed": 0,
+      "method": "spectral_t0.5",
+      "accuracy": 0.60601806640625,
+      "limit": 0.6061636404755736,
+      "finite_angle": 0.6065440934493209
+    },
+    {
+      "d": 128,
+      "gamma": 8.0,
+      "seed": 0,
+      "method": "spectral_t1.0",
+      "accuracy": 0.6122055053710938,
+      "limit": 0.6120463363592891,
+      "finite_angle": 0.6124775764629878
+    },
+    {
+      "d": 128,
+      "gamma": 8.0,
+      "seed": 0,
+      "method": "spectral_t2.5",
+      "accuracy": 0.6148605346679688,
+      "limit": 0.6150267283762556,
+      "finite_angle": 0.6154197324696398
+    },
+    {
+      "d": 128,
+      "gamma": 8.0,
+      "seed": 1,
+      "method": "GD",
+      "accuracy": 0.6158370971679688,
+      "limit": 0.615026728081308,
+      "finite_angle": 0.6145731113976248
+    },
+    {
+      "d": 128,
+      "gamma": 8.0,
+      "seed": 1,
+      "method": "polar",
+      "accuracy": 0.59698486328125,
+      "limit": 0.5970218673636055,
+      "finite_angle": 0.5965626192170382
+    },
+    {
+      "d": 128,
+      "gamma": 8.0,
+      "seed": 1,
+      "method": "Adam_first_eps0",
+      "accuracy": 0.5913772583007812,
+      "limit": 0.5910292682918585,
+      "finite_angle": 0.5907464692816147
+    },
+    {
+      "d": 128,
+      "gamma": 8.0,
+      "seed": 1,
+      "method": "spectral_t0.05",
+      "accuracy": 0.5983428955078125,
+      "limit": 0.5980704758204413,
+      "finite_angle": 0.5974778935055889
+    },
+    {
+      "d": 128,
+      "gamma": 8.0,
+      "seed": 1,
+      "method": "spectral_t0.25",
+      "accuracy": 0.6026077270507812,
+      "limit": 0.6019755993486708,
+      "finite_angle": 0.6016835586033913
+    },
+    {
+      "d": 128,
+      "gamma": 8.0,
+      "seed": 1,
+      "method": "spectral_t0.5",
+      "accuracy": 0.6065216064453125,
+      "limit": 0.6061636404755736,
+      "finite_angle": 0.6058326383963595
+    },
+    {
+      "d": 128,
+      "gamma": 8.0,
+      "seed": 1,
+      "method": "spectral_t1.0",
+      "accuracy": 0.6126251220703125,
+      "limit": 0.6120463363592891,
+      "finite_angle": 0.6116327493754801
+    },
+    {
+      "d": 128,
+      "gamma": 8.0,
+      "seed": 1,
+      "method": "spectral_t2.5",
+      "accuracy": 0.6158370971679688,
+      "limit": 0.6150267283762556,
+      "finite_angle": 0.6145731113976248
+    },
+    {
+      "d": 128,
+      "gamma": 8.0,
+      "seed": 2,
+      "method": "GD",
+      "accuracy": 0.613494873046875,
+      "limit": 0.615026728081308,
+      "finite_angle": 0.6146479937662401
+    },
+    {
+      "d": 128,
+      "gamma": 8.0,
+      "seed": 2,
+      "method": "polar",
+      "accuracy": 0.5959625244140625,
+      "limit": 0.5970218673636055,
+      "finite_angle": 0.597156036867463
+    },
+    {
+      "d": 128,
+      "gamma": 8.0,
+      "seed": 2,
+      "method": "Adam_first_eps0",
+      "accuracy": 0.5923233032226562,
+      "limit": 0.5910292682918585,
+      "finite_angle": 0.5910628385039904
+    },
+    {
+      "d": 128,
+      "gamma": 8.0,
+      "seed": 2,
+      "method": "spectral_t0.05",
+      "accuracy": 0.5967788696289062,
+      "limit": 0.5980704758204413,
+      "finite_angle": 0.5981729004519512
+    },
+    {
+      "d": 128,
+      "gamma": 8.0,
+      "seed": 2,
+      "method": "spectral_t0.25",
+      "accuracy": 0.6006317138671875,
+      "limit": 0.6019755993486708,
+      "finite_angle": 0.6020597295795207
+    },
+    {
+      "d": 128,
+      "gamma": 8.0,
+      "seed": 2,
+      "method": "spectral_t0.5",
+      "accuracy": 0.6058502197265625,
+      "limit": 0.6061636404755736,
+      "finite_angle": 0.606228897764779
+    },
+    {
+      "d": 128,
+      "gamma": 8.0,
+      "seed": 2,
+      "method": "spectral_t1.0",
+      "accuracy": 0.6119461059570312,
+      "limit": 0.6120463363592891,
+      "finite_angle": 0.6118871613732918
+    },
+    {
+      "d": 128,
+      "gamma": 8.0,
+      "seed": 2,
+      "method": "spectral_t2.5",
+      "accuracy": 0.613494873046875,
+      "limit": 0.6150267283762556,
+      "finite_angle": 0.6146479937662401
+    },
+    {
+      "d": 128,
+      "gamma": 8.0,
+      "seed": 3,
+      "method": "GD",
+      "accuracy": 0.6129608154296875,
+      "limit": 0.615026728081308,
+      "finite_angle": 0.6147314769965787
+    },
+    {
+      "d": 128,
+      "gamma": 8.0,
+      "seed": 3,
+      "method": "polar",
+      "accuracy": 0.5972442626953125,
+      "limit": 0.5970218673636055,
+      "finite_angle": 0.5971601546964559
+    },
+    {
+      "d": 128,
+      "gamma": 8.0,
+      "seed": 3,
+      "method": "Adam_first_eps0",
+      "accuracy": 0.5894699096679688,
+      "limit": 0.5910292682918585,
+      "finite_angle": 0.5907851115500339
+    },
+    {
+      "d": 128,
+      "gamma": 8.0,
+      "seed": 3,
+      "method": "spectral_t0.05",
+      "accuracy": 0.5992813110351562,
+      "limit": 0.5980704758204413,
+      "finite_angle": 0.5982705035067297
+    },
+    {
+      "d": 128,
+      "gamma": 8.0,
+      "seed": 3,
+      "method": "spectral_t0.25",
+      "accuracy": 0.6018218994140625,
+      "limit": 0.6019755993486708,
+      "finite_angle": 0.6018965434873206
+    },
+    {
+      "d": 128,
+      "gamma": 8.0,
+      "seed": 3,
+      "method": "spectral_t0.5",
+      "accuracy": 0.6050567626953125,
+      "limit": 0.6061636404755736,
+      "finite_angle": 0.6059668284131955
+    },
+    {
+      "d": 128,
+      "gamma": 8.0,
+      "seed": 3,
+      "method": "spectral_t1.0",
+      "accuracy": 0.6103439331054688,
+      "limit": 0.6120463363592891,
+      "finite_angle": 0.6118823381043021
+    },
+    {
+      "d": 128,
+      "gamma": 8.0,
+      "seed": 3,
+      "method": "spectral_t2.5",
+      "accuracy": 0.6129608154296875,
+      "limit": 0.6150267283762556,
+      "finite_angle": 0.6147314769965787
+    },
+    {
+      "d": 128,
+      "gamma": 8.0,
+      "seed": 4,
+      "method": "GD",
+      "accuracy": 0.616851806640625,
+      "limit": 0.615026728081308,
+      "finite_angle": 0.6158936042412501
+    },
+    {
+      "d": 128,
+      "gamma": 8.0,
+      "seed": 4,
+      "method": "polar",
+      "accuracy": 0.5960769653320312,
+      "limit": 0.5970218673636055,
+      "finite_angle": 0.5977989559487467
+    },
+    {
+      "d": 128,
+      "gamma": 8.0,
+      "seed": 4,
+      "method": "Adam_first_eps0",
+      "accuracy": 0.5919036865234375,
+      "limit": 0.5910292682918585,
+      "finite_angle": 0.5916570161084996
+    },
+    {
+      "d": 128,
+      "gamma": 8.0,
+      "seed": 4,
+      "method": "spectral_t0.05",
+      "accuracy": 0.59759521484375,
+      "limit": 0.5980704758204413,
+      "finite_angle": 0.5989417210692387
+    },
+    {
+      "d": 128,
+      "gamma": 8.0,
+      "seed": 4,
+      "method": "spectral_t0.25",
+      "accuracy": 0.6012191772460938,
+      "limit": 0.6019755993486708,
+      "finite_angle": 0.6028771034649443
+    },
+    {
+      "d": 128,
+      "gamma": 8.0,
+      "seed": 4,
+      "method": "spectral_t0.5",
+      "accuracy": 0.6057205200195312,
+      "limit": 0.6061636404755736,
+      "finite_angle": 0.6072443626520745
+    },
+    {
+      "d": 128,
+      "gamma": 8.0,
+      "seed": 4,
+      "method": "spectral_t1.0",
+      "accuracy": 0.6133499145507812,
+      "limit": 0.6120463363592891,
+      "finite_angle": 0.6129435434666772
+    },
+    {
+      "d": 128,
+      "gamma": 8.0,
+      "seed": 4,
+      "method": "spectral_t2.5",
+      "accuracy": 0.616851806640625,
+      "limit": 0.6150267283762556,
+      "finite_angle": 0.6158936042412501
+    },
+    {
+      "d": 256,
+      "gamma": 1.25,
+      "seed": 0,
+      "method": "GD",
+      "accuracy": 0.85540771484375,
+      "limit": 0.8524163823495667,
+      "finite_angle": 0.8534565521660452
+    },
+    {
+      "d": 256,
+      "gamma": 1.25,
+      "seed": 0,
+      "method": "polar",
+      "accuracy": 0.77347412109375,
+      "limit": 0.7744161120389299,
+      "finite_angle": 0.7748834011634261
+    },
+    {
+      "d": 256,
+      "gamma": 1.25,
+      "seed": 0,
+      "method": "Adam_first_eps0",
+      "accuracy": 0.752392578125,
+      "limit": 0.7529591212220526,
+      "finite_angle": 0.7536323859694926
+    },
+    {
+      "d": 256,
+      "gamma": 1.25,
+      "seed": 0,
+      "method": "spectral_t0.05",
+      "accuracy": 0.77774658203125,
+      "limit": 0.778330326945883,
+      "finite_angle": 0.77883028607054
+    },
+    {
+      "d": 256,
+      "gamma": 1.25,
+      "seed": 0,
+      "method": "spectral_t0.25",
+      "accuracy": 0.79332275390625,
+      "limit": 0.7934101540997962,
+      "finite_angle": 0.7938592720576576
+    },
+    {
+      "d": 256,
+      "gamma": 1.25,
+      "seed": 0,
+      "method": "spectral_t0.5",
+      "accuracy": 0.81103515625,
+      "limit": 0.8106334886485091,
+      "finite_angle": 0.8112672460844005
+    },
+    {
+      "d": 256,
+      "gamma": 1.25,
+      "seed": 0,
+      "method": "spectral_t1.0",
+      "accuracy": 0.840478515625,
+      "limit": 0.8373274381449259,
+      "finite_angle": 0.8381659858977828
+    },
+    {
+      "d": 256,
+      "gamma": 1.25,
+      "seed": 0,
+      "method": "spectral_t2.5",
+      "accuracy": 0.85540771484375,
+      "limit": 0.852416383910283,
+      "finite_angle": 0.8534565521660452
+    },
+    {
+      "d": 256,
+      "gamma": 1.25,
+      "seed": 1,
+      "method": "GD",
+      "accuracy": 0.8489501953125,
+      "limit": 0.8524163823495667,
+      "finite_angle": 0.8508710496602645
+    },
+    {
+      "d": 256,
+      "gamma": 1.25,
+      "seed": 1,
+      "method": "polar",
+      "accuracy": 0.77249755859375,
+      "limit": 0.7744161120389299,
+      "finite_angle": 0.7728572068414061
+    },
+    {
+      "d": 256,
+      "gamma": 1.25,
+      "seed": 1,
+      "method": "Adam_first_eps0",
+      "accuracy": 0.75244140625,
+      "limit": 0.7529591212220526,
+      "finite_angle": 0.7523919679399936
+    },
+    {
+      "d": 256,
+      "gamma": 1.25,
+      "seed": 1,
+      "method": "spectral_t0.05",
+      "accuracy": 0.77685546875,
+      "limit": 0.778330326945883,
+      "finite_angle": 0.7769793671011392
+    },
+    {
+      "d": 256,
+      "gamma": 1.25,
+      "seed": 1,
+      "method": "spectral_t0.25",
+      "accuracy": 0.79122314453125,
+      "limit": 0.7934101540997962,
+      "finite_angle": 0.7924648242264005
+    },
+    {
+      "d": 256,
+      "gamma": 1.25,
+      "seed": 1,
+      "method": "spectral_t0.5",
+      "accuracy": 0.80782470703125,
+      "limit": 0.8106334886485091,
+      "finite_angle": 0.8094168111689009
+    },
+    {
+      "d": 256,
+      "gamma": 1.25,
+      "seed": 1,
+      "method": "spectral_t1.0",
+      "accuracy": 0.83455810546875,
+      "limit": 0.8373274381449259,
+      "finite_angle": 0.8358981157182851
+    },
+    {
+      "d": 256,
+      "gamma": 1.25,
+      "seed": 1,
+      "method": "spectral_t2.5",
+      "accuracy": 0.8489501953125,
+      "limit": 0.852416383910283,
+      "finite_angle": 0.8508710496602645
+    },
+    {
+      "d": 256,
+      "gamma": 1.25,
+      "seed": 2,
+      "method": "GD",
+      "accuracy": 0.85107421875,
+      "limit": 0.8524163823495667,
+      "finite_angle": 0.8522150355074243
+    },
+    {
+      "d": 256,
+      "gamma": 1.25,
+      "seed": 2,
+      "method": "polar",
+      "accuracy": 0.77373046875,
+      "limit": 0.7744161120389299,
+      "finite_angle": 0.7747258643492898
+    },
+    {
+      "d": 256,
+      "gamma": 1.25,
+      "seed": 2,
+      "method": "Adam_first_eps0",
+      "accuracy": 0.7503173828125,
+      "limit": 0.7529591212220526,
+      "finite_angle": 0.7526995436628947
+    },
+    {
+      "d": 256,
+      "gamma": 1.25,
+      "seed": 2,
+      "method": "spectral_t0.05",
+      "accuracy": 0.777294921875,
+      "limit": 0.778330326945883,
+      "finite_angle": 0.7787642225637554
+    },
+    {
+      "d": 256,
+      "gamma": 1.25,
+      "seed": 2,
+      "method": "spectral_t0.25",
+      "accuracy": 0.791357421875,
+      "limit": 0.7934101540997962,
+      "finite_angle": 0.7932123957820914
+    },
+    {
+      "d": 256,
+      "gamma": 1.25,
+      "seed": 2,
+      "method": "spectral_t0.5",
+      "accuracy": 0.80831298828125,
+      "limit": 0.8106334886485091,
+      "finite_angle": 0.8106390775869372
+    },
+    {
+      "d": 256,
+      "gamma": 1.25,
+      "seed": 2,
+      "method": "spectral_t1.0",
+      "accuracy": 0.8356689453125,
+      "limit": 0.8373274381449259,
+      "finite_angle": 0.8370520329147919
+    },
+    {
+      "d": 256,
+      "gamma": 1.25,
+      "seed": 2,
+      "method": "spectral_t2.5",
+      "accuracy": 0.85107421875,
+      "limit": 0.852416383910283,
+      "finite_angle": 0.8522150355074243
+    },
+    {
+      "d": 256,
+      "gamma": 1.25,
+      "seed": 3,
+      "method": "GD",
+      "accuracy": 0.85328369140625,
+      "limit": 0.8524163823495667,
+      "finite_angle": 0.8527307142966649
+    },
+    {
+      "d": 256,
+      "gamma": 1.25,
+      "seed": 3,
+      "method": "polar",
+      "accuracy": 0.77359619140625,
+      "limit": 0.7744161120389299,
+      "finite_angle": 0.7744242062832908
+    },
+    {
+      "d": 256,
+      "gamma": 1.25,
+      "seed": 3,
+      "method": "Adam_first_eps0",
+      "accuracy": 0.751953125,
+      "limit": 0.7529591212220526,
+      "finite_angle": 0.7529556895754468
+    },
+    {
+      "d": 256,
+      "gamma": 1.25,
+      "seed": 3,
+      "method": "spectral_t0.05",
+      "accuracy": 0.7764892578125,
+      "limit": 0.778330326945883,
+      "finite_angle": 0.7778558928021013
+    },
+    {
+      "d": 256,
+      "gamma": 1.25,
+      "seed": 3,
+      "method": "spectral_t0.25",
+      "accuracy": 0.79412841796875,
+      "limit": 0.7934101540997962,
+      "finite_angle": 0.7937191565432207
+    },
+    {
+      "d": 256,
+      "gamma": 1.25,
+      "seed": 3,
+      "method": "spectral_t0.5",
+      "accuracy": 0.81124267578125,
+      "limit": 0.8106334886485091,
+      "finite_angle": 0.8109063532830814
+    },
+    {
+      "d": 256,
+      "gamma": 1.25,
+      "seed": 3,
+      "method": "spectral_t1.0",
+      "accuracy": 0.83917236328125,
+      "limit": 0.8373274381449259,
+      "finite_angle": 0.8375374505750585
+    },
+    {
+      "d": 256,
+      "gamma": 1.25,
+      "seed": 3,
+      "method": "spectral_t2.5",
+      "accuracy": 0.85328369140625,
+      "limit": 0.852416383910283,
+      "finite_angle": 0.8527307142966649
+    },
+    {
+      "d": 256,
+      "gamma": 1.25,
+      "seed": 4,
+      "method": "GD",
+      "accuracy": 0.8552001953125,
+      "limit": 0.8524163823495667,
+      "finite_angle": 0.8543977573167059
+    },
+    {
+      "d": 256,
+      "gamma": 1.25,
+      "seed": 4,
+      "method": "polar",
+      "accuracy": 0.77576904296875,
+      "limit": 0.7744161120389299,
+      "finite_angle": 0.7756173339096473
+    },
+    {
+      "d": 256,
+      "gamma": 1.25,
+      "seed": 4,
+      "method": "Adam_first_eps0",
+      "accuracy": 0.7534423828125,
+      "limit": 0.7529591212220526,
+      "finite_angle": 0.754245986981639
+    },
+    {
+      "d": 256,
+      "gamma": 1.25,
+      "seed": 4,
+      "method": "spectral_t0.05",
+      "accuracy": 0.78004150390625,
+      "limit": 0.778330326945883,
+      "finite_angle": 0.7795915792212147
+    },
+    {
+      "d": 256,
+      "gamma": 1.25,
+      "seed": 4,
+      "method": "spectral_t0.25",
+      "accuracy": 0.7957763671875,
+      "limit": 0.7934101540997962,
+      "finite_angle": 0.7950838220297232
+    },
+    {
+      "d": 256,
+      "gamma": 1.25,
+      "seed": 4,
+      "method": "spectral_t0.5",
+      "accuracy": 0.81312255859375,
+      "limit": 0.8106334886485091,
+      "finite_angle": 0.812400137104144
+    },
+    {
+      "d": 256,
+      "gamma": 1.25,
+      "seed": 4,
+      "method": "spectral_t1.0",
+      "accuracy": 0.8388916015625,
+      "limit": 0.8373274381449259,
+      "finite_angle": 0.8393178339899339
+    },
+    {
+      "d": 256,
+      "gamma": 1.25,
+      "seed": 4,
+      "method": "spectral_t2.5",
+      "accuracy": 0.8552001953125,
+      "limit": 0.852416383910283,
+      "finite_angle": 0.854397757316706
+    },
+    {
+      "d": 256,
+      "gamma": 2.0,
+      "seed": 0,
+      "method": "GD",
+      "accuracy": 0.7485122680664062,
+      "limit": 0.75,
+      "finite_angle": 0.7495472839135788
+    },
+    {
+      "d": 256,
+      "gamma": 2.0,
+      "seed": 0,
+      "method": "polar",
+      "accuracy": 0.7030792236328125,
+      "limit": 0.7049166784623391,
+      "finite_angle": 0.7050093298899085
+    },
+    {
+      "d": 256,
+      "gamma": 2.0,
+      "seed": 0,
+      "method": "Adam_first_eps0",
+      "accuracy": 0.6904525756835938,
+      "limit": 0.6908112969663592,
+      "finite_angle": 0.6909481615824931
+    },
+    {
+      "d": 256,
+      "gamma": 2.0,
+      "seed": 0,
+      "method": "spectral_t0.05",
+      "accuracy": 0.7048797607421875,
+      "limit": 0.7074239934885104,
+      "finite_angle": 0.7071244489548383
+    },
+    {
+      "d": 256,
+      "gamma": 2.0,
+      "seed": 0,
+      "method": "spectral_t0.25",
+      "accuracy": 0.7149810791015625,
+      "limit": 0.7168744389128823,
+      "finite_angle": 0.7166786573781481
+    },
+    {
+      "d": 256,
+      "gamma": 2.0,
+      "seed": 0,
+      "method": "spectral_t0.5",
+      "accuracy": 0.7256317138671875,
+      "limit": 0.7272251100459832,
+      "finite_angle": 0.727027023701335
+    },
+    {
+      "d": 256,
+      "gamma": 2.0,
+      "seed": 0,
+      "method": "spectral_t1.0",
+      "accuracy": 0.7398300170898438,
+      "limit": 0.742195673662304,
+      "finite_angle": 0.7418283108934798
+    },
+    {
+      "d": 256,
+      "gamma": 2.0,
+      "seed": 0,
+      "method": "spectral_t2.5",
+      "accuracy": 0.7485122680664062,
+      "limit": 0.7500000007803581,
+      "finite_angle": 0.7495472839135788
+    },
+    {
+      "d": 256,
+      "gamma": 2.0,
+      "seed": 1,
+      "method": "GD",
+      "accuracy": 0.7512054443359375,
+      "limit": 0.75,
+      "finite_angle": 0.7505418557461325
+    },
+    {
+      "d": 256,
+      "gamma": 2.0,
+      "seed": 1,
+      "method": "polar",
+      "accuracy": 0.704742431640625,
+      "limit": 0.7049166784623391,
+      "finite_angle": 0.7052616307187862
+    },
+    {
+      "d": 256,
+      "gamma": 2.0,
+      "seed": 1,
+      "method": "Adam_first_eps0",
+      "accuracy": 0.6923370361328125,
+      "limit": 0.6908112969663592,
+      "finite_angle": 0.6915456571977234
+    },
+    {
+      "d": 256,
+      "gamma": 2.0,
+      "seed": 1,
+      "method": "spectral_t0.05",
+      "accuracy": 0.7076034545898438,
+      "limit": 0.7074239934885104,
+      "finite_angle": 0.7080973206722255
+    },
+    {
+      "d": 256,
+      "gamma": 2.0,
+      "seed": 1,
+      "method": "spectral_t0.25",
+      "accuracy": 0.7175979614257812,
+      "limit": 0.7168744389128823,
+      "finite_angle": 0.7174275014878282
+    },
+    {
+      "d": 256,
+      "gamma": 2.0,
+      "seed": 1,
+      "method": "spectral_t0.5",
+      "accuracy": 0.72808837890625,
+      "limit": 0.7272251100459832,
+      "finite_angle": 0.7278398509429657
+    },
+    {
+      "d": 256,
+      "gamma": 2.0,
+      "seed": 1,
+      "method": "spectral_t1.0",
+      "accuracy": 0.7424392700195312,
+      "limit": 0.742195673662304,
+      "finite_angle": 0.7428140964743191
+    },
+    {
+      "d": 256,
+      "gamma": 2.0,
+      "seed": 1,
+      "method": "spectral_t2.5",
+      "accuracy": 0.7512054443359375,
+      "limit": 0.7500000007803581,
+      "finite_angle": 0.7505418557461325
+    },
+    {
+      "d": 256,
+      "gamma": 2.0,
+      "seed": 2,
+      "method": "GD",
+      "accuracy": 0.7493209838867188,
+      "limit": 0.75,
+      "finite_angle": 0.7505712093251905
+    },
+    {
+      "d": 256,
+      "gamma": 2.0,
+      "seed": 2,
+      "method": "polar",
+      "accuracy": 0.7046356201171875,
+      "limit": 0.7049166784623391,
+      "finite_angle": 0.7052938962526525
+    },
+    {
+      "d": 256,
+      "gamma": 2.0,
+      "seed": 2,
+      "method": "Adam_first_eps0",
+      "accuracy": 0.6916656494140625,
+      "limit": 0.6908112969663592,
+      "finite_angle": 0.6914144041464576
+    },
+    {
+      "d": 256,
+      "gamma": 2.0,
+      "seed": 2,
+      "method": "spectral_t0.05",
+      "accuracy": 0.7073287963867188,
+      "limit": 0.7074239934885104,
+      "finite_angle": 0.7081494407553466
+    },
+    {
+      "d": 256,
+      "gamma": 2.0,
+      "seed": 2,
+      "method": "spectral_t0.25",
+      "accuracy": 0.7171173095703125,
+      "limit": 0.7168744389128823,
+      "finite_angle": 0.7173646969922708
+    },
+    {
+      "d": 256,
+      "gamma": 2.0,
+      "seed": 2,
+      "method": "spectral_t0.5",
+      "accuracy": 0.7263259887695312,
+      "limit": 0.7272251100459832,
+      "finite_angle": 0.7277618922193229
+    },
+    {
+      "d": 256,
+      "gamma": 2.0,
+      "seed": 2,
+      "method": "spectral_t1.0",
+      "accuracy": 0.741180419921875,
+      "limit": 0.742195673662304,
+      "finite_angle": 0.7427163042090518
+    },
+    {
+      "d": 256,
+      "gamma": 2.0,
+      "seed": 2,
+      "method": "spectral_t2.5",
+      "accuracy": 0.7493209838867188,
+      "limit": 0.7500000007803581,
+      "finite_angle": 0.7505712093251905
+    },
+    {
+      "d": 256,
+      "gamma": 2.0,
+      "seed": 3,
+      "method": "GD",
+      "accuracy": 0.7524337768554688,
+      "limit": 0.75,
+      "finite_angle": 0.7512659358718655
+    },
+    {
+      "d": 256,
+      "gamma": 2.0,
+      "seed": 3,
+      "method": "polar",
+      "accuracy": 0.7052154541015625,
+      "limit": 0.7049166784623391,
+      "finite_angle": 0.7057186167442355
+    },
+    {
+      "d": 256,
+      "gamma": 2.0,
+      "seed": 3,
+      "method": "Adam_first_eps0",
+      "accuracy": 0.6923980712890625,
+      "limit": 0.6908112969663592,
+      "finite_angle": 0.6922137592361772
+    },
+    {
+      "d": 256,
+      "gamma": 2.0,
+      "seed": 3,
+      "method": "spectral_t0.05",
+      "accuracy": 0.7084426879882812,
+      "limit": 0.7074239934885104,
+      "finite_angle": 0.7079856921883907
+    },
+    {
+      "d": 256,
+      "gamma": 2.0,
+      "seed": 3,
+      "method": "spectral_t0.25",
+      "accuracy": 0.7183761596679688,
+      "limit": 0.7168744389128823,
+      "finite_angle": 0.7177311196528542
+    },
+    {
+      "d": 256,
+      "gamma": 2.0,
+      "seed": 3,
+      "method": "spectral_t0.5",
+      "accuracy": 0.7289352416992188,
+      "limit": 0.7272251100459832,
+      "finite_angle": 0.7283489653556492
+    },
+    {
+      "d": 256,
+      "gamma": 2.0,
+      "seed": 3,
+      "method": "spectral_t1.0",
+      "accuracy": 0.7439422607421875,
+      "limit": 0.742195673662304,
+      "finite_angle": 0.7433440398478852
+    },
+    {
+      "d": 256,
+      "gamma": 2.0,
+      "seed": 3,
+      "method": "spectral_t2.5",
+      "accuracy": 0.7524337768554688,
+      "limit": 0.7500000007803581,
+      "finite_angle": 0.7512659358718655
+    },
+    {
+      "d": 256,
+      "gamma": 2.0,
+      "seed": 4,
+      "method": "GD",
+      "accuracy": 0.749053955078125,
+      "limit": 0.75,
+      "finite_angle": 0.7494413379243772
+    },
+    {
+      "d": 256,
+      "gamma": 2.0,
+      "seed": 4,
+      "method": "polar",
+      "accuracy": 0.7019882202148438,
+      "limit": 0.7049166784623391,
+      "finite_angle": 0.7040369899970946
+    },
+    {
+      "d": 256,
+      "gamma": 2.0,
+      "seed": 4,
+      "method": "Adam_first_eps0",
+      "accuracy": 0.6896438598632812,
+      "limit": 0.6908112969663592,
+      "finite_angle": 0.6906736832333462
+    },
+    {
+      "d": 256,
+      "gamma": 2.0,
+      "seed": 4,
+      "method": "spectral_t0.05",
+      "accuracy": 0.7051620483398438,
+      "limit": 0.7074239934885104,
+      "finite_angle": 0.7066984976977624
+    },
+    {
+      "d": 256,
+      "gamma": 2.0,
+      "seed": 4,
+      "method": "spectral_t0.25",
+      "accuracy": 0.7157211303710938,
+      "limit": 0.7168744389128823,
+      "finite_angle": 0.7162535363570188
+    },
+    {
+      "d": 256,
+      "gamma": 2.0,
+      "seed": 4,
+      "method": "spectral_t0.5",
+      "accuracy": 0.7262954711914062,
+      "limit": 0.7272251100459832,
+      "finite_angle": 0.7267467399892671
+    },
+    {
+      "d": 256,
+      "gamma": 2.0,
+      "seed": 4,
+      "method": "spectral_t1.0",
+      "accuracy": 0.7419281005859375,
+      "limit": 0.742195673662304,
+      "finite_angle": 0.7416582798577674
+    },
+    {
+      "d": 256,
+      "gamma": 2.0,
+      "seed": 4,
+      "method": "spectral_t2.5",
+      "accuracy": 0.749053955078125,
+      "limit": 0.7500000007803581,
+      "finite_angle": 0.7494413379243773
+    },
+    {
+      "d": 256,
+      "gamma": 4.0,
+      "seed": 0,
+      "method": "GD",
+      "accuracy": 0.6666450500488281,
+      "limit": 0.6666666666666667,
+      "finite_angle": 0.6663242613824853
+    },
+    {
+      "d": 256,
+      "gamma": 4.0,
+      "seed": 0,
+      "method": "polar",
+      "accuracy": 0.6386871337890625,
+      "limit": 0.6395195854085791,
+      "finite_angle": 0.6393229878192244
+    },
+    {
+      "d": 256,
+      "gamma": 4.0,
+      "seed": 0,
+      "method": "Adam_first_eps0",
+      "accuracy": 0.6299400329589844,
+      "limit": 0.6306226219805875,
+      "finite_angle": 0.6305629116700942
+    },
+    {
+      "d": 256,
+      "gamma": 4.0,
+      "seed": 0,
+      "method": "spectral_t0.05",
+      "accuracy": 0.6403350830078125,
+      "limit": 0.6410828645924431,
+      "finite_angle": 0.6409243047389672
+    },
+    {
+      "d": 256,
+      "gamma": 4.0,
+      "seed": 0,
+      "method": "spectral_t0.25",
+      "accuracy": 0.6463241577148438,
+      "limit": 0.6469226334310959,
+      "finite_angle": 0.6466927637024669
+    },
+    {
+      "d": 256,
+      "gamma": 4.0,
+      "seed": 0,
+      "method": "spectral_t0.5",
+      "accuracy": 0.6528739929199219,
+      "limit": 0.6532185788658863,
+      "finite_angle": 0.6529114432679539
+    },
+    {
+      "d": 256,
+      "gamma": 4.0,
+      "seed": 0,
+      "method": "spectral_t1.0",
+      "accuracy": 0.6619300842285156,
+      "limit": 0.662124609089022,
+      "finite_angle": 0.6618203153127762
+    },
+    {
+      "d": 256,
+      "gamma": 4.0,
+      "seed": 0,
+      "method": "spectral_t2.5",
+      "accuracy": 0.6666450500488281,
+      "limit": 0.6666666671172067,
+      "finite_angle": 0.6663242613824852
+    },
+    {
+      "d": 256,
+      "gamma": 4.0,
+      "seed": 1,
+      "method": "GD",
+      "accuracy": 0.6667671203613281,
+      "limit": 0.6666666666666667,
+      "finite_angle": 0.6667853262183375
+    },
+    {
+      "d": 256,
+      "gamma": 4.0,
+      "seed": 1,
+      "method": "polar",
+      "accuracy": 0.6402740478515625,
+      "limit": 0.6395195854085791,
+      "finite_angle": 0.6395608152172143
+    },
+    {
+      "d": 256,
+      "gamma": 4.0,
+      "seed": 1,
+      "method": "Adam_first_eps0",
+      "accuracy": 0.6303901672363281,
+      "limit": 0.6306226219805875,
+      "finite_angle": 0.6307785400931103
+    },
+    {
+      "d": 256,
+      "gamma": 4.0,
+      "seed": 1,
+      "method": "spectral_t0.05",
+      "accuracy": 0.6414756774902344,
+      "limit": 0.6410828645924431,
+      "finite_angle": 0.6410811288419521
+    },
+    {
+      "d": 256,
+      "gamma": 4.0,
+      "seed": 1,
+      "method": "spectral_t0.25",
+      "accuracy": 0.6472625732421875,
+      "limit": 0.6469226334310959,
+      "finite_angle": 0.6470256905413148
+    },
+    {
+      "d": 256,
+      "gamma": 4.0,
+      "seed": 1,
+      "method": "spectral_t0.5",
+      "accuracy": 0.6533927917480469,
+      "limit": 0.6532185788658863,
+      "finite_angle": 0.6532920668485496
+    },
+    {
+      "d": 256,
+      "gamma": 4.0,
+      "seed": 1,
+      "method": "spectral_t1.0",
+      "accuracy": 0.6624336242675781,
+      "limit": 0.662124609089022,
+      "finite_angle": 0.6622660246642589
+    },
+    {
+      "d": 256,
+      "gamma": 4.0,
+      "seed": 1,
+      "method": "spectral_t2.5",
+      "accuracy": 0.6667671203613281,
+      "limit": 0.6666666671172067,
+      "finite_angle": 0.6667853262183375
+    },
+    {
+      "d": 256,
+      "gamma": 4.0,
+      "seed": 2,
+      "method": "GD",
+      "accuracy": 0.6670379638671875,
+      "limit": 0.6666666666666667,
+      "finite_angle": 0.6667015045125632
+    },
+    {
+      "d": 256,
+      "gamma": 4.0,
+      "seed": 2,
+      "method": "polar",
+      "accuracy": 0.64105224609375,
+      "limit": 0.6395195854085791,
+      "finite_angle": 0.6397140610273022
+    },
+    {
+      "d": 256,
+      "gamma": 4.0,
+      "seed": 2,
+      "method": "Adam_first_eps0",
+      "accuracy": 0.6317977905273438,
+      "limit": 0.6306226219805875,
+      "finite_angle": 0.63065401892787
+    },
+    {
+      "d": 256,
+      "gamma": 4.0,
+      "seed": 2,
+      "method": "spectral_t0.05",
+      "accuracy": 0.6426124572753906,
+      "limit": 0.6410828645924431,
+      "finite_angle": 0.6414375988142458
+    },
+    {
+      "d": 256,
+      "gamma": 4.0,
+      "seed": 2,
+      "method": "spectral_t0.25",
+      "accuracy": 0.6476974487304688,
+      "limit": 0.6469226334310959,
+      "finite_angle": 0.647000966778835
+    },
+    {
+      "d": 256,
+      "gamma": 4.0,
+      "seed": 2,
+      "method": "spectral_t0.5",
+      "accuracy": 0.6541290283203125,
+      "limit": 0.6532185788658863,
+      "finite_angle": 0.6533351608463493
+    },
+    {
+      "d": 256,
+      "gamma": 4.0,
+      "seed": 2,
+      "method": "spectral_t1.0",
+      "accuracy": 0.6629753112792969,
+      "limit": 0.662124609089022,
+      "finite_angle": 0.6622110167932669
+    },
+    {
+      "d": 256,
+      "gamma": 4.0,
+      "seed": 2,
+      "method": "spectral_t2.5",
+      "accuracy": 0.6670379638671875,
+      "limit": 0.6666666671172067,
+      "finite_angle": 0.6667015045125632
+    },
+    {
+      "d": 256,
+      "gamma": 4.0,
+      "seed": 3,
+      "method": "GD",
+      "accuracy": 0.6659698486328125,
+      "limit": 0.6666666666666667,
+      "finite_angle": 0.6663970171920206
+    },
+    {
+      "d": 256,
+      "gamma": 4.0,
+      "seed": 3,
+      "method": "polar",
+      "accuracy": 0.6382255554199219,
+      "limit": 0.6395195854085791,
+      "finite_angle": 0.6392959227326309
+    },
+    {
+      "d": 256,
+      "gamma": 4.0,
+      "seed": 3,
+      "method": "Adam_first_eps0",
+      "accuracy": 0.6295242309570312,
+      "limit": 0.6306226219805875,
+      "finite_angle": 0.6304076101606908
+    },
+    {
+      "d": 256,
+      "gamma": 4.0,
+      "seed": 3,
+      "method": "spectral_t0.05",
+      "accuracy": 0.6399803161621094,
+      "limit": 0.6410828645924431,
+      "finite_angle": 0.6410310322498607
+    },
+    {
+      "d": 256,
+      "gamma": 4.0,
+      "seed": 3,
+      "method": "spectral_t0.25",
+      "accuracy": 0.6458053588867188,
+      "limit": 0.6469226334310959,
+      "finite_angle": 0.6468154726484636
+    },
+    {
+      "d": 256,
+      "gamma": 4.0,
+      "seed": 3,
+      "method": "spectral_t0.5",
+      "accuracy": 0.6520347595214844,
+      "limit": 0.6532185788658863,
+      "finite_angle": 0.6530568457017951
+    },
+    {
+      "d": 256,
+      "gamma": 4.0,
+      "seed": 3,
+      "method": "spectral_t1.0",
+      "accuracy": 0.6616592407226562,
+      "limit": 0.662124609089022,
+      "finite_angle": 0.6619156212772852
+    },
+    {
+      "d": 256,
+      "gamma": 4.0,
+      "seed": 3,
+      "method": "spectral_t2.5",
+      "accuracy": 0.6659698486328125,
+      "limit": 0.6666666671172067,
+      "finite_angle": 0.6663970171920206
+    },
+    {
+      "d": 256,
+      "gamma": 4.0,
+      "seed": 4,
+      "method": "GD",
+      "accuracy": 0.66522216796875,
+      "limit": 0.6666666666666667,
+      "finite_angle": 0.6664638283923373
+    },
+    {
+      "d": 256,
+      "gamma": 4.0,
+      "seed": 4,
+      "method": "polar",
+      "accuracy": 0.638153076171875,
+      "limit": 0.6395195854085791,
+      "finite_angle": 0.6394594239943039
+    },
+    {
+      "d": 256,
+      "gamma": 4.0,
+      "seed": 4,
+      "method": "Adam_first_eps0",
+      "accuracy": 0.6301155090332031,
+      "limit": 0.6306226219805875,
+      "finite_angle": 0.6304285891094793
+    },
+    {
+      "d": 256,
+      "gamma": 4.0,
+      "seed": 4,
+      "method": "spectral_t0.05",
+      "accuracy": 0.6401405334472656,
+      "limit": 0.6410828645924431,
+      "finite_angle": 0.6412958561056321
+    },
+    {
+      "d": 256,
+      "gamma": 4.0,
+      "seed": 4,
+      "method": "spectral_t0.25",
+      "accuracy": 0.6454544067382812,
+      "limit": 0.6469226334310959,
+      "finite_angle": 0.6471100429593734
+    },
+    {
+      "d": 256,
+      "gamma": 4.0,
+      "seed": 4,
+      "method": "spectral_t0.5",
+      "accuracy": 0.6518898010253906,
+      "limit": 0.6532185788658863,
+      "finite_angle": 0.6532575842597451
+    },
+    {
+      "d": 256,
+      "gamma": 4.0,
+      "seed": 4,
+      "method": "spectral_t1.0",
+      "accuracy": 0.6599617004394531,
+      "limit": 0.662124609089022,
+      "finite_angle": 0.6620057493514764
+    },
+    {
+      "d": 256,
+      "gamma": 4.0,
+      "seed": 4,
+      "method": "spectral_t2.5",
+      "accuracy": 0.66522216796875,
+      "limit": 0.6666666671172067,
+      "finite_angle": 0.6664638283923373
+    },
+    {
+      "d": 256,
+      "gamma": 8.0,
+      "seed": 0,
+      "method": "GD",
+      "accuracy": 0.6162776947021484,
+      "limit": 0.615026728081308,
+      "finite_angle": 0.6149219988225366
+    },
+    {
+      "d": 256,
+      "gamma": 8.0,
+      "seed": 0,
+      "method": "polar",
+      "accuracy": 0.5979194641113281,
+      "limit": 0.5970218673636055,
+      "finite_angle": 0.5969753607370978
+    },
+    {
+      "d": 256,
+      "gamma": 8.0,
+      "seed": 0,
+      "method": "Adam_first_eps0",
+      "accuracy": 0.5915794372558594,
+      "limit": 0.5910292682918585,
+      "finite_angle": 0.5910683262640674
+    },
+    {
+      "d": 256,
+      "gamma": 8.0,
+      "seed": 0,
+      "method": "spectral_t0.05",
+      "accuracy": 0.5989913940429688,
+      "limit": 0.5980704758204413,
+      "finite_angle": 0.5981007121609032
+    },
+    {
+      "d": 256,
+      "gamma": 8.0,
+      "seed": 0,
+      "method": "spectral_t0.25",
+      "accuracy": 0.6027145385742188,
+      "limit": 0.6019755993486708,
+      "finite_angle": 0.6019803530450673
+    },
+    {
+      "d": 256,
+      "gamma": 8.0,
+      "seed": 0,
+      "method": "spectral_t0.5",
+      "accuracy": 0.6077079772949219,
+      "limit": 0.6061636404755736,
+      "finite_angle": 0.6061587314375116
+    },
+    {
+      "d": 256,
+      "gamma": 8.0,
+      "seed": 0,
+      "method": "spectral_t1.0",
+      "accuracy": 0.6130943298339844,
+      "limit": 0.6120463363592891,
+      "finite_angle": 0.6119735379176385
+    },
+    {
+      "d": 256,
+      "gamma": 8.0,
+      "seed": 0,
+      "method": "spectral_t2.5",
+      "accuracy": 0.6162776947021484,
+      "limit": 0.6150267283762556,
+      "finite_angle": 0.6149219988225366
+    },
+    {
+      "d": 256,
+      "gamma": 8.0,
+      "seed": 1,
+      "method": "GD",
+      "accuracy": 0.6135997772216797,
+      "limit": 0.615026728081308,
+      "finite_angle": 0.614268725297334
+    },
+    {
+      "d": 256,
+      "gamma": 8.0,
+      "seed": 1,
+      "method": "polar",
+      "accuracy": 0.596405029296875,
+      "limit": 0.5970218673636055,
+      "finite_angle": 0.5963527985291793
+    },
+    {
+      "d": 256,
+      "gamma": 8.0,
+      "seed": 1,
+      "method": "Adam_first_eps0",
+      "accuracy": 0.5902996063232422,
+      "limit": 0.5910292682918585,
+      "finite_angle": 0.5905911483683975
+    },
+    {
+      "d": 256,
+      "gamma": 8.0,
+      "seed": 1,
+      "method": "spectral_t0.05",
+      "accuracy": 0.5975513458251953,
+      "limit": 0.5980704758204413,
+      "finite_angle": 0.5974039337580214
+    },
+    {
+      "d": 256,
+      "gamma": 8.0,
+      "seed": 1,
+      "method": "spectral_t0.25",
+      "accuracy": 0.6009502410888672,
+      "limit": 0.6019755993486708,
+      "finite_angle": 0.6014208997195529
+    },
+    {
+      "d": 256,
+      "gamma": 8.0,
+      "seed": 1,
+      "method": "spectral_t0.5",
+      "accuracy": 0.6050453186035156,
+      "limit": 0.6061636404755736,
+      "finite_angle": 0.6055277812312252
+    },
+    {
+      "d": 256,
+      "gamma": 8.0,
+      "seed": 1,
+      "method": "spectral_t1.0",
+      "accuracy": 0.6113548278808594,
+      "limit": 0.6120463363592891,
+      "finite_angle": 0.6113954854002469
+    },
+    {
+      "d": 256,
+      "gamma": 8.0,
+      "seed": 1,
+      "method": "spectral_t2.5",
+      "accuracy": 0.6135997772216797,
+      "limit": 0.6150267283762556,
+      "finite_angle": 0.614268725297334
+    },
+    {
+      "d": 256,
+      "gamma": 8.0,
+      "seed": 2,
+      "method": "GD",
+      "accuracy": 0.6153297424316406,
+      "limit": 0.615026728081308,
+      "finite_angle": 0.6150387097377237
+    },
+    {
+      "d": 256,
+      "gamma": 8.0,
+      "seed": 2,
+      "method": "polar",
+      "accuracy": 0.5965919494628906,
+      "limit": 0.5970218673636055,
+      "finite_angle": 0.597113322587547
+    },
+    {
+      "d": 256,
+      "gamma": 8.0,
+      "seed": 2,
+      "method": "Adam_first_eps0",
+      "accuracy": 0.5912036895751953,
+      "limit": 0.5910292682918585,
+      "finite_angle": 0.5911497792786338
+    },
+    {
+      "d": 256,
+      "gamma": 8.0,
+      "seed": 2,
+      "method": "spectral_t0.05",
+      "accuracy": 0.5979671478271484,
+      "limit": 0.5980704758204413,
+      "finite_angle": 0.5981138299338487
+    },
+    {
+      "d": 256,
+      "gamma": 8.0,
+      "seed": 2,
+      "method": "spectral_t0.25",
+      "accuracy": 0.6015472412109375,
+      "limit": 0.6019755993486708,
+      "finite_angle": 0.6020381514881935
+    },
+    {
+      "d": 256,
+      "gamma": 8.0,
+      "seed": 2,
+      "method": "spectral_t0.5",
+      "accuracy": 0.6055965423583984,
+      "limit": 0.6061636404755736,
+      "finite_angle": 0.6062023343193169
+    },
+    {
+      "d": 256,
+      "gamma": 8.0,
+      "seed": 2,
+      "method": "spectral_t1.0",
+      "accuracy": 0.61224365234375,
+      "limit": 0.6120463363592891,
+      "finite_angle": 0.612095256481007
+    },
+    {
+      "d": 256,
+      "gamma": 8.0,
+      "seed": 2,
+      "method": "spectral_t2.5",
+      "accuracy": 0.6153297424316406,
+      "limit": 0.6150267283762556,
+      "finite_angle": 0.6150387097377237
+    },
+    {
+      "d": 256,
+      "gamma": 8.0,
+      "seed": 3,
+      "method": "GD",
+      "accuracy": 0.6140060424804688,
+      "limit": 0.615026728081308,
+      "finite_angle": 0.6144819279796445
+    },
+    {
+      "d": 256,
+      "gamma": 8.0,
+      "seed": 3,
+      "method": "polar",
+      "accuracy": 0.5969696044921875,
+      "limit": 0.5970218673636055,
+      "finite_angle": 0.5966470359989351
+    },
+    {
+      "d": 256,
+      "gamma": 8.0,
+      "seed": 3,
+      "method": "Adam_first_eps0",
+      "accuracy": 0.5895557403564453,
+      "limit": 0.5910292682918585,
+      "finite_angle": 0.5905549461376547
+    },
+    {
+      "d": 256,
+      "gamma": 8.0,
+      "seed": 3,
+      "method": "spectral_t0.05",
+      "accuracy": 0.5974655151367188,
+      "limit": 0.5980704758204413,
+      "finite_angle": 0.5975824856845738
+    },
+    {
+      "d": 256,
+      "gamma": 8.0,
+      "seed": 3,
+      "method": "spectral_t0.25",
+      "accuracy": 0.6011314392089844,
+      "limit": 0.6019755993486708,
+      "finite_angle": 0.6015570215013322
+    },
+    {
+      "d": 256,
+      "gamma": 8.0,
+      "seed": 3,
+      "method": "spectral_t0.5",
+      "accuracy": 0.6050777435302734,
+      "limit": 0.6061636404755736,
+      "finite_angle": 0.6057779540510684
+    },
+    {
+      "d": 256,
+      "gamma": 8.0,
+      "seed": 3,
+      "method": "spectral_t1.0",
+      "accuracy": 0.6108741760253906,
+      "limit": 0.6120463363592891,
+      "finite_angle": 0.6115800046007259
+    },
+    {
+      "d": 256,
+      "gamma": 8.0,
+      "seed": 3,
+      "method": "spectral_t2.5",
+      "accuracy": 0.6140060424804688,
+      "limit": 0.6150267283762556,
+      "finite_angle": 0.6144819279796445
+    },
+    {
+      "d": 256,
+      "gamma": 8.0,
+      "seed": 4,
+      "method": "GD",
+      "accuracy": 0.6147785186767578,
+      "limit": 0.615026728081308,
+      "finite_angle": 0.614880140461298
+    },
+    {
+      "d": 256,
+      "gamma": 8.0,
+      "seed": 4,
+      "method": "polar",
+      "accuracy": 0.59710693359375,
+      "limit": 0.5970218673636055,
+      "finite_angle": 0.5969688929917051
+    },
+    {
+      "d": 256,
+      "gamma": 8.0,
+      "seed": 4,
+      "method": "Adam_first_eps0",
+      "accuracy": 0.5920143127441406,
+      "limit": 0.5910292682918585,
+      "finite_angle": 0.5911391816757603
+    },
+    {
+      "d": 256,
+      "gamma": 8.0,
+      "seed": 4,
+      "method": "spectral_t0.05",
+      "accuracy": 0.5979557037353516,
+      "limit": 0.5980704758204413,
+      "finite_angle": 0.5980282115589974
+    },
+    {
+      "d": 256,
+      "gamma": 8.0,
+      "seed": 4,
+      "method": "spectral_t0.25",
+      "accuracy": 0.6018276214599609,
+      "limit": 0.6019755993486708,
+      "finite_angle": 0.601934932757132
+    },
+    {
+      "d": 256,
+      "gamma": 8.0,
+      "seed": 4,
+      "method": "spectral_t0.5",
+      "accuracy": 0.6057262420654297,
+      "limit": 0.6061636404755736,
+      "finite_angle": 0.6061216195470833
+    },
+    {
+      "d": 256,
+      "gamma": 8.0,
+      "seed": 4,
+      "method": "spectral_t1.0",
+      "accuracy": 0.6118316650390625,
+      "limit": 0.6120463363592891,
+      "finite_angle": 0.6119396695490125
+    },
+    {
+      "d": 256,
+      "gamma": 8.0,
+      "seed": 4,
+      "method": "spectral_t2.5",
+      "accuracy": 0.6147785186767578,
+      "limit": 0.6150267283762556,
+      "finite_angle": 0.614880140461298
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "tests": 37,
+  "failures": 0,
+  "errors": 0,
+  "passed": true,
+  "seconds": 146.40689706802368,
+  "resources": {
+    "cgroup": "/user.slice/user-1000.slice/user@1000.service/app.slice/run-r51be343455fe455b87aae2fe453c23e2.scope",
+    "memory_max": "2147483648",
+    "swap_max": "0",
+    "threads": 1,
+    "thread_env": {
+      "OMP_NUM_THREADS": "2",
+      "OPENBLAS_NUM_THREADS": "2",
+      "MKL_NUM_THREADS": "2",
+      "NUMEXPR_NUM_THREADS": "2"
+    }
+  },
+  "artifacts": "HOLDOUT_D_runner_v2/HOLDOUT_D_TEST_1794008127332910555",
+  "no_real_llm": true,
+  "no_real_quota": true,
+  "old_tests": 22,
+  "old_smoke_positive_assertion_replaced": "E2禁止测试伪造人工已审，改为拒绝未批准模板，其余旧断言保留",
+  "network": "仅旧HTTP测试的fork本地随机端口mock；禁止18319和外部连接"
+}

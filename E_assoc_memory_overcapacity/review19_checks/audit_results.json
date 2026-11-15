@@ -1,0 +1,891 @@
+{
+  "population": {
+    "GD2": {
+      "a": 0.75,
+      "q": 0.5625000000000001,
+      "c": 0.9999999999999999,
+      "recall": 0.7637595841058831
+    },
+    "Sign1": {
+      "a": 0.47873073648171927,
+      "q": 0.36000000000000004,
+      "c": 0.7978845608028653,
+      "recall": 0.6233220951720674
+    },
+    "Sign2_06": {
+      "a": 0.7997390469403192,
+      "q": 0.789848979120212,
+      "c": 0.899862741153852,
+      "recall": 0.6978315342357695
+    },
+    "Sign2_15": {
+      "a": 0.7771055739953504,
+      "q": 1.2025296228394455,
+      "c": 0.7086505561887539,
+      "recall": 0.5539903612419871
+    },
+    "Adam2_e1": {
+      "a": 0.47534787627216507,
+      "q": 0.24000486186311473,
+      "c": 0.9702899614164398,
+      "recall": 0.7450612204150067
+    }
+  },
+  "optimizer_constants": {
+    "GD2": {
+      "K": 0.75,
+      "va": 1.125,
+      "vq": 0.6328125,
+      "r": 0.5,
+      "factor": 2.5
+    },
+    "Sign1": {
+      "K": 0.6,
+      "va": 0.36,
+      "vq": 0.1296,
+      "r": 0.16666666666666666,
+      "factor": 1.9277700432721199
+    },
+    "Sign2_06": {
+      "K": 1.2,
+      "va": 1.44,
+      "vq": 2.0736,
+      "r": 0.16666666666666666,
+      "factor": 7.217674070590878
+    },
+    "Sign2_15": {
+      "K": 3.0,
+      "va": 9.0,
+      "vq": 81.0,
+      "r": 0.16666666666666666,
+      "factor": 19.327579026133947
+    },
+    "Adam2_e1": {
+      "K": 19.199999999999996,
+      "va": 368.6399999999998,
+      "vq": 135895.44959999988,
+      "r": 0.5,
+      "factor": 488.7216487185412,
+      "H": [
+        0.0,
+        5.999999999999998,
+        19.199999999999996
+      ],
+      "A": [
+        0.0,
+        13.199999999999994,
+        488.7216487185412
+      ]
+    }
+  },
+  "thresholds": [
+    {
+      "A": "GD2",
+      "B": "Sign2_15",
+      "gap": 0.209769222863896,
+      "constants_A": {
+        "C": 681697.9426021413,
+        "d0": 56429524.40726772,
+        "rate": 0.5,
+        "xi": 0.0052442305715973995
+      },
+      "constants_B": {
+        "C": 127686.98633610745,
+        "d0": 422331150.9501307,
+        "rate": 0.16666666666666666,
+        "xi": 0.0052442305715973995
+      },
+      "sufficient_d": 2.111835269825988e+41
+    },
+    {
+      "A": "Sign2_06",
+      "B": "Sign1",
+      "gap": 0.07450943906370211,
+      "constants_A": {
+        "C": 70253.72116906063,
+        "d0": 113178938.7095672,
+        "rate": 0.16666666666666666,
+        "xi": 0.0018627359765925528
+      },
+      "constants_B": {
+        "C": 39149.53541217697,
+        "d0": 62079353.609486565,
+        "rate": 0.16666666666666666,
+        "xi": 0.0018627359765925528
+      },
+      "sufficient_d": 6.413479474213459e+38
+    },
+    {
+      "A": "Sign1",
+      "B": "Sign2_15",
+      "gap": 0.0693317339300803,
+      "constants_A": {
+        "C": 39256.25127092127,
+        "d0": 62472480.05829561,
+        "rate": 0.16666666666666666,
+        "xi": 0.0017332933482520074
+      },
+      "constants_B": {
+        "C": 132596.30704671802,
+        "d0": 467557979.3178445,
+        "rate": 0.16666666666666666,
+        "xi": 0.0017332933482520074
+      },
+      "sufficient_d": 1.4843065853705546e+40
+    },
+    {
+      "A": "Adam2_e1",
+      "B": "Sign1",
+      "gap": 0.12173912524293928,
+      "constants_A": {
+        "C": 208455970.4063328,
+        "d0": 91235871223.6342,
+        "rate": 0.5,
+        "xi": 0.003043478131073482
+      },
+      "constants_B": {
+        "C": 38421.656319584814,
+        "d0": 59399556.93898995,
+        "rate": 0.16666666666666666,
+        "xi": 0.003043478131073482
+      },
+      "sufficient_d": 1.6149726872743344e+57
+    }
+  ],
+  "budgets": [
+    {
+      "d": 32,
+      "method": "GD2",
+      "delta": 5.2999517036162445,
+      "ua": 0.3314563036811941,
+      "uq": 0.2485922277608956,
+      "q": 0.5625000000000001,
+      "vd": 0.800782763060947,
+      "conditions": {
+        "moment": true,
+        "delta": false,
+        "quantile": false,
+        "radius": true
+      },
+      "admissible": false,
+      "formal_raw_expression_not_a_bound_when_inadmissible": null,
+      "usable_bound": 1.0
+    },
+    {
+      "d": 32,
+      "method": "Sign1",
+      "delta": 5.2999517036162445,
+      "ua": 0.18749999999999997,
+      "uq": 0.11249999999999999,
+      "q": 0.36000000000000004,
+      "vd": 0.6406262104487576,
+      "conditions": {
+        "moment": true,
+        "delta": false,
+        "quantile": false,
+        "radius": true
+      },
+      "admissible": false,
+      "formal_raw_expression_not_a_bound_when_inadmissible": null,
+      "usable_bound": 1.0
+    },
+    {
+      "d": 32,
+      "method": "Sign2_06",
+      "delta": 5.2999517036162445,
+      "ua": 0.37499999999999994,
+      "uq": 0.44999999999999996,
+      "q": 0.789848979120212,
+      "vd": 1.2812524208975151,
+      "conditions": {
+        "moment": false,
+        "delta": false,
+        "quantile": false,
+        "radius": true
+      },
+      "admissible": false,
+      "formal_raw_expression_not_a_bound_when_inadmissible": null,
+      "usable_bound": 1.0
+    },
+    {
+      "d": 32,
+      "method": "Sign2_15",
+      "delta": 5.2999517036162445,
+      "ua": 0.9375,
+      "uq": 2.8125,
+      "q": 1.2025296228394455,
+      "vd": 3.203131052243788,
+      "conditions": {
+        "moment": false,
+        "delta": false,
+        "quantile": false,
+        "radius": true
+      },
+      "admissible": false,
+      "formal_raw_expression_not_a_bound_when_inadmissible": null,
+      "usable_bound": 1.0
+    },
+    {
+      "d": 32,
+      "method": "Adam2_e1",
+      "delta": 5.2999517036162445,
+      "ua": 5.999999999999998,
+      "uq": 115.19999999999993,
+      "q": 0.24000486186311473,
+      "vd": 20.50003873436024,
+      "conditions": {
+        "moment": false,
+        "delta": false,
+        "quantile": false,
+        "radius": true
+      },
+      "admissible": false,
+      "formal_raw_expression_not_a_bound_when_inadmissible": null,
+      "usable_bound": 1.0
+    },
+    {
+      "d": 64,
+      "method": "GD2",
+      "delta": 3.235256704965923,
+      "ua": 0.16572815184059705,
+      "uq": 0.1242961138804478,
+      "q": 0.5625000000000001,
+      "vd": 0.5610754062493153,
+      "b": 0.6619697018138763,
+      "rstar": 0.008564052058468635,
+      "ell": 8.088141762414807,
+      "spectral_allowance": 0.0014172857468657488,
+      "conditions": {
+        "moment": true,
+        "delta": false,
+        "quantile": true,
+        "radius": true,
+        "positive_threshold": true,
+        "operator": false,
+        "n": false
+      },
+      "admissible": false,
+      "formal_raw_expression_not_a_bound_when_inadmissible": 7581.896983109702,
+      "usable_bound": 1.0
+    },
+    {
+      "d": 64,
+      "method": "Sign1",
+      "delta": 3.235256704965923,
+      "ua": 0.09374999999999999,
+      "uq": 0.056249999999999994,
+      "q": 0.36000000000000004,
+      "vd": 0.4488603249994522,
+      "b": 0.5511351921262151,
+      "rstar": 0.008564052058468635,
+      "ell": 2.851181137517322,
+      "spectral_allowance": 0.0011799876191557548,
+      "conditions": {
+        "moment": true,
+        "delta": false,
+        "quantile": true,
+        "radius": true,
+        "positive_threshold": true,
+        "operator": false,
+        "n": false
+      },
+      "admissible": false,
+      "formal_raw_expression_not_a_bound_when_inadmissible": 3341.2046646329723,
+      "usable_bound": 1.0
+    },
+    {
+      "d": 64,
+      "method": "Sign2_06",
+      "delta": 3.235256704965923,
+      "ua": 0.18749999999999997,
+      "uq": 0.22499999999999998,
+      "q": 0.789848979120212,
+      "vd": 0.8977206499989044,
+      "b": 0.751564354609911,
+      "rstar": 0.008564052058468635,
+      "ell": 10.674974558628778,
+      "spectral_allowance": 0.0016091090645421649,
+      "conditions": {
+        "moment": true,
+        "delta": false,
+        "quantile": true,
+        "radius": true,
+        "positive_threshold": true,
+        "operator": false,
+        "n": false
+      },
+      "admissible": false,
+      "formal_raw_expression_not_a_bound_when_inadmissible": 8819.715199264518,
+      "usable_bound": 1.0
+    },
+    {
+      "d": 64,
+      "method": "Sign2_15",
+      "delta": 3.235256704965923,
+      "ua": 0.46875,
+      "uq": 1.40625,
+      "q": 1.2025296228394455,
+      "vd": 2.244301624997261,
+      "conditions": {
+        "moment": false,
+        "delta": false,
+        "quantile": true,
+        "radius": true
+      },
+      "admissible": false,
+      "formal_raw_expression_not_a_bound_when_inadmissible": null,
+      "usable_bound": 1.0
+    },
+    {
+      "d": 64,
+      "method": "Adam2_e1",
+      "delta": 3.235256704965923,
+      "ua": 2.999999999999999,
+      "uq": 57.599999999999966,
+      "q": 0.24000486186311473,
+      "vd": 14.363530399982468,
+      "conditions": {
+        "moment": false,
+        "delta": false,
+        "quantile": true,
+        "radius": true
+      },
+      "admissible": false,
+      "formal_raw_expression_not_a_bound_when_inadmissible": null,
+      "usable_bound": 1.0
+    },
+    {
+      "d": 128,
+      "method": "GD2",
+      "delta": 2.043748938321941,
+      "ua": 0.08286407592029853,
+      "uq": 0.0621480569402239,
+      "q": 0.5625000000000001,
+      "vd": 0.39490198710747837,
+      "b": 0.7073555987336047,
+      "rstar": 0.01033219527507809,
+      "ell": 5.109372345804852,
+      "spectral_allowance": 0.0018271340437588457,
+      "conditions": {
+        "moment": true,
+        "delta": false,
+        "quantile": true,
+        "radius": true,
+        "positive_threshold": true,
+        "operator": false,
+        "n": true
+      },
+      "admissible": false,
+      "formal_raw_expression_not_a_bound_when_inadmissible": 3809.278601513697,
+      "usable_bound": 1.0
+    },
+    {
+      "d": 128,
+      "method": "Sign1",
+      "delta": 2.043748938321941,
+      "ua": 0.04687499999999999,
+      "uq": 0.028124999999999997,
+      "q": 0.36000000000000004,
+      "vd": 0.31592158968598266,
+      "b": 0.5760859310901456,
+      "rstar": 0.01033219527507809,
+      "ell": 2.446420320167476,
+      "spectral_allowance": 0.001488058083812141,
+      "conditions": {
+        "moment": true,
+        "delta": false,
+        "quantile": true,
+        "radius": true,
+        "positive_threshold": true,
+        "operator": false,
+        "n": true
+      },
+      "admissible": false,
+      "formal_raw_expression_not_a_bound_when_inadmissible": 2293.9980052693772,
+      "usable_bound": 1.0
+    },
+    {
+      "d": 128,
+      "method": "Sign2_06",
+      "delta": 2.043748938321941,
+      "ua": 0.09374999999999999,
+      "uq": 0.11249999999999999,
+      "q": 0.789848979120212,
+      "vd": 0.6318431793719653,
+      "b": 0.8230121378936109,
+      "rstar": 0.01033219527507809,
+      "ell": 9.15952842625791,
+      "spectral_allowance": 0.002125880530619071,
+      "conditions": {
+        "moment": true,
+        "delta": false,
+        "quantile": true,
+        "radius": true,
+        "positive_threshold": true,
+        "operator": false,
+        "n": true
+      },
+      "admissible": false,
+      "formal_raw_expression_not_a_bound_when_inadmissible": 5819.914507994768,
+      "usable_bound": 1.0
+    },
+    {
+      "d": 128,
+      "method": "Sign2_15",
+      "delta": 2.043748938321941,
+      "ua": 0.234375,
+      "uq": 0.703125,
+      "q": 1.2025296228394455,
+      "vd": 1.5796079484299135,
+      "b": 0.7066856605588128,
+      "rstar": 0.01033219527507809,
+      "ell": 24.52750121011315,
+      "spectral_allowance": 0.001825403560747801,
+      "conditions": {
+        "moment": false,
+        "delta": false,
+        "quantile": true,
+        "radius": true,
+        "positive_threshold": true,
+        "operator": false,
+        "n": true
+      },
+      "admissible": false,
+      "formal_raw_expression_not_a_bound_when_inadmissible": 17982.38763479775,
+      "usable_bound": 1.0
+    },
+    {
+      "d": 128,
+      "method": "Adam2_e1",
+      "delta": 2.043748938321941,
+      "ua": 1.4999999999999996,
+      "uq": 28.799999999999983,
+      "q": 0.24000486186311473,
+      "vd": 10.109490869951443,
+      "conditions": {
+        "moment": false,
+        "delta": false,
+        "quantile": true,
+        "radius": true
+      },
+      "admissible": false,
+      "formal_raw_expression_not_a_bound_when_inadmissible": null,
+      "usable_bound": 1.0
+    },
+    {
+      "d": 256,
+      "method": "GD2",
+      "delta": 1.3265590122426336,
+      "ua": 0.041432037960149264,
+      "uq": 0.03107402847011195,
+      "q": 0.5625000000000001,
+      "vd": 0.27858568363942715,
+      "b": 0.7289896923344583,
+      "rstar": 0.011246456159744135,
+      "ell": 3.316397530606584,
+      "spectral_allowance": 0.0020496376539362125,
+      "conditions": {
+        "moment": true,
+        "delta": false,
+        "quantile": true,
+        "radius": true,
+        "positive_threshold": true,
+        "operator": false,
+        "n": true
+      },
+      "admissible": false,
+      "formal_raw_expression_not_a_bound_when_inadmissible": 2233.004229816303,
+      "usable_bound": 1.0
+    },
+    {
+      "d": 256,
+      "method": "Sign1",
+      "delta": 1.3265590122426336,
+      "ua": 0.023437499999999997,
+      "uq": 0.014062499999999999,
+      "q": 0.36000000000000004,
+      "vd": 0.2228685469115417,
+      "b": 0.5881645178009296,
+      "rstar": 0.011246456159744135,
+      "ell": 2.118185961493788,
+      "spectral_allowance": 0.001653691616041301,
+      "conditions": {
+        "moment": true,
+        "delta": false,
+        "quantile": true,
+        "radius": true,
+        "positive_threshold": true,
+        "operator": false,
+        "n": true
+      },
+      "admissible": false,
+      "formal_raw_expression_not_a_bound_when_inadmissible": 1785.1396844672738,
+      "usable_bound": 1.0
+    },
+    {
+      "d": 256,
+      "method": "Sign2_06",
+      "delta": 1.3265590122426336,
+      "ua": 0.04687499999999999,
+      "uq": 0.056249999999999994,
+      "q": 0.789848979120212,
+      "vd": 0.4457370938230834,
+      "b": 0.8565039282573151,
+      "rstar": 0.011246456159744135,
+      "ell": 7.930601445083898,
+      "spectral_allowance": 0.0024081584699486326,
+      "conditions": {
+        "moment": true,
+        "delta": false,
+        "quantile": true,
+        "radius": true,
+        "positive_threshold": true,
+        "operator": false,
+        "n": true
+      },
+      "admissible": false,
+      "formal_raw_expression_not_a_bound_when_inadmissible": 4471.164401163245,
+      "usable_bound": 1.0
+    },
+    {
+      "d": 256,
+      "method": "Sign2_15",
+      "delta": 1.3265590122426336,
+      "ua": 0.1171875,
+      "uq": 0.3515625,
+      "q": 1.2025296228394455,
+      "vd": 1.1143427345577086,
+      "b": 0.9224787926231397,
+      "rstar": 0.011246456159744135,
+      "ell": 21.23666497759753,
+      "spectral_allowance": 0.0025936543248824603,
+      "conditions": {
+        "moment": true,
+        "delta": false,
+        "quantile": true,
+        "radius": true,
+        "positive_threshold": true,
+        "operator": false,
+        "n": true
+      },
+      "admissible": false,
+      "formal_raw_expression_not_a_bound_when_inadmissible": 11042.287919465116,
+      "usable_bound": 1.0
+    },
+    {
+      "d": 256,
+      "method": "Adam2_e1",
+      "delta": 1.3265590122426336,
+      "ua": 0.7499999999999998,
+      "uq": 14.399999999999991,
+      "q": 0.24000486186311473,
+      "vd": 7.131793501169333,
+      "conditions": {
+        "moment": false,
+        "delta": false,
+        "quantile": true,
+        "radius": true
+      },
+      "admissible": false,
+      "formal_raw_expression_not_a_bound_when_inadmissible": null,
+      "usable_bound": 1.0
+    },
+    {
+      "d": 1000000,
+      "method": "GD2",
+      "delta": 0.016840674564609956,
+      "ua": 1.0606601717798212e-05,
+      "uq": 7.95495128834866e-06,
+      "q": 0.5625000000000001,
+      "vd": 0.004446914102886869,
+      "b": 0.749994696680391,
+      "rstar": 0.012192004943232717,
+      "ell": 0.04210168641152489,
+      "spectral_allowance": 0.0022859847623314124,
+      "conditions": {
+        "moment": true,
+        "delta": true,
+        "quantile": true,
+        "radius": true,
+        "positive_threshold": true,
+        "operator": false,
+        "n": true
+      },
+      "admissible": false,
+      "formal_raw_expression_not_a_bound_when_inadmissible": 25.883596510472533,
+      "usable_bound": 1.0
+    },
+    {
+      "d": 1000000,
+      "method": "Sign1",
+      "delta": 0.016840674564609956,
+      "ua": 6e-06,
+      "uq": 3.6e-06,
+      "q": 0.36000000000000004,
+      "vd": 0.003557531282309495,
+      "b": 0.5999969999925,
+      "rstar": 0.012192004943232717,
+      "ell": 0.49413056867943683,
+      "spectral_allowance": 0.0018287915974583401,
+      "conditions": {
+        "moment": true,
+        "delta": true,
+        "quantile": true,
+        "radius": true,
+        "positive_threshold": true,
+        "operator": false,
+        "n": true
+      },
+      "admissible": false,
+      "formal_raw_expression_not_a_bound_when_inadmissible": 363.4117301669202,
+      "usable_bound": 1.0
+    },
+    {
+      "d": 1000000,
+      "method": "Sign2_06",
+      "delta": 0.016840674564609956,
+      "ua": 1.2e-05,
+      "uq": 1.44e-05,
+      "q": 0.789848979120212,
+      "vd": 0.00711506256461899,
+      "b": 0.888726380344486,
+      "rstar": 0.012192004943232717,
+      "ell": 1.8500512576646884,
+      "spectral_allowance": 0.0027088391055853232,
+      "conditions": {
+        "moment": true,
+        "delta": true,
+        "quantile": true,
+        "radius": true,
+        "positive_threshold": true,
+        "operator": false,
+        "n": true
+      },
+      "admissible": false,
+      "formal_raw_expression_not_a_bound_when_inadmissible": 916.9824143231283,
+      "usable_bound": 1.0
+    },
+    {
+      "d": 1000000,
+      "method": "Sign2_15",
+      "delta": 0.016840674564609956,
+      "ua": 3e-05,
+      "uq": 9e-05,
+      "q": 1.2025296228394455,
+      "vd": 0.017787656411547476,
+      "b": 1.096558080011928,
+      "rstar": 0.012192004943232717,
+      "ell": 4.954090685614112,
+      "spectral_allowance": 0.0033423103830118005,
+      "conditions": {
+        "moment": true,
+        "delta": true,
+        "quantile": true,
+        "radius": true,
+        "positive_threshold": true,
+        "operator": false,
+        "n": true
+      },
+      "admissible": false,
+      "formal_raw_expression_not_a_bound_when_inadmissible": 1989.315785446379,
+      "usable_bound": 1.0
+    },
+    {
+      "d": 1000000,
+      "method": "Adam2_e1",
+      "delta": 0.016840674564609956,
+      "ua": 0.00019199999999999995,
+      "uq": 0.003686399999999998,
+      "q": 0.24000486186311473,
+      "vd": 0.11384100103390381,
+      "b": 0.4861259732447082,
+      "rstar": 0.012192004943232717,
+      "ell": 8.230402238748578,
+      "spectral_allowance": 0.0014817125672083244,
+      "conditions": {
+        "moment": true,
+        "delta": true,
+        "quantile": true,
+        "radius": true,
+        "positive_threshold": true,
+        "operator": false,
+        "n": true
+      },
+      "admissible": false,
+      "formal_raw_expression_not_a_bound_when_inadmissible": 7471.360285266663,
+      "usable_bound": 1.0
+    },
+    {
+      "d": 1000000000000,
+      "method": "GD2",
+      "delta": 1.6770423494687866e-05,
+      "ua": 1.0606601717798212e-11,
+      "uq": 7.95495128834866e-12,
+      "q": 0.5625000000000001,
+      "vd": 4.446911422105213e-06,
+      "b": 0.7499999999946968,
+      "rstar": 0.012192252282133578,
+      "ell": 4.192605873671966e-05,
+      "spectral_allowance": 0.0022860473028838814,
+      "conditions": {
+        "moment": true,
+        "delta": true,
+        "quantile": true,
+        "radius": true,
+        "positive_threshold": true,
+        "operator": true,
+        "n": true
+      },
+      "admissible": true,
+      "formal_raw_expression_not_a_bound_when_inadmissible": 0.07572757653010678,
+      "usable_bound": 0.07572757653010678
+    },
+    {
+      "d": 1000000000000,
+      "method": "Sign1",
+      "delta": 1.6770423494687866e-05,
+      "ua": 5.9999999999999995e-12,
+      "uq": 3.6e-12,
+      "q": 0.36000000000000004,
+      "vd": 3.557529137684171e-06,
+      "b": 0.599999999997,
+      "rstar": 0.012192252282133578,
+      "ell": 0.0493442520584653,
+      "spectral_allowance": 0.0018288378423108925,
+      "conditions": {
+        "moment": true,
+        "delta": true,
+        "quantile": true,
+        "radius": true,
+        "positive_threshold": true,
+        "operator": true,
+        "n": true
+      },
+      "admissible": true,
+      "formal_raw_expression_not_a_bound_when_inadmissible": 36.22168574903505,
+      "usable_bound": 1.0
+    },
+    {
+      "d": 1000000000000,
+      "method": "Sign2_06",
+      "delta": 1.6770423494687866e-05,
+      "ua": 1.1999999999999999e-11,
+      "uq": 1.44e-11,
+      "q": 0.789848979120212,
+      "vd": 7.115058275368342e-06,
+      "b": 0.8887344817805889,
+      "rstar": 0.012192252282133578,
+      "ell": 0.18474751688254762,
+      "spectral_allowance": 0.002708918753425047,
+      "conditions": {
+        "moment": true,
+        "delta": true,
+        "quantile": true,
+        "radius": true,
+        "positive_threshold": true,
+        "operator": true,
+        "n": true
+      },
+      "admissible": true,
+      "formal_raw_expression_not_a_bound_when_inadmissible": 91.47874315182375,
+      "usable_bound": 1.0
+    },
+    {
+      "d": 1000000000000,
+      "method": "Sign2_15",
+      "delta": 1.6770423494687866e-05,
+      "ua": 3e-11,
+      "uq": 9e-11,
+      "q": 1.2025296228394455,
+      "vd": 1.7787645688420853e-05,
+      "b": 1.0965991167010147,
+      "rstar": 0.012192252282133578,
+      "ell": 0.49471924022985647,
+      "spectral_allowance": 0.003342503270795903,
+      "conditions": {
+        "moment": true,
+        "delta": true,
+        "quantile": true,
+        "radius": true,
+        "positive_threshold": true,
+        "operator": true,
+        "n": true
+      },
+      "admissible": true,
+      "formal_raw_expression_not_a_bound_when_inadmissible": 198.47001115191682,
+      "usable_bound": 1.0
+    },
+    {
+      "d": 1000000000000,
+      "method": "Adam2_e1",
+      "delta": 1.6770423494687866e-05,
+      "ua": 1.9199999999999996e-10,
+      "uq": 3.6863999999999984e-09,
+      "q": 0.24000486186311473,
+      "vd": 0.00011384093240589346,
+      "b": 0.48990290688739,
+      "rstar": 0.012192252282133578,
+      "ell": 0.008196069020032013,
+      "spectral_allowance": 0.0014932549586304136,
+      "conditions": {
+        "moment": true,
+        "delta": true,
+        "quantile": true,
+        "radius": true,
+        "positive_threshold": true,
+        "operator": true,
+        "n": true
+      },
+      "admissible": true,
+      "formal_raw_expression_not_a_bound_when_inadmissible": 7.432725946809916,
+      "usable_bound": 1.0
+    }
+  ],
+  "existing_csv_recomputed": [
+    {
+      "A": "GD2",
+      "B": "Sign2_15",
+      "rows": 8192,
+      "mean_lower": 0.23265814592104897,
+      "mean_upper": 0.23265814592104897,
+      "lower": 0.19226030829234442,
+      "upper": 0.2730559835497535
+    },
+    {
+      "A": "Sign2_06",
+      "B": "Sign1",
+      "rows": 8192,
+      "mean_lower": 0.07679920796396483,
+      "mean_upper": 0.07679920796396483,
+      "lower": 0.03640137033526028,
+      "upper": 0.11719704559266939
+    },
+    {
+      "A": "Sign1",
+      "B": "Sign2_15",
+      "rows": 8192,
+      "mean_lower": 0.09248808535161436,
+      "mean_upper": 0.09248808535161436,
+      "lower": 0.05209024772290981,
+      "upper": 0.13288592298031893
+    },
+    {
+      "A": "Adam2_e1",
+      "B": "Sign1",
+      "rows": 8192,
+      "mean_lower": 0.1156529302423702,
+      "mean_upper": 0.1156529302423702,
+      "lower": 0.07525509261366564,
+      "upper": 0.15605076787107475
+    }
+  ],
+  "source_hashes_unchanged": true,
+  "resource": {
+    "memory_max": "3221225472",
+    "memory_swap_max": "0",
+    "memory_peak": "166633472",
+    "threads": 1,
+    "peak_rss_kib": 199168,
+    "seconds": 30.178870122000262
+  }
+}

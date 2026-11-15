@@ -1,0 +1,23 @@
+{
+  "started_utc": "2026-11-06T08:33:35.677477+00:00",
+  "prereg_sha256": "c6ad69aee1bcfb74990ea8596681d84a1e6e8bc47eb0783ad148fae2d1c1326c",
+  "python": "/home/liuyibo/venvs/theory/bin/python",
+  "numpy": "2.5.4",
+  "mode": "smoke",
+  "threads": {
+    "OPENBLAS_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1"
+  },
+  "source_sha256": {
+    "run.py": "f16fb58be94df125e2864217f74e6861921d155c7f051ba94b4c73c1cfd3de7d",
+    "proxy.py": "ab46ee90b81e57f36ffe3c5909247d79707ea828b0c778ea501bc11fb74bbcb8",
+    "matrix.py": "f38edc9860c8c89adf4788fa88271375f364dbb828731eeccd58fe5ebfff5857"
+  },
+  "scope": null,
+  "status": "complete",
+  "elapsed_seconds": 0.24754218599991873,
+  "peak_rss_bytes": 41652224,
+  "finished_utc": "2026-11-06T08:33:35.925011+00:00"
+}

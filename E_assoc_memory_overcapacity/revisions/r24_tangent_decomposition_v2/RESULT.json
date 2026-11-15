@@ -1,0 +1,189 @@
+{
+  "sample_queries": 131072,
+  "sample_thresholds": 131072,
+  "rows": [
+    {
+      "L": 1,
+      "paired": {
+        "event_counts": {
+          "success": 53306,
+          "energy_only_tangent": 52658,
+          "center_only_tangent": 53306,
+          "double_tangent": 52657
+        },
+        "event_rates": {
+          "success": 0.4066925048828125,
+          "energy_only_tangent": 0.4017486572265625,
+          "center_only_tangent": 0.4066925048828125,
+          "double_tangent": 0.40174102783203125
+        },
+        "loss_categories": {
+          "center_alone_only": 0,
+          "energy_alone_only": 648,
+          "either_alone": 0,
+          "joint_only": 1
+        },
+        "loss_rate": "649/131072",
+        "center_two_order_allocation": "1/262144",
+        "energy_two_order_allocation": "1297/262144",
+        "denominator": 131072
+      },
+      "all_pairs": {
+        "event_counts": {
+          "success": 6995356535,
+          "energy_only_tangent": 6913513276,
+          "center_only_tangent": 6995238619,
+          "double_tangent": 6913390935
+        },
+        "event_rates": {
+          "success": 0.4071833411580883,
+          "energy_only_tangent": 0.4024194364901632,
+          "center_only_tangent": 0.407176477543544,
+          "double_tangent": 0.4024123153067194
+        },
+        "loss_categories": {
+          "center_alone_only": 2572,
+          "energy_alone_only": 81727915,
+          "either_alone": 115344,
+          "joint_only": 119769
+        },
+        "loss_rate": "2561425/536870912",
+        "center_two_order_allocation": "240257/34359738368",
+        "energy_two_order_allocation": "163690943/34359738368",
+        "denominator": 17179869184
+      },
+      "R8_fixed_b_lower_paired_count": 53115,
+      "R8_pair_counts_exactly_recovered": true,
+      "R8_fixed_b_lower_all_pairs_count": 6969114713,
+      "R8_fixed_b_lower_all_pairs_rate": "6969114713/17179869184",
+      "R8_fixed_b_tangent_loss_rate": "13120911/8589934592",
+      "grid18": {
+        "nodes": 18,
+        "lower_numerator": 6219400318,
+        "upper_numerator": 7323304502,
+        "lower_rate": "3109700159/8589934592",
+        "upper_rate": "3661652251/8589934592"
+      },
+      "grid258": {
+        "nodes": 258,
+        "lower_numerator": 6874774867,
+        "upper_numerator": 6946597731,
+        "lower_rate": "6874774867/17179869184",
+        "upper_rate": "6946597731/17179869184"
+      },
+      "loss_to_empirical_grid18_numerators": {
+        "tangent": 81965600,
+        "remaining_fine_mesh": 38616068,
+        "coarse_to_fine_mesh": 655374549
+      },
+      "loss_to_empirical_grid18_rates": {
+        "tangent": "2561425/536870912",
+        "remaining_fine_mesh": "9654017/4294967296",
+        "coarse_to_fine_mesh": "655374549/17179869184"
+      }
+    },
+    {
+      "L": 5,
+      "paired": {
+        "event_counts": {
+          "success": 79529,
+          "energy_only_tangent": 77866,
+          "center_only_tangent": 79529,
+          "double_tangent": 77865
+        },
+        "event_rates": {
+          "success": 0.6067581176757812,
+          "energy_only_tangent": 0.5940704345703125,
+          "center_only_tangent": 0.6067581176757812,
+          "double_tangent": 0.5940628051757812
+        },
+        "loss_categories": {
+          "center_alone_only": 0,
+          "energy_alone_only": 1663,
+          "either_alone": 0,
+          "joint_only": 1
+        },
+        "loss_rate": "13/1024",
+        "center_two_order_allocation": "1/262144",
+        "energy_two_order_allocation": "3327/262144",
+        "denominator": 131072
+      },
+      "all_pairs": {
+        "event_counts": {
+          "success": 10434593571,
+          "energy_only_tangent": 10220483907,
+          "center_only_tangent": 10434496435,
+          "double_tangent": 10220396794
+        },
+        "event_rates": {
+          "success": 0.607373284350615,
+          "energy_only_tangent": 0.5949104616302066,
+          "center_only_tangent": 0.6073676302912645,
+          "double_tangent": 0.5949053909862414
+        },
+        "loss_categories": {
+          "center_alone_only": 629,
+          "energy_alone_only": 214013157,
+          "either_alone": 96507,
+          "joint_only": 86484
+        },
+        "loss_rate": "214196777/17179869184",
+        "center_two_order_allocation": "184249/34359738368",
+        "energy_two_order_allocation": "428209305/34359738368",
+        "denominator": 17179869184
+      },
+      "R8_fixed_b_lower_paired_count": 79357,
+      "R8_pair_counts_exactly_recovered": true,
+      "R8_fixed_b_lower_all_pairs_count": 10410582218,
+      "R8_fixed_b_lower_all_pairs_rate": "5205291109/8589934592",
+      "R8_fixed_b_tangent_loss_rate": "24011353/17179869184",
+      "grid18": {
+        "nodes": 18,
+        "lower_numerator": 10044195298,
+        "upper_numerator": 10427051980,
+        "lower_rate": "5022097649/8589934592",
+        "upper_rate": "2606762995/4294967296"
+      },
+      "grid258": {
+        "nodes": 258,
+        "lower_numerator": 10208690327,
+        "upper_numerator": 10233279622,
+        "lower_rate": "10208690327/17179869184",
+        "upper_rate": "5116639811/8589934592"
+      },
+      "loss_to_empirical_grid18_numerators": {
+        "tangent": 214196777,
+        "remaining_fine_mesh": 11706467,
+        "coarse_to_fine_mesh": 164495029
+      },
+      "loss_to_empirical_grid18_rates": {
+        "tangent": "214196777/17179869184",
+        "remaining_fine_mesh": "11706467/17179869184",
+        "coarse_to_fine_mesh": "164495029/17179869184"
+      }
+    }
+  ],
+  "a": "8634580622533909/2251799813685248",
+  "alpha": "8615147854959085/4503599627370496",
+  "m": 16594,
+  "exact_algebra_checks": 1080,
+  "nonpositive_thresholds": 0,
+  "no_samples_discarded": true,
+  "exact_arithmetic_for_archived_dyadic_inputs": true,
+  "new_samples": 0,
+  "new_point_integrals": 0,
+  "statistical_confidence_claim": false,
+  "all_pairs_are_not_independent_observations": true,
+  "target": "Post hoc R8 floating represented score/energy diagnostic with R20-style anchors; not R13 exact C0",
+  "no_C0_probability_certificate": true,
+  "no_center_bias_causal_attribution": true,
+  "source_hashes": {
+    "revisions/r8_random_thresholds/D_V.npy": "7d70302a5cdbae889e950d302bb35e97c6640d4750f071c1fe7e61642552a335",
+    "revisions/r8_random_thresholds/thresholds.npy": "1f941ab676b1f3a445aa3cbbad4f387b1ebf739aa6e3205c144fd132b906574f",
+    "revisions/r8_random_thresholds/design.json": "ffdf1a31bf93b1e062f266876731f2423433c53f9c29e2d756709197c0f3fc55",
+    "revisions/r8_random_thresholds/scatter.json": "3345e0955a7ce7af95be087482d152409b9ac539bb79f2cf3cc95691ff13a6a1",
+    "revisions/r8_random_thresholds/results.json": "462120cfdba352486d4fa5de3f5ddfe4af3733e359dfffa243c16071f041e479",
+    "revisions/r8_random_thresholds/nodes.jsonl": "fb6919fb474f93668e6502428885be47d21819d4154b0d33190707b3a3bd90ea"
+  },
+  "wall_seconds": 18.490278163008043
+}

@@ -1,0 +1,7 @@
+{
+  "reason": "report-only rendering quote correction; frozen original retained",
+  "original_sha256": "9b0125ab8777f69a1597f3abb73b78596b11d38a847a44c5b908c6a88f2f8237",
+  "fixed_sha256": "04f9d98ea2c311074fae922833fecea3b85c161becc6a24f10afd70d27c474d0",
+  "scientific_changes": false,
+  "known_real_calls": 15
+}

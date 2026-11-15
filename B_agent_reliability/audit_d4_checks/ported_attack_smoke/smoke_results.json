@@ -1,0 +1,240 @@
+{
+  "resources": {
+    "cgroup": "/user.slice/user-1000.slice/user@1000.service/app.slice/run-r3ced254f728d4cfd9f49eabdf2ce684a.scope",
+    "memory_max": "2147483648",
+    "swap_max": "0",
+    "threads": 1
+  },
+  "strict_negative_cases": [
+    {
+      "label": "missing_schema",
+      "rejected": "ValueError('human_smoke_schema')"
+    },
+    {
+      "label": "missing_approved",
+      "rejected": "ValueError('human_smoke_schema')"
+    },
+    {
+      "label": "missing_reviewer",
+      "rejected": "ValueError('human_smoke_schema')"
+    },
+    {
+      "label": "missing_reviewed_at",
+      "rejected": "ValueError('human_smoke_schema')"
+    },
+    {
+      "label": "missing_reviewer_declaration",
+      "rejected": "ValueError('human_smoke_schema')"
+    },
+    {
+      "label": "missing_snapshot_digest",
+      "rejected": "ValueError('human_smoke_schema')"
+    },
+    {
+      "label": "missing_review_method",
+      "rejected": "ValueError('human_smoke_schema')"
+    },
+    {
+      "label": "missing_checked_items",
+      "rejected": "ValueError('human_smoke_schema')"
+    },
+    {
+      "label": "missing_snapshot",
+      "rejected": "ValueError('human_smoke_schema')"
+    },
+    {
+      "label": "snapshot_wal_seq",
+      "rejected": "ValueError('human_snapshot_mismatch')"
+    },
+    {
+      "label": "snapshot_wal_digest",
+      "rejected": "ValueError('human_snapshot_mismatch')"
+    },
+    {
+      "label": "snapshot_wal_sha256",
+      "rejected": "ValueError('human_snapshot_mismatch')"
+    },
+    {
+      "label": "snapshot_runner_version",
+      "rejected": "ValueError('human_snapshot_mismatch')"
+    },
+    {
+      "label": "snapshot_amend3_manifest_sha256",
+      "rejected": "ValueError('human_snapshot_mismatch')"
+    },
+    {
+      "label": "strict_approved",
+      "rejected": "ValueError('human_smoke_not_approved')"
+    },
+    {
+      "label": "strict_review_method",
+      "rejected": "ValueError('manual_review_required')"
+    },
+    {
+      "label": "strict_reviewer",
+      "rejected": "ValueError('human_reviewer_required')"
+    },
+    {
+      "label": "strict_reviewed_at",
+      "rejected": "ValueError('human_review_time')"
+    },
+    {
+      "label": "strict_reviewed_at",
+      "rejected": "ValueError('human_review_time')"
+    },
+    {
+      "label": "check_prompt_contract_False",
+      "rejected": "ValueError('human_checklist_incomplete')"
+    },
+    {
+      "label": "check_prompt_contract_1",
+      "rejected": "ValueError('human_checklist_schema')"
+    },
+    {
+      "label": "check_prompt_contract_'true'",
+      "rejected": "ValueError('human_checklist_schema')"
+    },
+    {
+      "label": "check_actual_error_writes_False",
+      "rejected": "ValueError('human_checklist_incomplete')"
+    },
+    {
+      "label": "check_actual_error_writes_1",
+      "rejected": "ValueError('human_checklist_schema')"
+    },
+    {
+      "label": "check_actual_error_writes_'true'",
+      "rejected": "ValueError('human_checklist_schema')"
+    },
+    {
+      "label": "check_two_review_protocol_False",
+      "rejected": "ValueError('human_checklist_incomplete')"
+    },
+    {
+      "label": "check_two_review_protocol_1",
+      "rejected": "ValueError('human_checklist_schema')"
+    },
+    {
+      "label": "check_two_review_protocol_'true'",
+      "rejected": "ValueError('human_checklist_schema')"
+    },
+    {
+      "label": "check_terminal_outcomes_False",
+      "rejected": "ValueError('human_checklist_incomplete')"
+    },
+    {
+      "label": "check_terminal_outcomes_1",
+      "rejected": "ValueError('human_checklist_schema')"
+    },
+    {
+      "label": "check_terminal_outcomes_'true'",
+      "rejected": "ValueError('human_checklist_schema')"
+    },
+    {
+      "label": "check_model_usage_guards_False",
+      "rejected": "ValueError('human_checklist_incomplete')"
+    },
+    {
+      "label": "check_model_usage_guards_1",
+      "rejected": "ValueError('human_checklist_schema')"
+    },
+    {
+      "label": "check_model_usage_guards_'true'",
+      "rejected": "ValueError('human_checklist_schema')"
+    },
+    {
+      "label": "check_quota_budget_False",
+      "rejected": "ValueError('human_checklist_incomplete')"
+    },
+    {
+      "label": "check_quota_budget_1",
+      "rejected": "ValueError('human_checklist_schema')"
+    },
+    {
+      "label": "check_quota_budget_'true'",
+      "rejected": "ValueError('human_checklist_schema')"
+    },
+    {
+      "label": "check_wal_replay_False",
+      "rejected": "ValueError('human_checklist_incomplete')"
+    },
+    {
+      "label": "check_wal_replay_1",
+      "rejected": "ValueError('human_checklist_schema')"
+    },
+    {
+      "label": "check_wal_replay_'true'",
+      "rejected": "ValueError('human_checklist_schema')"
+    },
+    {
+      "label": "wrong_identity",
+      "rejected": "ValueError('human_snapshot_mismatch')"
+    },
+    {
+      "label": "wrong_terminal",
+      "rejected": "ValueError('human_snapshot_mismatch')"
+    }
+  ],
+  "unapproved_send_blocks": [
+    {
+      "seed": 116064003,
+      "op": "reserve",
+      "error": "human_smoke_release_required"
+    },
+    {
+      "seed": 116064003,
+      "op": "request",
+      "error": "human_smoke_release_required"
+    },
+    {
+      "seed": 116064051,
+      "op": "reserve",
+      "error": "human_smoke_release_required"
+    },
+    {
+      "seed": 116064051,
+      "op": "request",
+      "error": "human_smoke_release_required"
+    },
+    {
+      "seed": 116064144,
+      "op": "reserve",
+      "error": "human_smoke_release_required"
+    },
+    {
+      "seed": 116064144,
+      "op": "request",
+      "error": "human_smoke_release_required"
+    }
+  ],
+  "recovery_blocks": [
+    {
+      "case": "old_prefix",
+      "attempt": 0,
+      "rejected": "invalid_recovered_smoke:human_snapshot_mismatch"
+    },
+    {
+      "case": "old_prefix",
+      "attempt": 1,
+      "rejected": "invalid_recovered_smoke:human_snapshot_mismatch"
+    },
+    {
+      "case": "wrong_snapshot",
+      "attempt": 0,
+      "rejected": "invalid_recovered_smoke:human_snapshot_mismatch"
+    },
+    {
+      "case": "wrong_snapshot",
+      "attempt": 1,
+      "rejected": "invalid_recovered_smoke:human_snapshot_mismatch"
+    }
+  ],
+  "snapshot_bytes_match": true,
+  "forged_current_snapshot": {
+    "approved": true,
+    "third_send_count": 1,
+    "attempts": 23,
+    "limitation": "Only production live-release-file check projected; current snapshot, all checks true and forged reviewer were accepted. No human approval or network."
+  },
+  "release_exists": false
+}

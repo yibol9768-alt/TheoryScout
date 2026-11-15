@@ -1,0 +1,160 @@
+{
+  "results": [
+    {
+      "job": [
+        "suite",
+        "v1"
+      ],
+      "exit": 0,
+      "log": "suite_v1.log"
+    },
+    {
+      "job": [
+        "suite",
+        "v2"
+      ],
+      "exit": 0,
+      "log": "suite_v2.log"
+    },
+    {
+      "job": [
+        "suite",
+        "v3"
+      ],
+      "exit": 0,
+      "log": "suite_v3.log"
+    },
+    {
+      "job": [
+        "original",
+        "attack_entries.py"
+      ],
+      "exit": 0,
+      "log": "original_attack_entries.log"
+    },
+    {
+      "job": [
+        "original",
+        "endpoint_escape.py"
+      ],
+      "exit": 0,
+      "log": "original_endpoint_escape.log"
+    },
+    {
+      "job": [
+        "original",
+        "url_resolution.py"
+      ],
+      "exit": 0,
+      "log": "original_url_resolution.log"
+    },
+    {
+      "job": [
+        "original",
+        "repeated_dispatch.py"
+      ],
+      "exit": 0,
+      "log": "original_repeated_dispatch.log"
+    },
+    {
+      "job": [
+        "ported",
+        "attack_entries.py"
+      ],
+      "exit": 0,
+      "log": "ported_attack_entries.log"
+    },
+    {
+      "job": [
+        "ported",
+        "endpoint_escape.py"
+      ],
+      "exit": 0,
+      "log": "ported_endpoint_escape.log"
+    },
+    {
+      "job": [
+        "ported",
+        "url_resolution.py"
+      ],
+      "exit": 0,
+      "log": "ported_url_resolution.log"
+    },
+    {
+      "job": [
+        "ported",
+        "repeated_dispatch.py"
+      ],
+      "exit": 0,
+      "log": "ported_repeated_dispatch.log"
+    },
+    {
+      "job": [
+        "ported",
+        "attack_smoke.py"
+      ],
+      "exit": 0,
+      "log": "ported_attack_smoke.log"
+    },
+    {
+      "job": [
+        "ported",
+        "check_scores.py"
+      ],
+      "exit": 0,
+      "log": "ported_check_scores.log"
+    },
+    {
+      "job": [
+        "boundary"
+      ],
+      "exit": 1,
+      "log": "boundary.log"
+    }
+  ],
+  "passed": false,
+  "seconds": 883.3204321861267,
+  "resources": {
+    "cgroup": "/user.slice/user-1000.slice/user@1000.service/app.slice/run-r3ced254f728d4cfd9f49eabdf2ce684a.scope",
+    "memory_max": "2147483648",
+    "swap_max": "0",
+    "threads": 1
+  },
+  "manifests": {
+    "HOLDOUT_D_PREREG.sha256": {
+      "entries": 7,
+      "mismatch": [],
+      "sha256": "11a4e621fc27411ffb06ade32c9af16f3d198542ef03408d10a3c34d61e26ec8"
+    },
+    "HOLDOUT_D_AMEND1.sha256": {
+      "entries": 643,
+      "mismatch": [],
+      "sha256": "2df9472b5dc982f4ba6864edf9b252a20a14226c0ea89cec700db621bcff429b"
+    },
+    "HOLDOUT_D_AMEND2.sha256": {
+      "entries": 605,
+      "mismatch": [],
+      "sha256": "dc106629ba55b088baeed0e8a6ec03c43677cb1456b1d1fa09778c28a80b08d5"
+    },
+    "HOLDOUT_D_AMEND3.sha256": {
+      "entries": 779,
+      "mismatch": [],
+      "sha256": "8d4c732db1044335d49ec0495d228fd73dec9c92e56e1aa6fdd987200114e061"
+    }
+  },
+  "old_file_changes": [
+    {
+      "path": "codex_daudit4b.log",
+      "before": {
+        "size": 494057,
+        "sha256": "39b5ec03b5c6cd9232cf43f24045998d34b6c699c577da37bb10780274b3ab3d"
+      },
+      "after": {
+        "size": 784090,
+        "sha256": "4fcb2b54d72bd961fd42a8b576b039dc5d4701146ad81f4d7b2256f02c2b901d"
+      },
+      "old_prefix_unchanged": true
+    }
+  ],
+  "unexpected_new": []
+}

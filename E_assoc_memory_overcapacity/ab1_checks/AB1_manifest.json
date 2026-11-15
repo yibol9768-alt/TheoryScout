@@ -1,0 +1,37 @@
+{
+  "schema": "AB1-current-paper-binding-v1",
+  "sha256": {
+    "AB1_AUDIT_CHAIN.md": "8233133e35735543d38f0dc737e1af5019729aaf51691f3cf0dfae5c1fd696be",
+    "AB1_INPUT_SHA256.txt": "a5eb2cb47febcd293354ce6e104062767366cc0d72bdaadb81ea7d24cf75bece",
+    "AB1_M8_DIRECTED_ENVELOPES.md": "86a618c8a662c4f6b464fa7a6d5835e4c94593368df3814fbb890fe84dab8c06",
+    "AB1_Q_CONSTANT_LEMMAS.md": "088bf842a429dcd22d3301d2886a45887733c18db0958fa1656edc7c82e38bbb",
+    "AB1_Q_CONSTANT_TABLE.json": "bcc3d9742eb1ffbfc1eed6d0e88e288d58144f3f40955b4f634f5338bc21bd66",
+    "AB1_Q_RESULTS.md": "374f8017b05a051dbda534a2ea84190cca18a32f89ec5485bd884dc6fe10a6ac",
+    "ab1_checks/AB1_decimal_backend.py": "cfc951b4d6e47ac59c785d6fbd89e11d522e659ee8db0ebdcd86ea695ec5c91b",
+    "ab1_checks/AB1_freeze_final.py": "41f96011f11165325997a73b24a25c20b2e226d8a6accc0c77e385bc17c6f6d2",
+    "ab1_checks/AB1_m8_decimal_certificate.json": "9d25f0db0de7edf88cfa987ee279f992aaffe5a5cb03f133c216dc220fddb528",
+    "ab1_checks/AB1_m8_directed_envelopes.csv": "787fb8d1da89df45fe6e29c14ef687fdc32f6241135bba6c5c1503cd50783ea6",
+    "ab1_checks/AB1_m8_directed_envelopes.json": "55474cafab2d3c1ec51f987c4052367cafca8a2c5bca92ff212fe8d77949b4a2",
+    "ab1_checks/AB1_m8_endpoint_envelopes.json": "fa37c2f3ed12dda25074e078641670251896c92351a000918e13d89f2b68647b",
+    "ab1_checks/AB1_m8_integer_certificate.json": "7fce13d10033404e76a7658aa3488d97c9193f0f4a7a434be6366e98f70b6570",
+    "ab1_checks/AB1_prepare.py": "3020c00d183ee795947d4e3c5f0438431c3fed5fe7dfbe5d3ed5ec18434d8e90",
+    "ab1_checks/AB1_q_adam_example_v2.json": "0645903900fd2b570d58dae7e1e38eec799b2d6f4e4bf2f91415ac13704a8616",
+    "ab1_checks/AB1_q_audit.json": "0f262bc1333f3d2e3de9b119ee12cc117f298f319ddfbeac170038aa97c69731",
+    "ab1_checks/AB1_q_audit.py": "bfaa093947fc2309714601e1429aac89c302551bac82997cbe674cd60d135b0d",
+    "ab1_checks/AB1_q_constants.py": "e0efed73c7f901a52d84da8fca59b2c58a747173ef99cd8a85d716fb08086feb",
+    "ab1_checks/AB1_q_gd_example.json": "2f51725a3628b153afce7eb5db8633a6fde1f70f12bcad9555c3d1c45d1f759a",
+    "ab1_checks/AB1_q_sign_example.json": "d8279a13f3f960ec365a1ca4f3acab2ddd5281a404176d9c1e9813d0174d9a25",
+    "ab1_checks/AB1_summarize.py": "deabfaf202a26e2139c83ea2c8f51d7f59ae62ab8f5f0f23da5d102c147056a7",
+    "ab1_checks/AB1_tables.py": "4c982ccdc38fc9659ea122a0543dcc82375a95605c33b43911787969827c3820",
+    "ab1_checks/verify_m8.py": "d5cea5abc1519f2f2dbb9c7933a3b149957e3f3d91ed4fd3098bc74689d45a00",
+    "paper/appendix/AA_quant_rank.tex": "5ba0e896b8003f2e5fc398ee2dba530700674ff075f35f685c183b985fb4f447",
+    "paper/appendix/L_multistep.tex": "4c89fdaf0489f1792d8020cc4092fd8c68b43d53c0052f5b65e80aca0989666d"
+  },
+  "provenance": {
+    "integer": "aa3_checks/AA3_centered_paths_certificate.json",
+    "decimal": "review21_checks/decimal_enclosures.json",
+    "backend": "review21_checks/decimal_enclosures.py, exact prefix before main()"
+  },
+  "normalization": "J_beta/(a*p_j^2); derivative=a^3*p_j^2*(15/16)*Jnormalized/(sqrt(q)*Lambda)",
+  "scope": "four M.8 paths, r=1/4, 0<delta<=.30; 173 regions, 64 endpoints; near-threshold roots excluded"
+}

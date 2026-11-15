@@ -1,0 +1,294 @@
+[
+  {
+    "d": 32,
+    "n": 256,
+    "repeats": 128,
+    "methods": {
+      "GD2": {
+        "recall": 0.71826171875,
+        "dataset_standard_error": 0.006631159076303575,
+        "target": 0.7637595841058831,
+        "signed_bias": -0.04549786535588307,
+        "absolute_bias_estimate": 0.04549786535588307,
+        "mean_trajectory_frobenius": 0.05790531138085408
+      },
+      "Sign1": {
+        "recall": 0.58984375,
+        "dataset_standard_error": 0.0072955835819137164,
+        "target": 0.6233220951720674,
+        "signed_bias": -0.03347834517206738,
+        "absolute_bias_estimate": 0.03347834517206738,
+        "mean_trajectory_frobenius": 0.28289245058077533
+      },
+      "Sign2_06": {
+        "recall": 0.659912109375,
+        "dataset_standard_error": 0.006726830650356605,
+        "target": 0.6978315342357695,
+        "signed_bias": -0.03791942486076949,
+        "absolute_bias_estimate": 0.03791942486076949,
+        "mean_trajectory_frobenius": 0.32759968654913824
+      },
+      "Sign2_15": {
+        "recall": 0.46435546875,
+        "dataset_standard_error": 0.0073344642087591555,
+        "target": 0.5539903612419871,
+        "signed_bias": -0.08963489249198708,
+        "absolute_bias_estimate": 0.08963489249198708,
+        "mean_trajectory_frobenius": 0.8812676034145758
+      },
+      "Adam2_e1": {
+        "recall": 0.6865234375,
+        "dataset_standard_error": 0.007035157727265865,
+        "target": 0.7450612204150067,
+        "signed_bias": -0.058537782915006664,
+        "absolute_bias_estimate": 0.058537782915006664,
+        "mean_trajectory_frobenius": 0.07871266710141699
+      }
+    },
+    "pairs": [
+      {
+        "A": "GD2",
+        "B": "Sign2_15",
+        "mean": 0.25390625,
+        "dataset_standard_error": 0.00793457770621627
+      },
+      {
+        "A": "Sign2_06",
+        "B": "Sign1",
+        "mean": 0.070068359375,
+        "dataset_standard_error": 0.007536542433215269
+      },
+      {
+        "A": "Sign1",
+        "B": "Sign2_15",
+        "mean": 0.12548828125,
+        "dataset_standard_error": 0.009643268761568438
+      },
+      {
+        "A": "Adam2_e1",
+        "B": "Sign1",
+        "mean": 0.0966796875,
+        "dataset_standard_error": 0.005907238685254363
+      }
+    ]
+  },
+  {
+    "d": 64,
+    "n": 1024,
+    "repeats": 128,
+    "methods": {
+      "GD2": {
+        "recall": 0.739013671875,
+        "dataset_standard_error": 0.006850442847766875,
+        "target": 0.7637595841058831,
+        "signed_bias": -0.02474591223088307,
+        "absolute_bias_estimate": 0.02474591223088307,
+        "mean_trajectory_frobenius": 0.0364150080906572
+      },
+      "Sign1": {
+        "recall": 0.59521484375,
+        "dataset_standard_error": 0.007144647015713125,
+        "target": 0.6233220951720674,
+        "signed_bias": -0.02810725142206738,
+        "absolute_bias_estimate": 0.02810725142206738,
+        "mean_trajectory_frobenius": 0.23792772806356835
+      },
+      "Sign2_06": {
+        "recall": 0.669921875,
+        "dataset_standard_error": 0.006964892888247375,
+        "target": 0.6978315342357695,
+        "signed_bias": -0.02790965923576949,
+        "absolute_bias_estimate": 0.02790965923576949,
+        "mean_trajectory_frobenius": 0.270038374079216
+      },
+      "Sign2_15": {
+        "recall": 0.509033203125,
+        "dataset_standard_error": 0.008196401969927283,
+        "target": 0.5539903612419871,
+        "signed_bias": -0.044957158116987084,
+        "absolute_bias_estimate": 0.044957158116987084,
+        "mean_trajectory_frobenius": 0.7368329889140419
+      },
+      "Adam2_e1": {
+        "recall": 0.713134765625,
+        "dataset_standard_error": 0.006534876892946424,
+        "target": 0.7450612204150067,
+        "signed_bias": -0.031926454790006664,
+        "absolute_bias_estimate": 0.031926454790006664,
+        "mean_trajectory_frobenius": 0.05596812499681618
+      }
+    },
+    "pairs": [
+      {
+        "A": "GD2",
+        "B": "Sign2_15",
+        "mean": 0.22998046875,
+        "dataset_standard_error": 0.00788699698274002
+      },
+      {
+        "A": "Sign2_06",
+        "B": "Sign1",
+        "mean": 0.07470703125,
+        "dataset_standard_error": 0.006597099051862927
+      },
+      {
+        "A": "Sign1",
+        "B": "Sign2_15",
+        "mean": 0.086181640625,
+        "dataset_standard_error": 0.009491072263778032
+      },
+      {
+        "A": "Adam2_e1",
+        "B": "Sign1",
+        "mean": 0.117919921875,
+        "dataset_standard_error": 0.005812691776211548
+      }
+    ]
+  },
+  {
+    "d": 128,
+    "n": 4096,
+    "repeats": 96,
+    "methods": {
+      "GD2": {
+        "recall": 0.7503255208333334,
+        "dataset_standard_error": 0.00790101706875949,
+        "target": 0.7637595841058831,
+        "signed_bias": -0.013434063272549701,
+        "absolute_bias_estimate": 0.013434063272549701,
+        "mean_trajectory_frobenius": 0.023932610212525074
+      },
+      "Sign1": {
+        "recall": 0.6015625,
+        "dataset_standard_error": 0.008252416910725069,
+        "target": 0.6233220951720674,
+        "signed_bias": -0.02175959517206738,
+        "absolute_bias_estimate": 0.02175959517206738,
+        "mean_trajectory_frobenius": 0.2005323732617252
+      },
+      "Sign2_06": {
+        "recall": 0.6848958333333334,
+        "dataset_standard_error": 0.008248090610605602,
+        "target": 0.6978315342357695,
+        "signed_bias": -0.01293570090243612,
+        "absolute_bias_estimate": 0.01293570090243612,
+        "mean_trajectory_frobenius": 0.22468342720881404
+      },
+      "Sign2_15": {
+        "recall": 0.5354817708333334,
+        "dataset_standard_error": 0.009423074286720004,
+        "target": 0.5539903612419871,
+        "signed_bias": -0.018508590408653713,
+        "absolute_bias_estimate": 0.018508590408653713,
+        "mean_trajectory_frobenius": 0.6155002010090405
+      },
+      "Adam2_e1": {
+        "recall": 0.7262369791666666,
+        "dataset_standard_error": 0.007269283348265074,
+        "target": 0.7450612204150067,
+        "signed_bias": -0.018824241248340035,
+        "absolute_bias_estimate": 0.018824241248340035,
+        "mean_trajectory_frobenius": 0.03948713681917962
+      }
+    },
+    "pairs": [
+      {
+        "A": "GD2",
+        "B": "Sign2_15",
+        "mean": 0.21484375,
+        "dataset_standard_error": 0.010402093698716907
+      },
+      {
+        "A": "Sign2_06",
+        "B": "Sign1",
+        "mean": 0.08333333333333333,
+        "dataset_standard_error": 0.008195996885603997
+      },
+      {
+        "A": "Sign1",
+        "B": "Sign2_15",
+        "mean": 0.06608072916666667,
+        "dataset_standard_error": 0.011932622484994796
+      },
+      {
+        "A": "Adam2_e1",
+        "B": "Sign1",
+        "mean": 0.12467447916666667,
+        "dataset_standard_error": 0.008167572441091533
+      }
+    ]
+  },
+  {
+    "d": 256,
+    "n": 16384,
+    "repeats": 64,
+    "methods": {
+      "GD2": {
+        "recall": 0.74072265625,
+        "dataset_standard_error": 0.009981606840144508,
+        "target": 0.7637595841058831,
+        "signed_bias": -0.02303692785588307,
+        "absolute_bias_estimate": 0.02303692785588307,
+        "mean_trajectory_frobenius": 0.016271893671702255
+      },
+      "Sign1": {
+        "recall": 0.6259765625,
+        "dataset_standard_error": 0.010781572370884892,
+        "target": 0.6233220951720674,
+        "signed_bias": 0.002654467327932619,
+        "absolute_bias_estimate": 0.002654467327932619,
+        "mean_trajectory_frobenius": 0.1691944949427393
+      },
+      "Sign2_06": {
+        "recall": 0.69140625,
+        "dataset_standard_error": 0.009928576000805446,
+        "target": 0.6978315342357695,
+        "signed_bias": -0.006425284235769491,
+        "absolute_bias_estimate": 0.006425284235769491,
+        "mean_trajectory_frobenius": 0.18734617129221032
+      },
+      "Sign2_15": {
+        "recall": 0.5400390625,
+        "dataset_standard_error": 0.010837588190810205,
+        "target": 0.5539903612419871,
+        "signed_bias": -0.013951298741987084,
+        "absolute_bias_estimate": 0.013951298741987084,
+        "mean_trajectory_frobenius": 0.5173410023272245
+      },
+      "Adam2_e1": {
+        "recall": 0.73095703125,
+        "dataset_standard_error": 0.00930178680053054,
+        "target": 0.7450612204150067,
+        "signed_bias": -0.014104189165006664,
+        "absolute_bias_estimate": 0.014104189165006664,
+        "mean_trajectory_frobenius": 0.027952044069725367
+      }
+    },
+    "pairs": [
+      {
+        "A": "GD2",
+        "B": "Sign2_15",
+        "mean": 0.20068359375,
+        "dataset_standard_error": 0.009588666738901797
+      },
+      {
+        "A": "Sign2_06",
+        "B": "Sign1",
+        "mean": 0.0654296875,
+        "dataset_standard_error": 0.00971199934096202
+      },
+      {
+        "A": "Sign1",
+        "B": "Sign2_15",
+        "mean": 0.0859375,
+        "dataset_standard_error": 0.011666965610540715
+      },
+      {
+        "A": "Adam2_e1",
+        "B": "Sign1",
+        "mean": 0.10498046875,
+        "dataset_standard_error": 0.009269181742745367
+      }
+    ]
+  }
+]

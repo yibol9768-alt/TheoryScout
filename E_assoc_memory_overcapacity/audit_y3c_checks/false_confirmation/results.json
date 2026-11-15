@@ -1,0 +1,64 @@
+{
+  "original_decisions": {
+    "primary_both_passed": false,
+    "d512_passed": false,
+    "full72_equivalent": false
+  },
+  "analyzer_returncode": 0,
+  "accepted": true,
+  "verification_succeeded": true,
+  "confirmation_valid": true,
+  "published_decisions": {
+    "primary_both_passed": true,
+    "d512_passed": true,
+    "full72_equivalent": true
+  },
+  "endpoints_untouched": [
+    {
+      "endpoint": "three_dim_old",
+      "n": "32",
+      "mean": "-5.772136879365231e-05",
+      "se": "1.4679331429748095e-06",
+      "critical": "2.530925845218133",
+      "lower": "-6.143659872425954e-05",
+      "upper": "-5.4006138863045084e-05",
+      "p_two_sided": "5.078571280001366e-28",
+      "p_bonferroni": "1.5235713840004097e-27",
+      "eligible": "True",
+      "passed": "False"
+    },
+    {
+      "endpoint": "three_dim_new",
+      "n": "32",
+      "mean": "-8.397072066456344e-05",
+      "se": "0.0",
+      "critical": "2.530925845218133",
+      "lower": "-8.397072066456344e-05",
+      "upper": "-8.397072066456344e-05",
+      "p_two_sided": "0.0",
+      "p_bonferroni": "0.0",
+      "eligible": "True",
+      "passed": "False"
+    },
+    {
+      "endpoint": "d512_rminus_half_GD_minus_Sign_old",
+      "n": "32",
+      "mean": "-4.172521409147751e-05",
+      "se": "2.3027968663730062e-07",
+      "critical": "2.530925845218133",
+      "lower": "-4.230803490201659e-05",
+      "upper": "-4.114239328093843e-05",
+      "p_two_sided": "1.820840212185133e-48",
+      "p_bonferroni": "5.462520636555399e-48",
+      "eligible": "True",
+      "passed": "False"
+    }
+  ],
+  "modified_only": "PENDING.json candidate_decisions after normal analysis exit; NPZ and reports unchanged",
+  "no_formal_sampling": true,
+  "usage": {
+    "cpu_seconds": 4.335787,
+    "peak_rss_mib": 99.1796875,
+    "monotonic": 26030.670485409
+  }
+}

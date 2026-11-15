@@ -1,0 +1,98 @@
+[
+  {
+    "task": "old",
+    "dimensions": [
+      128,
+      256,
+      512
+    ],
+    "N": 24,
+    "assumed_truth": "frozen_corrected_prediction",
+    "expected_loss_improvement": 5.7963258690388474e-05,
+    "projected_block_SD": 7.018820494864775e-05,
+    "approximate_power_family2": 0.9426742656521298
+  },
+  {
+    "task": "old",
+    "dimensions": [
+      128,
+      256,
+      512
+    ],
+    "N": 64,
+    "assumed_truth": "frozen_corrected_prediction",
+    "expected_loss_improvement": 5.7963258690388474e-05,
+    "projected_block_SD": 7.018820494864775e-05,
+    "approximate_power_family2": 0.9999883229243259
+  },
+  {
+    "task": "old",
+    "dimensions": [
+      512
+    ],
+    "N": 24,
+    "assumed_truth": "frozen_corrected_prediction",
+    "expected_loss_improvement": 8.280465527198352e-06,
+    "projected_block_SD": 4.631057149890964e-05,
+    "approximate_power_family2": 0.07893951433029607
+  },
+  {
+    "task": "old",
+    "dimensions": [
+      512
+    ],
+    "N": 64,
+    "assumed_truth": "frozen_corrected_prediction",
+    "expected_loss_improvement": 8.280465527198352e-06,
+    "projected_block_SD": 4.631057149890964e-05,
+    "approximate_power_family2": 0.20063088930563788
+  },
+  {
+    "task": "new",
+    "dimensions": [
+      128,
+      256,
+      512
+    ],
+    "N": 24,
+    "assumed_truth": "frozen_corrected_prediction",
+    "expected_loss_improvement": 8.417732619812976e-05,
+    "projected_block_SD": 0.00010602414639177027,
+    "approximate_power_family2": 0.9237402134709237
+  },
+  {
+    "task": "new",
+    "dimensions": [
+      128,
+      256,
+      512
+    ],
+    "N": 64,
+    "assumed_truth": "frozen_corrected_prediction",
+    "expected_loss_improvement": 8.417732619812976e-05,
+    "projected_block_SD": 0.00010602414639177027,
+    "approximate_power_family2": 0.999965613843573
+  },
+  {
+    "task": "new",
+    "dimensions": [
+      512
+    ],
+    "N": 24,
+    "assumed_truth": "frozen_corrected_prediction",
+    "expected_loss_improvement": 1.2025332314018538e-05,
+    "projected_block_SD": 7.04899501787993e-05,
+    "approximate_power_family2": 0.07349174058249042
+  },
+  {
+    "task": "new",
+    "dimensions": [
+      512
+    ],
+    "N": 64,
+    "assumed_truth": "frozen_corrected_prediction",
+    "expected_loss_improvement": 1.2025332314018538e-05,
+    "projected_block_SD": 7.04899501787993e-05,
+    "approximate_power_family2": 0.18307496294345013
+  }
+]

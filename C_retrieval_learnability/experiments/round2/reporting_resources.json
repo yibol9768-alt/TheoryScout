@@ -1,0 +1,16 @@
+{
+  "report_seconds": 2.136805772781372,
+  "memory": {
+    "VmPeak": 460013568,
+    "VmSize": 460013568,
+    "VmHWM": 187817984,
+    "VmRSS": 187817984
+  },
+  "total_since_timing_seconds": 2105.7786054611206,
+  "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1",
+  "matplotlib": "3.11.2",
+  "platform": "Linux-6.18.40.1-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+  "report_code_sha256": "1f3c462cd33706a9f29cd0f59b28756490039d3766eff88f30ec96071e31020a"
+}

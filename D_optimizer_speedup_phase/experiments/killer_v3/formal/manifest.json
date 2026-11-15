@@ -1,0 +1,52 @@
+{
+  "mode": "formal",
+  "start_utc": "2026-11-06T09:54:41.783055+00:00",
+  "status": "complete",
+  "executable": "/home/liuyibo/venvs/theory/bin/python",
+  "python_version": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+  "master_seed": 2026110603,
+  "pid": 1920386,
+  "threads": {
+    "OPENBLAS_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1"
+  },
+  "prereg_sha256": "cdc1337e806558b3d5dcc914d9380d33ecc8116f2df9396c47830a489357a06b",
+  "source_sha256": "5dae987c62897d6712cd4ad6aff6f49c69f7e524bf4cb2d06b69836b8b8b7a4b",
+  "frozen_manifest_sha256": "7f6cb4f10f3fd14b6e41f368ca920c914d6ef7304ad746a48a41ac2ad3d133d0",
+  "max_seconds": 2700.0,
+  "device": "CPU",
+  "project_imports": [],
+  "network_calls": 0,
+  "scope": "theory-d-killer-v3-formal.scope",
+  "scope_properties": "ControlGroup=/user.slice/user-1000.slice/user@1000.service/app.slice/theory-d-killer-v3-formal.scope\nMemoryMax=2147483648\nMemorySwapMax=0\nActiveState=active\n",
+  "end_utc": "2026-11-06T09:55:04.415662+00:00",
+  "elapsed_seconds": 22.63508078599989,
+  "peak_rss_bytes": 142774272,
+  "counts": {
+    "local": 54,
+    "path": 24,
+    "trajectory_algorithms": 36,
+    "controls": 12
+  },
+  "cost": {
+    "training_samples": 18874368,
+    "diagnostic_samples": 1277952,
+    "scalar_observations": 66846720,
+    "training_nD_per_algorithm": 2113929216,
+    "diagnostic_nD": 162004992
+  },
+  "stage_seconds": {
+    "local": 2.4168621660064673,
+    "controls": 0.7990237449994311,
+    "trajectories": 17.853704349006875,
+    "path": 1.2186036499915645
+  },
+  "p0": {
+    "one_step_max_abs": 2.220446049250313e-15,
+    "quadrature_max_abs": 2.7755575615628914e-17,
+    "sum_k_max_abs": 1.1102230246251565e-16,
+    "one_dimensional_max_abs": 1.1102230246251565e-16
+  }
+}

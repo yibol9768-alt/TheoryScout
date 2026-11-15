@@ -1,0 +1,122 @@
+{
+  "scope": "New focused conditional top-L study; not a retrospective pass for old experimental families or a single-dataset guarantee",
+  "numerical_caveat": "Uncertified eigenvalues and finite quadrature; statistical formulas assume exact evaluations",
+  "d": 512,
+  "n": 16595,
+  "method": "Adam2",
+  "rep": 0,
+  "rows": [
+    {
+      "L": 1,
+      "threshold_samples": 131072,
+      "conditional_queries": 131072,
+      "empirical_lower_mean_bracket": [
+        0.4018374798175306,
+        0.4074188325310814
+      ],
+      "empirical_upper_quadratic_mean_bracket": [
+        0.41760961729697366,
+        0.4232732908390902
+      ],
+      "lower_grouping_gap": 0.005581352713550813,
+      "upper_grouping_gap": 0.005663673542116554,
+      "threshold_hoeffding_radius": 0.004690884599934407,
+      "bad_event_bound": 0.003635578456623878,
+      "float_statistical_enclosure": [
+        0.3971465952175962,
+        0.4315997538956485
+      ],
+      "width": 0.034453158678052265,
+      "references": {
+        "actual": {
+          "estimate": 0.4066925048828125,
+          "count": 53306,
+          "interval": [
+            0.4018395547523137,
+            0.4115454550133113
+          ]
+        },
+        "lower_quadratic": {
+          "estimate": 0.40523529052734375,
+          "count": 53115,
+          "interval": [
+            0.40038234039684495,
+            0.41008824065784255
+          ]
+        },
+        "upper_quadratic": {
+          "estimate": 0.42071533203125,
+          "count": 55144,
+          "interval": [
+            0.4158623819007512,
+            0.4255682821617488
+          ]
+        }
+      },
+      "reference_hoeffding_radius": 0.004852950130498802,
+      "actual_reference_compatible": true,
+      "negative_threshold_count": 0,
+      "event_inclusion_violations": [
+        0,
+        0
+      ]
+    },
+    {
+      "L": 5,
+      "threshold_samples": 131072,
+      "conditional_queries": 131072,
+      "empirical_lower_mean_bracket": [
+        0.6036019876375947,
+        0.6070706067569431
+      ],
+      "empirical_upper_quadratic_mean_bracket": [
+        0.617826702691904,
+        0.6212474154585543
+      ],
+      "lower_grouping_gap": 0.0034686191193484817,
+      "upper_grouping_gap": 0.0034207127666503467,
+      "threshold_hoeffding_radius": 0.004690884599934407,
+      "bad_event_bound": 0.003635578456623878,
+      "float_statistical_enclosure": [
+        0.5989111030376603,
+        0.6295738785151126
+      ],
+      "width": 0.03066277547745233,
+      "references": {
+        "actual": {
+          "estimate": 0.6067581176757812,
+          "count": 79529,
+          "interval": [
+            0.6019051675452824,
+            0.61161106780628
+          ]
+        },
+        "lower_quadratic": {
+          "estimate": 0.6054458618164062,
+          "count": 79357,
+          "interval": [
+            0.6005929116859074,
+            0.610298811946905
+          ]
+        },
+        "upper_quadratic": {
+          "estimate": 0.619537353515625,
+          "count": 81204,
+          "interval": [
+            0.6146844033851262,
+            0.6243903036461238
+          ]
+        }
+      },
+      "reference_hoeffding_radius": 0.004852950130498802,
+      "actual_reference_compatible": true,
+      "negative_threshold_count": 0,
+      "event_inclusion_violations": [
+        0,
+        0
+      ]
+    }
+  ],
+  "wall_seconds": 69.79492629099695,
+  "max_RSS_KiB": 513860
+}

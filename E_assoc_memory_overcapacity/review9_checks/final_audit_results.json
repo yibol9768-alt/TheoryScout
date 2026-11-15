@@ -1,0 +1,188 @@
+{
+  "original_W4_reanalysis": [
+    {
+      "d": 64,
+      "mode": "fixed",
+      "n": 16,
+      "bias": -0.015783381950305708,
+      "SE": 0.0038234041736173985,
+      "corrected_residual_SE": -0.14709113568505866
+    },
+    {
+      "d": 64,
+      "mode": "matched",
+      "n": 16,
+      "bias": -0.015667472629122492,
+      "SE": 0.003824333532206526,
+      "corrected_residual_SE": -0.15510889146951704
+    },
+    {
+      "d": 128,
+      "mode": "fixed",
+      "n": 16,
+      "bias": -0.008444134138874348,
+      "SE": 0.0018461250080103729,
+      "corrected_residual_SE": -0.45156075084003955
+    },
+    {
+      "d": 128,
+      "mode": "matched",
+      "n": 16,
+      "bias": -0.008362891136036943,
+      "SE": 0.001846681169109601,
+      "corrected_residual_SE": -0.44715292638686804
+    },
+    {
+      "d": 256,
+      "mode": "fixed",
+      "n": 16,
+      "bias": -0.0039579892563855745,
+      "SE": 0.00045927406920637085,
+      "corrected_residual_SE": -0.33257045100152705
+    },
+    {
+      "d": 256,
+      "mode": "matched",
+      "n": 16,
+      "bias": -0.003924032878061312,
+      "SE": 0.0004594995387681751,
+      "corrected_residual_SE": -0.33832842334289803
+    },
+    {
+      "d": 320,
+      "mode": "fixed",
+      "n": 16,
+      "bias": -0.003741157518471483,
+      "SE": 0.0006601184682682588,
+      "corrected_residual_SE": -1.0558088196726663
+    },
+    {
+      "d": 320,
+      "mode": "matched",
+      "n": 16,
+      "bias": -0.0037131145673094945,
+      "SE": 0.0006601671308944757,
+      "corrected_residual_SE": -1.0576983248119571
+    }
+  ],
+  "rank_numerical_comparison": [
+    {
+      "d": 64,
+      "old_mean_rank": 0.2439168973296268,
+      "new_mean_rank": 0.24391660723513506,
+      "gap_in_reported_SE": 2.1832417017012116,
+      "nominal_95_t7_includes_new": true,
+      "old_effective_beta": 0.26667751911360327,
+      "new_effective_beta": 0.2666589530661323
+    },
+    {
+      "d": 128,
+      "old_mean_rank": 0.2418642901640809,
+      "new_mean_rank": 0.2418640943848154,
+      "gap_in_reported_SE": 2.0415737346259566,
+      "nominal_95_t7_includes_new": true,
+      "old_effective_beta": 0.27062132103733205,
+      "new_effective_beta": 0.27059626129134884
+    },
+    {
+      "d": 256,
+      "old_mean_rank": 0.24081502673007088,
+      "new_mean_rank": 0.2408148929082257,
+      "gap_in_reported_SE": 1.9649374093922187,
+      "nominal_95_t7_includes_new": true,
+      "old_effective_beta": 0.27263120296809973,
+      "new_effective_beta": 0.27259694457573147
+    },
+    {
+      "d": 512,
+      "old_mean_rank": 0.24028453931791058,
+      "new_mean_rank": 0.24028444680004807,
+      "gap_in_reported_SE": 1.9223733081986136,
+      "nominal_95_t7_includes_new": true,
+      "old_effective_beta": 0.2736528509101248,
+      "new_effective_beta": 0.2736054817645197
+    }
+  ],
+  "descriptive_95_Bonferroni_8_coefficient_intervals": [
+    {
+      "d": 64,
+      "mode": "fixed",
+      "beta_interval": [
+        -1.2393886542438397,
+        -0.8486671737253599
+      ],
+      "halfwidth": 0.19536074025923988
+    },
+    {
+      "d": 64,
+      "mode": "matched",
+      "beta_interval": [
+        -1.2314008231106455,
+        -0.8398114404620587
+      ],
+      "halfwidth": 0.19579469132429345
+    },
+    {
+      "d": 128,
+      "mode": "fixed",
+      "beta_interval": [
+        -1.1040193219339907,
+        -0.7382443173857914
+      ],
+      "halfwidth": 0.18288750227409956
+    },
+    {
+      "d": 128,
+      "mode": "matched",
+      "beta_interval": [
+        -1.0943811027326862,
+        -0.7289015573654721
+      ],
+      "halfwidth": 0.182739772683607
+    },
+    {
+      "d": 256,
+      "mode": "fixed",
+      "beta_interval": [
+        -1.071601047637887,
+        -0.6298000470364513
+      ],
+      "halfwidth": 0.2209005003007178
+    },
+    {
+      "d": 256,
+      "mode": "matched",
+      "beta_interval": [
+        -1.0621495166178938,
+        -0.6199673017792116
+      ],
+      "halfwidth": 0.22109110741934115
+    },
+    {
+      "d": 512,
+      "mode": "fixed",
+      "beta_interval": [
+        -1.4661263744485398,
+        -0.7954747862577376
+      ],
+      "halfwidth": 0.3353257940954011
+    },
+    {
+      "d": 512,
+      "mode": "matched",
+      "beta_interval": [
+        -1.457375783735213,
+        -0.7863256464824845
+      ],
+      "halfwidth": 0.33552506862636433
+    }
+  ],
+  "all_original_hashed_inputs_unchanged": true,
+  "python": "/home/liuyibo/venvs/theory/bin/python",
+  "threads": 1,
+  "cgroup": {
+    "memory.max": "2147483648",
+    "memory.swap.max": "0",
+    "memory.peak": "98095104"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "mode": "formal",
+  "elapsed_seconds": 2.6348921219905606,
+  "end_utc": "2026-11-06T09:55:19.042603+00:00",
+  "peak_rss_bytes": 119357440,
+  "executable": "/home/liuyibo/venvs/theory/bin/python",
+  "source_sha256": "5dc68b2f3237900a9a787afaec208217dd4c9966716329d597c368569108bb0d",
+  "scope": "theory-d-killer-v3-formal-audit.scope",
+  "scope_properties": "MemoryMax=2147483648\nMemorySwapMax=0\n"
+}

@@ -1,0 +1,15 @@
+{
+  "probability": {
+    "lower_integer": "890777322720735215034093186162956300499830854114",
+    "upper_integer": "890777325906247185759913567467726811784472256775",
+    "denominator_power2": 160,
+    "approximate": [
+      0.6094945773359074,
+      0.6094945795155231
+    ],
+    "width_approximate": 2.1796157386066474e-09
+  },
+  "wall_seconds": 64.15877762399032,
+  "certified_from": "Exact same saved R11 B; new matrix construction and spectrum",
+  "caveat": "Not itself the C0 model result; see separately shifted node certificates"
+}

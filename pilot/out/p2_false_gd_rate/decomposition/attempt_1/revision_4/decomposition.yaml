@@ -1,0 +1,239 @@
+# ORIGINAL_TARGET_REFUTED -- AFFIRMATIVE DECOMPOSITION UNAVAILABLE.
+# Required-path failure record for the upstream task/success-criterion owner.
+# This file is not a new proof queue and does not repair the false target.
+# Successful source and intermediate nodes are preserved verbatim.
+# Do not dispatch another prover against the unchanged GOAL.
+# See decomposition_status.json and upstream_escalation.md for the handoff.
+# An empty proof_order does not implement a controller stop or prove GOAL.
+metadata:
+  problem_id: "p2_false_gd_rate.tex"
+  mode: "REVISE"
+  attempt: 1
+  revision: 4
+  timestamp: "2026-11-05T11:54:59.758029"
+
+sources:
+  - id: S1
+    type: literature
+    statement: |
+      Let f be in C^2(R^d), with mu I <= Hessian f(x) <= L I for every x,
+      where the inequalities are in the positive-semidefinite order and
+      0 < mu < L. For eta in R, define
+      T_eta(x) = x - eta grad f(x) and
+      rho(eta) = max{|1 - eta mu|, |1 - eta L|}.
+      For every x,y in R^d,
+      ||T_eta(x) - T_eta(y)||_2 <= rho(eta) ||x-y||_2.
+      If 0 < eta < 2/L, then, for the unique minimizer x^star and every
+      x_0 in R^d, the iteration x_{k+1} = T_eta(x_k) satisfies
+      ||x_k-x^star||_2 <= rho(eta)^k ||x_0-x^star||_2
+      for every integer k >= 0. The minimum of rho(eta) over eta in R is
+      (L-mu)/(L+mu), attained at eta = 2/(L+mu).
+    citation: |
+      <cite>type=theorem; label=S1; title=A Primer on Monotone Operator Methods; authors=Ernest K. Ryu and Stephen Boyd; source_url=https://web.stanford.edu/~boyd/papers/pdf/monotone_primer.pdf; verifier_locator=Section 5.1, Gradient method, printed page 15 (PDF page 13), sentence immediately after the assumption of strong convexity and strong smoothness; statement_match=exact; statement=Then I − α∇f is Lipschitz with parameter LGM = max{|1 − αm|, |1 − αL|}.; usage=Confirms the contraction factor derived directly above for this quadratic, with m=mu and alpha=eta; at eta=1/L this factor is 1-mu/L.</cite>
+
+steps:
+  - id: STEP1
+    statement: |
+      For every integer d >= 1, every real symmetric H with spectrum in
+      [mu,L], every b,x_0 in R^d, and 0 < mu < L, the quadratic in GOAL has
+      grad f(x) = Hx-b and unique minimizer x^star = H^{-1}b.
+      For every real constant eta and every integer k >= 0, its gradient
+      descent iterates satisfy
+      x_k-x^star = (I-eta H)^k (x_0-x^star).
+      In particular, at the prescribed eta = 1/L, for every integer k >= 0,
+      ||x_k-x^star||_2 <= (1-mu/L)^k ||x_0-x^star||_2.
+    inputs: [S1]
+    difficulty: easy
+    is_key_step: false
+    rationale: |
+      The exact recurrence permits an equality example rather than relying
+      on an upper bound to disprove a stronger proposed upper bound.
+      The valid uniform estimate also records what the prescribed step
+      actually guarantees.
+    strategy_hint: |
+      Differentiate the symmetric quadratic, use H x^star = b, and subtract
+      x^star from one update. Iterate the resulting linear recurrence.
+      Apply S1 with eta = 1/L, for which rho(eta) = 1-mu/L.
+
+  - id: STEP2
+    statement: |
+      For every pair 0 < mu < L, set d=2, H=diag(mu,L), b=(0,0)^top,
+      x_0=(1,0)^top, and eta=1/L. Then H=H^top,
+      lambda_min(H)=mu, lambda_max(H)=L, x^star=(0,0)^top, and
+      x_k=((1-mu/L)^k,0)^top for every integer k >= 0.
+      Put r=(L-mu)/L and q=(L-mu)/(L+mu). Then
+      r-q = mu(L-mu)/(L(L+mu)) > 0, and for every integer k >= 1,
+      ||x_k-x^star||_2 = r^k > q^k ||x_0-x^star||_2.
+      In particular, mu=1, L=2, and k=1 give
+      ||x_1-x^star||_2 = 1/2 > 1/3 = q ||x_0-x^star||_2.
+    inputs: [STEP1]
+    difficulty: easy
+    is_key_step: false
+    rationale: |
+      This is an admissible counterexample to GOAL, even when both spectral
+      endpoints must be attained. It also proves sharpness of the factor
+      1-mu/L in STEP1. A universal inequality cannot hold when it fails for
+      this particular H, initial point, and k=1.
+    strategy_hint: |
+      Here I-H/L=diag(1-mu/L,0). Apply its powers to (1,0)^top and compare
+      the positive factors r and q using the displayed exact difference.
+      The resulting statement is the negation of GOAL, not a lemma proving it.
+
+  - id: STEP3
+    statement: |
+      For every integer d >= 1, every real symmetric H with spectrum in
+      [mu,L], every b,x_0 in R^d, and 0 < mu < L, let y_0=x_0 and
+      y_{k+1}=y_k-(2/(L+mu))(Hy_k-b).
+      Then for every integer k >= 0,
+      ||y_k-H^{-1}b||_2 <= ((L-mu)/(L+mu))^k ||y_0-H^{-1}b||_2.
+      For d=2, H=diag(mu,L), b=(0,0)^top, and y_0=(1,0)^top,
+      equality holds for every integer k >= 0.
+    inputs: [S1, STEP1]
+    difficulty: easy
+    is_key_step: false
+    rationale: |
+      This states the valid alternative with the requested factor and a
+      changed step. It is a correction for reference, not a consequence
+      establishing GOAL with its original algorithm.
+    strategy_hint: |
+      Substitute eta=2/(L+mu) into S1. The two endpoint multipliers are
+      q and -q, where q=(L-mu)/(L+mu). For the equality example use the
+      exact recurrence from STEP1 along the mu eigenvector.
+
+target:
+  id: GOAL
+  statement: |
+    \begin{problem}
+    Let $f(x)=\tfrac12 x^\top H x - b^\top x$ on $\mathbb{R}^d$, where $H$ is symmetric with all eigenvalues in $[\mu,L]$, $0<\mu<L$. Let $x^\star$ be the minimizer. Prove that gradient descent with step size $\eta = 1/L$ satisfies
+    \[ \|x_{k}-x^\star\|_2 \le \Big(\frac{L-\mu}{L+\mu}\Big)^{k}\|x_0-x^\star\|_2 \quad\text{for all } k\ge 0 \text{ and all such } H. \]
+    \end{problem}
+  inputs: []  # GOAL is false; no steps are claimed to prove it.
+
+# No retained node or GOAL is scheduled for a new proof attempt.
+proof_order: []
+key_steps: []  # The verified obstruction is elementary; no novel lemma is needed.
+
+self_critique:
+  plausibility_issues:
+    - >-
+      GOAL is false, rather than an unproved plausible conjecture. For
+      d=2, mu=1, L=2, H=diag(1,2), b=0, and x_0=(1,0)^top, the
+      unique minimizer is zero. The required step eta=1/L=1/2 gives
+      x_1=(1/2,0)^top. At k=1, the actual unsquared Euclidean error is
+      1/2 while the requested upper bound is 1/3; the excess is 1/6>0.
+      This is the independently verified Phase 4f witness, also checked
+      here by exact rational arithmetic. A valid affirmative plan is impossible.
+    - >-
+      STEP1 is retained unchanged. Positive definiteness gives H^{-1}b;
+      differentiating the symmetric quadratic gives Hx-b. Subtraction of
+      Hx^star=b gives the stated recurrence for every real eta and k>=0.
+      At eta=1/L, the symmetric update has eigenvalues in [0,1-mu/L],
+      which yields precisely the rate in STEP1, including k=0.
+    - >-
+      STEP2 is retained unchanged. Its diagonal update is diag(r,0),
+      where r=(L-mu)/L>0, so the initial unit eigenvector has exact
+      error r^k. For q=(L-mu)/(L+mu)>0, the difference
+      r-q=mu(L-mu)/(L(L+mu)) is strictly positive. Thus r^k>q^k for
+      every integer k>=1. This is an attained violation, not an inference
+      from comparing upper bounds. STEP2 refutes GOAL and does not imply it.
+    - >-
+      STEP3 is retained unchanged. At its separately defined step,
+      1-2mu/(L+mu)=q and 1-2L/(L+mu)=-q, so all eigenvalues of the
+      symmetric update lie in [-q,q]. Its equality example lies along
+      the mu eigenvector. This auxiliary theorem concerns a different
+      sequence and has no affirmative implication for the original GOAL.
+    - >-
+      Completeness fails necessarily for the requested affirmative task.
+      There is no sound collection of true intermediate claims that proves
+      a target contradicted by this admissible instance. The retained
+      archival graph has a topological order STEP1, STEP2, STEP3, but
+      GOAL has no proven inputs. proof_order=[] schedules no proof work;
+      it is not a full topological sort or a completion certificate.
+      The checklist requiring a complete affirmative chain cannot be met.
+  contradiction_checks:
+    - >-
+      All original hypotheses hold in the witness: H is a real symmetric
+      2 by 2 matrix with eigenvalues exactly 1 and 2, 0<1<2, the vectors
+      are in R^2, the objective is f(u,v)=u^2/2+v^2 with minimizer zero,
+      the prescribed eta is 1/2, and k=1 is allowed. No assumption,
+      quantifier, norm, or algorithm has been altered.
+    - >-
+      The literature survey explicitly identifies the false parameter
+      pairing. Its T1, retained as S1 with the previously verified citation,
+      gives rho(1/L)=1-mu/L and rho(2/(L+mu))=(L-mu)/(L+mu).
+      These are consistent with STEP1--STEP3, and provide no affirmative
+      bridge to GOAL. No additional source search or citation change is needed.
+    - >-
+      The full mandatory history records the same verified contradiction
+      in revisions 1, 2, and 3. The revision 3 proof and supplied structural
+      feedback again establish target refutation in Phase 4f. Phases 1
+      and 2 fail because a refutation is not the required affirmative proof;
+      passing Phases 3--5 does not remove that incompatibility.
+    - >-
+      No retained intermediate claim was refuted in the supplied review.
+      The full auxiliary proofs were not certified in detailed verification.
+      They must receive the appropriate verification if an explicit future
+      corrected task adopts them. Their retention here is not certification.
+    - >-
+      No upstream correction or authorization to replace the acceptance
+      criterion appears in the problem, empty human-guidance file, previous
+      proof, plan history, or regulator decision. The original target text
+      and empty target.inputs are preserved exactly; neither a corrected
+      theorem nor an authorized refutation task is adopted.
+  refinements_made:
+    - >-
+      Read the problem, full literature survey, empty human guidance,
+      complete three-entry plan history, current decomposition, previous
+      proof, supplied verifier feedback and regulator guidance, and existing
+      revision 3 upstream_escalation.md before revising. The failure is
+      GOAL itself, so splitting or strengthening an intermediate lemma
+      cannot address it. S1, STEP1, STEP2, STEP3, and target are unchanged.
+    - >-
+      Updated only the required revision metadata and the diagnostic
+      framing/self-critique within the YAML. The exact prescribed timestamp
+      is retained for revision 4. This mandatory output-path artifact is
+      expressly an unavailable-decomposition record; it is not submitted
+      as a mathematical repair or a fourth fresh proof queue.
+    - >-
+      Followed the regulator's upstream escalation guidance: carried the
+      existing revision 3 handoff verbatim into upstream_escalation.md with
+      a current cover note, and added decomposition_status.json containing
+      an explicit terminal diagnosis, structured exact counterexample,
+      source evidence, unmet success criterion, and required owner action.
+      This exposes routing information as data instead of relying solely
+      on YAML comments or another empty schedule.
+    - >-
+      The sidecar records that controller enforcement has not been changed
+      or verified. Producing these files cannot itself stop an external
+      runner, reach an unidentified external owner, or change acceptance
+      criteria. This response hands the contradiction to the requesting
+      task owner. No further prover is launched here. The external workflow
+      must act on the diagnosis before any subsequent affirmative dispatch.
+    - >-
+      Retained proof_order=[] only to avoid fabricating an affirmative
+      schedule in the required format; it is not presented as a fix.
+      The regulator and plan history explicitly rule out treating a fourth
+      terminal copy, an empty order, or regenerated archival proofs as the
+      remedy. No new proof attempt or new mathematical strategy is proposed.
+    - >-
+      The owner's distinct possible resolutions are: adopt factor 1-mu/L
+      at eta=1/L using STEP1; adopt eta=2/(L+mu) with the requested factor
+      using STEP3; or authorize a refutation target/criterion using STEP2.
+      None is selected without an explicit upstream change. A new affirmative
+      target would need its actual inputs and GOAL last in a valid proof
+      order, followed by structural and detailed verification.
+    - >-
+      key_steps=[] uses the trivial-case exception. The quantitative
+      obstruction requires one diagonal update, so designating an invented
+      hard novel step or its heuristic would misrepresent the mathematics.
+  difficulty_assessment: |
+    Each retained intermediate statement is elementary: STEP1 uses positive
+    definiteness and a linear recurrence, STEP2 a diagonal multiplication
+    and a strict rational comparison, and STEP3 the same contraction
+    estimate at its explicitly different step. The original affirmative
+    assertion is false; its obstruction is not a research difficulty or
+    a missing novel lemma. No valid decomposition proving that assertion
+    exists. This revision reports that impossibility and hands the verified
+    witness upstream. It does not satisfy affirmative completeness, does
+    not certify a proof, and cannot resolve the external acceptance/routing
+    incompatibility without an explicit upstream decision.

@@ -1,0 +1,69 @@
+{
+  "inputs_sha256": {
+    "V6_INTEGRATED_THEOREM.md": "e9c3849b59b7617cd9027797e5d2f3c4850fdfdd6f26a142f2ffa1eba2500d6e",
+    "V6_STATUS.md": "8e73f61714ae992e46f6fcc490d045baf69b7aabf9af42b672e4431f331db486"
+  },
+  "maximum_absolute_mc_z": {
+    "sign_drift": 2.2909034325888125,
+    "sgd_one_step": 3.167919750377512,
+    "polar_k": 0.6142766715306083,
+    "polar_drift": 1.8731688899515793,
+    "marked_sign": 2.3045059360593507,
+    "sgd_full_run": 2.5958113809167505
+  },
+  "sector_ratios": {
+    "lower_min": 1.031263167486835,
+    "upper_max": 0.8348603653525867
+  },
+  "maximum_observed_weighted_ratio": 3.4578011541998657,
+  "L3_literal_negative_step_counterexample": {
+    "alpha": 2,
+    "beta": 1,
+    "sigma": 1,
+    "n": 4,
+    "b": 1,
+    "eta": -1,
+    "q_first_coordinate": 5,
+    "r_t_first_coordinate_lower_bound": "5**t",
+    "conclusion": "eta<=eta_0 for every positive eta_0, but sup_t E[V_t]=infinity"
+  },
+  "L1_analytic_ratio_lower_bound": 10.88936549665999,
+  "sgd_exact_slopes": [
+    {
+      "alpha": 1.5,
+      "n_min": 4,
+      "n_max": 256,
+      "slope": -0.16547213058679386
+    },
+    {
+      "alpha": 1.5,
+      "n_min": 64,
+      "n_max": 256,
+      "slope": -0.16655828485204638
+    },
+    {
+      "alpha": 2.0,
+      "n_min": 4,
+      "n_max": 256,
+      "slope": -0.14193650227601126
+    },
+    {
+      "alpha": 2.0,
+      "n_min": 64,
+      "n_max": 256,
+      "slope": -0.14277299459315942
+    },
+    {
+      "alpha": 3.0,
+      "n_min": 4,
+      "n_max": 256,
+      "slope": -0.11034556546747129
+    },
+    {
+      "alpha": 3.0,
+      "n_min": 64,
+      "n_max": 256,
+      "slope": -0.1110189109638989
+    }
+  ]
+}

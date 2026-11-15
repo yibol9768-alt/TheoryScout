@@ -1,0 +1,222 @@
+{
+  "rows": [
+    {
+      "pair": "GD-Sign",
+      "common_slope_error_axis_limit": "808119113775405286549392325280057/14641178053705821705440390545408",
+      "slope_limit_vertex": 33,
+      "common_curvature_axis_limit": "19516838974198467297796644836952320/330602191359106944729505384913",
+      "curvature_limit_vertex": 33,
+      "axis_limits_approximate": [
+        55.19495158184096,
+        59034.209343757415
+      ],
+      "axis_limits_not_a_joint_rectangle": true,
+      "examples": [
+        {
+          "common_slope_error": "0",
+          "common_curvature": "0",
+          "range": {
+            "lower": "4025134395443804938705600931312727/20769187434139310514121985316880384",
+            "upper": "8357020812298036480540819517900055/41538374868278621028243970633760768",
+            "approximate_pp": [
+              19.380317155920594,
+              20.11879578534016
+            ],
+            "lower_vertex": 23,
+            "upper_vertex": 17,
+            "strictly_positive": true
+          },
+          "assumptions_NOT_empirically_verified": true
+        },
+        {
+          "common_slope_error": "1",
+          "common_curvature": "100",
+          "range": {
+            "lower": "253474891527393012048298024480077955/1329227995784915872903807060280344576",
+            "upper": "8595385009895480148301310454987456329/42535295865117307932921825928971026432",
+            "approximate_pp": [
+              19.069331396207527,
+              20.207653044549417
+            ],
+            "lower_vertex": 33,
+            "upper_vertex": 0,
+            "strictly_positive": true
+          },
+          "assumptions_NOT_empirically_verified": true
+        },
+        {
+          "common_slope_error": "5",
+          "common_curvature": "1000",
+          "range": {
+            "lower": "115395876243346104974717486433434095/664613997892457936451903530140172288",
+            "upper": "144632366801512024465516573495889233/664613997892457936451903530140172288",
+            "approximate_pp": [
+              17.36284168092687,
+              21.761859855517997
+            ],
+            "lower_vertex": 33,
+            "upper_vertex": 33,
+            "strictly_positive": true
+          },
+          "assumptions_NOT_empirically_verified": true
+        }
+      ]
+    },
+    {
+      "pair": "Adam2-Adam.1",
+      "common_slope_error_axis_limit": "916793523702829771311954314649379/58605701177884109168441110298624",
+      "slope_limit_vertex": 16,
+      "common_curvature_axis_limit": "938796568271697685823441218200964096/96579705201227065268879156410981",
+      "curvature_limit_vertex": 16,
+      "axis_limits_approximate": [
+        15.643418733616278,
+        9720.433152241285
+      ],
+      "axis_limits_not_a_joint_rectangle": true,
+      "examples": [
+        {
+          "common_slope_error": "0",
+          "common_curvature": "0",
+          "range": {
+            "lower": "1821441741438453305996176610160479/20769187434139310514121985316880384",
+            "upper": "3827603680856873006280877605129029/41538374868278621028243970633760768",
+            "approximate_pp": [
+              8.769922979482876,
+              9.214620680261321
+            ],
+            "lower_vertex": 15,
+            "upper_vertex": 6,
+            "strictly_positive": true
+          },
+          "assumptions_NOT_empirically_verified": true
+        },
+        {
+          "common_slope_error": "1",
+          "common_curvature": "100",
+          "range": {
+            "lower": "217281589936355412877017401403518755/2658455991569831745807614120560689152",
+            "upper": "1025929432679904512132134583041348121/10633823966279326983230456482242756608",
+            "approximate_pp": [
+              8.173225008251858,
+              9.647794019660337
+            ],
+            "lower_vertex": 16,
+            "upper_vertex": 11,
+            "strictly_positive": true
+          },
+          "assumptions_NOT_empirically_verified": true
+        },
+        {
+          "common_slope_error": "5",
+          "common_curvature": "1000",
+          "range": {
+            "lower": "67769459129962997701517947132628527/1329227995784915872903807060280344576",
+            "upper": "169099491103648393540834722389972177/1329227995784915872903807060280344576",
+            "approximate_pp": [
+              5.0984074473954175,
+              12.721631777232789
+            ],
+            "lower_vertex": 16,
+            "upper_vertex": 16,
+            "strictly_positive": true
+          },
+          "assumptions_NOT_empirically_verified": true
+        }
+      ]
+    },
+    {
+      "pair": "Adam.1-Sign",
+      "common_slope_error_axis_limit": "124956990094786216319158618102873/7889446894671514372657427513344",
+      "slope_limit_vertex": 24,
+      "common_curvature_axis_limit": "511823831428244342043273699749367808/52863207626473533219992844264077",
+      "curvature_limit_vertex": 24,
+      "axis_limits_approximate": [
+        15.838498156211866,
+        9682.042660837827
+      ],
+      "axis_limits_not_a_joint_rectangle": true,
+      "examples": [
+        {
+          "common_slope_error": "0",
+          "common_curvature": "0",
+          "range": {
+            "lower": "989134127010288959395406443956515/10384593717069655257060992658440192",
+            "upper": "1045440463518379234387986541459175/10384593717069655257060992658440192",
+            "approximate_pp": [
+              9.525015171122215,
+              10.067225468820592
+            ],
+            "lower_vertex": 23,
+            "upper_vertex": 3,
+            "strictly_positive": true
+          },
+          "assumptions_NOT_empirically_verified": true
+        },
+        {
+          "common_slope_error": "1",
+          "common_curvature": "100",
+          "range": {
+            "lower": "948363055308281979241013929372340435/10633823966279326983230456482242756608",
+            "upper": "140198157517627386634004770590217821/1329227995784915872903807060280344576",
+            "approximate_pp": [
+              8.918363312347601,
+              10.547337098090509
+            ],
+            "lower_vertex": 23,
+            "upper_vertex": 15,
+            "strictly_positive": true
+          },
+          "assumptions_NOT_empirically_verified": true
+        },
+        {
+          "common_slope_error": "5",
+          "common_curvature": "1000",
+          "range": {
+            "lower": "37173093924862274308907092501500711/664613997892457936451903530140172288",
+            "upper": "91760068451248864233043868180992217/664613997892457936451903530140172288",
+            "approximate_pp": [
+              5.593185524641523,
+              13.80652058822521
+            ],
+            "lower_vertex": 24,
+            "upper_vertex": 24,
+            "strictly_positive": true
+          },
+          "assumptions_NOT_empirically_verified": true
+        }
+      ]
+    }
+  ],
+  "all_pair_common_axis_limits": [
+    "916793523702829771311954314649379/58605701177884109168441110298624",
+    "511823831428244342043273699749367808/52863207626473533219992844264077"
+  ],
+  "joint_example": {
+    "epsilon": "5",
+    "Lambda": "1000",
+    "all_three_conditional_lower_bounds_positive": true
+  },
+  "geometry": "Exact rational convex/concave envelope over the same 44-vertex nominal joint region",
+  "nominal_coverage_budgets": {
+    "matching": 0.025,
+    "old": 0.025
+  },
+  "coverage_still_Student_t_approximation": true,
+  "inverse_branches_actual_slopes_and_curvatures_verified": false,
+  "actual_exact_matching_ranking_confirmed": false,
+  "new_samples": 0,
+  "new_tests": 0,
+  "registered_decisions_unchanged": {
+    "primary_plan_complete": true,
+    "primary_pair_count": 3,
+    "primary_match_count": 7,
+    "primary_all7_matching": true,
+    "primary_all3_directions": true,
+    "primary_all3_finite_agreement": true,
+    "coefficient_confirmation": false,
+    "descriptive_confirmation": false
+  },
+  "independent_review": false,
+  "scope": "Conditional sensitivity frontier for nonlinear matching under explicitly unverified true-curve assumptions; not confirmation of exact matching",
+  "wall_seconds": 0.1321636100037722
+}

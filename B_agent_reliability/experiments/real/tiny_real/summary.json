@@ -1,0 +1,504 @@
+{
+  "mode": "real",
+  "model_requested": "gpt-6-luna",
+  "endpoint": "http://127.0.0.1:18319/v1/chat/completions",
+  "started_utc": "2026-11-05T19:35:51.246581+00:00",
+  "finished_utc": "2026-11-05T19:38:19.721434+00:00",
+  "concurrency": 1,
+  "global_call_cap": 150,
+  "calls": 26,
+  "halt": null,
+  "results": [
+    {
+      "family": "kv",
+      "seed": 1105,
+      "L": 16,
+      "K": 3,
+      "injected": false,
+      "status": "provider_token_limit",
+      "success": false,
+      "calls": 2,
+      "usage": {
+        "prompt_tokens": 638,
+        "completion_tokens": 188,
+        "total_tokens": 826
+      },
+      "progress": 0,
+      "work": 1,
+      "repair_events": 0,
+      "recoveries": 0,
+      "injections": 0,
+      "within_5L": true,
+      "peak_live_json_bytes": 219,
+      "peak_undo_slots": 0,
+      "repair_deltas": [],
+      "final": {
+        "obligations_ok": false,
+        "state_ok": false,
+        "current_prefix_ok": true,
+        "pending_empty": false,
+        "actual": {
+          "k0": 0,
+          "k1": 0,
+          "k2": 0,
+          "k3": 0,
+          "k4": 0,
+          "k5": 0,
+          "k6": 0,
+          "k7": 0
+        },
+        "expected": {
+          "k0": -36,
+          "k1": -14,
+          "k2": -6,
+          "k3": 28,
+          "k4": -24,
+          "k5": 0,
+          "k6": -40,
+          "k7": -10
+        },
+        "ledger": []
+      },
+      "trace_bytes": 6154,
+      "trace": "tiny_real/kv_1105.jsonl"
+    },
+    {
+      "family": "kv",
+      "seed": 2207,
+      "L": 16,
+      "K": 3,
+      "injected": true,
+      "status": "success",
+      "success": true,
+      "calls": 18,
+      "usage": {
+        "prompt_tokens": 5530,
+        "completion_tokens": 1024,
+        "total_tokens": 6554
+      },
+      "progress": 16,
+      "work": 18,
+      "repair_events": 2,
+      "recoveries": 2,
+      "injections": 2,
+      "within_5L": true,
+      "peak_live_json_bytes": 448,
+      "peak_undo_slots": 1,
+      "repair_deltas": [
+        -1,
+        -1
+      ],
+      "final": {
+        "obligations_ok": true,
+        "state_ok": true,
+        "current_prefix_ok": true,
+        "pending_empty": true,
+        "actual": {
+          "k0": -4,
+          "k1": 12,
+          "k2": 14,
+          "k3": -5,
+          "k4": 30,
+          "k5": 0,
+          "k6": -30,
+          "k7": -15
+        },
+        "expected": {
+          "k0": -4,
+          "k1": 12,
+          "k2": 14,
+          "k3": -5,
+          "k4": 30,
+          "k5": 0,
+          "k6": -30,
+          "k7": -15
+        },
+        "ledger": [
+          {
+            "step": 0,
+            "verified": true,
+            "state": {
+              "k0": -2,
+              "k1": 0,
+              "k2": 0,
+              "k3": 0,
+              "k4": 0,
+              "k5": 0,
+              "k6": 0,
+              "k7": 0
+            },
+            "undo_entries": 1
+          },
+          {
+            "step": 1,
+            "verified": true,
+            "state": {
+              "k0": -2,
+              "k1": 0,
+              "k2": 0,
+              "k3": 0,
+              "k4": 0,
+              "k5": 0,
+              "k6": -10,
+              "k7": 0
+            },
+            "undo_entries": 1
+          },
+          {
+            "step": 2,
+            "verified": true,
+            "state": {
+              "k0": -2,
+              "k1": 2,
+              "k2": 0,
+              "k3": 0,
+              "k4": 0,
+              "k5": 0,
+              "k6": -10,
+              "k7": 0
+            },
+            "undo_entries": 1
+          },
+          {
+            "step": 3,
+            "verified": true,
+            "state": {
+              "k0": -2,
+              "k1": 2,
+              "k2": 0,
+              "k3": 0,
+              "k4": 15,
+              "k5": 0,
+              "k6": -10,
+              "k7": 0
+            },
+            "undo_entries": 1
+          },
+          {
+            "step": 4,
+            "verified": true,
+            "state": {
+              "k0": -2,
+              "k1": 2,
+              "k2": 0,
+              "k3": 0,
+              "k4": 15,
+              "k5": 0,
+              "k6": -20,
+              "k7": 0
+            },
+            "undo_entries": 2
+          },
+          {
+            "step": 5,
+            "verified": true,
+            "state": {
+              "k0": -4,
+              "k1": 2,
+              "k2": 0,
+              "k3": 0,
+              "k4": 15,
+              "k5": 0,
+              "k6": -20,
+              "k7": 0
+            },
+            "undo_entries": 1
+          },
+          {
+            "step": 6,
+            "verified": true,
+            "state": {
+              "k0": -4,
+              "k1": 4,
+              "k2": 0,
+              "k3": 0,
+              "k4": 15,
+              "k5": 0,
+              "k6": -20,
+              "k7": 0
+            },
+            "undo_entries": 1
+          },
+          {
+            "step": 7,
+            "verified": true,
+            "state": {
+              "k0": -4,
+              "k1": 6,
+              "k2": 0,
+              "k3": 0,
+              "k4": 15,
+              "k5": 0,
+              "k6": -20,
+              "k7": 0
+            },
+            "undo_entries": 1
+          },
+          {
+            "step": 8,
+            "verified": true,
+            "state": {
+              "k0": -4,
+              "k1": 6,
+              "k2": 0,
+              "k3": -5,
+              "k4": 15,
+              "k5": 0,
+              "k6": -20,
+              "k7": 0
+            },
+            "undo_entries": 1
+          },
+          {
+            "step": 9,
+            "verified": true,
+            "state": {
+              "k0": -4,
+              "k1": 8,
+              "k2": 0,
+              "k3": -5,
+              "k4": 15,
+              "k5": 0,
+              "k6": -20,
+              "k7": 0
+            },
+            "undo_entries": 1
+          },
+          {
+            "step": 10,
+            "verified": true,
+            "state": {
+              "k0": -4,
+              "k1": 8,
+              "k2": 0,
+              "k3": -5,
+              "k4": 15,
+              "k5": 0,
+              "k6": -30,
+              "k7": 0
+            },
+            "undo_entries": 2
+          },
+          {
+            "step": 11,
+            "verified": true,
+            "state": {
+              "k0": -4,
+              "k1": 8,
+              "k2": 14,
+              "k3": -5,
+              "k4": 15,
+              "k5": 0,
+              "k6": -30,
+              "k7": 0
+            },
+            "undo_entries": 1
+          },
+          {
+            "step": 12,
+            "verified": true,
+            "state": {
+              "k0": -4,
+              "k1": 10,
+              "k2": 14,
+              "k3": -5,
+              "k4": 15,
+              "k5": 0,
+              "k6": -30,
+              "k7": 0
+            },
+            "undo_entries": 1
+          },
+          {
+            "step": 13,
+            "verified": true,
+            "state": {
+              "k0": -4,
+              "k1": 10,
+              "k2": 14,
+              "k3": -5,
+              "k4": 30,
+              "k5": 0,
+              "k6": -30,
+              "k7": 0
+            },
+            "undo_entries": 1
+          },
+          {
+            "step": 14,
+            "verified": true,
+            "state": {
+              "k0": -4,
+              "k1": 12,
+              "k2": 14,
+              "k3": -5,
+              "k4": 30,
+              "k5": 0,
+              "k6": -30,
+              "k7": 0
+            },
+            "undo_entries": 1
+          },
+          {
+            "step": 15,
+            "verified": true,
+            "state": {
+              "k0": -4,
+              "k1": 12,
+              "k2": 14,
+              "k3": -5,
+              "k4": 30,
+              "k5": 0,
+              "k6": -30,
+              "k7": -15
+            },
+            "undo_entries": 1
+          }
+        ]
+      },
+      "trace_bytes": 55271,
+      "trace": "tiny_real/kv_2207.jsonl"
+    },
+    {
+      "family": "sheet",
+      "seed": 1105,
+      "L": 16,
+      "K": 3,
+      "injected": false,
+      "status": "provider_token_limit",
+      "success": false,
+      "calls": 2,
+      "usage": {
+        "prompt_tokens": 539,
+        "completion_tokens": 200,
+        "total_tokens": 739
+      },
+      "progress": 0,
+      "work": 1,
+      "repair_events": 0,
+      "recoveries": 0,
+      "injections": 0,
+      "within_5L": true,
+      "peak_live_json_bytes": 245,
+      "peak_undo_slots": 1,
+      "repair_deltas": [],
+      "final": {
+        "obligations_ok": false,
+        "state_ok": false,
+        "current_prefix_ok": false,
+        "pending_empty": false,
+        "actual": {
+          "A1": -9,
+          "A2": -7,
+          "A3": -1,
+          "B1": 7,
+          "B2": -6,
+          "B3": 0
+        },
+        "expected": {
+          "A1": 9,
+          "A2": -9,
+          "A3": -9,
+          "B1": 6,
+          "B2": -6,
+          "B3": -9
+        },
+        "ledger": []
+      },
+      "trace_bytes": 6259,
+      "trace": "tiny_real/sheet_1105.jsonl"
+    },
+    {
+      "family": "sheet",
+      "seed": 2207,
+      "L": 16,
+      "K": 3,
+      "injected": true,
+      "status": "provider_token_limit",
+      "success": false,
+      "calls": 4,
+      "usage": {
+        "prompt_tokens": 990,
+        "completion_tokens": 329,
+        "total_tokens": 1319
+      },
+      "progress": 3,
+      "work": 3,
+      "repair_events": 0,
+      "recoveries": 0,
+      "injections": 0,
+      "within_5L": true,
+      "peak_live_json_bytes": 239,
+      "peak_undo_slots": 1,
+      "repair_deltas": [],
+      "final": {
+        "obligations_ok": false,
+        "state_ok": false,
+        "current_prefix_ok": true,
+        "pending_empty": true,
+        "actual": {
+          "A1": 7,
+          "A2": 1,
+          "A3": 7,
+          "B1": -2,
+          "B2": 8,
+          "B3": 0
+        },
+        "expected": {
+          "A1": 7,
+          "A2": 5,
+          "A3": 2,
+          "B1": 3,
+          "B2": -11,
+          "B3": -7
+        },
+        "ledger": [
+          {
+            "step": 0,
+            "verified": true,
+            "state": {
+              "A1": 7,
+              "A2": 1,
+              "A3": 7,
+              "B1": -2,
+              "B2": 8,
+              "B3": 3
+            },
+            "undo_entries": 1
+          },
+          {
+            "step": 1,
+            "verified": true,
+            "state": {
+              "A1": 7,
+              "A2": 1,
+              "A3": 7,
+              "B1": -2,
+              "B2": 8,
+              "B3": 7
+            },
+            "undo_entries": 1
+          },
+          {
+            "step": 2,
+            "verified": true,
+            "state": {
+              "A1": 7,
+              "A2": 1,
+              "A3": 7,
+              "B1": -2,
+              "B2": 8,
+              "B3": 0
+            },
+            "undo_entries": 1
+          }
+        ]
+      },
+      "trace_bytes": 11917,
+      "trace": "tiny_real/sheet_2207.jsonl"
+    }
+  ],
+  "source_sha256": "7127b7c40b0512d509e78206a2c10d5449d8094f7a7432e064d9d6f0b4f593c8",
+  "management_note": "First token violation stopped batch; resumed only three unattempted slots, no rerun. Further token violations fail their run. Model mismatch stops batch.",
+  "continuation_source_sha256": "f4636e177cf96ff641bfb157f678e6487e6c677f5082c2bb5575445767beff27"
+}

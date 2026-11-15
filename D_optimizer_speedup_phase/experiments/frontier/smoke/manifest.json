@@ -1,0 +1,31 @@
+{
+  "mode": "smoke",
+  "status": "complete",
+  "start_utc": "2026-11-06T10:07:34.771871+00:00",
+  "executable": "/home/liuyibo/venvs/theory/bin/python",
+  "threads": {
+    "OPENBLAS_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1"
+  },
+  "device": "CPU",
+  "master_seed": 2026110617,
+  "scope": "theory-d-frontier-smoke.scope",
+  "properties": "ControlGroup=/user.slice/user-1000.slice/user@1000.service/app.slice/theory-d-frontier-smoke.scope\nMemoryMax=2147483648\nMemorySwapMax=0\n",
+  "source_sha256": "a7b02ac5c8a66c436b202a099b1f5f345f91cc9e42703ca800000396997a60c2",
+  "prereg_sha256": "b0bcb14ab7b67e9746ae49f2ebc041213bc4fa8ab92072fcbd3e5c1b50302701",
+  "project_imports": [],
+  "network_calls": 0,
+  "end_utc": "2026-11-06T10:07:35.035978+00:00",
+  "elapsed_seconds": 0.2914627379941521,
+  "peak_rss_mib": 78.42578125,
+  "training_samples": 40032,
+  "training_nD": 208320,
+  "records": 19,
+  "p0": {
+    "one_step": 6.661338147750939e-16,
+    "sum_k": 1.1102230246251565e-16,
+    "nonfinite": 0
+  }
+}

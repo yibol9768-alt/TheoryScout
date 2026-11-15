@@ -1,0 +1,6 @@
+{
+  "direct_gumbel_reference_policy_cases": 1008,
+  "dp_vs_brute_max_gap": 0.0,
+  "fractional_rounding_checks": "PASS",
+  "status": "PASS"
+}

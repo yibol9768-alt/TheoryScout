@@ -1,0 +1,59 @@
+{
+  "n": 16595,
+  "q": 1024,
+  "rows": [
+    {
+      "c": "1/4",
+      "directory": "node01",
+      "probability_C0_positive": [
+        "506246989178643339566987591375287624179329628569/1461501637330902918203684832716283019655932542976",
+        "506247303840042953828544963805943825235762774323/1461501637330902918203684832716283019655932542976"
+      ],
+      "approximate": [
+        0.3463882463403785,
+        0.34638846164044496
+      ],
+      "C0_eigenvalue_error": "407135299791915183157500752960506515083/5846006549323611672814739330865132078623730171904",
+      "both_actual_eigenvalue_signs_certified": true
+    },
+    {
+      "c": "3/10",
+      "directory": "node02",
+      "probability_C0_positive": [
+        "14183823548810459555405588927939749537375191533/22835963083295358096932575511191922182123945984",
+        "907765001519787075528243739258956018671721595445/1461501637330902918203684832716283019655932542976"
+      ],
+      "approximate": [
+        0.6211178174125711,
+        0.621118018846432
+      ],
+      "C0_eigenvalue_error": "1131896871754627689577737994994612968997/14615016373309029182036848327162830196559325429760",
+      "both_actual_eigenvalue_signs_certified": true
+    }
+  ],
+  "source_hashes": {
+    "revisions/r11_anchor_certificate_v2/actual_construction.bin": "66a87edc2320f4f7d8e439e9bf6cd4d35e124eecf09532e1ed02b35160c62d3d",
+    "revisions/r11_anchor_certificate_v2/SCOPE.json": "d26cacc4bbeded39b4d8e2c386fcd00f2a28f00c3375d41effedee7d99308335",
+    "revisions/r11_anchor_certificate_v2/rounding_anchor_construction": "624b5a8d88eff544ac23f78cc0ba81a4bb1f752bbad96fca98ce3280e60946e4",
+    "revisions/r11_anchor_certificate_v2/rounding_anchor_construction_BUILD.json": "ac5cc292c92cde1f6d00d4588c113e10277b2f702a6db310316bc1dcba5e5e58",
+    "tools/rounding_anchor_construction.cpp": "9f52fdd482416a2eaad1f5bb3f295f8fb2399e7e90f8faf52a6a4db97db478b6",
+    "revisions/r11_anchor_certificate_v2/rounding_spectral_residual": "af817c0e04994470bc51d51ed839611affa110318b01b2882732cbc0154f4762",
+    "revisions/r11_anchor_certificate_v2/rounding_spectral_residual_BUILD.json": "d9219fb0089ef8c01f2c618d0495fc0673440b579e9cba4cc5332c5d7a809bd7",
+    "tools/rounding_spectral_residual.cpp": "6549d9890a8f3403cfb780d2b7aaafadc5b9f07df07df26acaa885077cd22746",
+    "tools/certify_anchor_node.py": "191aa87e0babf0129f18e1b41acd896ccc68303d891e55a9dcaa913b829ca9a5",
+    "tools/certify_spectral_residual.py": "3a1ab657deb022bda4c2cc1a412dc694fc1b92d00ea2fadec016ca3561da8ea7",
+    "tools/check_anchor_certificate.py": "d92686a3f4066e312f87ebc3e7525a80a4c073f6d0cac1ea40df386044177f90",
+    "tools/check_spectral_certificate.py": "4e4f36dc0094ec389cb80692476667ba86ae4d68f455d2e9ff17e4fc6d943c1b",
+    "tools/certify_weighted_chisquare.py": "f0c13011818f8cd23c5f531600ec6dfe034754f9e3b5e0aaaa2e32ec3c0b3db7",
+    "revisions/r28_conditional_moments_v2/INPUTS.json": "0a38ee5437d85521cafad9beeb9fadb12a0a642d399f7bed6a6e36b1bb5d1532"
+  },
+  "new_pencil_matrices": 2,
+  "new_probability_integrals": 4,
+  "new_samples": 0,
+  "new_threshold_integrals": 0,
+  "actual_C0_operator_transfer_included": true,
+  "probability_is_not_full_energy_flip": true,
+  "actual_C0_recall_or_energy_remainder_not_updated": true,
+  "independent_proof_review": false,
+  "wall_seconds": 134.94926633499563
+}

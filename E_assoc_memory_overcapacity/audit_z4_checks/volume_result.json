@@ -1,0 +1,14 @@
+{
+  "jobs": 1473,
+  "npz_count": 1472,
+  "report_cpu": 4.022917357999999,
+  "publish_cpu": 6.3403938140000005,
+  "replay_cpu": 5.728609108999999,
+  "artifact_bytes": 262498490,
+  "cpu_seconds": 21.190898771,
+  "peak_rss_mib": 416.97265625,
+  "frozen_mismatches": [],
+  "formal_absent": true,
+  "formal_sampling": false,
+  "note": "所有 rank 均为人为常量；此 ACCEPTED 只属于 audit_z4_checks/full_volume，不是科学结果。stage/资源字段为夹具值，未启动正式执行链。"
+}

@@ -1,0 +1,464 @@
+{
+  "resources": {
+    "cgroup": "/user.slice/user-1000.slice/user@1000.service/app.slice/run-r30230ef242bc4852b7729daa3673d86d.scope",
+    "memory_max": "2147483648",
+    "swap_max": "0",
+    "threads": 1,
+    "env": {
+      "OMP_NUM_THREADS": "2",
+      "OPENBLAS_NUM_THREADS": "2",
+      "MKL_NUM_THREADS": "2",
+      "NUMEXPR_NUM_THREADS": "2"
+    }
+  },
+  "freeze_errors": [],
+  "comparisons": [
+    {
+      "label": "v2_boundary_7",
+      "five_cells": [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "T": null,
+      "G0": false,
+      "G1": false,
+      "G2": null,
+      "G3": null,
+      "G4": {
+        "status": "信息不足",
+        "passed": null,
+        "reason": "G0/G1未通过"
+      },
+      "decision": "信息不足"
+    },
+    {
+      "label": "v2_boundary_8",
+      "five_cells": [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      "T": null,
+      "G0": false,
+      "G1": false,
+      "G2": null,
+      "G3": null,
+      "G4": {
+        "status": "信息不足",
+        "passed": null,
+        "reason": "G0/G1未通过"
+      },
+      "decision": "信息不足"
+    },
+    {
+      "label": "v2_boundary_15",
+      "five_cells": [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      "T": null,
+      "G0": false,
+      "G1": false,
+      "G2": null,
+      "G3": null,
+      "G4": {
+        "status": "信息不足",
+        "passed": null,
+        "reason": "G0/G1未通过"
+      },
+      "decision": "信息不足"
+    },
+    {
+      "label": "v2_boundary_16",
+      "five_cells": [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "T": null,
+      "G0": false,
+      "G1": false,
+      "G2": null,
+      "G3": null,
+      "G4": {
+        "status": "信息不足",
+        "passed": null,
+        "reason": "G0/G1未通过"
+      },
+      "decision": "信息不足"
+    },
+    {
+      "label": "v2_boundary_31",
+      "five_cells": [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "T": null,
+      "G0": false,
+      "G1": false,
+      "G2": null,
+      "G3": null,
+      "G4": {
+        "status": "信息不足",
+        "passed": null,
+        "reason": "G0/G1未通过"
+      },
+      "decision": "信息不足"
+    },
+    {
+      "label": "v2_boundary_32",
+      "five_cells": [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      "T": null,
+      "G0": false,
+      "G1": false,
+      "G2": null,
+      "G3": null,
+      "G4": {
+        "status": "信息不足",
+        "passed": null,
+        "reason": "G0/G1未通过"
+      },
+      "decision": "信息不足"
+    },
+    {
+      "label": "v2_boundary_63",
+      "five_cells": [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      "T": null,
+      "G0": false,
+      "G1": false,
+      "G2": null,
+      "G3": null,
+      "G4": {
+        "status": "信息不足",
+        "passed": null,
+        "reason": "G0/G1未通过"
+      },
+      "decision": "信息不足"
+    },
+    {
+      "label": "v2_boundary_64",
+      "five_cells": [
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "T": null,
+      "G0": false,
+      "G1": false,
+      "G2": null,
+      "G3": null,
+      "G4": {
+        "status": "信息不足",
+        "passed": null,
+        "reason": "G0/G1未通过"
+      },
+      "decision": "信息不足"
+    },
+    {
+      "label": "v2_service_score",
+      "five_cells": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "T": null,
+      "G0": false,
+      "G1": false,
+      "G2": null,
+      "G3": null,
+      "G4": {
+        "status": "信息不足",
+        "passed": null,
+        "reason": "G0/G1未通过"
+      },
+      "decision": "信息不足"
+    },
+    {
+      "label": "v2_budget_score",
+      "five_cells": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "T": null,
+      "G0": false,
+      "G1": false,
+      "G2": null,
+      "G3": null,
+      "G4": {
+        "status": "信息不足",
+        "passed": null,
+        "reason": "G0/G1未通过"
+      },
+      "decision": "信息不足"
+    },
+    {
+      "label": "v2_full_score",
+      "five_cells": [
+        0,
+        144,
+        0,
+        0,
+        0
+      ],
+      "T": 50.41132332012314,
+      "G0": false,
+      "G1": true,
+      "G2": null,
+      "G3": null,
+      "G4": {
+        "status": "信息不足",
+        "passed": null,
+        "reason": "G0/G1未通过"
+      },
+      "decision": "信息不足"
+    },
+    {
+      "label": "all_gates",
+      "five_cells": [
+        25,
+        20,
+        15,
+        24,
+        60
+      ],
+      "T": 6.79623589081687,
+      "G0": true,
+      "G1": true,
+      "G2": true,
+      "G3": true,
+      "G4": {
+        "counts": [
+          [
+            2104,
+            45,
+            55,
+            55,
+            10
+          ],
+          [
+            4272,
+            39,
+            138,
+            138,
+            99
+          ]
+        ],
+        "eligible": true,
+        "passed": true,
+        "valid": 10000,
+        "intervals": [
+          [
+            0.006218715621878346,
+            0.018574234190384502
+          ],
+          [
+            0.44616581581253534,
+            0.6361241735066119
+          ]
+        ],
+        "status": "通过"
+      },
+      "decision": "在此反馈协议下，分段修复风险假说获得一次新批次支持"
+    },
+    {
+      "label": "G0_mock",
+      "five_cells": [
+        25,
+        20,
+        15,
+        24,
+        60
+      ],
+      "T": 6.79623589081687,
+      "G0": false,
+      "G1": true,
+      "G2": null,
+      "G3": null,
+      "G4": {
+        "status": "信息不足",
+        "passed": null,
+        "reason": "G0/G1未通过"
+      },
+      "decision": "信息不足"
+    },
+    {
+      "label": "G2_fail",
+      "five_cells": [
+        144,
+        0,
+        0,
+        0,
+        0
+      ],
+      "T": 60.25795283851553,
+      "G0": true,
+      "G1": true,
+      "G2": false,
+      "G3": true,
+      "G4": {
+        "counts": [
+          [
+            1152,
+            144,
+            144,
+            144,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "eligible": false,
+        "passed": null,
+        "valid": 0,
+        "intervals": null,
+        "status": "信息不足"
+      },
+      "decision": "未满足全部确认门槛"
+    },
+    {
+      "label": "G3_fail",
+      "five_cells": [
+        19,
+        20,
+        21,
+        28,
+        56
+      ],
+      "T": -0.16744131046500055,
+      "G0": true,
+      "G1": true,
+      "G2": true,
+      "G3": false,
+      "G4": {
+        "counts": [
+          [
+            2152,
+            39,
+            49,
+            49,
+            10
+          ],
+          [
+            4368,
+            49,
+            154,
+            154,
+            105
+          ]
+        ],
+        "eligible": true,
+        "passed": true,
+        "valid": 10000,
+        "intervals": [
+          [
+            0.0010600871096570054,
+            0.012883670988912257
+          ],
+          [
+            0.3867025534851622,
+            0.5818960116994261
+          ]
+        ],
+        "status": "通过"
+      },
+      "decision": "未满足全部确认门槛"
+    },
+    {
+      "label": "G4_fail",
+      "five_cells": [
+        25,
+        20,
+        15,
+        24,
+        60
+      ],
+      "T": 6.79623589081687,
+      "G0": true,
+      "G1": true,
+      "G2": true,
+      "G3": true,
+      "G4": {
+        "counts": [
+          [
+            2104,
+            45,
+            45,
+            45,
+            0
+          ],
+          [
+            4272,
+            39,
+            39,
+            39,
+            0
+          ]
+        ],
+        "eligible": true,
+        "passed": false,
+        "valid": 10000,
+        "intervals": [
+          [
+            0.006218715621878346,
+            0.018574234190384502
+          ],
+          [
+            0.0,
+            0.0
+          ]
+        ],
+        "status": "未达到机制门槛"
+      },
+      "decision": "预测相容且相对A获支持，分段修复机制证据未完成"
+    }
+  ],
+  "C": {
+    "files": 40,
+    "actions": 1288,
+    "cells64": [
+      5,
+      2,
+      1,
+      2,
+      10
+    ]
+  },
+  "note": "All synthetic live flags/launch/reviewer data are fabricated fixtures solely to exercise G0-G4. They are not D data or approval. Freeze checks are one real check cached for identical read-only inputs."
+}

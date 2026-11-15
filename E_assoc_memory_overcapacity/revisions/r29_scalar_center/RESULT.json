@@ -1,0 +1,91 @@
+{
+  "a": {
+    "lower_integer": "355146369150379687601971981900016131126589215602",
+    "upper_integer": "355157399017074285131765749739521942077303703412",
+    "denominator_power2": 160,
+    "approximate": [
+      0.24300100668992267,
+      0.24300855363096802
+    ],
+    "width_approximate": 7.546941045335432e-06
+  },
+  "q": {
+    "lower_integer": "92209909930639521973254941295321295889894821079",
+    "upper_integer": "92213500405978696609919895135072369062938930871",
+    "denominator_power2": 160,
+    "approximate": [
+      0.06309258065494866,
+      0.06309503735786809
+    ],
+    "width_approximate": 2.4567029194245827e-06
+  },
+  "c": {
+    "lower_integer": "1413870971887854591375806959320974848306384816908",
+    "upper_integer": "1413942410106503202746513055604349445505671077666",
+    "denominator_power2": 160,
+    "approximate": [
+      0.9674097762011168,
+      0.9674586562138543
+    ],
+    "width_approximate": 4.8880012737499816e-05
+  },
+  "theory_center": {
+    "lower_integer": "5619415055516749159493272737633614527089860756592",
+    "upper_integer": "5619698985952690767908720075175507089800917107147",
+    "denominator_power2": 160,
+    "approximate": [
+      3.8449598084469616,
+      3.8451540815347838
+    ],
+    "width_approximate": 0.00019427308782229088
+  },
+  "C0_center": {
+    "lower_integer": "5604162998086281765962532308479046173101140136960",
+    "upper_integer": "5604163462200846489389268644697976050024041229312",
+    "denominator_power2": 160,
+    "approximate": [
+      3.8345239272677096,
+      3.834524244827781
+    ],
+    "width_approximate": 3.1756007168833925e-07
+  },
+  "C0_minus_theory_center": {
+    "lower_integer": "-15535987866409001946187766696460916699776970187",
+    "upper_integer": "-15251593315902670104004092935638477065819527280",
+    "denominator_power2": 160,
+    "approximate": [
+      -0.010630154267074183,
+      -0.010435563619180204
+    ],
+    "width_approximate": 0.0001945906478939792
+  },
+  "C0_center_strictly_below_theory": true,
+  "archived_float_c": "8713872750768033/9007199254740992",
+  "archived_float_c_contained": true,
+  "archived_float_a_contained": true,
+  "archived_float_q_contained": true,
+  "parameters": {
+    "alpha": "3/10",
+    "beta1": "9/10",
+    "beta2": "99/100",
+    "stabilizer": "1",
+    "steps": 2
+  },
+  "d": 512,
+  "n": 16595,
+  "cells": 1024,
+  "radius": 12,
+  "source_hashes": {
+    "revisions/r28_conditional_moments_v2/RESULT.json": "3dbacc3b176cfe6d259abd3393d3cb48e2bbf6c1de477fa668621efc97041ac7",
+    "tools/certify_weighted_chisquare.py": "f0c13011818f8cd23c5f531600ec6dfe034754f9e3b5e0aaaa2e32ec3c0b3db7",
+    "ac2_checks/full/AC2_design.json": "ef1923e54751cc00a3c178e392c3083bd6e3816c172cbe1abc3884c7eefa65cc",
+    "tools/certify_sphere_threshold_cdf.py": "878ebfe07296c966fec00c06bab5ccef6d5352b4746d61777d0ccd61554e8750"
+  },
+  "new_samples": 0,
+  "statistical_confidence_interval": false,
+  "independent_review": false,
+  "population_bias_not_estimated": true,
+  "recall_difference_not_certified": true,
+  "scope": "Exact rational scalar Adam2 c_T compared with fixed represented C0 conditional center; inherits R28 moment assumptions",
+  "wall_seconds": 1.1197249919932801
+}

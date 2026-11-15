@@ -1,0 +1,911 @@
+{
+  "scope": "Conditional-query Monte Carlo validation; not new training datasets or full top-L recall",
+  "rows": [
+    {
+      "d": 256,
+      "n": 5199,
+      "method": "GD3",
+      "L": 1,
+      "t": 3.6447764951224935,
+      "samples": 262144,
+      "endpoints": {
+        "actual": {
+          "count": 110887,
+          "estimate": 0.4230003356933594,
+          "hoeffding_interval": [
+            0.419102506495137,
+            0.4268981648915818
+          ]
+        },
+        "lower": {
+          "count": 110099,
+          "estimate": 0.4199943542480469,
+          "hoeffding_interval": [
+            0.4160965250498245,
+            0.4238921834462693
+          ],
+          "integral_prediction": 0.41922824302866785,
+          "compatible": true
+        },
+        "upper": {
+          "count": 118608,
+          "estimate": 0.45245361328125,
+          "hoeffding_interval": [
+            0.4485557840830276,
+            0.4563514424794724
+          ],
+          "integral_prediction": 0.45155296124117983,
+          "compatible": true
+        },
+        "low_energy": {
+          "count": 76,
+          "estimate": 0.0002899169921875,
+          "hoeffding_interval": [
+            0.0,
+            0.004187746190409909
+          ],
+          "integral_prediction": 0.00029150150798451513,
+          "compatible": true
+        },
+        "high_energy": {
+          "count": 1139,
+          "estimate": 0.004344940185546875,
+          "hoeffding_interval": [
+            0.00044711098732446537,
+            0.008242769383769284
+          ],
+          "integral_prediction": 0.004170055429177144,
+          "compatible": true
+        },
+        "outside_score": {
+          "count": 2,
+          "estimate": 7.62939453125e-06,
+          "hoeffding_interval": [
+            0.0,
+            0.0039054585927536596
+          ],
+          "integral_prediction": 4.332762386927147e-06,
+          "compatible": true
+        }
+      },
+      "float_envelope": [
+        0.41922824302866785,
+        0.4560188509407284
+      ],
+      "actual_interval_overlaps_envelope": true,
+      "pointwise_lower_violations": 0,
+      "pointwise_upper_violations": 0
+    },
+    {
+      "d": 256,
+      "n": 5199,
+      "method": "GD3",
+      "L": 5,
+      "t": 3.1223235344070943,
+      "samples": 262144,
+      "endpoints": {
+        "actual": {
+          "count": 165739,
+          "estimate": 0.6322441101074219,
+          "hoeffding_interval": [
+            0.6283462809091994,
+            0.6361419393056443
+          ]
+        },
+        "lower": {
+          "count": 165081,
+          "estimate": 0.6297340393066406,
+          "hoeffding_interval": [
+            0.6258362101084182,
+            0.6336318685048631
+          ],
+          "integral_prediction": 0.6296303298624183,
+          "compatible": true
+        },
+        "upper": {
+          "count": 172136,
+          "estimate": 0.656646728515625,
+          "hoeffding_interval": [
+            0.6527488993174025,
+            0.6605445577138475
+          ],
+          "integral_prediction": 0.6561914390614334,
+          "compatible": true
+        },
+        "low_energy": {
+          "count": 76,
+          "estimate": 0.0002899169921875,
+          "hoeffding_interval": [
+            0.0,
+            0.004187746190409909
+          ],
+          "integral_prediction": 0.00029150150798451513,
+          "compatible": true
+        },
+        "high_energy": {
+          "count": 1139,
+          "estimate": 0.004344940185546875,
+          "hoeffding_interval": [
+            0.00044711098732446537,
+            0.008242769383769284
+          ],
+          "integral_prediction": 0.004170055429177144,
+          "compatible": true
+        },
+        "outside_score": {
+          "count": 2,
+          "estimate": 7.62939453125e-06,
+          "hoeffding_interval": [
+            0.0,
+            0.0039054585927536596
+          ],
+          "integral_prediction": 4.332762386927147e-06,
+          "compatible": true
+        }
+      },
+      "float_envelope": [
+        0.6296303298624183,
+        0.660657328760982
+      ],
+      "actual_interval_overlaps_envelope": true,
+      "pointwise_lower_violations": 0,
+      "pointwise_upper_violations": 0
+    },
+    {
+      "d": 256,
+      "n": 4328,
+      "method": "Sign2",
+      "L": 1,
+      "t": 3.6011596633607343,
+      "samples": 262144,
+      "endpoints": {
+        "actual": {
+          "count": 108583,
+          "estimate": 0.4142112731933594,
+          "hoeffding_interval": [
+            0.410313443995137,
+            0.4181091023915818
+          ]
+        },
+        "lower": {
+          "count": 107871,
+          "estimate": 0.4114952087402344,
+          "hoeffding_interval": [
+            0.407597379542012,
+            0.4153930379384568
+          ],
+          "integral_prediction": 0.41283979499531426,
+          "compatible": true
+        },
+        "upper": {
+          "count": 116579,
+          "estimate": 0.4447135925292969,
+          "hoeffding_interval": [
+            0.4408157633310745,
+            0.4486114217275193
+          ],
+          "integral_prediction": 0.4459221606844158,
+          "compatible": true
+        },
+        "low_energy": {
+          "count": 81,
+          "estimate": 0.000308990478515625,
+          "hoeffding_interval": [
+            0.0,
+            0.004206819676738034
+          ],
+          "integral_prediction": 0.0003130689576925638,
+          "compatible": true
+        },
+        "high_energy": {
+          "count": 1145,
+          "estimate": 0.004367828369140625,
+          "hoeffding_interval": [
+            0.00046999917091821537,
+            0.008265657567363034
+          ],
+          "integral_prediction": 0.00425196439915787,
+          "compatible": true
+        },
+        "outside_score": {
+          "count": 2,
+          "estimate": 7.62939453125e-06,
+          "hoeffding_interval": [
+            0.0,
+            0.0039054585927536596
+          ],
+          "integral_prediction": 4.307005846582168e-06,
+          "compatible": true
+        }
+      },
+      "float_envelope": [
+        0.41283979499531426,
+        0.45049150104711283
+      ],
+      "actual_interval_overlaps_envelope": true,
+      "pointwise_lower_violations": 0,
+      "pointwise_upper_violations": 0
+    },
+    {
+      "d": 256,
+      "n": 4328,
+      "method": "Sign2",
+      "L": 5,
+      "t": 3.0677402398783444,
+      "samples": 262144,
+      "endpoints": {
+        "actual": {
+          "count": 164826,
+          "estimate": 0.6287612915039062,
+          "hoeffding_interval": [
+            0.6248634623056838,
+            0.6326591207021287
+          ]
+        },
+        "lower": {
+          "count": 164173,
+          "estimate": 0.6262702941894531,
+          "hoeffding_interval": [
+            0.6223724649912307,
+            0.6301681233876756
+          ],
+          "integral_prediction": 0.6275556987359167,
+          "compatible": true
+        },
+        "upper": {
+          "count": 171277,
+          "estimate": 0.6533699035644531,
+          "hoeffding_interval": [
+            0.6494720743662307,
+            0.6572677327626756
+          ],
+          "integral_prediction": 0.6547014500612747,
+          "compatible": true
+        },
+        "low_energy": {
+          "count": 81,
+          "estimate": 0.000308990478515625,
+          "hoeffding_interval": [
+            0.0,
+            0.004206819676738034
+          ],
+          "integral_prediction": 0.0003130689576925638,
+          "compatible": true
+        },
+        "high_energy": {
+          "count": 1145,
+          "estimate": 0.004367828369140625,
+          "hoeffding_interval": [
+            0.00046999917091821537,
+            0.008265657567363034
+          ],
+          "integral_prediction": 0.00425196439915787,
+          "compatible": true
+        },
+        "outside_score": {
+          "count": 2,
+          "estimate": 7.62939453125e-06,
+          "hoeffding_interval": [
+            0.0,
+            0.0039054585927536596
+          ],
+          "integral_prediction": 4.307005846582168e-06,
+          "compatible": true
+        }
+      },
+      "float_envelope": [
+        0.6275556987359167,
+        0.6592707904239716
+      ],
+      "actual_interval_overlaps_envelope": true,
+      "pointwise_lower_violations": 0,
+      "pointwise_upper_violations": 0
+    },
+    {
+      "d": 256,
+      "n": 4908,
+      "method": "Adam2",
+      "L": 1,
+      "t": 3.6262055061345073,
+      "samples": 262144,
+      "endpoints": {
+        "actual": {
+          "count": 103548,
+          "estimate": 0.3950042724609375,
+          "hoeffding_interval": [
+            0.3911064432627151,
+            0.3989021016591599
+          ]
+        },
+        "lower": {
+          "count": 102777,
+          "estimate": 0.3920631408691406,
+          "hoeffding_interval": [
+            0.3881653116709182,
+            0.395960970067363
+          ],
+          "integral_prediction": 0.39196481201977995,
+          "compatible": true
+        },
+        "upper": {
+          "count": 111664,
+          "estimate": 0.42596435546875,
+          "hoeffding_interval": [
+            0.4220665262705276,
+            0.4298621846669724
+          ],
+          "integral_prediction": 0.4262712112220156,
+          "compatible": true
+        },
+        "low_energy": {
+          "count": 59,
+          "estimate": 0.000225067138671875,
+          "hoeffding_interval": [
+            0.0,
+            0.004122896336894284
+          ],
+          "integral_prediction": 0.00024617480425648264,
+          "compatible": true
+        },
+        "high_energy": {
+          "count": 1209,
+          "estimate": 0.004611968994140625,
+          "hoeffding_interval": [
+            0.0007141397959182154,
+            0.008509798192363034
+          ],
+          "integral_prediction": 0.004370979594560509,
+          "compatible": true
+        },
+        "outside_score": {
+          "count": 0,
+          "estimate": 0.0,
+          "hoeffding_interval": [
+            0.0,
+            0.0038978291982224096
+          ],
+          "integral_prediction": 4.623235345391219e-06,
+          "compatible": true
+        }
+      },
+      "float_envelope": [
+        0.39196481201977995,
+        0.430892988856178
+      ],
+      "actual_interval_overlaps_envelope": true,
+      "pointwise_lower_violations": 0,
+      "pointwise_upper_violations": 0
+    },
+    {
+      "d": 256,
+      "n": 4908,
+      "method": "Adam2",
+      "L": 5,
+      "t": 3.1065060950500576,
+      "samples": 262144,
+      "endpoints": {
+        "actual": {
+          "count": 158088,
+          "estimate": 0.603057861328125,
+          "hoeffding_interval": [
+            0.5991600321299025,
+            0.6069556905263475
+          ]
+        },
+        "lower": {
+          "count": 157375,
+          "estimate": 0.6003379821777344,
+          "hoeffding_interval": [
+            0.5964401529795119,
+            0.6042358113759568
+          ],
+          "integral_prediction": 0.6016909360689284,
+          "compatible": true
+        },
+        "upper": {
+          "count": 165100,
+          "estimate": 0.6298065185546875,
+          "hoeffding_interval": [
+            0.625908689356465,
+            0.63370434775291
+          ],
+          "integral_prediction": 0.6309188153333711,
+          "compatible": true
+        },
+        "low_energy": {
+          "count": 59,
+          "estimate": 0.000225067138671875,
+          "hoeffding_interval": [
+            0.0,
+            0.004122896336894284
+          ],
+          "integral_prediction": 0.00024617480425648264,
+          "compatible": true
+        },
+        "high_energy": {
+          "count": 1209,
+          "estimate": 0.004611968994140625,
+          "hoeffding_interval": [
+            0.0007141397959182154,
+            0.008509798192363034
+          ],
+          "integral_prediction": 0.004370979594560509,
+          "compatible": true
+        },
+        "outside_score": {
+          "count": 0,
+          "estimate": 0.0,
+          "hoeffding_interval": [
+            0.0,
+            0.0038978291982224096
+          ],
+          "integral_prediction": 4.623235345391219e-06,
+          "compatible": true
+        }
+      },
+      "float_envelope": [
+        0.6016909360689284,
+        0.6355405929675335
+      ],
+      "actual_interval_overlaps_envelope": true,
+      "pointwise_lower_violations": 0,
+      "pointwise_upper_violations": 0
+    },
+    {
+      "d": 512,
+      "n": 17599,
+      "method": "GD3",
+      "L": 1,
+      "t": 3.9489045582555358,
+      "samples": 262144,
+      "endpoints": {
+        "actual": {
+          "count": 115007,
+          "estimate": 0.4387168884277344,
+          "hoeffding_interval": [
+            0.434819059229512,
+            0.4426147176259568
+          ]
+        },
+        "lower": {
+          "count": 114611,
+          "estimate": 0.4372062683105469,
+          "hoeffding_interval": [
+            0.4333084391123245,
+            0.4411040975087693
+          ],
+          "integral_prediction": 0.4381143127818442,
+          "compatible": true
+        },
+        "upper": {
+          "count": 118724,
+          "estimate": 0.4528961181640625,
+          "hoeffding_interval": [
+            0.4489982889658401,
+            0.4567939473622849
+          ],
+          "integral_prediction": 0.454046016334265,
+          "compatible": true
+        },
+        "low_energy": {
+          "count": 129,
+          "estimate": 0.000492095947265625,
+          "hoeffding_interval": [
+            0.0,
+            0.004389925145488034
+          ],
+          "integral_prediction": 0.00045484857320943206,
+          "compatible": true
+        },
+        "high_energy": {
+          "count": 793,
+          "estimate": 0.003025054931640625,
+          "hoeffding_interval": [
+            0.0,
+            0.006922884129863034
+          ],
+          "integral_prediction": 0.0031198973315648693,
+          "compatible": true
+        },
+        "outside_score": {
+          "count": 0,
+          "estimate": 0.0,
+          "hoeffding_interval": [
+            0.0,
+            0.0038978291982224096
+          ],
+          "integral_prediction": 1.7556706483623508e-06,
+          "compatible": true
+        }
+      },
+      "float_envelope": [
+        0.4381143127818442,
+        0.45762251790968766
+      ],
+      "actual_interval_overlaps_envelope": true,
+      "pointwise_lower_violations": 0,
+      "pointwise_upper_violations": 0
+    },
+    {
+      "d": 512,
+      "n": 17599,
+      "method": "GD3",
+      "L": 5,
+      "t": 3.466693354026602,
+      "samples": 262144,
+      "endpoints": {
+        "actual": {
+          "count": 165218,
+          "estimate": 0.6302566528320312,
+          "hoeffding_interval": [
+            0.6263588236338088,
+            0.6341544820302537
+          ]
+        },
+        "lower": {
+          "count": 164871,
+          "estimate": 0.6289329528808594,
+          "hoeffding_interval": [
+            0.6250351236826369,
+            0.6328307820790818
+          ],
+          "integral_prediction": 0.6306135175611878,
+          "compatible": true
+        },
+        "upper": {
+          "count": 168410,
+          "estimate": 0.6424331665039062,
+          "hoeffding_interval": [
+            0.6385353373056838,
+            0.6463309957021287
+          ],
+          "integral_prediction": 0.6439727003839215,
+          "compatible": true
+        },
+        "low_energy": {
+          "count": 129,
+          "estimate": 0.000492095947265625,
+          "hoeffding_interval": [
+            0.0,
+            0.004389925145488034
+          ],
+          "integral_prediction": 0.00045484857320943206,
+          "compatible": true
+        },
+        "high_energy": {
+          "count": 793,
+          "estimate": 0.003025054931640625,
+          "hoeffding_interval": [
+            0.0,
+            0.006922884129863034
+          ],
+          "integral_prediction": 0.0031198973315648693,
+          "compatible": true
+        },
+        "outside_score": {
+          "count": 0,
+          "estimate": 0.0,
+          "hoeffding_interval": [
+            0.0,
+            0.0038978291982224096
+          ],
+          "integral_prediction": 1.7556706483623508e-06,
+          "compatible": true
+        }
+      },
+      "float_envelope": [
+        0.6306135175611878,
+        0.6475492019593443
+      ],
+      "actual_interval_overlaps_envelope": true,
+      "pointwise_lower_violations": 0,
+      "pointwise_upper_violations": 0
+    },
+    {
+      "d": 512,
+      "n": 14597,
+      "method": "Sign2",
+      "L": 1,
+      "t": 3.903477978561123,
+      "samples": 262144,
+      "endpoints": {
+        "actual": {
+          "count": 112396,
+          "estimate": 0.4287567138671875,
+          "hoeffding_interval": [
+            0.4248588846689651,
+            0.4326545430654099
+          ]
+        },
+        "lower": {
+          "count": 111992,
+          "estimate": 0.427215576171875,
+          "hoeffding_interval": [
+            0.4233177469736526,
+            0.4311134053700974
+          ],
+          "integral_prediction": 0.42682422948059684,
+          "compatible": true
+        },
+        "upper": {
+          "count": 116180,
+          "estimate": 0.4431915283203125,
+          "hoeffding_interval": [
+            0.4392936991220901,
+            0.4470893575185349
+          ],
+          "integral_prediction": 0.44291233188278833,
+          "compatible": true
+        },
+        "low_energy": {
+          "count": 124,
+          "estimate": 0.0004730224609375,
+          "hoeffding_interval": [
+            0.0,
+            0.004370851659159909
+          ],
+          "integral_prediction": 0.0004650070227154579,
+          "compatible": true
+        },
+        "high_energy": {
+          "count": 873,
+          "estimate": 0.003330230712890625,
+          "hoeffding_interval": [
+            0.0,
+            0.007228059911113034
+          ],
+          "integral_prediction": 0.0031572788897594184,
+          "compatible": true
+        },
+        "outside_score": {
+          "count": 0,
+          "estimate": 0.0,
+          "hoeffding_interval": [
+            0.0,
+            0.0038978291982224096
+          ],
+          "integral_prediction": 1.736676463692799e-06,
+          "compatible": true
+        }
+      },
+      "float_envelope": [
+        0.42682422948059684,
+        0.4465363544717269
+      ],
+      "actual_interval_overlaps_envelope": true,
+      "pointwise_lower_violations": 0,
+      "pointwise_upper_violations": 0
+    },
+    {
+      "d": 512,
+      "n": 14597,
+      "method": "Sign2",
+      "L": 5,
+      "t": 3.4138412985062025,
+      "samples": 262144,
+      "endpoints": {
+        "actual": {
+          "count": 163554,
+          "estimate": 0.6239089965820312,
+          "hoeffding_interval": [
+            0.6200111673838088,
+            0.6278068257802537
+          ]
+        },
+        "lower": {
+          "count": 163210,
+          "estimate": 0.6225967407226562,
+          "hoeffding_interval": [
+            0.6186989115244338,
+            0.6264945699208787
+          ],
+          "integral_prediction": 0.62249940480058,
+          "compatible": true
+        },
+        "upper": {
+          "count": 166731,
+          "estimate": 0.6360282897949219,
+          "hoeffding_interval": [
+            0.6321304605966994,
+            0.6399261189931443
+          ],
+          "integral_prediction": 0.6360923089866021,
+          "compatible": true
+        },
+        "low_energy": {
+          "count": 124,
+          "estimate": 0.0004730224609375,
+          "hoeffding_interval": [
+            0.0,
+            0.004370851659159909
+          ],
+          "integral_prediction": 0.0004650070227154579,
+          "compatible": true
+        },
+        "high_energy": {
+          "count": 873,
+          "estimate": 0.003330230712890625,
+          "hoeffding_interval": [
+            0.0,
+            0.007228059911113034
+          ],
+          "integral_prediction": 0.0031572788897594184,
+          "compatible": true
+        },
+        "outside_score": {
+          "count": 0,
+          "estimate": 0.0,
+          "hoeffding_interval": [
+            0.0,
+            0.0038978291982224096
+          ],
+          "integral_prediction": 1.736676463692799e-06,
+          "compatible": true
+        }
+      },
+      "float_envelope": [
+        0.62249940480058,
+        0.6397163315755408
+      ],
+      "actual_interval_overlaps_envelope": true,
+      "pointwise_lower_violations": 0,
+      "pointwise_upper_violations": 0
+    },
+    {
+      "d": 512,
+      "n": 16595,
+      "method": "Adam2",
+      "L": 1,
+      "t": 3.9324487790539058,
+      "samples": 262144,
+      "endpoints": {
+        "actual": {
+          "count": 109077,
+          "estimate": 0.4160957336425781,
+          "hoeffding_interval": [
+            0.4121979044443557,
+            0.4199935628408005
+          ]
+        },
+        "lower": {
+          "count": 108667,
+          "estimate": 0.4145317077636719,
+          "hoeffding_interval": [
+            0.4106338785654495,
+            0.4184295369618943
+          ],
+          "integral_prediction": 0.4157581899320363,
+          "compatible": true
+        },
+        "upper": {
+          "count": 113048,
+          "estimate": 0.431243896484375,
+          "hoeffding_interval": [
+            0.4273460672861526,
+            0.4351417256825974
+          ],
+          "integral_prediction": 0.4322988827200628,
+          "compatible": true
+        },
+        "low_energy": {
+          "count": 118,
+          "estimate": 0.00045013427734375,
+          "hoeffding_interval": [
+            0.0,
+            0.004347963475566159
+          ],
+          "integral_prediction": 0.0004273020430466401,
+          "compatible": true
+        },
+        "high_energy": {
+          "count": 841,
+          "estimate": 0.003208160400390625,
+          "hoeffding_interval": [
+            0.0,
+            0.007105989598613034
+          ],
+          "integral_prediction": 0.003206476075862996,
+          "compatible": true
+        },
+        "outside_score": {
+          "count": 0,
+          "estimate": 0.0,
+          "hoeffding_interval": [
+            0.0,
+            0.0038978291982224096
+          ],
+          "integral_prediction": 1.8003377142417065e-06,
+          "compatible": true
+        }
+      },
+      "float_envelope": [
+        0.4157581899320363,
+        0.43593446117668666
+      ],
+      "actual_interval_overlaps_envelope": true,
+      "pointwise_lower_violations": 0,
+      "pointwise_upper_violations": 0
+    },
+    {
+      "d": 512,
+      "n": 16595,
+      "method": "Adam2",
+      "L": 5,
+      "t": 3.4468958684725224,
+      "samples": 262144,
+      "endpoints": {
+        "actual": {
+          "count": 160189,
+          "estimate": 0.6110725402832031,
+          "hoeffding_interval": [
+            0.6071747110849807,
+            0.6149703694814256
+          ]
+        },
+        "lower": {
+          "count": 159833,
+          "estimate": 0.6097145080566406,
+          "hoeffding_interval": [
+            0.6058166788584182,
+            0.6136123372548631
+          ],
+          "integral_prediction": 0.6101906481188969,
+          "compatible": true
+        },
+        "upper": {
+          "count": 163613,
+          "estimate": 0.6241340637207031,
+          "hoeffding_interval": [
+            0.6202362345224807,
+            0.6280318929189256
+          ],
+          "integral_prediction": 0.6244071839460782,
+          "compatible": true
+        },
+        "low_energy": {
+          "count": 118,
+          "estimate": 0.00045013427734375,
+          "hoeffding_interval": [
+            0.0,
+            0.004347963475566159
+          ],
+          "integral_prediction": 0.0004273020430466401,
+          "compatible": true
+        },
+        "high_energy": {
+          "count": 841,
+          "estimate": 0.003208160400390625,
+          "hoeffding_interval": [
+            0.0,
+            0.007105989598613034
+          ],
+          "integral_prediction": 0.003206476075862996,
+          "compatible": true
+        },
+        "outside_score": {
+          "count": 0,
+          "estimate": 0.0,
+          "hoeffding_interval": [
+            0.0,
+            0.0038978291982224096
+          ],
+          "integral_prediction": 1.8003377142417065e-06,
+          "compatible": true
+        }
+      },
+      "float_envelope": [
+        0.6101906481188969,
+        0.6280427624027021
+      ],
+      "actual_interval_overlaps_envelope": true,
+      "pointwise_lower_violations": 0,
+      "pointwise_upper_violations": 0
+    }
+  ],
+  "hoeffding_halfwidth": 0.0038978291982224096,
+  "primary_integral_checks": 60,
+  "compatible_integral_checks": 60,
+  "actual_intervals_overlapping_envelope": 12,
+  "wall_seconds": 37.68629395699827,
+  "max_RSS_KiB": 503092
+}

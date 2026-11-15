@@ -1,0 +1,10 @@
+{
+  "mode": "smoke",
+  "elapsed_seconds": 0.043919076008023694,
+  "end_utc": "2026-11-06T09:54:33.805658+00:00",
+  "peak_rss_bytes": 34955264,
+  "executable": "/home/liuyibo/venvs/theory/bin/python",
+  "source_sha256": "5dc68b2f3237900a9a787afaec208217dd4c9966716329d597c368569108bb0d",
+  "scope": "theory-d-killer-v3-smoke-audit.scope",
+  "scope_properties": "MemoryMax=2147483648\nMemorySwapMax=0\n"
+}

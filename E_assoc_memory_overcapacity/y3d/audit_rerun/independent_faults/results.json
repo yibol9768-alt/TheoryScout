@@ -1,0 +1,63 @@
+{
+  "results": [
+    {
+      "case": "true_y3c_binding_control",
+      "accepted": true,
+      "verified": true,
+      "complete_cells": 288
+    },
+    {
+      "case": "supervisor_kill_before_publish",
+      "returncode": -9,
+      "pending_credential": true,
+      "final_exists": false,
+      "verified": false,
+      "error": "FileNotFoundError(2, 'No such file or directory')"
+    },
+    {
+      "case": "npz_mutation_after_accept",
+      "final_exists": true,
+      "verified": false,
+      "error": "AssertionError('d128_r0_s0.npz')"
+    },
+    {
+      "case": "report_mutation_after_accept",
+      "final_exists": true,
+      "verified": false,
+      "error": "AssertionError('analysis/endpoints.csv')"
+    },
+    {
+      "case": "report_mutation_before_accept",
+      "analyzer_returncode": 0,
+      "accepted": false,
+      "verified": false,
+      "error": "FileNotFoundError(2, 'No such file or directory')",
+      "reported_data_rows": 0,
+      "candidate_complete_cells": 288,
+      "decisions": null
+    },
+    {
+      "case": "decision_mutation_before_accept",
+      "original_full72": true,
+      "mutated_full72": false,
+      "accepted": false,
+      "verified": false,
+      "error": "FileNotFoundError(2, 'No such file or directory')"
+    },
+    {
+      "case": "npz_change_during_finalize",
+      "accepted_path_created": true,
+      "verified": false,
+      "error": "AssertionError('d128_r0_s0.npz')"
+    }
+  ],
+  "manifest_sha256": "56ed316a8aa13a21cc333f8cfe8a9bca1157d44f93749c5e92af67836e86b5c8",
+  "no_formal_sampling": true,
+  "new_random_training_or_queries": false,
+  "usage": {
+    "cpu_seconds": 6.865293,
+    "peak_rss_mib": 102.8125,
+    "monotonic": 27561.075384975
+  },
+  "child_cpu_seconds": 4.455131
+}

@@ -1,0 +1,45 @@
+{
+  "seconds": 0.41179582600307185,
+  "resource_start": {
+    "controls": {
+      "memory.max": "2147483648",
+      "memory.swap.max": "0",
+      "memory.peak": "47013888",
+      "memory.events": "low 0\nhigh 0\nmax 0\noom 0\noom_kill 0\noom_group_kill 0"
+    },
+    "threadpools": [
+      {
+        "library": "/home/liuyibo/venvs/theory/lib/python3.12/site-packages/numpy.libs/libscipy_openblas64_-f48b354e.so",
+        "threads": 2
+      },
+      {
+        "library": "/home/liuyibo/venvs/theory/lib/python3.12/site-packages/scipy.libs/libscipy_openblas-5f890258.so",
+        "threads": 2
+      }
+    ],
+    "rss_MiB": 76.6953125,
+    "python": "/home/liuyibo/venvs/theory/bin/python",
+    "device": "CPU"
+  },
+  "resource_end": {
+    "controls": {
+      "memory.max": "2147483648",
+      "memory.swap.max": "0",
+      "memory.peak": "151879680",
+      "memory.events": "low 0\nhigh 0\nmax 0\noom 0\noom_kill 0\noom_group_kill 0"
+    },
+    "threadpools": [
+      {
+        "library": "/home/liuyibo/venvs/theory/lib/python3.12/site-packages/numpy.libs/libscipy_openblas64_-f48b354e.so",
+        "threads": 2
+      },
+      {
+        "library": "/home/liuyibo/venvs/theory/lib/python3.12/site-packages/scipy.libs/libscipy_openblas-5f890258.so",
+        "threads": 2
+      }
+    ],
+    "rss_MiB": 176.6953125,
+    "python": "/home/liuyibo/venvs/theory/bin/python",
+    "device": "CPU"
+  }
+}

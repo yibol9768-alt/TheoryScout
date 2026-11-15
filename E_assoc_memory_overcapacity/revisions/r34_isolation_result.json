@@ -1,0 +1,54 @@
+{
+  "parent_mount_namespace": "mnt:[4026532226]",
+  "child_mount_namespace": "mnt:[4026532807]",
+  "parent_network_namespace": "net:[4026531833]",
+  "child_network_namespace": "net:[4026532808]",
+  "original_workspace_hidden": true,
+  "network_namespace_isolated": true,
+  "original_workspace": "/mnt/c/Users/liuyibo/Desktop/auto-llm-driving",
+  "extracted_bundle": "/tmp/theoryscout_r34_isolation_p58m2j95/r34_repro_R34",
+  "output": "/tmp/theoryscout_r34_isolation_p58m2j95/replayed",
+  "replay": {
+    "bundle_revision": "R34",
+    "bundle_files": 572,
+    "wall_seconds": 64.86115363999852,
+    "clean_build": true,
+    "only_cached_tex": true,
+    "body_pages": 8,
+    "total_pages": 151,
+    "pdf_text_identical": true,
+    "pdf_text_sha256": "8d52417187155d9dea66a271e6c3b8d1deb695d563a9622582b02d1503d5f053",
+    "pdf_bytes_identical": false,
+    "z4b_statistics_and_geometry_identical": true,
+    "immutable_bundle_reverified": true,
+    "gd_algebra_checks_identical": true,
+    "gd_scatter_selection_checks_identical": true,
+    "sphere_threshold_results_identical_except_wall_time": true,
+    "sphere_radius_records_bytes_identical": true,
+    "sphere_replay_uses_threshold_samples": false,
+    "conditional_moment_and_scalar_center_replays": [
+      {
+        "revision": "R28",
+        "mathematics_identical": true,
+        "reference_checks_passed": true,
+        "inherited_numeric_prerequisites": true
+      },
+      {
+        "revision": "R29",
+        "mathematics_identical": true,
+        "reference_checks_passed": true,
+        "inherited_numeric_prerequisites": true
+      }
+    ],
+    "coverage": "Full manuscript build; table44 compact-count replay; declared GD, inherited-point sphere, conditional moment and scalar-center checks",
+    "exclusions": [
+      "Other experiments not regenerated",
+      "Raw Z4B ranks not bundled",
+      "t critical values and model slopes archived inputs",
+      "Sphere case inherits predecessor C0 point certificates; native residual chain and point integrals not rebuilt",
+      "Sphere result is a conditional LOWER at represented C0, not an unrounded Gaussian input or single-dataset guarantee",
+      "Conditional moments and scalar center replay inherit prior coupling/spectral enclosures; Gaussian proxy effect is not actual recall",
+      "Not independent proof review, exact-matching guarantee, or complete scientific reproduction"
+    ]
+  }
+}

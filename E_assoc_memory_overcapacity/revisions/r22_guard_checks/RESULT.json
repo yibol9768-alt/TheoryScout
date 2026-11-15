@@ -1,0 +1,17 @@
+[
+  {
+    "case": "old_snapshot",
+    "rejected": true,
+    "no_output_created": true
+  },
+  {
+    "case": "wrong_revision",
+    "rejected": true,
+    "no_output_created": true
+  },
+  {
+    "case": "corrupt_sphere_subarchive",
+    "rejected": true,
+    "reason": "R21 sphere replay archive hash mismatch"
+  }
+]

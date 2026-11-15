@@ -1,0 +1,57 @@
+{
+  "seed": 20261106,
+  "scope": "finite mathematical checks only; no agent evidence",
+  "budget_dp_cases": 57,
+  "max_dp_gain_gap": 0.0,
+  "fractional_vertex_cases": 57,
+  "dual_support_certificate_cases": 57,
+  "max_observed_rounding_gain_gap": 0.5310690076924698,
+  "uniform_integer_phase_cases": 3585,
+  "max_uniform_phase_gain_gap": 1.1102230246251565e-16,
+  "integer_scarcity_example": {
+    "G": 5,
+    "k": 5,
+    "b": 6,
+    "signal": 31.0,
+    "vs": 0.4,
+    "vr": 1.0,
+    "best_raw_summary_counts": [
+      0,
+      5
+    ]
+  },
+  "gumbel_trials_per_cell": 30000,
+  "gumbel_checks": [
+    {
+      "signal": 3,
+      "target": 0,
+      "expected": 0.2857142857142857,
+      "empirical": 0.2806666666666667,
+      "absolute_error": 0.005047619047619023
+    },
+    {
+      "signal": 3,
+      "target": 10,
+      "expected": 0.2857142857142857,
+      "empirical": 0.2891,
+      "absolute_error": 0.003385714285714325
+    },
+    {
+      "signal": 7,
+      "target": 0,
+      "expected": 0.31779661016949146,
+      "empirical": 0.32043333333333335,
+      "absolute_error": 0.002636723163841892
+    },
+    {
+      "signal": 7,
+      "target": 13,
+      "expected": 0.35169491525423724,
+      "empirical": 0.34626666666666667,
+      "absolute_error": 0.005428248587570572
+    }
+  ],
+  "equal_entropy_three_group_pmax": 0.7729078047806517,
+  "elapsed_seconds": 0.33247548100189306,
+  "peak_rss_mib": 32.58203125
+}

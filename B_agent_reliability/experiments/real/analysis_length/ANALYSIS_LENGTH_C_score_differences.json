@@ -1,0 +1,86 @@
+{
+  "A": {
+    "delta_LL_vs_A": 0.0,
+    "cluster95_fixed_fit": [
+      0.0,
+      0.0
+    ]
+  },
+  "B_fatal": {
+    "delta_LL_vs_A": 1.2665933913361398,
+    "cluster95_fixed_fit": [
+      0.6193073464549727,
+      1.84930412377406
+    ],
+    "cluster95_calibration_refit_and_heldout": [
+      0.0,
+      10.484227222558381
+    ],
+    "refit_negative_infinity_replicates": 0,
+    "null_lower_endpoint_means_negative_infinity": false,
+    "refit_interval_note": "Zero estimated first-step hazard can assign zero probability to heldout failure: retain -infinity, no smoothing or probability floor."
+  },
+  "B_error": {
+    "delta_LL_vs_A": 0.0,
+    "cluster95_fixed_fit": [
+      0.0,
+      0.0
+    ]
+  },
+  "C1": {
+    "delta_LL_vs_A": -0.12580168757080018,
+    "cluster95_fixed_fit": [
+      -0.5533745874422282,
+      0.5536365110186391
+    ],
+    "cluster95_calibration_refit_and_heldout": [
+      null,
+      1.3696664581132012
+    ],
+    "refit_negative_infinity_replicates": 289,
+    "null_lower_endpoint_means_negative_infinity": true,
+    "refit_interval_note": "Zero estimated first-step hazard can assign zero probability to heldout failure: retain -infinity, no smoothing or probability floor."
+  },
+  "D1": {
+    "delta_LL_vs_A": 0.2969391302153318,
+    "cluster95_fixed_fit": [
+      -0.1998700975674621,
+      1.0046967262857804
+    ],
+    "cluster95_calibration_refit_and_heldout": [
+      null,
+      11.759347837670107
+    ],
+    "refit_negative_infinity_replicates": 289,
+    "null_lower_endpoint_means_negative_infinity": true,
+    "refit_interval_note": "Zero estimated first-step hazard can assign zero probability to heldout failure: retain -infinity, no smoothing or probability floor."
+  },
+  "C8": {
+    "delta_LL_vs_A": 0.8423366699534796,
+    "cluster95_fixed_fit": [
+      0.21965696189023778,
+      1.4893524308762303
+    ],
+    "cluster95_calibration_refit_and_heldout": [
+      -11.095726273710575,
+      6.483729773161544
+    ],
+    "refit_negative_infinity_replicates": 2,
+    "null_lower_endpoint_means_negative_infinity": false,
+    "refit_interval_note": "Zero estimated first-step hazard can assign zero probability to heldout failure: retain -infinity, no smoothing or probability floor."
+  },
+  "D8": {
+    "delta_LL_vs_A": 0.8423366699534796,
+    "cluster95_fixed_fit": [
+      0.20406843427513327,
+      1.4851460022084197
+    ],
+    "cluster95_calibration_refit_and_heldout": [
+      -10.496829344161146,
+      9.564023744562185
+    ],
+    "refit_negative_infinity_replicates": 2,
+    "null_lower_endpoint_means_negative_infinity": false,
+    "refit_interval_note": "Zero estimated first-step hazard can assign zero probability to heldout failure: retain -infinity, no smoothing or probability floor."
+  }
+}

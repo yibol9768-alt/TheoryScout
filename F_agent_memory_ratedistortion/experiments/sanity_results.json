@@ -1,0 +1,95 @@
+{
+  "scope": "algebra and correctly specified Gumbel channel only; no agent validation",
+  "seed": 20261105,
+  "exhaustive_optimum_cases": 504,
+  "max_optimum_gain_gap": 3.3306690738754696e-16,
+  "homogeneous_phase_cases": 950,
+  "gumbel_trials_per_cell": 20000,
+  "gumbel_calibration": [
+    {
+      "m": 1,
+      "kappa": 0.001,
+      "expected": 1.0,
+      "empirical": 1.0,
+      "absolute_error": 0.0
+    },
+    {
+      "m": 1,
+      "kappa": 0.003,
+      "expected": 1.0,
+      "empirical": 1.0,
+      "absolute_error": 0.0
+    },
+    {
+      "m": 1,
+      "kappa": 0.01,
+      "expected": 1.0,
+      "empirical": 1.0,
+      "absolute_error": 0.0
+    },
+    {
+      "m": 8,
+      "kappa": 0.001,
+      "expected": 0.99304865938431,
+      "empirical": 0.9938,
+      "absolute_error": 0.0007513406156900437
+    },
+    {
+      "m": 8,
+      "kappa": 0.003,
+      "expected": 0.9794319294809012,
+      "empirical": 0.9805,
+      "absolute_error": 0.0010680705190988515
+    },
+    {
+      "m": 8,
+      "kappa": 0.01,
+      "expected": 0.9345794392523364,
+      "empirical": 0.93395,
+      "absolute_error": 0.0006294392523364944
+    },
+    {
+      "m": 64,
+      "kappa": 0.001,
+      "expected": 0.9407337723424272,
+      "empirical": 0.93975,
+      "absolute_error": 0.0009837723424271916
+    },
+    {
+      "m": 64,
+      "kappa": 0.003,
+      "expected": 0.8410428931875525,
+      "empirical": 0.8404,
+      "absolute_error": 0.0006428931875525068
+    },
+    {
+      "m": 64,
+      "kappa": 0.01,
+      "expected": 0.6134969325153374,
+      "empirical": 0.61495,
+      "absolute_error": 0.0014530674846625624
+    },
+    {
+      "m": 512,
+      "kappa": 0.001,
+      "expected": 0.6618133686300463,
+      "empirical": 0.6569,
+      "absolute_error": 0.004913368630046211
+    },
+    {
+      "m": 512,
+      "kappa": 0.003,
+      "expected": 0.39478878799842076,
+      "empirical": 0.3963,
+      "absolute_error": 0.0015112120015792208
+    },
+    {
+      "m": 512,
+      "kappa": 0.01,
+      "expected": 0.1636661211129296,
+      "empirical": 0.1651,
+      "absolute_error": 0.001433878887070389
+    }
+  ],
+  "elapsed_seconds": 0.797018900000694
+}

@@ -1,0 +1,54 @@
+{
+  "results": {
+    "retrieval_results.json": {
+      "record_count": 288,
+      "inputs_unchanged": true,
+      "seconds": 22.230503494000004
+    },
+    "cue_results.json": {
+      "record_count": 90,
+      "inputs_unchanged": true,
+      "seconds": 4.336729015999936
+    },
+    "cue_large_results.json": {
+      "record_count": 60,
+      "inputs_unchanged": true,
+      "seconds": 49.27924691599992
+    }
+  },
+  "protected_inputs_and_sources": {
+    "ICML_REVIEW_SIM6.md": "d8980ec8baf86683bab5cd44c5ac57cbca73aee46f5d650f743db24cad22342b",
+    "X3_POLAR_TOOL.md": "e9fe2b47d8e1c8aed589b5a54a72f68a0e9c73c9aaa2f4557cd125cc27129dbb",
+    "paper/sections/setup.tex": "5caa18ebdafe797e1cff75c31e27acf77a02d2fdca87a6337025bce2eeb78776",
+    "paper/sections/main_results.tex": "fdcb134b95f42a714a61b0d2bdc0260643c116cc3dd950e2900c4fcdce1689ed",
+    "paper/appendix/E.tex": "9329e2d3c324a8dd2a1514869ab462023d02577eb379261da09be86c446fc1a4",
+    "paper/appendix/F.tex": "fa7bc01209ef1bf3b151f6be007eebe1652b9d244644b92bee0d3f6e61441a54",
+    "paper/appendix/J_novelty.tex": "25d0c32958101a0f058203530690a479c6c7ae92a14a80f0dc539126496348fc",
+    "aa2_checks/retrieval_check.py": "fa567fa38cdd094839dbfbab4c38c6d5b514fad44c25fd514b50878380d9edf1",
+    "paper/appendix/A.tex": "22c5656ec78d6ec460e1c6f4d7334e74b6f9c68c7e6e59487fee56241ab6a1d6",
+    "aa2_checks/cue_check.py": "73db97640cafe5d22de000c1dce351b52a644f4ec91d8e94d1c29fff944fa723"
+  },
+  "syntax_parsed": [
+    "aa2_checks/audit_artifacts.py",
+    "aa2_checks/cue_check.py",
+    "aa2_checks/retrieval_check.py"
+  ],
+  "artifact_sha256": {
+    "AA2_EXT_RETRIEVAL.md": "b3cd17f46b1a76a0e42c97f3d5a4c2c5529d288db6a0135fdc3e11df49e6e4fa",
+    "aa2_checks/README.md": "7b6308c94dbbedd3d1e952f573c13d3ccf36e78439e2a88cc4765ed09ab53cb8",
+    "aa2_checks/audit_artifacts.py": "91856ec0ce5c86098d9be09ae980dad93b528dd9a52fe355fec6110f96caf736",
+    "aa2_checks/cue_check.py": "73db97640cafe5d22de000c1dce351b52a644f4ec91d8e94d1c29fff944fa723",
+    "aa2_checks/cue_large_results.json": "e517bf3bf341fbf9b18767efb82dc6bb43f57dd0015b9442382daa81e75d1204",
+    "aa2_checks/cue_results.json": "b04b8648019f00c33d5ca8e9c88e455cf58029decc5d2bce2dc65712a96d5e93",
+    "aa2_checks/retrieval_check.py": "fa567fa38cdd094839dbfbab4c38c6d5b514fad44c25fd514b50878380d9edf1",
+    "aa2_checks/retrieval_results.json": "0a1f04f261cbbeedc7b5bdba77b6eeaf75657241b7b366264d68abc4f273ac89"
+  },
+  "python": "/home/liuyibo/venvs/theory/bin/python",
+  "threads": {
+    "OPENBLAS_NUM_THREADS": "2",
+    "OMP_NUM_THREADS": "2",
+    "MKL_NUM_THREADS": "2",
+    "NUMEXPR_NUM_THREADS": "2"
+  },
+  "note": "Checks consistency and integrity, not a formal proof or an interval certificate."
+}

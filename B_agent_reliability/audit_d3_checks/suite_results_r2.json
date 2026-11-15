@@ -1,0 +1,43 @@
+{
+  "tests": 39,
+  "failures": [],
+  "errors": [],
+  "thread_start_checks": [
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2
+  ],
+  "passed": true,
+  "seconds": 209.42354440689087,
+  "resources": {
+    "cgroup": "/user.slice/user-1000.slice/user@1000.service/app.slice/run-r7814b2652cbe4405a92f6bee00eada98.scope",
+    "memory_max": "2147483648",
+    "swap_max": "0",
+    "threads": 1,
+    "env": {
+      "OMP_NUM_THREADS": "1",
+      "OPENBLAS_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1",
+      "NUMEXPR_NUM_THREADS": "1"
+    }
+  },
+  "end_resources": {
+    "cgroup": "/user.slice/user-1000.slice/user@1000.service/app.slice/run-r7814b2652cbe4405a92f6bee00eada98.scope",
+    "memory_max": "2147483648",
+    "swap_max": "0",
+    "threads": 1,
+    "env": {
+      "OMP_NUM_THREADS": "1",
+      "OPENBLAS_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1",
+      "NUMEXPR_NUM_THREADS": "1"
+    }
+  },
+  "mapping": "Only test BASE, engine.allowed_dir, reconcile evidence path; no assertions modified."
+}

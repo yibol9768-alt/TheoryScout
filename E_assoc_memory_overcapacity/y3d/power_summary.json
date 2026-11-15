@@ -1,0 +1,23 @@
+{
+  "target": "d512,r=-.5,old GD-Sign squared-loss improvement",
+  "uncorrected": 0.23745099259962651,
+  "corrected": 0.23096337649934967,
+  "shift": -0.006487616100276844,
+  "variance2048": 8.651075874947756e-05,
+  "within_variance": 0.18198246063694581,
+  "nonnegative_floor": 0.0,
+  "chosen": {
+    "N": 32,
+    "Q_target": 8192,
+    "Q_other": 512,
+    "cpu_estimate": 8604.374840592001,
+    "wall_estimate": 4780.208244773334,
+    "power": 0.9059735623494495,
+    "power_variance_x1_25": 0.8226327303589624
+  },
+  "d512_confirmatory": true,
+  "model": "truth=frozen corrected; d512 covariance extrapolated from X1 d256; not a guarantee",
+  "criterion": "family3 two-sided simultaneous95% lower bound > 0; 1.25x variance sensitivity >=80%",
+  "cost_model": "1.5*(train+scan*Q/512)+0.035*d*n/1e6+1 per cell; +180 total; wall=CPU/1.8",
+  "all_grid_preserved": true
+}

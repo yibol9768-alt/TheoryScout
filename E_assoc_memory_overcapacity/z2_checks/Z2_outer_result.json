@@ -1,0 +1,38 @@
+{
+  "seed": 2026110603,
+  "N": 512,
+  "d": 512,
+  "r": 0.0,
+  "rho": 0.1,
+  "eta": 0.002,
+  "delta_outer": 0.01,
+  "methods": [
+    "GD",
+    "Sign"
+  ],
+  "task": "old",
+  "mean_difference_lower": 0.2078703910621669,
+  "mean_difference_upper": 0.6689935881148639,
+  "hoeffding_radius": 0.1438629633125853,
+  "expected_difference_lower": 0.0640074277495816,
+  "expected_difference_upper": 0.8128565514274492,
+  "wall_seconds": 269.480052884006,
+  "cpu_seconds": 545.861324683,
+  "peak_rss_kib": 424288,
+  "memory_max": "3221225472",
+  "memory_swap_max": "0",
+  "threadpools": [
+    {
+      "path": "/home/liuyibo/venvs/theory/lib/python3.12/site-packages/numpy.libs/libscipy_openblas64_-f48b354e.so",
+      "symbol": "scipy_openblas_get_num_threads64_",
+      "num_threads": 2
+    },
+    {
+      "path": "/home/liuyibo/venvs/theory/lib/python3.12/site-packages/scipy.libs/libscipy_openblas-5f890258.so",
+      "symbol": "scipy_openblas_get_num_threads_",
+      "num_threads": 2
+    }
+  ],
+  "input_hashes_unchanged": true,
+  "rounding_status": "ordinary float64; not outward-rounded interval arithmetic"
+}

@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "design": "confirmation",
+  "full": true,
+  "datasets": 288,
+  "reused_datasets": 62,
+  "generated_datasets": 226,
+  "rejected_archives": [],
+  "seed_level_recalls_equal_to_original": true,
+  "max_recall_error": 0.0,
+  "regenerated_population_max_error": 3.552713678800501e-15,
+  "seconds": 3750.138842508,
+  "small_replay_is_not_statistical_confirmation": false
+}

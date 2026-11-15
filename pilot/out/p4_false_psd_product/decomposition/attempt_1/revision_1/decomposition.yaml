@@ -1,0 +1,206 @@
+metadata:
+  problem_id: "p4_false_psd_product.tex"
+  mode: "CREATE"
+  attempt: 1
+  revision: 1
+  timestamp: "2026-11-05T10:55:38.374499"
+
+# The original target is false. This file gives its quantitative refutation,
+# proves the valid eigenvalue assertion, and states the precise conditional repair.
+# It does not claim to supply a proof of GOAL.
+sources:
+  - id: S1
+    type: literature
+    statement: |
+      For every integer d >= 1 and all real symmetric positive semidefinite
+      matrices A,B in R^{d x d},
+      AB = (AB)^T if and only if AB = BA if and only if AB is symmetric
+      positive semidefinite.
+    citation: |
+      <cite>type=theorem; label=Section 4.1, unnumbered commuting-product criterion; title=A Fresh Variational-Analysis Look at the Positive Semidefinite Matrices World; authors=Jean-Baptiste Hiriart-Urruty and Jérôme Malick; source_url=https://www.math.univ-toulouse.fr/~jbhu/SDP-HU-Malick-2012pdf.pdf; verifier_locator=Journal of Optimization Theory and Applications 153 (2012), p. 563, Section 4.1, Closedness Under Multiplication, paragraph beginning "Let us come back"; statement_match=exact; statement=For real symmetric PSD A,B, the product AB is symmetric PSD exactly when it is symmetric, equivalently when AB=BA; usage=Identify the missing hypothesis and establish the commuting version in STEP4.</cite>
+
+  - id: S2
+    type: literature
+    statement: |
+      Let A,B in C^{d x d} be Hermitian positive semidefinite matrices.
+      The eigenvalues of AB are real. List all eigenvalues in decreasing
+      order, with algebraic multiplicity. For every integer k with
+      1 <= k <= d and every index sequence 1 <= i_1 < ... < i_k <= d,
+      sum_{t=1}^k lambda_{i_t}(A) lambda_{d-t+1}(B)
+        <= sum_{t=1}^k lambda_{i_t}(AB)
+        <= sum_{t=1}^k lambda_{i_t}(A) lambda_t(B).
+      Singular factors are permitted.
+    citation: |
+      <cite>type=theorem; label=Equation (1.3); title=Inequalities for selected eigenvalues of the product of matrices; authors=Bo-Yan Xi and Fuzhen Zhang; source_url=https://arxiv.org/pdf/1905.03821; verifier_locator=arXiv:1905.03821v1 (2019), p. 1, equation (1.3) and its preceding PSD hypotheses; the following paragraph establishes real spectrum; statement_match=exact; statement=For Hermitian PSD A,B and 1<=i_1<...<i_k<=d, sum_t lambda_{i_t}(A)lambda_{d-t+1}(B)<=sum_t lambda_{i_t}(AB)<=sum_t lambda_{i_t}(A)lambda_t(B); usage=Set k=1 and i_1=j to prove STEP3, without assuming symmetry of AB.</cite>
+
+steps:
+  - id: STEP1
+    statement: |
+      Define
+        A_0 = [[1,0],[0,0]],   B_0 = [[1,1],[1,1]].
+      Then A_0^T=A_0 and B_0^T=B_0. For every (u,v) in R^2,
+        (u,v) A_0 (u,v)^T = u^2 >= 0,
+        (u,v) B_0 (u,v)^T = (u+v)^2 >= 0.
+      Thus A_0 and B_0 are real symmetric positive semidefinite matrices.
+    inputs: []
+    difficulty: easy
+    is_key_step: false
+    rationale: |
+      Verify every hypothesis for the explicit counterexample in the survey.
+      These elementary identities require no external theorem.
+    strategy_hint: |
+      Expand both quadratic forms and check the transpose of each factor.
+
+  - id: STEP2
+    statement: |
+      For the matrices in STEP1,
+        A_0 B_0 = [[1,1],[0,0]],
+        B_0 A_0 = [[1,0],[1,0]] = (A_0 B_0)^T.
+      In particular, (A_0 B_0)_{12}=1 and (A_0 B_0)_{21}=0.
+      For x_0=(-1,2)^T,
+        x_0^T A_0 B_0 x_0 = -1 < 0.
+      For every integer d >= 2, define
+        A_d=A_0 direct_sum 0_{d-2},
+        B_d=B_0 direct_sum 0_{d-2},
+        x_d=(-1,2,0,...,0)^T,
+      where the extra block is absent when d=2. Both A_d and B_d are
+      symmetric PSD, but
+        (A_d B_d)_{12}=1,   (A_d B_d)_{21}=0,
+        x_d^T A_d B_d x_d=-1.
+      Hence the product assertion in GOAL is false in every dimension d>=2,
+      both under the symmetric-PSD definition and under a definition based
+      solely on nonnegative quadratic forms.
+    inputs: [STEP1]
+    difficulty: easy
+    is_key_step: false
+    rationale: |
+      A universal assertion is refuted by one pair satisfying its hypotheses.
+      The displayed d=2 pair already suffices; adjoining zero blocks records
+      the obstruction in every larger dimension. This step refutes GOAL
+      rather than supplying an antecedent from which GOAL follows.
+    strategy_hint: |
+      Multiply the two 2-by-2 matrices in both orders, then multiply
+      A_0 B_0 by x_0 and take the inner product with x_0.
+      For the extensions, the added coordinates contribute zero to each
+      quadratic form and to every displayed product entry.
+
+  - id: STEP3
+    statement: |
+      For every integer d>=1 and all real symmetric PSD A,B in R^{d x d},
+      AB has real eigenvalues. With eigenvalues ordered decreasingly,
+      for every j in {1,...,d},
+        0 <= lambda_j(A) lambda_d(B)
+          <= lambda_j(AB)
+          <= lambda_j(A) lambda_1(B).
+      In particular,
+        0 <= lambda_max(AB) <= lambda_max(A) lambda_max(B).
+    inputs: [S2]
+    difficulty: easy
+    is_key_step: false
+    rationale: |
+      This establishes exactly the valid eigenvalue assertion in the
+      original problem. The lower bound also justifies that the eigenvalues
+      being ordered are nonnegative, despite the absence of product symmetry.
+    strategy_hint: |
+      Apply S2 with k=1 and i_1=j. Since A and B are PSD, their eigenvalues
+      are nonnegative. Specialize to j=1 for the requested upper bound.
+      Do not infer symmetry or quadratic-form positivity from these bounds.
+
+  - id: STEP4
+    statement: |
+      For every integer d>=1 and all real symmetric PSD A,B in R^{d x d},
+      the following equivalence holds:
+        [AB is symmetric positive semidefinite and
+         lambda_max(AB) <= lambda_max(A) lambda_max(B)]
+        if and only if AB=BA.
+      Thus the full conclusion in the original problem holds precisely
+      for commuting pairs. In particular, it holds for all such pairs
+      when d=1.
+    inputs: [S1, STEP3]
+    difficulty: easy
+    is_key_step: false
+    rationale: |
+      S1 proves the symmetry and PSD conclusion under commutativity, and
+      STEP3 supplies the inequality. Conversely, symmetry gives
+      AB=(AB)^T=B^T A^T=BA. This is a separate conditional theorem,
+      not a proof of GOAL without an additional hypothesis.
+    strategy_hint: |
+      Prove both implications using S1 and STEP3. For d=1, scalar
+      multiplication is commutative.
+
+target:
+  id: GOAL
+  statement: |
+    \begin{problem}
+    Let $A,B\in\mathbb{R}^{d\times d}$ be symmetric positive semidefinite matrices. Prove that $AB$ is symmetric positive semidefinite and that $\lambda_{\max}(AB)\le\lambda_{\max}(A)\,\lambda_{\max}(B)$.
+    \end{problem}
+  # No sound antecedents establish this target: STEP2 disproves it.
+  inputs: []
+
+# GOAL is deliberately omitted: this is the order of the provable claims,
+# not a purported topological proof of the false target.
+proof_order: [STEP1, STEP2, STEP3, STEP4]
+key_steps: []
+
+self_critique:
+  plausibility_issues:
+    - |
+      Fatal obstruction: GOAL is false as written. STEP1 verifies its
+      hypotheses, while STEP2 gives both a transpose-entry mismatch
+      (1 versus 0) and a strictly negative quadratic form (-1).
+      Consequently, no valid chain of true intermediate claims can
+      establish the requested conjunction.
+    - |
+      The format cannot honestly encode a proof of this target.
+      The target text is preserved verbatim, its inputs are empty, and
+      GOAL is intentionally excluded from proof_order. The file is a
+      refutation with the valid subclaim and the precise conditional repair.
+      The completeness requirement for a proof of GOAL is impossible
+      under the supplied hypotheses.
+  contradiction_checks:
+    - |
+      STEP2 agrees with S1: the example has A_0 B_0 != B_0 A_0, so S1
+      rules out product symmetry and symmetric positive semidefiniteness.
+    - |
+      STEP2 does not contradict S2 or STEP3. The eigenvalues of A_0,
+      B_0, and A_0 B_0 are respectively {1,0}, {2,0}, and {1,0};
+      the requested inequality specializes to 1<=1*2.
+    - |
+      A nonnegative spectrum and a negative quadratic form coexist in
+      STEP2 because A_0 B_0 is nonsymmetric. No symmetric-matrix
+      variational principle is applied to A_0 B_0.
+    - |
+      STEP4 explicitly requires AB=BA. This condition is absent from GOAL
+      and is not inferred from positive semidefiniteness of the factors.
+    - |
+      Both sources occur in the supplied survey. S1 was checked in the
+      author-hosted published PDF, p. 563; S2 was checked in the arXiv
+      full text, equation (1.3). The S1 criterion is unnumbered and is
+      not the unrelated Theorem 4.1 later in that article.
+  refinements_made:
+    - |
+      Read all four required inputs. Human guidance is empty and the
+      CREATE-mode history contains only its preamble, so no earlier
+      failed strategy or additional constraint requires incorporation.
+    - |
+      Replaced the impossible proof request with an explicit, exact
+      counterexample after checking the hypotheses and products.
+      The survey itself already identifies the original statement as false.
+    - |
+      Kept the original problem text unchanged rather than silently
+      adding commutativity or replacing ordinary multiplication by
+      entrywise multiplication.
+    - |
+      Every listed step states explicit identities, inequalities, or a
+      universally quantified equivalence. Dependencies establish each
+      listed claim, but none is misrepresented as establishing GOAL.
+    - |
+      There are no novel key steps: the counterexample and the remaining
+      deductions are elementary or direct literature applications.
+      Accordingly key_steps is empty under the task's trivial-case exception.
+  difficulty_assessment: |
+    STEP1 and STEP2 require only exact 2-by-2 arithmetic and zero-block
+    embeddings. STEP3 is a direct k=1 specialization of S2. STEP4 follows
+    from S1, STEP3, and the transpose identity. None requires a research
+    lemma. The obstruction to proving GOAL is its falsehood, not an
+    unresolved difficult step; further proof search cannot establish it.

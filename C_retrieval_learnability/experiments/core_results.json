@@ -1,0 +1,119 @@
+{
+  "fixed_nce": {
+    "gradient_at_star": [
+      -4.163336342344337e-17,
+      2.0816681711721685e-17
+    ],
+    "w_gd": [
+      0.6931471805599444,
+      -4.434940890956494e-16
+    ],
+    "distance_to_star": 9.927476579089933e-16,
+    "gap": -0.6931471805599448,
+    "excess": 0.5596157879354229
+  },
+  "fixed_sigmoid": {
+    "theta": [
+      20.907531749523613,
+      23.376892536158678,
+      3.9328130710340075
+    ],
+    "gap": 2.922111567019833,
+    "min_signed_logit": 1.4586592826208902
+  },
+  "slow_documents": [
+    {
+      "epsilon": 0.04,
+      "hit_time": 64.45,
+      "epsilon_times_hit": 2.5780000000000003,
+      "final_gap": 0.0005042072587401192,
+      "steps": 1289
+    },
+    {
+      "epsilon": 0.02,
+      "hit_time": 126.30000000000001,
+      "epsilon_times_hit": 2.5260000000000002,
+      "final_gap": 0.0005342667535197521,
+      "steps": 2526
+    },
+    {
+      "epsilon": 0.01,
+      "hit_time": 249.60000000000002,
+      "epsilon_times_hit": 2.4960000000000004,
+      "final_gap": 0.00018549494638642194,
+      "steps": 4992
+    },
+    {
+      "epsilon": 0.005,
+      "hit_time": 496.05,
+      "epsilon_times_hit": 2.4802500000000003,
+      "final_gap": 0.0001358391929834335,
+      "steps": 9921
+    },
+    {
+      "epsilon": 0.0025,
+      "hit_time": 988.85,
+      "epsilon_times_hit": 2.472125,
+      "final_gap": 0.00012684258827078132,
+      "steps": 19777
+    }
+  ],
+  "temperature": [
+    {
+      "r": 2,
+      "delta_over_g": 0.01,
+      "beta_g": 7.231080567319465,
+      "optimal_excess": 0.0033337410088868508
+    },
+    {
+      "r": 2,
+      "delta_over_g": 0.05,
+      "beta_g": 4.482846910718731,
+      "optimal_excess": 0.035875155536119925
+    },
+    {
+      "r": 2,
+      "delta_over_g": 0.2,
+      "beta_g": 2.3348467443625918,
+      "optimal_excess": 0.18884293611890546
+    },
+    {
+      "r": 8,
+      "delta_over_g": 0.01,
+      "beta_g": 8.460083133850954,
+      "optimal_excess": 0.0044180292813297845
+    },
+    {
+      "r": 8,
+      "delta_over_g": 0.05,
+      "beta_g": 5.6354788695420925,
+      "optimal_excess": 0.05281776024561408
+    },
+    {
+      "r": 8,
+      "delta_over_g": 0.2,
+      "beta_g": 3.329505083533567,
+      "optimal_excess": 0.3171948623726216
+    },
+    {
+      "r": 32,
+      "delta_over_g": 0.01,
+      "beta_g": 9.708370283942035,
+      "optimal_excess": 0.005672568637802384
+    },
+    {
+      "r": 32,
+      "delta_over_g": 0.05,
+      "beta_g": 6.824242405527908,
+      "optimal_excess": 0.07341162786399
+    },
+    {
+      "r": 32,
+      "delta_over_g": 0.2,
+      "beta_g": 4.387509538484062,
+      "optimal_excess": 0.47577375800400595
+    }
+  ],
+  "elapsed_seconds": 0.9073846350001986,
+  "note": "Deterministic numerical sanity checks, not proof or full sweep."
+}

@@ -1,0 +1,4 @@
+d,cells,equivalent,nonequivalent_width_at_least_one_point,point_within_half_point,interval_excludes_zero,mean_abs_residual_points
+128,24,0,24,10,0,0.9735588587086621
+256,24,0,24,5,0,0.8258652082349959
+512,24,0,24,10,0,0.6904130442128036

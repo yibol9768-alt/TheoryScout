@@ -1,0 +1,24 @@
+{
+  "method": "GD recurrence in centered noncommutative scatter words; independent Gaussian trace contractions",
+  "expressions": {
+    "A_first": "6*eta**2*(eta - 1)**2",
+    "V_first": "51*eta**8 - 304*eta**7 + 756*eta**6 - 1008*eta**5 + 764*eta**4 - 328*eta**3 + 84*eta**2 - 16*eta + 2",
+    "loss_first": "4*eta*(eta - 1)**6*(8*eta - 1)"
+  },
+  "values": {
+    "eta_star": 0.035321370039690575,
+    "mu": 0.9882444583396214,
+    "M": -0.9741435576464179,
+    "M_matched": -0.9647542076372613,
+    "mean_coefficient": 0.007949236232338204,
+    "w": 1.9875503183267005,
+    "L_Lambda": -0.08169066496910814,
+    "s_eta": -0.013134206460490981
+  },
+  "controls": {
+    "memory.max": "3221225472",
+    "memory.swap.max": "0",
+    "memory.peak": "43790336"
+  },
+  "threads": 1
+}

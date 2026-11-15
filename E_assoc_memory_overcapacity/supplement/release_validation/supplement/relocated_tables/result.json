@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "regenerated_prediction_max_error": 4.440892098500626e-16,
+  "matched_datasets": 1152,
+  "confirmation_datasets": 288,
+  "matched_positive_contrasts": 18,
+  "matched_population_values_covered": 7,
+  "new_task_equivalence": 22,
+  "confirmatory_endpoints_passed": 3,
+  "diagnostic_equivalence": 10,
+  "manuscript_tables_reproduced": true
+}

@@ -1,0 +1,44 @@
+{
+  "tests": 48,
+  "passed": true,
+  "failures": [],
+  "errors": [],
+  "resources": {
+    "cgroup": "/user.slice/user-1000.slice/user@1000.service/app.slice/run-rf7be17e0dbcc46fbbe23981141a4152a.scope",
+    "memory_max": "2147483648",
+    "swap_max": "0",
+    "threads": 1
+  },
+  "thread_counts": [
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2
+  ],
+  "http_stub_records": [
+    {
+      "host": "127.0.0.1",
+      "port": 49152,
+      "method": "POST",
+      "path": "/ok"
+    },
+    {
+      "host": "127.0.0.1",
+      "port": 49152,
+      "method": "POST",
+      "path": "/408"
+    },
+    {
+      "host": "127.0.0.1",
+      "port": 49152,
+      "method": "POST",
+      "path": "/redirect"
+    }
+  ]
+}

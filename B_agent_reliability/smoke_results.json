@@ -1,0 +1,108 @@
+{
+  "scope": "formula and simulator checks only; no real agent data",
+  "linear_system_checks": {
+    "cases": 24,
+    "max_h_relative_error": 3.6637359812630166e-15,
+    "max_w_relative_error": 1.2212453270876722e-15
+  },
+  "short_capacity_calibration": {
+    "rho_hat": 1.9931989354855542,
+    "failure_rate": 0.143,
+    "mean_work": 1.72082,
+    "work_se": 0.004020192395329974,
+    "work_p99": 7.0,
+    "up": 57491,
+    "down": 114591,
+    "count": 100000
+  },
+  "held_out_capacities": [
+    {
+      "k": 4,
+      "predicted_h_from_calibration": 0.06718305637502574,
+      "true_h": 0.06666666666666667,
+      "failure_rate": 0.06726,
+      "mean_work": 2.20524,
+      "work_se": 0.006905594999449573,
+      "work_p99": 11.0,
+      "up": 73714,
+      "down": 146810,
+      "count": 100000
+    },
+    {
+      "k": 8,
+      "predicted_h_from_calibration": 0.004002929206570062,
+      "true_h": 0.00392156862745098,
+      "failure_rate": 0.00388,
+      "mean_work": 2.89414,
+      "work_se": 0.01354753748700182,
+      "work_p99": 21.0,
+      "up": 96259,
+      "down": 193155,
+      "count": 100000
+    },
+    {
+      "k": 12,
+      "predicted_h_from_calibration": 0.0002526614321824532,
+      "true_h": 0.0002442002442002442,
+      "failure_rate": 0.00026,
+      "mean_work": 2.95608,
+      "work_se": 0.014919160034980571,
+      "work_p99": 25.0,
+      "up": 97960,
+      "down": 197648,
+      "count": 100000
+    }
+  ],
+  "state_dependent_negative_control": {
+    "constant_model_prediction": 0.0002526614321824532,
+    "state_dependent_exact_h": 0.0491887833078108,
+    "constant_model_rejected": true,
+    "failure_rate": 0.05018,
+    "mean_work": 3.16446,
+    "work_se": 0.01617253673959178,
+    "work_p99": 27.0,
+    "up": 138331,
+    "down": 178115,
+    "count": 100000
+  },
+  "gamma_laplace_checks": [
+    {
+      "alpha": 0.5,
+      "beta": 5.0,
+      "max_mc_z": 0.7217988203739539
+    },
+    {
+      "alpha": 1.0,
+      "beta": 10.0,
+      "max_mc_z": 0.17129012987950729
+    },
+    {
+      "alpha": 2.0,
+      "beta": 20.0,
+      "max_mc_z": 0.5386933286926424
+    }
+  ],
+  "phase_checks_large_length_aligned_rounding": [
+    {
+      "a": 0.5,
+      "quantity": "success",
+      "predicted_exponent": 0.6534264097200273,
+      "numerical_exponent": 0.6534264097200273
+    },
+    {
+      "a": 1.0,
+      "quantity": "success",
+      "predicted_exponent": 0.3068528194400547,
+      "numerical_exponent": 0.306852816199328
+    },
+    {
+      "a": 2.0,
+      "quantity": "failure",
+      "predicted_exponent": 0.3862943611198906,
+      "numerical_exponent": 0.38629432023846266
+    }
+  ],
+  "elapsed_seconds": 0.08382301299934625,
+  "max_rss_mib_linux": 36.91796875,
+  "all_checks_passed": true
+}

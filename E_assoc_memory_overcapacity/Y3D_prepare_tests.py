@@ -1,0 +1,31 @@
+"""测试只改隔离路径、版本环境名及修复后应拒绝的预期。"""
+from pathlib import Path
+ROOT=Path(__file__).resolve().parent
+OUT=ROOT/'y3d'
+p=OUT/'test_final_edges.py';s=p.read_text()
+s=s.replace("TEST=OUT/'final_edges'", "TEST=OUT/'final_rerun'")
+s=s.replace("PRIOR=OUT/'protocol_v1'", "PRIOR=OUT/'protocol_rerun'")
+s=s.replace("prior=json.loads((PRIOR/'FAILED.json').read_text());check('prior_failure_preserved',prior['passed'] is False)",
+            "prior=json.loads((PRIOR/'results.json').read_text());check('prior_protocol_passed',prior['passed'] is True)")
+s=s.replace("synthetic_final_tests.json", "synthetic_rerun_tests.json")
+p.write_text(s)
+audit=OUT/'audit_rerun';audit.mkdir()
+s=(ROOT/'audit_y3c_checks/independent_faults.py').read_text()
+s=s.replace("OUT=ROOT/'audit_y3c_checks'", "OUT=ROOT/'y3d'/'audit_rerun'")
+s=s.replace("ROOT/'y3c'", "ROOT/'y3d'").replace("ROOT/'y3c/", "ROOT/'y3d/")
+s=s.replace('Y3C_LAUNCHER','Y3D_LAUNCHER')
+s=s.replace("results.append(r)\n\n# 新故障5", "assert not accepted and not r['verified'] and r['reported_data_rows']==0;results.append(r)\n\n# 新故障5")
+s=s.replace("results.append(r)\n\n# 新故障6", "assert not accepted and not r['verified'];results.append(r)\n\n# 新故障6")
+(OUT/'audit_independent.py').write_text(s)
+s=(ROOT/'audit_y3c_checks/false_confirmation.py').read_text()
+s=s.replace('import copy,csv,json,os,shutil,subprocess,sys','import copy,csv,json,os,resource,shutil,subprocess,sys')
+s=s.replace("AUDIT=ROOT/'audit_y3c_checks'", "AUDIT=ROOT/'y3d'/'audit_rerun'")
+s=s.replace("ROOT/'y3c'", "ROOT/'y3d'").replace('Y3C_LAUNCHER','Y3D_LAUNCHER')
+s=s.replace("credential=publication.verify_accepted(DATA,mh,cfg)", """assert not accepted and not (DATA/'analysis/FINAL_ACCEPTED.json').exists()
+try:publication.verify_accepted(DATA,mh,cfg)
+except Exception as exc:verification_error=repr(exc)
+else:raise AssertionError('corrupt candidate verified')""")
+s=s.replace("accepted=accepted,verification_succeeded=True,confirmation_valid=credential['confirmation_valid'],", "accepted=accepted,verification_succeeded=False,verification_error=verification_error,")
+s=s.replace("published_decisions={k:credential[k] for k in original}", "published_decisions=None")
+s=s.replace('no_formal_sampling=True,usage=common.usage())', 'no_formal_sampling=True,usage=common.usage(),child_cpu_seconds=sum(getattr(resource.getrusage(resource.RUSAGE_CHILDREN),k) for k in [\'ru_utime\',\'ru_stime\']))')
+(OUT/'audit_false_confirmation.py').write_text(s)

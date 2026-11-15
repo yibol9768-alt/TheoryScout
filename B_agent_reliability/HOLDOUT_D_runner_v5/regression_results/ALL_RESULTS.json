@@ -1,0 +1,66 @@
+{
+  "passed": true,
+  "seconds": 725.8983511924744,
+  "resources": {
+    "cgroup": "/user.slice/user-1000.slice/user@1000.service/app.slice/run-r45b3282d62da42b081e128242c3a56a5.scope",
+    "memory_max": "2147483648",
+    "swap_max": "0",
+    "threads": 1,
+    "env": {
+      "OMP_NUM_THREADS": "1",
+      "OPENBLAS_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1",
+      "NUMEXPR_NUM_THREADS": "1"
+    }
+  },
+  "results": [
+    {
+      "script": "legacy_run_v1.py",
+      "exit": 0,
+      "log": "regression_results/legacy_run_v1.py.log"
+    },
+    {
+      "script": "legacy_run_suite.py",
+      "exit": 0,
+      "log": "regression_results/legacy_run_suite.py.log"
+    },
+    {
+      "script": "run_suite.py",
+      "exit": 0,
+      "log": "regression_results/run_suite.py.log"
+    },
+    {
+      "script": "attack_entries.py",
+      "exit": 0,
+      "log": "regression_results/attack_entries.py.log"
+    },
+    {
+      "script": "endpoint_escape.py",
+      "exit": 0,
+      "log": "regression_results/endpoint_escape.py.log"
+    },
+    {
+      "script": "url_resolution.py",
+      "exit": 0,
+      "log": "regression_results/url_resolution.py.log"
+    },
+    {
+      "script": "repeated_dispatch.py",
+      "exit": 0,
+      "log": "regression_results/repeated_dispatch.py.log"
+    },
+    {
+      "script": "attack_smoke.py",
+      "exit": 0,
+      "log": "regression_results/attack_smoke.py.log"
+    },
+    {
+      "script": "check_scores.py",
+      "exit": 0,
+      "log": "regression_results/check_scores.py.log"
+    }
+  ],
+  "no_real_llm": true,
+  "no_real_quota": true,
+  "network": "仅旧版HTTP集成及v3独立测试客户端的127.0.0.1 mock；18319、外部、DNS均禁止"
+}

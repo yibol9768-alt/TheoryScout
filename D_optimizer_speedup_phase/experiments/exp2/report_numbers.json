@@ -1,0 +1,57 @@
+{
+  "counts": {
+    "P1": {
+      "full_exceed": 16,
+      "full_resolved_exceed": 13,
+      "any_partition_exceed": 16,
+      "resolved_partitions_exceed": 37
+    },
+    "P2": {
+      "full_exceed": 13,
+      "full_resolved_exceed": 10,
+      "any_partition_exceed": 13,
+      "resolved_partitions_exceed": 28
+    },
+    "P3": {
+      "full_exceed": 12,
+      "full_resolved_exceed": 12,
+      "any_partition_exceed": 12,
+      "resolved_partitions_exceed": 36
+    },
+    "P4": {
+      "full_exceed": 12,
+      "full_resolved_exceed": 12,
+      "any_partition_exceed": 12,
+      "resolved_partitions_exceed": 36
+    }
+  },
+  "unresolved_full": [
+    [
+      1.5,
+      32,
+      0.0625
+    ],
+    [
+      1.5,
+      64,
+      0.0625
+    ],
+    [
+      1.5,
+      128,
+      0.0625
+    ]
+  ],
+  "dimension_slope_range": [
+    -0.30076495376626106,
+    0.048908018803086005
+  ],
+  "time_slope_range": [
+    0.09639174962177088,
+    0.2615906207123643
+  ],
+  "total_formal_samples": 87214080,
+  "formal_svd_fraction": 0.15043883603491154,
+  "formal_gamma_fraction": 0.19298559240210506,
+  "report_elapsed_seconds": 0.00332821998745203
+}

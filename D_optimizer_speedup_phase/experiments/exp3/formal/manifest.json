@@ -1,0 +1,31 @@
+{
+  "started_utc": "2026-11-06T09:28:00.185993+00:00",
+  "python": "/home/liuyibo/venvs/theory/bin/python",
+  "numpy": "2.5.4",
+  "prereg_sha256": "656d40c9dd077c25dc7f1322e52e90e611f6935cb1c02f775058dcf3bc60d1de",
+  "frozen": {
+    "PREREG_EXP3.md": "656d40c9dd077c25dc7f1322e52e90e611f6935cb1c02f775058dcf3bc60d1de",
+    "BRIDGE_V3.md": "be5c61e9a4759f685a6c984fa69af641ec843742ed1bea5dfe06b1f8e4ab5b43",
+    "lemmas_v4/L1.tex": "29128c12f7fc0d5ba5d6f8178462efac937c9614ae988069f7c826e0fbb4f16a",
+    "lemmas_v4/L2.tex": "1fafeb5c9ff2334aedf1398b85947603e88a7d45bed47bdec5f298b91d973997",
+    "lemmas_v4/L3.tex": "6bbdacb06a56f8b283d2222095c00fbb25e3483a5551f6bd0a1e4a1ae160eb7f",
+    "lemmas_v4/L4.tex": "4e50fae94a4a5023a745f882385853d42277716da944927837975449a588ba88",
+    "experiments/exp3/model.py": "cdbbf3884b378d614a97e983532744fcc7653289548c5a6ce046dd86fbb70290",
+    "experiments/exp3/run.py": "92bee70a19e0e11ed0f1e919f5bb328fbd38c319979b0473c85124eb722bfb7c",
+    "experiments/exp3/analyze.py": "b0bf2cddd9c7df909d0a327ebae0314904212acc12567525ab7ff6e0c0b5c13b",
+    "experiments/exp3/README.md": "6389a5c7612dbaa1a8c93edc92d73db1f8ac1d2f18f1bb56a41571fa277548d5"
+  },
+  "mode": "formal",
+  "scope": "theoryscout-exp3-formal.scope",
+  "scope_properties": "ControlGroup=/user.slice/user-1000.slice/user@1000.service/app.slice/theoryscout-exp3-formal.scope\nMemoryMax=2147483648\nMemorySwapMax=0\n",
+  "threads": {
+    "OPENBLAS_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1"
+  },
+  "status": "complete",
+  "elapsed_seconds": 269.6041289679997,
+  "peak_rss_bytes": 122548224,
+  "finished_utc": "2026-11-06T09:32:29.779208+00:00"
+}

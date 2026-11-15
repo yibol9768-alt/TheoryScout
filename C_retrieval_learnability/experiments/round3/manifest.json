@@ -1,0 +1,32 @@
+{
+  "hashes": {
+    "PREREG_ROUND3.md": "3c375286245123e040111b46b04eddcaacc464007fdf50d24ea52748545f1c10",
+    "experiments/round3/experiment.py": "2159b2199c5db6d1c54af48761d74007721db8063436e8eb6e9ebb8172bed038",
+    "experiments/round3/prepare.py": "49e88a2740e6ff19390916468805750b382872a7f8955be465163c3165810f09",
+    "experiments/round3/run.py": "a3f3bd4209b543482174304d9d9e165fa53575fa1740ad4ba9d50eedd94f4126",
+    "experiments/round3/summarize.py": "b99f4d781c3e1ff8dfe851004b98ed02ffae96ad34fc9fd401aab7c449f6048c",
+    "experiments/round3/budget_decision.json": "82ba690da9a34500022c5a9174d0b0216852f26b2516c409413574189c73c9f1",
+    "experiments/round3/validation.json": "06f36b46cab896fed61bdb167b79952c532bb54e1403e93b3e1b59028e8f798f",
+    "experiments/round2/core.py": "8b522819296ea56dc1aec3f7a77858d3a141246c218152862bce092a4fde6464",
+    "experiments/week1_common.py": "12804601ad6fc5092c110425d779e05fac109dedc70705db16bacd9c1e16fd76",
+    "experiments/round2/raw/n16_k3_d6_s10_nce.json": "64065b11df177d986d7a62c051faa00a6eee9850d2f530591e26f5b04093e5f7",
+    "experiments/round2/raw/n16_k3_d6_s11_nce.json": "0ef4d90305946dc21abb0607683c50cb72595afbee44a9282aa790aec8fe744f",
+    "experiments/round2/raw/n16_k3_d6_s12_nce.json": "033f70bacb8af3ddd6bc0d9a9f9cf96598f86a69c42792c22e0625d5a1ea41e1",
+    "experiments/round2/raw/n16_k3_d6_s13_nce.json": "27bb1f5e643ffef01a74db44a7f423e12067d2435d92cd175d161ed8ec34800d",
+    "experiments/round2/raw/n16_k3_d6_s14_nce.json": "e4adf7b7d619b937aa2f50d2ed16df102212ec53be1020c30b480ec00740ecb4"
+  },
+  "steps": 100000,
+  "interpreter": "/home/liuyibo/venvs/theory/bin/python",
+  "env": {
+    "OMP_NUM_THREADS": "3",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1"
+  },
+  "numpy_version": "2.5.4",
+  "memory": {
+    "VmPeak": 255811584,
+    "VmSize": 255590400,
+    "VmHWM": 64335872,
+    "VmRSS": 64335872
+  }
+}

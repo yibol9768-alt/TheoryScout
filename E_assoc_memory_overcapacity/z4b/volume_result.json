@@ -1,0 +1,33 @@
+{
+  "passed": true,
+  "jobs": 5377,
+  "npz_count": 5376,
+  "fixture_build_and_first_report_cpu": null,
+  "report_cpu": 12.089395334,
+  "publish_cpu": 17.330755497,
+  "replay_cpu": 19.067293624999998,
+  "report_wall": 64.56769065700018,
+  "publish_wall": 102.3245157299998,
+  "replay_wall": 103.26327453999966,
+  "fixture_reused_after_timeout": true,
+  "timed_cold_replay": {
+    "returncode": 0,
+    "stdout": "{'cpu': 19.615534, 'mono': 3758.577244033, 'rss_mib': 157.296875}\n",
+    "stderr": "",
+    "wall": 104.51104255400014,
+    "cpu": 19.702288
+  },
+  "artifact_bytes": 840271730,
+  "start": {
+    "cpu": 0.8240379999999999,
+    "mono": 3383.966967533,
+    "rss_mib": 97.44921875
+  },
+  "end": {
+    "cpu": 50.301788,
+    "mono": 3770.33690538,
+    "rss_mib": 157.296875
+  },
+  "training_or_query_draws": 0,
+  "caveat": "全部 rank 人工固定，stage/资源值为夹具，ACCEPTED 非科学结果；未启动正式 worker；冷重放计时此时尚不含未来冻结全包读取，冻结后另测"
+}

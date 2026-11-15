@@ -1,0 +1,11 @@
+{
+  "completed": true,
+  "final_frozen_mismatches": [],
+  "manifest_unchanged": true,
+  "formal_absent": true,
+  "cpu_seconds": 2.125421487,
+  "total_cpu": 3.003148,
+  "peak_rss_mib": 416.97265625,
+  "formal_sampling": false,
+  "llm_api_calls": 0
+}

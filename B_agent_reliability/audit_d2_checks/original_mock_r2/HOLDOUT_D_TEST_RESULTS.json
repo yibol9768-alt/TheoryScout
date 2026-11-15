@@ -1,0 +1,11 @@
+{
+  "tests": 22,
+  "failures": 0,
+  "errors": 0,
+  "passed": true,
+  "seconds": 72.0501959323883,
+  "artifacts": "audit_d2_checks/original_mock_r2",
+  "no_real_llm": true,
+  "mock_http_only": true,
+  "thread_limit": 2
+}

@@ -1,0 +1,13 @@
+{
+  "wall_seconds": 2.4621839209976315,
+  "memory": {
+    "VmPeak": 246513664,
+    "VmHWM": 129425408
+  },
+  "matplotlib_version": "3.11.2",
+  "rlimit_as_bytes": [
+    3500000000,
+    3500000000
+  ],
+  "numpy_only_plotting": true
+}

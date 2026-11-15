@@ -1,0 +1,225 @@
+{
+  "scope": "Exploratory conditional-scatter mechanism diagnosis; not confirmatory",
+  "summary": [
+    {
+      "d": 256,
+      "n": 5199,
+      "method": "GD3",
+      "L": 1,
+      "scatters": 4,
+      "path_mean": {
+        "theory_center": 0.44937972338829923,
+        "actual_center": 0.4278418239863691,
+        "correct_scale": 0.43108355885999305,
+        "actual_D_unit_energy": 0.4219806455075741,
+        "actual_D_mean_energy": 0.41033511981368065,
+        "permuted_energy": 0.41611672565340996,
+        "joint_energy": 0.4119941294193268
+      },
+      "mean_V": 1.0180651028619077,
+      "mean_correlation_D_V": 0.3954669843726423
+    },
+    {
+      "d": 256,
+      "n": 5199,
+      "method": "GD3",
+      "L": 5,
+      "scatters": 4,
+      "path_mean": {
+        "theory_center": 0.66175068972345,
+        "actual_center": 0.6407917385623472,
+        "correct_scale": 0.6339704834172039,
+        "actual_D_unit_energy": 0.6286990754306316,
+        "actual_D_mean_energy": 0.6182669065892696,
+        "permuted_energy": 0.6184141570702195,
+        "joint_energy": 0.6302657276391983
+      },
+      "mean_V": 1.0180651028619077,
+      "mean_correlation_D_V": 0.3954669843726423
+    },
+    {
+      "d": 256,
+      "n": 4328,
+      "method": "Sign2",
+      "L": 1,
+      "scatters": 4,
+      "path_mean": {
+        "theory_center": 0.4480458238080327,
+        "actual_center": 0.43586043422608056,
+        "correct_scale": 0.4393100563639508,
+        "actual_D_unit_energy": 0.4289028085768223,
+        "actual_D_mean_energy": 0.40098803490400314,
+        "permuted_energy": 0.40707886102609336,
+        "joint_energy": 0.4022538475692272
+      },
+      "mean_V": 1.0445475150258638,
+      "mean_correlation_D_V": 0.39117031683612036
+    },
+    {
+      "d": 256,
+      "n": 4328,
+      "method": "Sign2",
+      "L": 5,
+      "scatters": 4,
+      "path_mean": {
+        "theory_center": 0.663830265149314,
+        "actual_center": 0.6520493535089089,
+        "correct_scale": 0.6432424782239212,
+        "actual_D_unit_energy": 0.6352106668055058,
+        "actual_D_mean_energy": 0.6106430478394032,
+        "permuted_energy": 0.6120295012369752,
+        "joint_energy": 0.6236593574285507
+      },
+      "mean_V": 1.0445475150258638,
+      "mean_correlation_D_V": 0.39117031683612036
+    },
+    {
+      "d": 256,
+      "n": 4908,
+      "method": "Adam2",
+      "L": 1,
+      "scatters": 4,
+      "path_mean": {
+        "theory_center": 0.45216561632281727,
+        "actual_center": 0.45200804985030074,
+        "correct_scale": 0.45553510755549087,
+        "actual_D_unit_energy": 0.44796791672706604,
+        "actual_D_mean_energy": 0.39006397500634193,
+        "permuted_energy": 0.3957169761415571,
+        "joint_energy": 0.39103617146611214
+      },
+      "mean_V": 1.0954863808778277,
+      "mean_correlation_D_V": 0.3887260640979072
+    },
+    {
+      "d": 256,
+      "n": 4908,
+      "method": "Adam2",
+      "L": 5,
+      "scatters": 4,
+      "path_mean": {
+        "theory_center": 0.6616235410306646,
+        "actual_center": 0.6614710503510476,
+        "correct_scale": 0.6487463343193921,
+        "actual_D_unit_energy": 0.6419893130660057,
+        "actual_D_mean_energy": 0.5913631655275822,
+        "permuted_energy": 0.5920179691165686,
+        "joint_energy": 0.6028986908495426
+      },
+      "mean_V": 1.0954863808778277,
+      "mean_correlation_D_V": 0.3887260640979072
+    },
+    {
+      "d": 512,
+      "n": 17599,
+      "method": "GD3",
+      "L": 1,
+      "scatters": 4,
+      "path_mean": {
+        "theory_center": 0.4525924444152939,
+        "actual_center": 0.43850834802595356,
+        "correct_scale": 0.44023701369398105,
+        "actual_D_unit_energy": 0.43144790455698967,
+        "actual_D_mean_energy": 0.4238910637795925,
+        "permuted_energy": 0.42664757068268955,
+        "joint_energy": 0.4243844412267208
+      },
+      "mean_V": 1.0104252234940578,
+      "mean_correlation_D_V": 0.31929219480572474
+    },
+    {
+      "d": 512,
+      "n": 17599,
+      "method": "GD3",
+      "L": 5,
+      "scatters": 4,
+      "path_mean": {
+        "theory_center": 0.6490253959316239,
+        "actual_center": 0.6352806868942018,
+        "correct_scale": 0.6312027034414338,
+        "actual_D_unit_energy": 0.6224074997007847,
+        "actual_D_mean_energy": 0.6158190928399563,
+        "permuted_energy": 0.6162519878707826,
+        "joint_energy": 0.6254383884370327
+      },
+      "mean_V": 1.0104252234940578,
+      "mean_correlation_D_V": 0.31929219480572474
+    },
+    {
+      "d": 512,
+      "n": 14597,
+      "method": "Sign2",
+      "L": 1,
+      "scatters": 4,
+      "path_mean": {
+        "theory_center": 0.45125675475511035,
+        "actual_center": 0.44161529202788213,
+        "correct_scale": 0.4436277298092218,
+        "actual_D_unit_energy": 0.4393852800130844,
+        "actual_D_mean_energy": 0.42004767432808876,
+        "permuted_energy": 0.42325258580967784,
+        "joint_energy": 0.42138130590319633
+      },
+      "mean_V": 1.0274261888631306,
+      "mean_correlation_D_V": 0.3117293569954891
+    },
+    {
+      "d": 512,
+      "n": 14597,
+      "method": "Sign2",
+      "L": 5,
+      "scatters": 4,
+      "path_mean": {
+        "theory_center": 0.6513720035686422,
+        "actual_center": 0.6420070608619127,
+        "correct_scale": 0.6367793529168764,
+        "actual_D_unit_energy": 0.6326351016759872,
+        "actual_D_mean_energy": 0.6154553592205048,
+        "permuted_energy": 0.6162132380995899,
+        "joint_energy": 0.6237883269786835
+      },
+      "mean_V": 1.0274261888631306,
+      "mean_correlation_D_V": 0.3117293569954891
+    },
+    {
+      "d": 512,
+      "n": 16595,
+      "method": "Adam2",
+      "L": 1,
+      "scatters": 4,
+      "path_mean": {
+        "theory_center": 0.4508881555959293,
+        "actual_center": 0.4507278818780424,
+        "correct_scale": 0.4529929973305692,
+        "actual_D_unit_energy": 0.45065513625741005,
+        "actual_D_mean_energy": 0.4114925190806389,
+        "permuted_energy": 0.41410620603710413,
+        "joint_energy": 0.4117766134440899
+      },
+      "mean_V": 1.0565973317335584,
+      "mean_correlation_D_V": 0.3131525389578994
+    },
+    {
+      "d": 512,
+      "n": 16595,
+      "method": "Adam2",
+      "L": 5,
+      "scatters": 4,
+      "path_mean": {
+        "theory_center": 0.6504953246052003,
+        "actual_center": 0.6503350926381308,
+        "correct_scale": 0.6428859251665009,
+        "actual_D_unit_energy": 0.6386816538870335,
+        "actual_D_mean_energy": 0.6043984778225422,
+        "permuted_energy": 0.6049189437180758,
+        "joint_energy": 0.61205218359828
+      },
+      "mean_V": 1.0565973317335584,
+      "mean_correlation_D_V": 0.3131525389578994
+    }
+  ],
+  "scatters": 24,
+  "wall_seconds": 24.921493294998072,
+  "max_RSS_KiB": 686776,
+  "source_and_archive_hashes_unchanged": true
+}

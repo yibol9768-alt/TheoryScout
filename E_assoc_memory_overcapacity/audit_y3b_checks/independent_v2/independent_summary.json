@@ -1,0 +1,96 @@
+{
+  "freeze": {
+    "files": 209,
+    "old_inputs": 1335,
+    "all_match": true,
+    "formal_exists": false
+  },
+  "prediction_reads": [
+    "/mnt/c/Users/liuyibo/Desktop/auto-llm-driving/TheoryScout/E_assoc_memory_overcapacity/y3b/predictions.csv",
+    "/mnt/c/Users/liuyibo/Desktop/auto-llm-driving/TheoryScout/E_assoc_memory_overcapacity/y3b/parameters.json"
+  ],
+  "power": {
+    "p0": 0.23745099259962651,
+    "p1": 0.23096337649934967,
+    "delta": -0.006487616100276844,
+    "variance2048": 8.651075874947752e-05,
+    "within_variance": 0.18198246063694587,
+    "raw_remainder": -2.347864608406202e-06,
+    "V8192": 2.221465583947093e-05,
+    "loss_mean": 4.208916266457132e-05,
+    "loss_sd": 6.1155417197987e-05,
+    "noncentrality": 3.893232514559534,
+    "critical": 2.530925845218133,
+    "power": 0.9059735623494493,
+    "power_variance125": 0.8226327303589622,
+    "independent_ratio_monte_carlo": 0.905995,
+    "mc_N": 200000,
+    "variance_inflation_at_80pct": 1.315740835393954,
+    "warning": "条件于修正预测为真、d256方差可外推；模拟仅统计量，不生成正式MR数据"
+  },
+  "seeds": {
+    "planned": 1152,
+    "old_domain_count": 51749,
+    "collisions": [],
+    "parse_errors": []
+  },
+  "model": {
+    "cases": 30,
+    "max_errors": {
+      "data": 0.0,
+      "optimizer_U": 6.494804694057166e-15,
+      "D": 1.9984014443252818e-15,
+      "V": 2.6645352591003757e-15
+    },
+    "audit_entropy_prefix": [
+      20261106,
+      68732590,
+      932
+    ],
+    "formal_random_streams_used": 0,
+    "actual_runner_functions_tested": [
+      "dataset",
+      "direction",
+      "cell",
+      "ranks"
+    ]
+  },
+  "statistics": {
+    "checks": [
+      "interval_family_3",
+      "interval_family_72",
+      "interval_family_45"
+    ],
+    "equivalence_band": 0.005,
+    "boundary_rejected": true
+  },
+  "resources": {
+    "environment": {
+      "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+      "executable": "/home/liuyibo/venvs/theory/bin/python",
+      "executable_sha256": "e50d468e8b0adfb05733f5b87b3cff34829c4a8c1aea50c865aa8bdfe4bb150f",
+      "numpy": "2.5.4",
+      "scipy": "1.18.1",
+      "machine": "x86_64",
+      "byteorder": "little",
+      "blas": [
+        {
+          "path": "/home/liuyibo/venvs/theory/lib/python3.12/site-packages/numpy.libs/libscipy_openblas64_-f48b354e.so",
+          "sha256": "432e1c1739731468ba305771af96773939e43016643e2d630f58cb45b6670e96",
+          "threads": 2
+        },
+        {
+          "path": "/home/liuyibo/venvs/theory/lib/python3.12/site-packages/scipy.libs/libscipy_openblas-5f890258.so",
+          "sha256": "2a5b4c1a6311873c59132b2ceaaf3c26258a17350b7cd27ea8782a47e3322981",
+          "threads": 2
+        }
+      ],
+      "float_dtype": "float64",
+      "bit_generator": "numpy.random.PCG64",
+      "memory_max": 3221225472,
+      "memory_swap_max": 0
+    },
+    "cpu_seconds": 4.298706,
+    "peak_rss_mib": 134.57421875
+  }
+}

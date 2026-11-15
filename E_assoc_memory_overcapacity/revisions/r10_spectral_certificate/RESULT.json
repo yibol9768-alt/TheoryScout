@@ -1,0 +1,16 @@
+{
+  "scope": "Spectral residual plus integer integration for represented symmetric matrix and exact constant",
+  "probability": {
+    "lower_integer": "607077750579777888210601488693468272243438348346",
+    "upper_integer": "607077757076673316310258948055548230499347407153",
+    "denominator_power2": 160,
+    "approximate": [
+      0.41537945293613626,
+      0.4153794573814925
+    ],
+    "width_approximate": 4.445356243298328e-09
+  },
+  "spectral_error_upper": "1900251763286781775007382884208467991/730750818665451459101842416358141509827966271488",
+  "integration_wall_seconds": 44.272730954995495,
+  "caveat": "Not a certificate of model/optimizer/Cholesky/normalization construction or all R8 nodes"
+}

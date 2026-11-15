@@ -1,0 +1,10 @@
+from pathlib import Path
+p=Path('supplement/two_step_adam_certificate/check_adam.py');s=p.read_text().replace("default=BASE/'reference'","default=BASE/'two_step_adam_certificate/reference'")
+s=s.replace("assert len(reg['leaves'])==1027", "assert len(reg['leaves'])==1027 and reg['beta1']=='9/10' and reg['beta2']=='99/100'\n    assert pts['u']=='2/5' and pts['r']=='0' and pts['beta1']=='9/10' and pts['beta2']=='99/100'\n    assert [r['beta'] for r in hist['models']]==[['0','0'],['9/10','0'],['0','99/100']]\n    assert [r['e'] for r in rev['threshold']]==['21/20','11/10']\n    assert [r['e'] for r in rev['examples']]==['1/2','2']")
+p.write_text(s)
+p=Path('supplement/reproduce.py');s=p.read_text().replace("'full-experiments'])","'full-experiments','certificates'])").replace("default=Path('reference')","default=Path('two_step_adam_certificate/reference')")
+s=s.replace("if a.task=='polar':", "if a.task in ['polar','certificates']:")
+s=s.replace("if a.task=='adam':", "if a.task in ['adam','certificates']:")
+s=s.replace("if a.task=='history':", "if a.task in ['history','certificates']:")
+s=s.replace("    if a.task.startswith('check-adam'):", "    if a.task=='certificates':add('two_step_adam_certificate/check_adam.py','--certificate-dir',dest,'--reintegrate','none','--output',dest/'adam_check.json')\n    if a.task.startswith('check-adam'):")
+p.write_text(s)

@@ -1,0 +1,195 @@
+{
+  "sample_count": 131072,
+  "cdf_families": 2,
+  "alpha": "1/40",
+  "epsilon": "4401/1000000",
+  "epsilon_approximate": 0.004401,
+  "interpretation": "Ideal IID threshold model, uniform over bounded monotone functions and adaptive certified nodes; no new draws",
+  "monotone_transfer_exact_checks": 2250,
+  "staircase_tie_check": true,
+  "float_node_diagnostics": [
+    {
+      "L": 1,
+      "levels": [
+        {
+          "groups": 1,
+          "nodes": 2,
+          "empirical_lower": "4976097602526399207/1180591620717411303424",
+          "empirical_upper": "866177349955712860135/1180591620717411303424",
+          "lower_oscillation": "3236388542993287/4503599627370496",
+          "upper_oscillation": "139507995648061/140737488355328",
+          "float_node_statistical_diagnostic": [
+            0.0010522604876610758,
+            0.7380433061289159
+          ],
+          "caveat": "R8 node probabilities/bad-event term uncertified; not C0 or a fully certified confidence interval"
+        },
+        {
+          "groups": 8,
+          "nodes": 9,
+          "empirical_lower": "422854367309647937977/1180591620717411303424",
+          "empirical_upper": "550965628372172308455/1180591620717411303424",
+          "lower_oscillation": "3236388542993287/4503599627370496",
+          "upper_oscillation": "139507995648061/140737488355328",
+          "float_node_statistical_diagnostic": [
+            0.35500892287121166,
+            0.4710485925869075
+          ],
+          "caveat": "R8 node probabilities/bad-event term uncertified; not C0 or a fully certified confidence interval"
+        },
+        {
+          "groups": 16,
+          "nodes": 17,
+          "empirical_lower": "450776714690188369511/1180591620717411303424",
+          "empirical_upper": "526390793189185884135/1180591620717411303424",
+          "lower_oscillation": "3236388542993287/4503599627370496",
+          "upper_oscillation": "139507995648061/140737488355328",
+          "float_node_statistical_diagnostic": [
+            0.3786600710672092,
+            0.45023289751357387
+          ],
+          "caveat": "R8 node probabilities/bad-event term uncertified; not C0 or a fully certified confidence interval"
+        },
+        {
+          "groups": 32,
+          "nodes": 33,
+          "empirical_lower": "464433840419915006419/1180591620717411303424",
+          "empirical_upper": "513767928466526318567/1180591620717411303424",
+          "lower_oscillation": "3236388542993287/4503599627370496",
+          "upper_oscillation": "139507995648061/140737488355328",
+          "float_node_statistical_diagnostic": [
+            0.3902281065250821,
+            0.4395409152047472
+          ],
+          "caveat": "R8 node probabilities/bad-event term uncertified; not C0 or a fully certified confidence interval"
+        },
+        {
+          "groups": 64,
+          "nodes": 65,
+          "empirical_lower": "117779883642523180689/295147905179352825856",
+          "empirical_upper": "507297303441750716391/1180591620717411303424",
+          "lower_oscillation": "3236388542993287/4503599627370496",
+          "upper_oscillation": "139507995648061/140737488355328",
+          "float_node_statistical_diagnostic": [
+            0.395891109745548,
+            0.4340600826194341
+          ],
+          "caveat": "R8 node probabilities/bad-event term uncertified; not C0 or a fully certified confidence interval"
+        },
+        {
+          "groups": 128,
+          "nodes": 129,
+          "empirical_lower": "237203458787214442941/590295810358705651712",
+          "empirical_upper": "503998504129442839015/1180591620717411303424",
+          "lower_oscillation": "3236388542993287/4503599627370496",
+          "upper_oscillation": "139507995648061/140737488355328",
+          "float_node_statistical_diagnostic": [
+            0.39867563146046453,
+            0.43126589091552947
+          ],
+          "caveat": "R8 node probabilities/bad-event term uncertified; not C0 or a fully certified confidence interval"
+        }
+      ]
+    },
+    {
+      "L": 5,
+      "levels": [
+        {
+          "groups": 1,
+          "nodes": 2,
+          "empirical_lower": "187940265802680460749/590295810358705651712",
+          "empirical_upper": "458084274853874059831/590295810358705651712",
+          "lower_oscillation": "6866755935924077/9007199254740992",
+          "upper_oscillation": "5961171152744015/9007199254740992",
+          "float_node_statistical_diagnostic": [
+            0.31502803469854807,
+            0.778937629629302
+          ],
+          "caveat": "R8 node probabilities/bad-event term uncertified; not C0 or a fully certified confidence interval"
+        },
+        {
+          "groups": 8,
+          "nodes": 9,
+          "empirical_lower": "168604580125075837545/295147905179352825856",
+          "empirical_upper": "380198023363963537975/590295810358705651712",
+          "lower_oscillation": "6866755935924077/9007199254740992",
+          "upper_oscillation": "5961171152744015/9007199254740992",
+          "float_node_statistical_diagnostic": [
+            0.5678993778930133,
+            0.6469931873291249
+          ],
+          "caveat": "R8 node probabilities/bad-event term uncertified; not C0 or a fully certified confidence interval"
+        },
+        {
+          "groups": 16,
+          "nodes": 17,
+          "empirical_lower": "695006986094958035299/1180591620717411303424",
+          "empirical_upper": "374264769712958634551/590295810358705651712",
+          "lower_oscillation": "6866755935924077/9007199254740992",
+          "upper_oscillation": "5961171152744015/9007199254740992",
+          "float_node_statistical_diagnostic": [
+            0.5853386559916869,
+            0.6369418646754889
+          ],
+          "caveat": "R8 node probabilities/bad-event term uncertified; not C0 or a fully certified confidence interval"
+        },
+        {
+          "groups": 32,
+          "nodes": 33,
+          "empirical_lower": "705158615885064759617/1180591620717411303424",
+          "empirical_upper": "371225985531500612151/590295810358705651712",
+          "lower_oscillation": "6866755935924077/9007199254740992",
+          "upper_oscillation": "5961171152744015/9007199254740992",
+          "float_node_statistical_diagnostic": [
+            0.5939374208922356,
+            0.6317939640329086
+          ],
+          "caveat": "R8 node probabilities/bad-event term uncertified; not C0 or a fully certified confidence interval"
+        },
+        {
+          "groups": 64,
+          "nodes": 65,
+          "empirical_lower": "355078866427258651299/590295810358705651712",
+          "empirical_upper": "369667769768562085431/590295810358705651712",
+          "lower_oscillation": "6866755935924077/9007199254740992",
+          "upper_oscillation": "5961171152744015/9007199254740992",
+          "float_node_statistical_diagnostic": [
+            0.5981718376725399,
+            0.6291542438526287
+          ],
+          "caveat": "R8 node probabilities/bad-event term uncertified; not C0 or a fully certified confidence interval"
+        },
+        {
+          "groups": 128,
+          "nodes": 129,
+          "empirical_lower": "712607961163888306771/1180591620717411303424",
+          "empirical_upper": "368863841365879321911/590295810358705651712",
+          "lower_oscillation": "6866755935924077/9007199254740992",
+          "upper_oscillation": "5961171152744015/9007199254740992",
+          "float_node_statistical_diagnostic": [
+            0.6002472617788723,
+            0.6277923361640171
+          ],
+          "caveat": "R8 node probabilities/bad-event term uncertified; not C0 or a fully certified confidence interval"
+        }
+      ]
+    }
+  ],
+  "separate_C0_single_certified_node": {
+    "t": "4428621573442413/1125899906842624",
+    "node_lower": "607076260345322736928859983266281762834958520639/1461501637330902918203684832716283019655932542976",
+    "empirical_cdf": "1/2",
+    "ideal_iid_random_threshold_lower": "300866387550881603099206078846785975379242607870167761/1461501637330902918203684832716283019655932542976000000",
+    "approximate": 0.20586113615332308,
+    "caveat": "Only a model implication using archived floats; threshold generation/normalization not certified; lower is loose, not end-to-end certification"
+  },
+  "threshold_input_intervals_available": false,
+  "full_numerical_certification": false,
+  "source_hashes": {
+    "revisions/r8_random_thresholds/design.json": "ffdf1a31bf93b1e062f266876731f2423433c53f9c29e2d756709197c0f3fc55",
+    "revisions/r8_random_thresholds/thresholds.npy": "1f941ab676b1f3a445aa3cbbad4f387b1ebf739aa6e3205c144fd132b906574f",
+    "revisions/r8_random_thresholds/nodes.jsonl": "fb6919fb474f93668e6502428885be47d21819d4154b0d33190707b3a3bd90ea",
+    "revisions/r8_random_thresholds/scatter.json": "3345e0955a7ce7af95be087482d152409b9ac539bb79f2cf3cc95691ff13a6a1",
+    "revisions/r8_random_thresholds/results.json": "462120cfdba352486d4fa5de3f5ddfe4af3733e359dfffa243c16071f041e479"
+  }
+}

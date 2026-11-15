@@ -1,0 +1,11 @@
+{
+  "seconds": 0.7669289540008322,
+  "python": "/home/liuyibo/venvs/theory/bin/python",
+  "rss_mib": 152.05078125,
+  "controls": {
+    "memory.max": "3221225472",
+    "memory.swap.max": "0",
+    "memory.peak": "116928512"
+  },
+  "process_threads": 1
+}

@@ -1,0 +1,140 @@
+{
+  "summary": [
+    {
+      "d": 128,
+      "n": 1577,
+      "branch": "GD1_eta07",
+      "datasets": 8,
+      "target": 2.0,
+      "mean_coefficient": 2.0338189049070152,
+      "dataset_SD": 0.10236525016679608,
+      "mean_energy": 1.1650785160609374,
+      "mean_absolute_ratio_error_over_r": 0.05985565253751773
+    },
+    {
+      "d": 128,
+      "n": 1577,
+      "branch": "GD3_eta07",
+      "datasets": 8,
+      "target": 0.3884892086330936,
+      "mean_coefficient": 0.3738255180119553,
+      "dataset_SD": 0.07934514059157081,
+      "mean_energy": 1.030342210720057,
+      "mean_absolute_ratio_error_over_r": 0.05349982345985045
+    },
+    {
+      "d": 128,
+      "n": 1577,
+      "branch": "GD2_eta15",
+      "datasets": 8,
+      "target": -4.0,
+      "mean_coefficient": -1.6932015704995245,
+      "dataset_SD": 0.06294444445344505,
+      "mean_energy": 0.8625682935802542,
+      "mean_absolute_ratio_error_over_r": 0.05143479770022784
+    },
+    {
+      "d": 128,
+      "n": 1577,
+      "branch": "GD2_eta10",
+      "datasets": 8,
+      "target": 0.0,
+      "mean_coefficient": -0.13537745959838415,
+      "dataset_SD": 0.06775359706459429,
+      "mean_energy": 0.9890118485551089,
+      "mean_absolute_ratio_error_over_r": 0.04849994070743042
+    },
+    {
+      "d": 256,
+      "n": 5199,
+      "branch": "GD1_eta07",
+      "datasets": 8,
+      "target": 2.0,
+      "mean_coefficient": 2.0411828621559724,
+      "dataset_SD": 0.06673173426123952,
+      "mean_energy": 1.1005083309697883,
+      "mean_absolute_ratio_error_over_r": 0.041986599569991
+    },
+    {
+      "d": 256,
+      "n": 5199,
+      "branch": "GD3_eta07",
+      "datasets": 8,
+      "target": 0.3884892086330936,
+      "mean_coefficient": 0.4027555264785833,
+      "dataset_SD": 0.06023892060463198,
+      "mean_energy": 1.0198317781839812,
+      "mean_absolute_ratio_error_over_r": 0.038436572273682995
+    },
+    {
+      "d": 256,
+      "n": 5199,
+      "branch": "GD2_eta15",
+      "datasets": 8,
+      "target": -4.0,
+      "mean_coefficient": -2.542799514990966,
+      "dataset_SD": 0.05628948653215878,
+      "mean_energy": 0.8747919454053303,
+      "mean_absolute_ratio_error_over_r": 0.039615281331837456
+    },
+    {
+      "d": 256,
+      "n": 5199,
+      "branch": "GD2_eta10",
+      "datasets": 8,
+      "target": 0.0,
+      "mean_coefficient": -0.061754012679519354,
+      "dataset_SD": 0.05808594986343598,
+      "mean_energy": 0.9969592176868711,
+      "mean_absolute_ratio_error_over_r": 0.03663482287407435
+    },
+    {
+      "d": 512,
+      "n": 17599,
+      "branch": "GD1_eta07",
+      "datasets": 8,
+      "target": 2.0,
+      "mean_coefficient": 2.012510562814221,
+      "dataset_SD": 0.025153759782657322,
+      "mean_energy": 1.0585490884800772,
+      "mean_absolute_ratio_error_over_r": 0.024031209748916416
+    },
+    {
+      "d": 512,
+      "n": 17599,
+      "branch": "GD3_eta07",
+      "datasets": 8,
+      "target": 0.3884892086330936,
+      "mean_coefficient": 0.3851822807663122,
+      "dataset_SD": 0.016690777771023943,
+      "mean_energy": 1.011205939414305,
+      "mean_absolute_ratio_error_over_r": 0.022473053351977204
+    },
+    {
+      "d": 512,
+      "n": 17599,
+      "branch": "GD2_eta15",
+      "datasets": 8,
+      "target": -4.0,
+      "mean_coefficient": -3.1395138780382563,
+      "dataset_SD": 0.01639319161421905,
+      "mean_energy": 0.9086634976103423,
+      "mean_absolute_ratio_error_over_r": 0.014895320804957958
+    },
+    {
+      "d": 512,
+      "n": 17599,
+      "branch": "GD2_eta10",
+      "datasets": 8,
+      "target": 0.0,
+      "mean_coefficient": -0.047769522436650974,
+      "dataset_SD": 0.014857486400691561,
+      "mean_energy": 0.9986102622031044,
+      "mean_absolute_ratio_error_over_r": 0.02155152266259789
+    }
+  ],
+  "datasets": 24,
+  "wall_seconds": 3.801436164001643,
+  "max_RSS_KiB": 205536,
+  "all_frozen_hashes_unchanged": true
+}

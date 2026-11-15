@@ -1,0 +1,84 @@
+{
+  "audit": {
+    "prereg_sha256": "0ca323ffd25775447df29609d7d0482841bc2a207d65b1e61d57fd76076b23b9",
+    "raw_rows": 5040,
+    "rank_metric_consistency": true,
+    "query_uniqueness": true,
+    "paired_query_consistency": true,
+    "first_step_exact_pairs": 384,
+    "student_t_reference_checks": true,
+    "expected_rows": 5040,
+    "expected_configurations": 528,
+    "complete": true,
+    "resource_limits_verified": true,
+    "numerical_seconds_so_far": 3001.7155821323395
+  },
+  "P2_confirmed": 8,
+  "P2_total": 8,
+  "mechanism_pass": 24,
+  "mechanism_total": 24,
+  "diagonal_pass": 4,
+  "diagonal_total": 4,
+  "P3_low_noise": {
+    "\u67e5\u8be2\u566a\u58f0\u76f8\u5bb9_0.5pp": 105,
+    "\u672a\u5206\u8fa8": 87,
+    "\u9996\u6b65\u7cbe\u786e\u91cd\u5408": 48
+  },
+  "P3_high_noise": {
+    "\u67e5\u8be2\u566a\u58f0\u76f8\u5bb9_0.5pp": 11,
+    "\u672a\u5206\u8fa8": 13
+  },
+  "P3_low_models": {
+    "\u6a21\u578b\u672a\u5206\u8fa8": 240
+  },
+  "P3_high_models": {
+    "\u6a21\u578b\u672a\u5206\u8fa8": 24
+  },
+  "curve_trends_pass": 197,
+  "curve_trends_total": 240,
+  "moment_trends_pass": 120,
+  "old76_retest_pass": 51,
+  "old76_retest_total": 76,
+  "P2_planning_underpowered": [],
+  "P3_low_planning_power80": 159,
+  "metadata": {
+    "mode": "formal",
+    "success": true,
+    "completed": 528,
+    "planned": 528,
+    "error": null,
+    "checks": {
+      "stream_replay_dense_full_ranks": true,
+      "correct_candidate_removed": true,
+      "sign2_threshold": true,
+      "positive_scaling": true,
+      "adam_original_units": true,
+      "first_step_identity": true
+    },
+    "prereg_sha256": "0ca323ffd25775447df29609d7d0482841bc2a207d65b1e61d57fd76076b23b9",
+    "elapsed_seconds": 2972.295973692002,
+    "total_elapsed_seconds": 2984.928250312805,
+    "max_rss_MiB": 393.12109375,
+    "max_single_matmul_seconds": 0.4088770029920852,
+    "resource_start": {
+      "cgroup": "0::/user.slice/user-1000.slice/user@1000.service/app.slice/run-r9c058a24e38e4c82a734282ac05fe4f2.scope",
+      "memory.max": "2147483648",
+      "memory.swap.max": "0",
+      "memory.events": "low 0\nhigh 0\nmax 0\noom 0\noom_kill 0\noom_group_kill 0"
+    },
+    "resource_end": {
+      "cgroup": "0::/user.slice/user-1000.slice/user@1000.service/app.slice/run-r9c058a24e38e4c82a734282ac05fe4f2.scope",
+      "memory.max": "2147483648",
+      "memory.swap.max": "0",
+      "memory.events": "low 0\nhigh 0\nmax 0\noom 0\noom_kill 0\noom_group_kill 0"
+    },
+    "numpy": "2.5.4",
+    "python": "/home/liuyibo/venvs/theory/bin/python",
+    "device": "CPU",
+    "threads": {
+      "OPENBLAS_NUM_THREADS": "2",
+      "OMP_NUM_THREADS": "2",
+      "MKL_NUM_THREADS": "2"
+    }
+  }
+}

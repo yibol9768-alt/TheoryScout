@@ -1,0 +1,385 @@
+{
+  "started_utc": "2026-11-06T15:56:08.423923+00:00",
+  "phase": "holdout_c",
+  "mode": "real",
+  "model": "gpt-6-luna",
+  "concurrency": 2,
+  "cap": 2000,
+  "service_attempt_cap": 3000,
+  "schedule": [
+    {
+      "family": "sheet",
+      "level": 0,
+      "knob": 2,
+      "seed": 7260001,
+      "length": 16
+    },
+    {
+      "family": "sheet",
+      "level": 0,
+      "knob": 2,
+      "seed": 7740001,
+      "length": 64
+    },
+    {
+      "family": "sheet",
+      "level": 0,
+      "knob": 2,
+      "seed": 7260002,
+      "length": 16
+    },
+    {
+      "family": "sheet",
+      "level": 0,
+      "knob": 2,
+      "seed": 7740002,
+      "length": 64
+    },
+    {
+      "family": "sheet",
+      "level": 0,
+      "knob": 2,
+      "seed": 7260003,
+      "length": 16
+    },
+    {
+      "family": "sheet",
+      "level": 0,
+      "knob": 2,
+      "seed": 7740003,
+      "length": 64
+    },
+    {
+      "family": "sheet",
+      "level": 0,
+      "knob": 2,
+      "seed": 7260004,
+      "length": 16
+    },
+    {
+      "family": "sheet",
+      "level": 0,
+      "knob": 2,
+      "seed": 7740004,
+      "length": 64
+    },
+    {
+      "family": "sheet",
+      "level": 0,
+      "knob": 2,
+      "seed": 7260005,
+      "length": 16
+    },
+    {
+      "family": "sheet",
+      "level": 0,
+      "knob": 2,
+      "seed": 7740005,
+      "length": 64
+    },
+    {
+      "family": "sheet",
+      "level": 0,
+      "knob": 2,
+      "seed": 7260006,
+      "length": 16
+    },
+    {
+      "family": "sheet",
+      "level": 0,
+      "knob": 2,
+      "seed": 7740006,
+      "length": 64
+    },
+    {
+      "family": "sheet",
+      "level": 0,
+      "knob": 2,
+      "seed": 7260007,
+      "length": 16
+    },
+    {
+      "family": "sheet",
+      "level": 0,
+      "knob": 2,
+      "seed": 7740007,
+      "length": 64
+    },
+    {
+      "family": "sheet",
+      "level": 0,
+      "knob": 2,
+      "seed": 7260008,
+      "length": 16
+    },
+    {
+      "family": "sheet",
+      "level": 0,
+      "knob": 2,
+      "seed": 7740008,
+      "length": 64
+    },
+    {
+      "family": "sheet",
+      "level": 0,
+      "knob": 2,
+      "seed": 7260009,
+      "length": 16
+    },
+    {
+      "family": "sheet",
+      "level": 0,
+      "knob": 2,
+      "seed": 7740009,
+      "length": 64
+    },
+    {
+      "family": "sheet",
+      "level": 0,
+      "knob": 2,
+      "seed": 7260010,
+      "length": 16
+    },
+    {
+      "family": "sheet",
+      "level": 0,
+      "knob": 2,
+      "seed": 7740010,
+      "length": 64
+    },
+    {
+      "family": "sheet",
+      "level": 0,
+      "knob": 2,
+      "seed": 7260011,
+      "length": 16
+    },
+    {
+      "family": "sheet",
+      "level": 0,
+      "knob": 2,
+      "seed": 7740011,
+      "length": 64
+    },
+    {
+      "family": "sheet",
+      "level": 0,
+      "knob": 2,
+      "seed": 7260012,
+      "length": 16
+    },
+    {
+      "family": "sheet",
+      "level": 0,
+      "knob": 2,
+      "seed": 7740012,
+      "length": 64
+    },
+    {
+      "family": "sheet",
+      "level": 0,
+      "knob": 2,
+      "seed": 7260013,
+      "length": 16
+    },
+    {
+      "family": "sheet",
+      "level": 0,
+      "knob": 2,
+      "seed": 7740013,
+      "length": 64
+    },
+    {
+      "family": "sheet",
+      "level": 0,
+      "knob": 2,
+      "seed": 7260014,
+      "length": 16
+    },
+    {
+      "family": "sheet",
+      "level": 0,
+      "knob": 2,
+      "seed": 7740014,
+      "length": 64
+    },
+    {
+      "family": "sheet",
+      "level": 0,
+      "knob": 2,
+      "seed": 7260015,
+      "length": 16
+    },
+    {
+      "family": "sheet",
+      "level": 0,
+      "knob": 2,
+      "seed": 7740015,
+      "length": 64
+    },
+    {
+      "family": "sheet",
+      "level": 0,
+      "knob": 2,
+      "seed": 7260016,
+      "length": 16
+    },
+    {
+      "family": "sheet",
+      "level": 0,
+      "knob": 2,
+      "seed": 7740016,
+      "length": 64
+    },
+    {
+      "family": "sheet",
+      "level": 0,
+      "knob": 2,
+      "seed": 7260017,
+      "length": 16
+    },
+    {
+      "family": "sheet",
+      "level": 0,
+      "knob": 2,
+      "seed": 7740017,
+      "length": 64
+    },
+    {
+      "family": "sheet",
+      "level": 0,
+      "knob": 2,
+      "seed": 7260018,
+      "length": 16
+    },
+    {
+      "family": "sheet",
+      "level": 0,
+      "knob": 2,
+      "seed": 7740018,
+      "length": 64
+    },
+    {
+      "family": "sheet",
+      "level": 0,
+      "knob": 2,
+      "seed": 7260019,
+      "length": 16
+    },
+    {
+      "family": "sheet",
+      "level": 0,
+      "knob": 2,
+      "seed": 7740019,
+      "length": 64
+    },
+    {
+      "family": "sheet",
+      "level": 0,
+      "knob": 2,
+      "seed": 7260020,
+      "length": 16
+    },
+    {
+      "family": "sheet",
+      "level": 0,
+      "knob": 2,
+      "seed": 7740020,
+      "length": 64
+    }
+  ],
+  "frozen_sha256": {
+    "PREREG_HOLDOUT_C.md": "7a4e93e4f5925d5d1f88ad2a4e7b02e7113a54254cdff4dd1f3f368bcea2d764",
+    "holdout_c.py": "8bf5f1682a73c8cb533591425a6f59ee0f5a0359e54d6a3618115e56b152f1a9",
+    "test_holdout_c.py": "093efe6b91a2f90a496f3fcdeefb77b22b6cdf402b930ad1d8ab0b5107bcbf65",
+    "report_holdout_c.py": "4c382059de8457b9202316d51526967b851bd9ea96df48ebd0d2d9bc002182c7",
+    "PREDICTIONS_HOLDOUT_C.json": "f9aac813576817a6494ef25dacbffa1532c7936c65f5de762726305eb9d03f52",
+    "holdout_b.py": "7e0eb7b56f344344495217299da1ccde8b39448e75fbeca427956fc9d258ba38",
+    "reliability_core.py": "c5273d40cd1421a8f6a35130ba927c08bb65f830b9ded06cc0e7a9675e14de5e",
+    "reliability_r2.py": "f4549c70e65ad22c4be4ae1a85cba7c773d18c92649bc1cd0cee7537ee729f48",
+    "report_reliability_r2.py": "441d28bbe2483e5703e3d3879aa561bf01cbae5b2ca9b6595bc2387d0f107ee1",
+    "report_holdout_b_fixed.py": "04f9d98ea2c311074fae922833fecea3b85c161becc6a24f10afd70d27c474d0",
+    "difficulty.py": "62124a465fc35a19145915360ca978af7ec81d45b75b56a7482c35e93c8e8ff3"
+  },
+  "results": [
+    {
+      "family": "sheet",
+      "level": 0,
+      "knob": 2,
+      "seed": 7260001,
+      "length": 16,
+      "id": "sheet_d0_7260001",
+      "status": "unrepaired_after_2_reviews",
+      "advances": 4,
+      "seed_errors": 2,
+      "repair_attempts": 3,
+      "repaired": 1,
+      "repair_reerrors": 2,
+      "error_detects": 3,
+      "unsolicited_detects": 0,
+      "successful_advance_detects": 0,
+      "steps": 3
+    },
+    {
+      "family": "sheet",
+      "level": 0,
+      "knob": 2,
+      "seed": 7740001,
+      "length": 64,
+      "id": "sheet_d0_7740001",
+      "status": "success",
+      "advances": 64,
+      "seed_errors": 11,
+      "repair_attempts": 11,
+      "repaired": 11,
+      "repair_reerrors": 0,
+      "error_detects": 11,
+      "unsolicited_detects": 0,
+      "successful_advance_detects": 0,
+      "steps": 64
+    },
+    {
+      "family": "sheet",
+      "level": 0,
+      "knob": 2,
+      "seed": 7260002,
+      "length": 16,
+      "id": "sheet_d0_7260002",
+      "status": "success",
+      "advances": 16,
+      "seed_errors": 1,
+      "repair_attempts": 1,
+      "repaired": 1,
+      "repair_reerrors": 0,
+      "error_detects": 1,
+      "unsolicited_detects": 0,
+      "successful_advance_detects": 0,
+      "steps": 16
+    }
+  ],
+  "stage": "formal",
+  "calls": 166,
+  "successful_calls": 164,
+  "service_failures": 2,
+  "halt": null,
+  "updated_utc": "2026-11-06T19:49:00.808174+00:00",
+  "engineering_correction": "AMENDMENT_408_HOLDOUT_C.md",
+  "smoke_approval": {
+    "approved": true,
+    "reviewer": "用户明确授权；依据 HUMAN_RELEASE_HOLDOUT_C.md 既有放行记录",
+    "checked_items": [
+      "任务规则与九键schema",
+      "实际写入与独立oracle",
+      "修复反馈与终局评分",
+      "HTTP408修正及原请求续跑"
+    ],
+    "source": "experiments/real/HUMAN_RELEASE_HOLDOUT_C.md",
+    "source_sha256": "072e3378894e219a4a4e24de6d9ace45fdf2fad165e1adf46c1947546ee90f85",
+    "authorization": "本轮用户明确确认G1满足并授权正式剩余38题",
+    "utc": "2026-11-06T16:25:58.518772+00:00"
+  },
+  "restart_recovery": {
+    "audit": "RESTART_AUDIT_HOLDOUT_C.json",
+    "utc": "2026-11-06T19:48:58.653090+00:00"
+  }
+}

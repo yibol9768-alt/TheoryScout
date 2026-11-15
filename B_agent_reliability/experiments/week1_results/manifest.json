@@ -1,0 +1,38 @@
+{
+  "start_utc": "2026-11-05T19:14:53Z",
+  "interpreter": "/home/liuyibo/venvs/theory/bin/python",
+  "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+  "platform": "Linux-6.18.40.1-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+  "numpy": "2.5.4",
+  "torch": "2.15.0+cu132",
+  "torch_threads": 3,
+  "torch_device": "cpu",
+  "cuda_initialized": false,
+  "env": {
+    "OMP_NUM_THREADS": "3",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1"
+  },
+  "RLIMIT_AS_bytes": 3500000000,
+  "formulation_sha256": "e47035cd765821c11fa89b1df0eea09ac468c18aec83259f67f71a78c6979f29",
+  "preregistration_sha256": "ebfcdcb7e6068231a4f9da5a2cc144f5ae79d36f6b25caad6bb73db922978cfe",
+  "code_sha256": "2614662cdc0be077f192bbc580d085f6f76eb994110800279d6da18201215c83",
+  "stage_times": {
+    "E1": 0.9608972599999106,
+    "E2": 108.19862711300084,
+    "E3": 30.00644714200098,
+    "E4": 5.355952960999275
+  },
+  "elapsed_seconds": 393.007231,
+  "max_rss_mib": 697.41796875,
+  "end_utc": "2026-11-05T19:21:26Z",
+  "initial_attempt_status": "failed",
+  "initial_attempt_error": "MemoryError((100000, 21), dtype('float64'))",
+  "initial_attempt_code_sha256": "011e051d7c572a29567439836fb5be9f0fabb236b6e7ab8fad965085d609bdc9",
+  "amendment_sha256": "8925c2ca774f8192a134aeaa1bf9d40eca4dbd6f68e6962cda01d4af0ff7d800",
+  "initial_attempt_active_seconds": 141.67048066400093,
+  "E4_initial_attempt_seconds": 2.5045091489992046,
+  "E4_all_attempts_seconds": 7.86046210999848,
+  "status": "complete",
+  "active_compute_seconds": 147.02813974600213
+}

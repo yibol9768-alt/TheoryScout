@@ -1,0 +1,170 @@
+{
+  "runs": [
+    {
+      "run_id": "e1_anisotropic_muon0_eta0.01_seed11_base",
+      "index": 0,
+      "channels": 8,
+      "windows": 4,
+      "lags": 20,
+      "repeats_each": 200,
+      "observed_T": 0.32310711623735744,
+      "critical_95pct": 0.41178558264668824,
+      "independent_FWER": 0.025,
+      "calibration_gate": false,
+      "FWER_MC_SE": 0.011039701082909808,
+      "power": {
+        "0.2": 0.18,
+        "0.4": 1.0
+      },
+      "power_gate": {
+        "0.2": false,
+        "0.4": true
+      },
+      "approximate_Gaussian_p": 0.6417910447761194,
+      "exchangeability_sensitivity_p": 0.692,
+      "covariance": [
+        [
+          0.9839096241786298,
+          0.617428728263638,
+          -0.08257212430799797,
+          -0.08275696222089893,
+          -0.09732727856215727,
+          -0.06939731006078906,
+          0.23071907451540943,
+          0.10116603626837227
+        ],
+        [
+          0.617428728263638,
+          0.9638980218618651,
+          -0.13480210044209534,
+          -0.13167623961047914,
+          -0.10192735210843687,
+          -0.05921996302161981,
+          0.17892503792897743,
+          0.2237739866782042
+        ],
+        [
+          -0.08257212430799797,
+          -0.13480210044209534,
+          0.7744886364267503,
+          0.33121623767024483,
+          0.1447707049482013,
+          0.0803219804891096,
+          -0.04458749089420585,
+          0.008423291182784275
+        ],
+        [
+          -0.08275696222089893,
+          -0.13167623961047914,
+          0.33121623767024483,
+          0.9043762186628296,
+          0.1154570593902092,
+          -0.03447882203667936,
+          -0.008571016476802444,
+          0.04968918588831904
+        ],
+        [
+          -0.09732727856215727,
+          -0.10192735210843687,
+          0.1447707049482013,
+          0.1154570593902092,
+          0.9603613906210775,
+          0.4187612630144963,
+          -0.21505520268667533,
+          -0.17371255927915177
+        ],
+        [
+          -0.06939731006078906,
+          -0.05921996302161981,
+          0.0803219804891096,
+          -0.03447882203667936,
+          0.4187612630144963,
+          0.9473901273891517,
+          -0.23895810227655634,
+          -0.26764151718729084
+        ],
+        [
+          0.23071907451540943,
+          0.17892503792897743,
+          -0.04458749089420585,
+          -0.008571016476802444,
+          -0.21505520268667533,
+          -0.23895810227655634,
+          0.9477768124021654,
+          0.5648608685967355
+        ],
+        [
+          0.10116603626837227,
+          0.2237739866782042,
+          0.008423291182784275,
+          0.04968918588831904,
+          -0.17371255927915177,
+          -0.26764151718729084,
+          0.5648608685967355,
+          0.8816619752721775
+        ]
+      ],
+      "ridge": 9.83909624177646e-13,
+      "residual_variance_max_min_ratio": [
+        1.219551182868878,
+        1.3794220242976363,
+        1.2502403182439248,
+        1.3622646472882285,
+        1.1508509219253416,
+        1.633297565007022,
+        1.302365888387457,
+        1.6416002723558762
+      ],
+      "exact_refit": "same constrained beta fit, fixed g, all registered channels; same four windows and ACF denominator",
+      "primary_P3_status": "不可检验：本附项不模拟完整状态，不是 §7.3 主反馈 bootstrap",
+      "caveats": [
+        "Plug-in covariance and beta, no confidence-set worst case",
+        "Gaussian homoscedastic fixed design is an auxiliary null, not a fitted full stochastic training model",
+        "Row permutation p only valid under exchangeability; heteroscedasticity invalidates that interpretation",
+        "Failure to reject does not establish independence or the martingale difference condition"
+      ],
+      "source_array_sha256": "02fe39a2e037db1814d232f01ae218e7a4d486c57eb0ba3c6c50ce05624c3fce",
+      "source_fit_sha256": "982daf7d408e404193ef3285e23afcc625b1da0439de053cc1cf190893c5bccd",
+      "resources": {
+        "elapsed_seconds": 0.5489693290001014,
+        "peak_RSS_bytes": 118452224,
+        "executable": "/home/liuyibo/venvs/theory/bin/python",
+        "numpy_version": "2.5.4",
+        "threads": {
+          "OMP_NUM_THREADS": "4",
+          "OPENBLAS_NUM_THREADS": "4",
+          "MKL_NUM_THREADS": "4"
+        },
+        "device": "CPU; NumPy only; torch not imported",
+        "enforced_scope": "systemd-run --user --scope -p MemoryMax=3G -p MemorySwapMax=0",
+        "prereg_sha256": "58f0c4900615f7a2ec7d5cfaa2d95f5d8f5c3509e9dd08a5a76b73a085050b3b"
+      },
+      "script_sha256": "7c2ad38ebab62f967c02f30c9373eea118b8423edcd47636f4a40cac376d417a",
+      "approximate_Gaussian_p_Holm": 0.6417910447761194,
+      "exchangeability_sensitivity_p_Holm": 0.692
+    }
+  ],
+  "run_count": 1,
+  "expected_full_runs": 18,
+  "primary_P3_status": "不可检验：无闭合反馈状态和噪声生成律",
+  "full_size_auxiliary": false,
+  "all_auxiliary_FWER_validated": false,
+  "auxiliary_Holm_rejections": {
+    "approximate_Gaussian_p": 0,
+    "exchangeability_sensitivity_p": 0
+  },
+  "resources": {
+    "elapsed_seconds": 0.5807455390022369,
+    "peak_RSS_bytes": 118452224,
+    "executable": "/home/liuyibo/venvs/theory/bin/python",
+    "numpy_version": "2.5.4",
+    "threads": {
+      "OMP_NUM_THREADS": "4",
+      "OPENBLAS_NUM_THREADS": "4",
+      "MKL_NUM_THREADS": "4"
+    },
+    "device": "CPU; NumPy only; torch not imported",
+    "enforced_scope": "systemd-run --user --scope -p MemoryMax=3G -p MemorySwapMax=0",
+    "prereg_sha256": "58f0c4900615f7a2ec7d5cfaa2d95f5d8f5c3509e9dd08a5a76b73a085050b3b"
+  }
+}

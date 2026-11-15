@@ -1,0 +1,23 @@
+{
+  "rows": 108,
+  "all_covered": true,
+  "max_identity_error": 1.4228527210613517e-15,
+  "min_remainder": 1.024005991112631e-09,
+  "wall_seconds": 44.335413728993444,
+  "cpu_seconds": 87.665548966,
+  "peak_rss_kib": 650688,
+  "cgroup": "/user.slice/user-1000.slice/user@1000.service/app.slice/run-rbd97fb2c590b40558187de024ad21a49.scope",
+  "memory_max": "3221225472",
+  "swap_max": "0",
+  "threadpools": [
+    {
+      "library": "/home/liuyibo/venvs/theory/lib/python3.12/site-packages/scipy.libs/libscipy_openblas-5f890258.so",
+      "num_threads": 2
+    },
+    {
+      "library": "/home/liuyibo/venvs/theory/lib/python3.12/site-packages/numpy.libs/libscipy_openblas64_-f48b354e.so",
+      "num_threads": 2
+    }
+  ],
+  "reviewed_inputs_unchanged": true
+}

@@ -1,0 +1,85 @@
+{
+  "passed": true,
+  "results": [
+    {
+      "job": "command_quota",
+      "exit": 0,
+      "log": "command_quota.log"
+    },
+    {
+      "job": "boundary",
+      "exit": 0,
+      "log": "boundary.log"
+    },
+    {
+      "job": "resume",
+      "exit": 0,
+      "log": "resume.log"
+    },
+    {
+      "job": "suite_v5",
+      "exit": 0,
+      "log": "suite_v5.log"
+    },
+    {
+      "job": "suite_v4",
+      "exit": 0,
+      "log": "suite_v4.log"
+    },
+    {
+      "job": "suite_v1",
+      "exit": 0,
+      "log": "suite_v1.log"
+    },
+    {
+      "job": "suite_v2",
+      "exit": 0,
+      "log": "suite_v2.log"
+    },
+    {
+      "job": "suite_v3",
+      "exit": 0,
+      "log": "suite_v3.log"
+    },
+    {
+      "job": "ported_attack_entries",
+      "exit": 0,
+      "log": "ported_attack_entries.log"
+    },
+    {
+      "job": "ported_endpoint_escape",
+      "exit": 0,
+      "log": "ported_endpoint_escape.log"
+    },
+    {
+      "job": "ported_url_resolution",
+      "exit": 0,
+      "log": "ported_url_resolution.log"
+    },
+    {
+      "job": "ported_repeated_dispatch",
+      "exit": 0,
+      "log": "ported_repeated_dispatch.log"
+    },
+    {
+      "job": "ported_attack_smoke",
+      "exit": 0,
+      "log": "ported_attack_smoke.log"
+    },
+    {
+      "job": "ported_check_scores",
+      "exit": 0,
+      "log": "ported_check_scores.log"
+    }
+  ],
+  "seconds": 2110.6420958042145,
+  "resources": {
+    "cgroup": "/user.slice/user-1000.slice/user@1000.service/app.slice/run-rf7be17e0dbcc46fbbe23981141a4152a.scope",
+    "memory_max": "2147483648",
+    "swap_max": "0",
+    "threads": 1
+  },
+  "no_real_llm": true,
+  "no_real_quota": true,
+  "network": "所有发送为本地记录桩；socket连接、DNS、sendto、bind均拒绝"
+}

@@ -1,0 +1,2861 @@
+{
+  "primary_cells": [
+    {
+      "key": "2/learned_adam_cold/32/0/16",
+      "problem": 2,
+      "group": "learned_adam_cold",
+      "N": 32,
+      "mode": 0,
+      "ratio": 16,
+      "best_index": 41,
+      "best_value": 0.1,
+      "tau": 0.3125,
+      "risk": 0.11035610176356977,
+      "se": 0.008939618781595217,
+      "baseline": 0.48280247014724204,
+      "improvement": 0.7714259793867375,
+      "interior": false,
+      "identifiable": false,
+      "near_indices": [
+        41
+      ],
+      "near_width": 1.0,
+      "seed_best_indices": [
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41
+      ],
+      "seed_risks_at_best": [
+        0.10090948935950328,
+        0.1351181613797528,
+        0.14702588286195517,
+        0.09366146714029516,
+        0.07639595279779088,
+        0.13560817232156075,
+        0.09869031388415422,
+        0.09543937436354588
+      ],
+      "tau_bootstrap": {
+        "valid_fraction": 1.0,
+        "ci95": [
+          0.3125,
+          0.3125
+        ]
+      },
+      "paired_gain_ci95": {
+        "valid_fraction": 1.0,
+        "ci95": [
+          0.6710429616095318,
+          0.8054062626649491
+        ]
+      },
+      "norm_mean": 0.2618323679131499,
+      "amplitude_mean": 0.5779783689849546,
+      "radial_raw_mean": 0.003879748938716416,
+      "radial_applied_mean": 0.003879748938716416,
+      "angle_mean": 0.06885542341441976
+    },
+    {
+      "key": "2/learned_adam_cold/32/0/64",
+      "problem": 2,
+      "group": "learned_adam_cold",
+      "N": 32,
+      "mode": 0,
+      "ratio": 64,
+      "best_index": 36,
+      "best_value": 0.023713737056616554,
+      "tau": 0.3294503933035799,
+      "risk": 0.03706900259062624,
+      "se": 0.004336743539084634,
+      "baseline": 0.1619952566742982,
+      "improvement": 0.7711722963274423,
+      "interior": true,
+      "identifiable": true,
+      "near_indices": [
+        36
+      ],
+      "near_width": 1.0,
+      "seed_best_indices": [
+        38,
+        36,
+        36,
+        36,
+        35,
+        36,
+        36,
+        36
+      ],
+      "seed_risks_at_best": [
+        0.04542677512048792,
+        0.032791916360990374,
+        0.04376385911203898,
+        0.040605678962377226,
+        0.055803050051575535,
+        0.0352535997372106,
+        0.027189101737492193,
+        0.015718039642837092
+      ],
+      "tau_bootstrap": {
+        "valid_fraction": 1.0,
+        "ci95": [
+          0.3294503933035799,
+          0.3294503933035799
+        ]
+      },
+      "paired_gain_ci95": {
+        "valid_fraction": 1.0,
+        "ci95": [
+          0.664101281399778,
+          0.8304426403345931
+        ]
+      },
+      "norm_mean": 0.3965334363019578,
+      "amplitude_mean": 0.5320808936865957,
+      "radial_raw_mean": 0.0028604250665129104,
+      "radial_applied_mean": 0.0028604250665129104,
+      "angle_mean": 0.036655314426055394
+    },
+    {
+      "key": "2/learned_adam_cold/32/0/256",
+      "problem": 2,
+      "group": "learned_adam_cold",
+      "N": 32,
+      "mode": 0,
+      "ratio": 256,
+      "best_index": 28,
+      "best_value": 0.0023713737056616554,
+      "tau": 0.8236259832589496,
+      "risk": 0.0187425235253235,
+      "se": 0.0017029572420130693,
+      "baseline": 0.034849666467431276,
+      "improvement": 0.4621892997788283,
+      "interior": true,
+      "identifiable": true,
+      "near_indices": [
+        28
+      ],
+      "near_width": 1.0,
+      "seed_best_indices": [
+        28,
+        29,
+        28,
+        28,
+        29,
+        28,
+        29,
+        28
+      ],
+      "seed_risks_at_best": [
+        0.020451244140612425,
+        0.017050899116333777,
+        0.02490659421873957,
+        0.017312829555064295,
+        0.01763834740478751,
+        0.0251345233586465,
+        0.017195038194393913,
+        0.010250712214010017
+      ],
+      "tau_bootstrap": {
+        "valid_fraction": 1.0,
+        "ci95": [
+          0.6176323555016365,
+          0.8236259832589496
+        ]
+      },
+      "paired_gain_ci95": {
+        "valid_fraction": 1.0,
+        "ci95": [
+          0.4211513545208332,
+          0.5162350159210767
+        ]
+      },
+      "norm_mean": 1.9331331739469115,
+      "amplitude_mean": 0.5417919779315163,
+      "radial_raw_mean": 0.003752682117017072,
+      "radial_applied_mean": 0.003752682117017072,
+      "angle_mean": 0.007468202063891181
+    },
+    {
+      "key": "2/learned_adam_cold/32/0/1024",
+      "problem": 2,
+      "group": "learned_adam_cold",
+      "N": 32,
+      "mode": 0,
+      "ratio": 1024,
+      "best_index": 20,
+      "best_value": 0.00023713737056616554,
+      "tau": 2.059064958147374,
+      "risk": 0.004327351422161351,
+      "se": 0.00035565970200946,
+      "baseline": 0.004559908594206682,
+      "improvement": 0.05100040214419921,
+      "interior": true,
+      "identifiable": true,
+      "near_indices": [
+        18,
+        19,
+        20
+      ],
+      "near_width": 1.778279410038923,
+      "seed_best_indices": [
+        19,
+        21,
+        22,
+        23,
+        21,
+        24,
+        15,
+        0
+      ],
+      "seed_risks_at_best": [
+        0.0024582426708062753,
+        0.004927248322361973,
+        0.004425827818002431,
+        0.004106451764955624,
+        0.0032571671803132618,
+        0.00521164692319667,
+        0.005124844057645924,
+        0.005107382640008647
+      ],
+      "tau_bootstrap": {
+        "valid_fraction": 0.975,
+        "ci95": [
+          1.1578973172176052,
+          18.788205338597134
+        ]
+      },
+      "paired_gain_ci95": {
+        "valid_fraction": 1.0,
+        "ci95": [
+          -0.08318889374794522,
+          0.1439362219893521
+        ]
+      },
+      "norm_mean": 4.147720655169707,
+      "amplitude_mean": 0.5985789487410326,
+      "radial_raw_mean": 0.001674666921883556,
+      "radial_applied_mean": 0.001674666921883556,
+      "angle_mean": 0.002934511262841194
+    },
+    {
+      "key": "2/learned_adam_cold/32/1/16",
+      "problem": 2,
+      "group": "learned_adam_cold",
+      "N": 32,
+      "mode": 1,
+      "ratio": 16,
+      "best_index": 32,
+      "best_value": 0.007498942093324558,
+      "tau": 4.167254475510388,
+      "risk": 0.03701149871273611,
+      "se": 0.003527236339389536,
+      "baseline": 0.08516980081027961,
+      "improvement": 0.5654387076097401,
+      "interior": true,
+      "identifiable": true,
+      "near_indices": [
+        32
+      ],
+      "near_width": 1.0,
+      "seed_best_indices": [
+        32,
+        34,
+        36,
+        34,
+        35,
+        34,
+        30,
+        34
+      ],
+      "seed_risks_at_best": [
+        0.029641962044317488,
+        0.04245364820851935,
+        0.033582877628086455,
+        0.03217513890444527,
+        0.04082897560503537,
+        0.02754151140304747,
+        0.05812221740494921,
+        0.031745658503488254
+      ],
+      "tau_bootstrap": {
+        "valid_fraction": 1.0,
+        "ci95": [
+          2.3434194041639245,
+          4.167254475510388
+        ]
+      },
+      "paired_gain_ci95": {
+        "valid_fraction": 1.0,
+        "ci95": [
+          0.44067668729267745,
+          0.6387976820835561
+        ]
+      },
+      "norm_mean": 0.975090721900916,
+      "amplitude_mean": 0.5392005090343803,
+      "radial_raw_mean": 0.0031447098932408015,
+      "radial_applied_mean": 0.0031447098932408015,
+      "angle_mean": 0.01184431062484756
+    },
+    {
+      "key": "2/learned_adam_cold/32/1/64",
+      "problem": 2,
+      "group": "learned_adam_cold",
+      "N": 32,
+      "mode": 1,
+      "ratio": 64,
+      "best_index": 25,
+      "best_value": 0.001,
+      "tau": 7.8125,
+      "risk": 0.014083536442609401,
+      "se": 0.0013480862329590183,
+      "baseline": 0.018212001799873173,
+      "improvement": 0.2266892680239314,
+      "interior": true,
+      "identifiable": true,
+      "near_indices": [
+        25
+      ],
+      "near_width": 1.0,
+      "seed_best_indices": [
+        27,
+        25,
+        28,
+        29,
+        26,
+        26,
+        26,
+        0
+      ],
+      "seed_risks_at_best": [
+        0.012551866083584242,
+        0.013414305408176622,
+        0.016613983215312718,
+        0.013965194719280104,
+        0.014336176041142651,
+        0.006615648713018885,
+        0.015115912935227821,
+        0.020055204425132166
+      ],
+      "tau_bootstrap": {
+        "valid_fraction": 1.0,
+        "ci95": [
+          5.858548510409811,
+          10.418136188775968
+        ]
+      },
+      "paired_gain_ci95": {
+        "valid_fraction": 1.0,
+        "ci95": [
+          0.04674468214514176,
+          0.35576508054602385
+        ]
+      },
+      "norm_mean": 2.407255499604906,
+      "amplitude_mean": 0.5852638584617568,
+      "radial_raw_mean": 0.002464099947326259,
+      "radial_applied_mean": 0.002464099947326259,
+      "angle_mean": 0.00467310869591984
+    },
+    {
+      "key": "2/learned_adam_cold/32/1/256",
+      "problem": 2,
+      "group": "learned_adam_cold",
+      "N": 32,
+      "mode": 1,
+      "ratio": 256,
+      "best_index": 0,
+      "best_value": 0.0,
+      "tau": null,
+      "risk": 0.0035400593709355647,
+      "se": 0.00020611525297759781,
+      "baseline": 0.0035400593709355647,
+      "improvement": 0.0,
+      "interior": false,
+      "identifiable": false,
+      "near_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "near_width": null,
+      "seed_best_indices": [
+        0,
+        20,
+        11,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "seed_risks_at_best": [
+        0.0040191444460701675,
+        0.0033422395389484743,
+        0.003603064954396424,
+        0.003498342824898108,
+        0.004247696231258132,
+        0.002933927297043337,
+        0.004097941940824326,
+        0.002578117734045549
+      ],
+      "tau_bootstrap": {
+        "valid_fraction": 0.001,
+        "ci95": null
+      },
+      "paired_gain_ci95": {
+        "valid_fraction": 1.0,
+        "ci95": [
+          0.0,
+          0.0
+        ]
+      },
+      "norm_mean": 6.821758734589595,
+      "amplitude_mean": 0.616212115131578,
+      "radial_raw_mean": 0.007803449550117511,
+      "radial_applied_mean": 0.007803449550117511,
+      "angle_mean": 0.0017717096896000442
+    },
+    {
+      "key": "2/learned_adam_cold/64/0/16",
+      "problem": 2,
+      "group": "learned_adam_cold",
+      "N": 64,
+      "mode": 0,
+      "ratio": 16,
+      "best_index": 38,
+      "best_value": 0.042169650342858224,
+      "tau": 0.3705271415096336,
+      "risk": 0.09515105758671719,
+      "se": 0.0064566279405165565,
+      "baseline": 0.36144401746076443,
+      "improvement": 0.7367474546814264,
+      "interior": true,
+      "identifiable": true,
+      "near_indices": [
+        38
+      ],
+      "near_width": 1.0,
+      "seed_best_indices": [
+        38,
+        38,
+        40,
+        38,
+        39,
+        38,
+        41,
+        40
+      ],
+      "seed_risks_at_best": [
+        0.09318483210343177,
+        0.0865063942854186,
+        0.12383583991678446,
+        0.06844296853890111,
+        0.11079074831382375,
+        0.07545255256082321,
+        0.09967984345882777,
+        0.10331528151572686
+      ],
+      "tau_bootstrap": {
+        "valid_fraction": 1.0,
+        "ci95": [
+          0.2083627237755194,
+          0.3705271415096336
+        ]
+      },
+      "paired_gain_ci95": {
+        "valid_fraction": 1.0,
+        "ci95": [
+          0.6805469922151708,
+          0.7728836174864703
+        ]
+      },
+      "norm_mean": 0.6360136426160713,
+      "amplitude_mean": 0.6215757767338836,
+      "radial_raw_mean": 0.007396853291913507,
+      "radial_applied_mean": 0.007396853291913507,
+      "angle_mean": 0.033940679589072965
+    },
+    {
+      "key": "2/learned_adam_cold/64/0/64",
+      "problem": 2,
+      "group": "learned_adam_cold",
+      "N": 64,
+      "mode": 0,
+      "ratio": 64,
+      "best_index": 32,
+      "best_value": 0.007498942093324558,
+      "tau": 0.5209068094387985,
+      "risk": 0.051569532714150115,
+      "se": 0.0032171038256370295,
+      "baseline": 0.10425890963241419,
+      "improvement": 0.5053704964307713,
+      "interior": true,
+      "identifiable": true,
+      "near_indices": [
+        32
+      ],
+      "near_width": 1.0,
+      "seed_best_indices": [
+        32,
+        33,
+        32,
+        32,
+        34,
+        32,
+        35,
+        33
+      ],
+      "seed_risks_at_best": [
+        0.04718123477189673,
+        0.05598031461383813,
+        0.04560374556642164,
+        0.04708566704515678,
+        0.07008810272519334,
+        0.04225035769774133,
+        0.04695654690084351,
+        0.05741029239210949
+      ],
+      "tau_bootstrap": {
+        "valid_fraction": 1.0,
+        "ci95": [
+          0.29292742552049056,
+          0.5209068094387985
+        ]
+      },
+      "paired_gain_ci95": {
+        "valid_fraction": 1.0,
+        "ci95": [
+          0.46752394299499306,
+          0.5500710520105991
+        ]
+      },
+      "norm_mean": 1.4220635603042597,
+      "amplitude_mean": 0.5862147599497367,
+      "radial_raw_mean": 0.007749306863424656,
+      "radial_applied_mean": 0.007749306863424656,
+      "angle_mean": 0.014227835278101399
+    },
+    {
+      "key": "2/learned_adam_cold/64/0/256",
+      "problem": 2,
+      "group": "learned_adam_cold",
+      "N": 64,
+      "mode": 0,
+      "ratio": 256,
+      "best_index": 26,
+      "best_value": 0.001333521432163324,
+      "tau": 0.7323185638012264,
+      "risk": 0.019784137322548093,
+      "se": 0.0020603150890826346,
+      "baseline": 0.02638436144247124,
+      "improvement": 0.2501566746011401,
+      "interior": true,
+      "identifiable": true,
+      "near_indices": [
+        26
+      ],
+      "near_width": 1.0,
+      "seed_best_indices": [
+        26,
+        24,
+        22,
+        26,
+        26,
+        26,
+        23,
+        27
+      ],
+      "seed_risks_at_best": [
+        0.01260737194326022,
+        0.02627387667436577,
+        0.025233447591943122,
+        0.016853417026256243,
+        0.013898304348928386,
+        0.01901412681818359,
+        0.027624662594952495,
+        0.01676789158249491
+      ],
+      "tau_bootstrap": {
+        "valid_fraction": 1.0,
+        "ci95": [
+          0.5491614503812003,
+          1.302267023596996
+        ]
+      },
+      "paired_gain_ci95": {
+        "valid_fraction": 1.0,
+        "ci95": [
+          0.06506118521215602,
+          0.39554224325667914
+        ]
+      },
+      "norm_mean": 2.6472444145052973,
+      "amplitude_mean": 0.6111075453412471,
+      "radial_raw_mean": 0.006495092381943842,
+      "radial_applied_mean": 0.006495092381943842,
+      "angle_mean": 0.006443136186781462
+    },
+    {
+      "key": "2/learned_adam_cold/64/0/1024",
+      "problem": 2,
+      "group": "learned_adam_cold",
+      "N": 64,
+      "mode": 0,
+      "ratio": 1024,
+      "best_index": 0,
+      "best_value": 0.0,
+      "tau": null,
+      "risk": 0.004488091708357841,
+      "se": 0.00045834053989055284,
+      "baseline": 0.004488091708357841,
+      "improvement": 0.0,
+      "interior": false,
+      "identifiable": false,
+      "near_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "near_width": null,
+      "seed_best_indices": [
+        14,
+        0,
+        0,
+        17,
+        21,
+        0,
+        0,
+        17
+      ],
+      "seed_risks_at_best": [
+        0.005179882366569704,
+        0.004758932077596728,
+        0.004248976990499417,
+        0.0037584054101452093,
+        0.007016653932630165,
+        0.0032587251974275206,
+        0.0048115750736434405,
+        0.002871582618350537
+      ],
+      "tau_bootstrap": {
+        "valid_fraction": 0.029,
+        "ci95": null
+      },
+      "paired_gain_ci95": {
+        "valid_fraction": 1.0,
+        "ci95": [
+          0.0,
+          0.0
+        ]
+      },
+      "norm_mean": 9.876146200767188,
+      "amplitude_mean": 0.6987432911860736,
+      "radial_raw_mean": 0.008823653523998826,
+      "radial_applied_mean": 0.008823653523998826,
+      "angle_mean": 0.0020031422672151847
+    },
+    {
+      "key": "2/learned_adam_cold/64/1/16",
+      "problem": 2,
+      "group": "learned_adam_cold",
+      "N": 64,
+      "mode": 1,
+      "ratio": 16,
+      "best_index": 29,
+      "best_value": 0.0031622776601683794,
+      "tau": 4.941058844013092,
+      "risk": 0.039094819604660096,
+      "se": 0.00233178750473419,
+      "baseline": 0.059029426279819684,
+      "improvement": 0.3377062582425031,
+      "interior": true,
+      "identifiable": true,
+      "near_indices": [
+        29
+      ],
+      "near_width": 1.0,
+      "seed_best_indices": [
+        27,
+        28,
+        30,
+        30,
+        30,
+        28,
+        28,
+        29
+      ],
+      "seed_risks_at_best": [
+        0.04140223291080293,
+        0.04263176906668348,
+        0.02786714416508096,
+        0.03837400069426911,
+        0.04589409279953219,
+        0.04177214382104714,
+        0.04451441735921999,
+        0.03030275602064499
+      ],
+      "tau_bootstrap": {
+        "valid_fraction": 1.0,
+        "ci95": [
+          4.941058844013092,
+          6.589007866071597
+        ]
+      },
+      "paired_gain_ci95": {
+        "valid_fraction": 1.0,
+        "ci95": [
+          0.27207881386349503,
+          0.40487664293642783
+        ]
+      },
+      "norm_mean": 1.9420054414197474,
+      "amplitude_mean": 0.6331318260386379,
+      "radial_raw_mean": 0.005238658106139231,
+      "radial_applied_mean": 0.005238658106139231,
+      "angle_mean": 0.008322756246606392
+    },
+    {
+      "key": "2/learned_adam_cold/64/1/64",
+      "problem": 2,
+      "group": "learned_adam_cold",
+      "N": 64,
+      "mode": 1,
+      "ratio": 64,
+      "best_index": 22,
+      "best_value": 0.00042169650342858224,
+      "tau": 9.263178537740842,
+      "risk": 0.010267386032720014,
+      "se": 0.0007818148107988005,
+      "baseline": 0.013041352535962045,
+      "improvement": 0.21270543032961564,
+      "interior": true,
+      "identifiable": true,
+      "near_indices": [
+        22
+      ],
+      "near_width": 1.0,
+      "seed_best_indices": [
+        23,
+        23,
+        23,
+        20,
+        20,
+        21,
+        23,
+        21
+      ],
+      "seed_risks_at_best": [
+        0.009911113355442112,
+        0.013515699591267893,
+        0.007445644011768893,
+        0.012621173112907145,
+        0.009755115116149808,
+        0.009357498367627186,
+        0.007710228394622008,
+        0.011822616311975067
+      ],
+      "tau_bootstrap": {
+        "valid_fraction": 1.0,
+        "ci95": [
+          6.946403945464542,
+          12.35264711003273
+        ]
+      },
+      "paired_gain_ci95": {
+        "valid_fraction": 1.0,
+        "ci95": [
+          0.13766076333455968,
+          0.283630107358407
+        ]
+      },
+      "norm_mean": 4.352094054856471,
+      "amplitude_mean": 0.672017382909532,
+      "radial_raw_mean": 0.0033642656251109057,
+      "radial_applied_mean": 0.0033642656251109057,
+      "angle_mean": 0.003910855755774275
+    },
+    {
+      "key": "2/learned_adam_cold/64/1/256",
+      "problem": 2,
+      "group": "learned_adam_cold",
+      "N": 64,
+      "mode": 1,
+      "ratio": 256,
+      "best_index": 0,
+      "best_value": 0.0,
+      "tau": null,
+      "risk": 0.0040572907830052855,
+      "se": 0.00041737888716853085,
+      "baseline": 0.0040572907830052855,
+      "improvement": 0.0,
+      "interior": false,
+      "identifiable": false,
+      "near_indices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "near_width": null,
+      "seed_best_indices": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "seed_risks_at_best": [
+        0.005444109145887273,
+        0.0029075761919549713,
+        0.0018951985069157794,
+        0.0036922542462506916,
+        0.004868553433585219,
+        0.004706756017486993,
+        0.0040986666563975795,
+        0.004845212065563777
+      ],
+      "tau_bootstrap": {
+        "valid_fraction": 0.0,
+        "ci95": null
+      },
+      "paired_gain_ci95": {
+        "valid_fraction": 1.0,
+        "ci95": [
+          0.0,
+          0.0
+        ]
+      },
+      "norm_mean": 11.0269652833263,
+      "amplitude_mean": 0.710221921308119,
+      "radial_raw_mean": 0.004228825492041584,
+      "radial_applied_mean": 0.004228825492041584,
+      "angle_mean": 0.0014964095780920317
+    },
+    {
+      "key": "2/learned_adam_cold/128/0/16",
+      "problem": 2,
+      "group": "learned_adam_cold",
+      "N": 128,
+      "mode": 0,
+      "ratio": 16,
+      "best_index": 36,
+      "best_value": 0.023713737056616554,
+      "tau": 0.3294503933035799,
+      "risk": 0.096361044102254,
+      "se": 0.011780824309620488,
+      "baseline": 0.20013628152990837,
+      "improvement": 0.5185228616938513,
+      "interior": true,
+      "identifiable": true,
+      "near_indices": [
+        36
+      ],
+      "near_width": 1.0,
+      "seed_best_indices": [
+        41,
+        35,
+        38,
+        41,
+        37,
+        40,
+        38,
+        36
+      ],
+      "seed_risks_at_best": [
+        0.0901839215983484,
+        0.11065121440308244,
+        0.05861279838862481,
+        0.1663767127871143,
+        0.08678075122727771,
+        0.08132534181770422,
+        0.10797899313454618,
+        0.06897861946133402
+      ],
+      "tau_bootstrap": {
+        "valid_fraction": 1.0,
+        "ci95": [
+          0.078125,
+          0.43932916030496016
+        ]
+      },
+      "paired_gain_ci95": {
+        "valid_fraction": 1.0,
+        "ci95": [
+          0.36730982368947335,
+          0.6176750563955886
+        ]
+      },
+      "norm_mean": 0.7600673393282993,
+      "amplitude_mean": 0.5726835966890416,
+      "radial_raw_mean": 0.011204678122831577,
+      "radial_applied_mean": 0.011204678122831577,
+      "angle_mean": 0.03378938994732391
+    },
+    {
+      "key": "2/learned_adam_cold/128/0/64",
+      "problem": 2,
+      "group": "learned_adam_cold",
+      "N": 128,
+      "mode": 0,
+      "ratio": 64,
+      "best_index": 30,
+      "best_value": 0.004216965034285823,
+      "tau": 0.463158926887042,
+      "risk": 0.0496567981184963,
+      "se": 0.003420651727066336,
+      "baseline": 0.07154145981215569,
+      "improvement": 0.30590180506689835,
+      "interior": true,
+      "identifiable": true,
+      "near_indices": [
+        29,
+        30
+      ],
+      "near_width": 1.3335214321633242,
+      "seed_best_indices": [
+        29,
+        30,
+        32,
+        30,
+        29,
+        27,
+        28,
+        30
+      ],
+      "seed_risks_at_best": [
+        0.05099805880579203,
+        0.034272887767528445,
+        0.04769546094710061,
+        0.04358626967132872,
+        0.050555115362127305,
+        0.059826113392372544,
+        0.0654385794244031,
+        0.04488189957731767
+      ],
+      "tau_bootstrap": {
+        "valid_fraction": 1.0,
+        "ci95": [
+          0.3473201972732271,
+          0.8236259832589496
+        ]
+      },
+      "paired_gain_ci95": {
+        "valid_fraction": 1.0,
+        "ci95": [
+          0.21074862795416716,
+          0.39111606110403646
+        ]
+      },
+      "norm_mean": 1.7987916595876323,
+      "amplitude_mean": 0.5203825197945549,
+      "radial_raw_mean": 0.011447044116675393,
+      "radial_applied_mean": 0.011447044116675393,
+      "angle_mean": 0.012058315379826753
+    },
+    {
+      "key": "2/learned_adam_cold/128/0/256",
+      "problem": 2,
+      "group": "learned_adam_cold",
+      "N": 128,
+      "mode": 0,
+      "ratio": 256,
+      "best_index": 22,
+      "best_value": 0.00042169650342858224,
+      "tau": 1.1578973172176052,
+      "risk": 0.01903852118089045,
+      "se": 0.001044332139005512,
+      "baseline": 0.022871619008453886,
+      "improvement": 0.16759188871354636,
+      "interior": true,
+      "identifiable": true,
+      "near_indices": [
+        22
+      ],
+      "near_width": 1.0,
+      "seed_best_indices": [
+        22,
+        19,
+        23,
+        23,
+        19,
+        20,
+        24,
+        24
+      ],
+      "seed_risks_at_best": [
+        0.015638811402678397,
+        0.020125598903175102,
+        0.0164004226331498,
+        0.01555487887251553,
+        0.023283395478690114,
+        0.022094444433008148,
+        0.02039272394275187,
+        0.018817893781154636
+      ],
+      "tau_bootstrap": {
+        "valid_fraction": 1.0,
+        "ci95": [
+          0.8683004931830678,
+          1.5440808887540913
+        ]
+      },
+      "paired_gain_ci95": {
+        "valid_fraction": 1.0,
+        "ci95": [
+          0.055066117333167894,
+          0.2679452050871692
+        ]
+      },
+      "norm_mean": 5.998279917814214,
+      "amplitude_mean": 0.5752541714658085,
+      "radial_raw_mean": 0.011664307379309083,
+      "radial_applied_mean": 0.011664307379309083,
+      "angle_mean": 0.004384636483533325
+    },
+    {
+      "key": "2/learned_adam_cold/128/0/1024",
+      "problem": 2,
+      "group": "learned_adam_cold",
+      "N": 128,
+      "mode": 0,
+      "ratio": 1024,
+      "best_index": 0,
+      "best_value": 0.0,
+      "tau": null,
+      "risk": 0.004844704775540391,
+      "se": 0.0005888854229664803,
+      "baseline": 0.004844704775540391,
+      "improvement": 0.0,
+      "interior": false,
+      "identifiable": false,
+      "near_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "near_width": null,
+      "seed_best_indices": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        7,
+        14,
+        0
+      ],
+      "seed_risks_at_best": [
+        0.005173765981649695,
+        0.003838066860699551,
+        0.006153572720390497,
+        0.008144482245050638,
+        0.003205745553252983,
+        0.0036482921059492945,
+        0.0035972550032435232,
+        0.004996457734086943
+      ],
+      "tau_bootstrap": {
+        "valid_fraction": 0.009,
+        "ci95": null
+      },
+      "paired_gain_ci95": {
+        "valid_fraction": 1.0,
+        "ci95": [
+          0.0,
+          0.0
+        ]
+      },
+      "norm_mean": 15.139414211874199,
+      "amplitude_mean": 0.6798557609774714,
+      "radial_raw_mean": 0.016702817688498205,
+      "radial_applied_mean": 0.016702817688498205,
+      "angle_mean": 0.0015445158756179152
+    },
+    {
+      "key": "2/learned_adam_cold/128/1/16",
+      "problem": 2,
+      "group": "learned_adam_cold",
+      "N": 128,
+      "mode": 1,
+      "ratio": 16,
+      "best_index": 26,
+      "best_value": 0.001333521432163324,
+      "tau": 5.858548510409811,
+      "risk": 0.03430340803849135,
+      "se": 0.0017405989868153218,
+      "baseline": 0.046845371023700795,
+      "improvement": 0.26773110578767767,
+      "interior": true,
+      "identifiable": true,
+      "near_indices": [
+        26
+      ],
+      "near_width": 1.0,
+      "seed_best_indices": [
+        27,
+        26,
+        27,
+        29,
+        27,
+        28,
+        25,
+        28
+      ],
+      "seed_risks_at_best": [
+        0.03717684589246145,
+        0.02617025051994449,
+        0.033647861344241865,
+        0.041587712339167,
+        0.03188639930822637,
+        0.03277410982078415,
+        0.03948207992578277,
+        0.03170200515732271
+      ],
+      "tau_bootstrap": {
+        "valid_fraction": 1.0,
+        "ci95": [
+          3.2945039330357986,
+          5.858548510409811
+        ]
+      },
+      "paired_gain_ci95": {
+        "valid_fraction": 1.0,
+        "ci95": [
+          0.23837806902682726,
+          0.2935824774629058
+        ]
+      },
+      "norm_mean": 3.6411212314113053,
+      "amplitude_mean": 0.5780848161772559,
+      "radial_raw_mean": 0.011846242054122807,
+      "radial_applied_mean": 0.011846242054122807,
+      "angle_mean": 0.0063928769100638225
+    },
+    {
+      "key": "2/learned_adam_cold/128/1/64",
+      "problem": 2,
+      "group": "learned_adam_cold",
+      "N": 128,
+      "mode": 1,
+      "ratio": 64,
+      "best_index": 0,
+      "best_value": 0.0,
+      "tau": null,
+      "risk": 0.01478793699881592,
+      "se": 0.0011555171992960894,
+      "baseline": 0.01478793699881592,
+      "improvement": 0.0,
+      "interior": false,
+      "identifiable": false,
+      "near_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "near_width": null,
+      "seed_best_indices": [
+        11,
+        0,
+        17,
+        16,
+        22,
+        20,
+        20,
+        20
+      ],
+      "seed_risks_at_best": [
+        0.015986955844228625,
+        0.013865241359315519,
+        0.01170730330487784,
+        0.01287459207215206,
+        0.01309147099588227,
+        0.017261029954791784,
+        0.021372130636874112,
+        0.012144771822405162
+      ],
+      "tau_bootstrap": {
+        "valid_fraction": 0.545,
+        "ci95": null
+      },
+      "paired_gain_ci95": {
+        "valid_fraction": 1.0,
+        "ci95": [
+          0.0,
+          0.0
+        ]
+      },
+      "norm_mean": 13.570070804053891,
+      "amplitude_mean": 0.6277214059070169,
+      "radial_raw_mean": 0.02054493335727968,
+      "radial_applied_mean": 0.02054493335727968,
+      "angle_mean": 0.001964826071010497
+    },
+    {
+      "key": "2/learned_adam_cold/128/1/256",
+      "problem": 2,
+      "group": "learned_adam_cold",
+      "N": 128,
+      "mode": 1,
+      "ratio": 256,
+      "best_index": 0,
+      "best_value": 0.0,
+      "tau": null,
+      "risk": 0.005718439643946207,
+      "se": 0.0007362095619987967,
+      "baseline": 0.005718439643946207,
+      "improvement": 0.0,
+      "interior": false,
+      "identifiable": false,
+      "near_indices": [
+        0,
+        1
+      ],
+      "near_width": null,
+      "seed_best_indices": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "seed_risks_at_best": [
+        0.007278047352279573,
+        0.005206519195396739,
+        0.009636528654316285,
+        0.005886675852787428,
+        0.004436290230776871,
+        0.002520905242756862,
+        0.005078319209157084,
+        0.005704231414098808
+      ],
+      "tau_bootstrap": {
+        "valid_fraction": 0.0,
+        "ci95": null
+      },
+      "paired_gain_ci95": {
+        "valid_fraction": 1.0,
+        "ci95": [
+          0.0,
+          0.0
+        ]
+      },
+      "norm_mean": 17.89106883970547,
+      "amplitude_mean": 0.712745566335306,
+      "radial_raw_mean": 0.011118736130088711,
+      "radial_applied_mean": 0.011118736130088711,
+      "angle_mean": 0.001243867540795284
+    }
+  ],
+  "primary_fits": [
+    {
+      "group": "learned_adam_cold",
+      "N": 32,
+      "mode": 0,
+      "fit": {
+        "slope": 0.4741055921062667,
+        "r2": 0.9061598076373042,
+        "endpoint_ratio": 6.589007866071597,
+        "max_min": 6.589007866071597
+      },
+      "slope_bootstrap": {
+        "valid_fraction": 0.975,
+        "ci95": [
+          0.34953328854799065,
+          0.9370993203311918
+        ]
+      }
+    },
+    {
+      "group": "learned_adam_cold",
+      "N": 64,
+      "mode": 0,
+      "fit": null,
+      "slope_bootstrap": {
+        "valid_fraction": 0.029,
+        "ci95": null
+      }
+    },
+    {
+      "group": "learned_adam_cold",
+      "N": 128,
+      "mode": 0,
+      "fit": null,
+      "slope_bootstrap": {
+        "valid_fraction": 0.009,
+        "ci95": null
+      }
+    },
+    {
+      "group": "learned_adam_cold",
+      "N": 32,
+      "mode": 1,
+      "fit": null,
+      "slope_bootstrap": {
+        "valid_fraction": 0.001,
+        "ci95": null
+      }
+    },
+    {
+      "group": "learned_adam_cold",
+      "N": 64,
+      "mode": 1,
+      "fit": null,
+      "slope_bootstrap": {
+        "valid_fraction": 0.0,
+        "ci95": null
+      }
+    },
+    {
+      "group": "learned_adam_cold",
+      "N": 128,
+      "mode": 1,
+      "fit": null,
+      "slope_bootstrap": {
+        "valid_fraction": 0.0,
+        "ci95": null
+      }
+    }
+  ],
+  "primary_bridge": {
+    "problem": 2,
+    "group": "learned_adam_cold",
+    "passed": false,
+    "rows": 369,
+    "invalid_count": 82,
+    "train_rows": 102,
+    "test_rows": 185,
+    "drift": {
+      "coefficients": [
+        -4.616438739362837,
+        0.2142447089623063,
+        -0.3125779902875512,
+        -0.29111620552253353
+      ],
+      "max_relative_error": 40.86913240527632,
+      "median_relative_error": 0.4874488345987046,
+      "p90_relative_error": 2.710984220161632,
+      "training_r2": 0.49186228601338533
+    },
+    "noise": {
+      "coefficients": [
+        -1.8496296980731937,
+        0.7754191102983637,
+        0.796444012728809,
+        0.7799284722652271
+      ],
+      "max_relative_error": 6.213573724586016,
+      "median_relative_error": 0.8296980027592398,
+      "p90_relative_error": 3.1161583218293734,
+      "training_r2": 0.2646755364452399
+    },
+    "exponents": [
+      {
+        "N": 32,
+        "zeta": 0.18317427567836023,
+        "nu": 0.6335217702563078
+      },
+      {
+        "N": 64,
+        "zeta": 0.23408196746490567,
+        "nu": 0.9065523177943899
+      },
+      {
+        "N": 128,
+        "zeta": 0.2524301074741511,
+        "nu": 1.0409633520843375
+      }
+    ],
+    "zeta_range": 0.0692558317957909,
+    "nu_range": 0.4074415818280297,
+    "diagnostic_fit_drops_invalid": true
+  },
+  "spectral": [
+    {
+      "N": 32,
+      "ratio": 64,
+      "selected_delta": 0.023713737056616554,
+      "passed": false,
+      "max_width": 0.0,
+      "segments": [
+        {
+          "first": 30,
+          "last": 30,
+          "modes": 1,
+          "width": 1.0,
+          "passed": false
+        }
+      ]
+    },
+    {
+      "N": 32,
+      "ratio": 256,
+      "selected_delta": 0.0023713737056616554,
+      "passed": false,
+      "max_width": 0.0,
+      "segments": []
+    },
+    {
+      "N": 32,
+      "ratio": 1024,
+      "selected_delta": 0.00023713737056616554,
+      "passed": false,
+      "max_width": 0.0,
+      "segments": []
+    },
+    {
+      "N": 64,
+      "ratio": 64,
+      "selected_delta": 0.007498942093324558,
+      "passed": false,
+      "max_width": 0.0,
+      "segments": [
+        {
+          "first": 47,
+          "last": 47,
+          "modes": 1,
+          "width": 1.0,
+          "passed": false
+        },
+        {
+          "first": 49,
+          "last": 49,
+          "modes": 1,
+          "width": 1.0,
+          "passed": false
+        },
+        {
+          "first": 53,
+          "last": 53,
+          "modes": 1,
+          "width": 1.0,
+          "passed": false
+        },
+        {
+          "first": 60,
+          "last": 60,
+          "modes": 1,
+          "width": 1.0,
+          "passed": false
+        },
+        {
+          "first": 62,
+          "last": 62,
+          "modes": 1,
+          "width": 1.0,
+          "passed": false
+        }
+      ]
+    },
+    {
+      "N": 64,
+      "ratio": 256,
+      "selected_delta": 0.001333521432163324,
+      "passed": false,
+      "max_width": 0.0,
+      "segments": []
+    },
+    {
+      "N": 64,
+      "ratio": 1024,
+      "selected_delta": 0.0,
+      "passed": false,
+      "max_width": 0.0,
+      "segments": []
+    },
+    {
+      "N": 128,
+      "ratio": 64,
+      "selected_delta": 0.004216965034285823,
+      "passed": false,
+      "max_width": 0.0,
+      "segments": [
+        {
+          "first": 77,
+          "last": 78,
+          "modes": 2,
+          "width": 1.0227625204712858,
+          "passed": false
+        },
+        {
+          "first": 83,
+          "last": 83,
+          "modes": 1,
+          "width": 1.0,
+          "passed": false
+        },
+        {
+          "first": 88,
+          "last": 88,
+          "modes": 1,
+          "width": 1.0,
+          "passed": false
+        },
+        {
+          "first": 107,
+          "last": 107,
+          "modes": 1,
+          "width": 1.0,
+          "passed": false
+        },
+        {
+          "first": 109,
+          "last": 109,
+          "modes": 1,
+          "width": 1.0,
+          "passed": false
+        },
+        {
+          "first": 112,
+          "last": 112,
+          "modes": 1,
+          "width": 1.0,
+          "passed": false
+        },
+        {
+          "first": 114,
+          "last": 115,
+          "modes": 2,
+          "width": 1.0251738766472893,
+          "passed": false
+        },
+        {
+          "first": 119,
+          "last": 119,
+          "modes": 1,
+          "width": 1.0,
+          "passed": false
+        },
+        {
+          "first": 123,
+          "last": 123,
+          "modes": 1,
+          "width": 1.0,
+          "passed": false
+        }
+      ]
+    },
+    {
+      "N": 128,
+      "ratio": 256,
+      "selected_delta": 0.00042169650342858224,
+      "passed": false,
+      "max_width": 0.0,
+      "segments": []
+    },
+    {
+      "N": 128,
+      "ratio": 1024,
+      "selected_delta": 0.0,
+      "passed": false,
+      "max_width": 0.0,
+      "segments": []
+    }
+  ],
+  "other_bridge_exponents": [
+    {
+      "problem": 1,
+      "group": "fixed_adam_cold",
+      "exponents": [
+        {
+          "N": 64,
+          "zeta": 0.1850167072160953,
+          "nu": 1.374533072318269
+        }
+      ],
+      "zeta_range": 0.0,
+      "nu_range": 0.0
+    },
+    {
+      "problem": 1,
+      "group": "fixed_proj_cold",
+      "exponents": [
+        {
+          "N": 64,
+          "zeta": 0.44530298342127395,
+          "nu": 1.0561118605469635
+        }
+      ],
+      "zeta_range": 0.0,
+      "nu_range": 0.0
+    },
+    {
+      "problem": 1,
+      "group": "fixed_adam_warm",
+      "exponents": [
+        {
+          "N": 64,
+          "zeta": 0.1596170765770102,
+          "nu": 0.8929693803871809
+        }
+      ],
+      "zeta_range": 0.0,
+      "nu_range": 0.0
+    },
+    {
+      "problem": 1,
+      "group": "fixed_proj_warm",
+      "exponents": [
+        {
+          "N": 64,
+          "zeta": 0.46873456265816615,
+          "nu": 1.0442301714383486
+        }
+      ],
+      "zeta_range": 0.0,
+      "nu_range": 0.0
+    },
+    {
+      "problem": 2,
+      "group": "learned_adam_cold",
+      "exponents": [
+        {
+          "N": 32,
+          "zeta": 0.18317427567836023,
+          "nu": 0.6335217702563078
+        },
+        {
+          "N": 64,
+          "zeta": 0.23408196746490567,
+          "nu": 0.9065523177943899
+        },
+        {
+          "N": 128,
+          "zeta": 0.2524301074741511,
+          "nu": 1.0409633520843375
+        }
+      ],
+      "zeta_range": 0.0692558317957909,
+      "nu_range": 0.4074415818280297
+    },
+    {
+      "problem": 2,
+      "group": "learned_proj_cold",
+      "exponents": [
+        {
+          "N": 32,
+          "zeta": 0.4106019949101972,
+          "nu": 1.0546858634971077
+        },
+        {
+          "N": 64,
+          "zeta": 0.5307183807969155,
+          "nu": 0.786578914772209
+        },
+        {
+          "N": 128,
+          "zeta": 0.535132519063185,
+          "nu": 0.9058145308694538
+        }
+      ],
+      "zeta_range": 0.12453052415298782,
+      "nu_range": 0.2681069487248987
+    },
+    {
+      "problem": 2,
+      "group": "learned_adam_warm",
+      "exponents": [
+        {
+          "N": 32,
+          "zeta": 0.15661143723716173,
+          "nu": 0.07250227337362786
+        },
+        {
+          "N": 64,
+          "zeta": 0.2577891428460107,
+          "nu": 0.3463396372285473
+        },
+        {
+          "N": 128,
+          "zeta": 0.2751069945673003,
+          "nu": 0.9446716005658634
+        }
+      ],
+      "zeta_range": 0.11849555733013858,
+      "nu_range": 0.8721693271922355
+    },
+    {
+      "problem": 2,
+      "group": "learned_proj_warm",
+      "exponents": [
+        {
+          "N": 32,
+          "zeta": 0.4762981592562521,
+          "nu": 1.0744605993039693
+        },
+        {
+          "N": 64,
+          "zeta": 0.5980050143327034,
+          "nu": 0.6304050454027184
+        },
+        {
+          "N": 128,
+          "zeta": 0.5501035946240886,
+          "nu": 0.9789418230374923
+        }
+      ],
+      "zeta_range": 0.12170685507645129,
+      "nu_range": 0.44405555390125095
+    },
+    {
+      "problem": 2,
+      "group": "oracle_adam_cold",
+      "exponents": [
+        {
+          "N": 32,
+          "zeta": 0.1762923486075041,
+          "nu": 0.9032290252270645
+        },
+        {
+          "N": 64,
+          "zeta": 0.2310552872096199,
+          "nu": 0.18831922961240588
+        },
+        {
+          "N": 128,
+          "zeta": 0.2711459324857705,
+          "nu": 0.6875012001694826
+        }
+      ],
+      "zeta_range": 0.09485358387826642,
+      "nu_range": 0.7149097956146586
+    },
+    {
+      "problem": 2,
+      "group": "oracle_proj_cold",
+      "exponents": [
+        {
+          "N": 32,
+          "zeta": 0.39949613182288596,
+          "nu": 0.96426938052725
+        },
+        {
+          "N": 64,
+          "zeta": 0.5339852084207961,
+          "nu": 0.8104536420000008
+        },
+        {
+          "N": 128,
+          "zeta": 0.5810556895716162,
+          "nu": 0.6035244900503782
+        }
+      ],
+      "zeta_range": 0.18155955774873028,
+      "nu_range": 0.36074489047687175
+    },
+    {
+      "problem": 2,
+      "group": "oracle_adam_warm",
+      "exponents": [
+        {
+          "N": 32,
+          "zeta": 0.16273793331148562,
+          "nu": 0.5259941932968759
+        },
+        {
+          "N": 64,
+          "zeta": 0.24971568112465764,
+          "nu": 0.3569388325382868
+        },
+        {
+          "N": 128,
+          "zeta": 0.286064898940661,
+          "nu": 0.5555445606868935
+        }
+      ],
+      "zeta_range": 0.12332696562917539,
+      "nu_range": 0.19860572814860672
+    },
+    {
+      "problem": 2,
+      "group": "oracle_proj_warm",
+      "exponents": [
+        {
+          "N": 32,
+          "zeta": 0.48834703015564895,
+          "nu": 1.0511290896121166
+        },
+        {
+          "N": 64,
+          "zeta": 0.6080850236862553,
+          "nu": 0.7215039707021075
+        },
+        {
+          "N": 128,
+          "zeta": 0.5964126860035788,
+          "nu": 0.7333704586992383
+        }
+      ],
+      "zeta_range": 0.11973799353060632,
+      "nu_range": 0.3296251189100091
+    }
+  ],
+  "learned_angle_cells": [
+    {
+      "key": "2/learned_angle/32/0/16",
+      "problem": 2,
+      "group": "learned_angle",
+      "N": 32,
+      "mode": 0,
+      "ratio": 16,
+      "best_index": 24,
+      "best_value": 0.2,
+      "tau": null,
+      "risk": 0.11193427757479919,
+      "se": 0.009132994970500422,
+      "baseline": 0.7612006812647168,
+      "improvement": null,
+      "interior": false,
+      "identifiable": false,
+      "near_indices": [
+        24
+      ],
+      "near_width": 1.0,
+      "seed_best_indices": [
+        24,
+        23,
+        24,
+        24,
+        24,
+        24,
+        24,
+        24
+      ],
+      "seed_risks_at_best": [
+        0.10237454757091191,
+        0.1462805340103346,
+        0.11772796622779137,
+        0.10552538422081123,
+        0.06555620434927249,
+        0.14417246912400025,
+        0.11343059881654552,
+        0.10040651627872617
+      ],
+      "tau_bootstrap": null,
+      "paired_gain_ci95": null,
+      "norm_mean": 5.6568542494923815,
+      "amplitude_mean": 0.5859651811514244,
+      "radial_raw_mean": 0.07261340877930429,
+      "radial_applied_mean": -2.0816681711721684e-18,
+      "angle_mean": 0.03534061870674092
+    },
+    {
+      "key": "2/learned_angle/32/0/64",
+      "problem": 2,
+      "group": "learned_angle",
+      "N": 32,
+      "mode": 0,
+      "ratio": 64,
+      "best_index": 23,
+      "best_value": 0.14570923537052197,
+      "tau": null,
+      "risk": 0.027004985761656462,
+      "se": 0.0027828127932078314,
+      "baseline": 0.5996925423654822,
+      "improvement": null,
+      "interior": true,
+      "identifiable": true,
+      "near_indices": [
+        23
+      ],
+      "near_width": 1.0,
+      "seed_best_indices": [
+        23,
+        24,
+        23,
+        22,
+        22,
+        23,
+        23,
+        22
+      ],
+      "seed_risks_at_best": [
+        0.03232348716498683,
+        0.03135809971835997,
+        0.029799220412211593,
+        0.03804086083582455,
+        0.028924162890865683,
+        0.023449468109396916,
+        0.016926641910178696,
+        0.01521794505142747
+      ],
+      "tau_bootstrap": null,
+      "paired_gain_ci95": null,
+      "norm_mean": 5.6568542494923815,
+      "amplitude_mean": 0.5474024332410645,
+      "radial_raw_mean": 0.03019108885920878,
+      "radial_applied_mean": -1.387778780781447e-19,
+      "angle_mean": 0.02575230277896745
+    },
+    {
+      "key": "2/learned_angle/32/0/256",
+      "problem": 2,
+      "group": "learned_angle",
+      "N": 32,
+      "mode": 0,
+      "ratio": 256,
+      "best_index": 19,
+      "best_value": 0.04105021284117567,
+      "tau": null,
+      "risk": 0.013856423905995724,
+      "se": 0.001419839545664268,
+      "baseline": 0.5353337363566224,
+      "improvement": null,
+      "interior": true,
+      "identifiable": true,
+      "near_indices": [
+        19
+      ],
+      "near_width": 1.0,
+      "seed_best_indices": [
+        18,
+        19,
+        19,
+        19,
+        19,
+        19,
+        19,
+        19
+      ],
+      "seed_risks_at_best": [
+        0.016380216323576734,
+        0.009644816936371538,
+        0.016574644843563215,
+        0.01430180472172954,
+        0.011887196327711971,
+        0.02101792530332959,
+        0.01190118885016989,
+        0.009143597941513312
+      ],
+      "tau_bootstrap": null,
+      "paired_gain_ci95": null,
+      "norm_mean": 5.6568542494923815,
+      "amplitude_mean": 0.5536270095974807,
+      "radial_raw_mean": 0.010509280058634236,
+      "radial_applied_mean": 1.942890293094024e-18,
+      "angle_mean": 0.0072565935916710424
+    },
+    {
+      "key": "2/learned_angle/32/0/1024",
+      "problem": 2,
+      "group": "learned_angle",
+      "N": 32,
+      "mode": 0,
+      "ratio": 1024,
+      "best_index": 16,
+      "best_value": 0.015874010519682003,
+      "tau": null,
+      "risk": 0.004185378324154472,
+      "se": 0.00037670499631816523,
+      "baseline": 0.503580771339742,
+      "improvement": null,
+      "interior": true,
+      "identifiable": true,
+      "near_indices": [
+        16
+      ],
+      "near_width": 1.0,
+      "seed_best_indices": [
+        17,
+        16,
+        17,
+        17,
+        16,
+        19,
+        16,
+        15
+      ],
+      "seed_risks_at_best": [
+        0.0022883928907588566,
+        0.004545483463593384,
+        0.004344462964395833,
+        0.0042031187548230466,
+        0.002919414378520009,
+        0.00489386811745718,
+        0.005497582253350024,
+        0.004790703770337451
+      ],
+      "tau_bootstrap": null,
+      "paired_gain_ci95": null,
+      "norm_mean": 5.65685424949238,
+      "amplitude_mean": 0.599799901878853,
+      "radial_raw_mean": 0.00253843749351963,
+      "radial_applied_mean": -2.636779683484747e-18,
+      "angle_mean": 0.0028061477551125993
+    },
+    {
+      "key": "2/learned_angle/32/1/16",
+      "problem": 2,
+      "group": "learned_angle",
+      "N": 32,
+      "mode": 1,
+      "ratio": 16,
+      "best_index": 20,
+      "best_value": 0.05634538227695686,
+      "tau": null,
+      "risk": 0.030069344873154307,
+      "se": 0.002026436538161938,
+      "baseline": 0.5594655154627732,
+      "improvement": null,
+      "interior": true,
+      "identifiable": true,
+      "near_indices": [
+        20
+      ],
+      "near_width": 1.0,
+      "seed_best_indices": [
+        20,
+        20,
+        24,
+        20,
+        24,
+        21,
+        20,
+        24
+      ],
+      "seed_risks_at_best": [
+        0.021286415542429764,
+        0.0324213166468514,
+        0.030497890373367413,
+        0.029010094933833223,
+        0.034591243857897996,
+        0.024623082860138527,
+        0.039718593046056946,
+        0.02840612172465919
+      ],
+      "tau_bootstrap": null,
+      "paired_gain_ci95": null,
+      "norm_mean": 5.6568542494923815,
+      "amplitude_mean": 0.5572023454230222,
+      "radial_raw_mean": 0.012208653420950472,
+      "radial_applied_mean": -1.3183898417423734e-18,
+      "angle_mean": 0.009960221089830402
+    },
+    {
+      "key": "2/learned_angle/32/1/64",
+      "problem": 2,
+      "group": "learned_angle",
+      "N": 32,
+      "mode": 1,
+      "ratio": 64,
+      "best_index": 18,
+      "best_value": 0.029906975624424414,
+      "tau": null,
+      "risk": 0.012191943792023088,
+      "se": 0.0011679156476989787,
+      "baseline": 0.5240048288282813,
+      "improvement": null,
+      "interior": true,
+      "identifiable": true,
+      "near_indices": [
+        18
+      ],
+      "near_width": 1.0,
+      "seed_best_indices": [
+        19,
+        18,
+        20,
+        18,
+        19,
+        19,
+        19,
+        16
+      ],
+      "seed_risks_at_best": [
+        0.01195642221578213,
+        0.010620836057103709,
+        0.014455216972714263,
+        0.013118578834746352,
+        0.011895586318438688,
+        0.0056130649222629544,
+        0.01276647958869738,
+        0.01710936542643923
+      ],
+      "tau_bootstrap": null,
+      "paired_gain_ci95": null,
+      "norm_mean": 5.6568542494923815,
+      "amplitude_mean": 0.5980143584688749,
+      "radial_raw_mean": 0.005978249610153603,
+      "radial_applied_mean": -1.43982048506075e-18,
+      "angle_mean": 0.005286807060653405
+    },
+    {
+      "key": "2/learned_angle/32/1/256",
+      "problem": 2,
+      "group": "learned_angle",
+      "N": 32,
+      "mode": 1,
+      "ratio": 256,
+      "best_index": 14,
+      "best_value": 0.00842559987152912,
+      "tau": null,
+      "risk": 0.003569805267449923,
+      "se": 0.0002606708407153837,
+      "baseline": 0.4641123315333482,
+      "improvement": null,
+      "interior": true,
+      "identifiable": true,
+      "near_indices": [
+        14
+      ],
+      "near_width": 1.0,
+      "seed_best_indices": [
+        14,
+        16,
+        15,
+        14,
+        15,
+        14,
+        14,
+        14
+      ],
+      "seed_risks_at_best": [
+        0.00389725840998679,
+        0.0034612635433899364,
+        0.004462261272626092,
+        0.003320094342848265,
+        0.0044227228725861175,
+        0.0027740595218737523,
+        0.003833065786971817,
+        0.002387716389316617
+      ],
+      "tau_bootstrap": null,
+      "paired_gain_ci95": null,
+      "norm_mean": 5.6568542494923815,
+      "amplitude_mean": 0.6091007636871327,
+      "radial_raw_mean": 0.005929513643497673,
+      "radial_applied_mean": 1.5265566588595904e-18,
+      "angle_mean": 0.0014894485997537423
+    },
+    {
+      "key": "2/learned_angle/64/0/16",
+      "problem": 2,
+      "group": "learned_angle",
+      "N": 64,
+      "mode": 0,
+      "ratio": 16,
+      "best_index": 24,
+      "best_value": 0.2,
+      "tau": null,
+      "risk": 0.07685130700921092,
+      "se": 0.00411439486055174,
+      "baseline": 0.9182863060888922,
+      "improvement": null,
+      "interior": false,
+      "identifiable": false,
+      "near_indices": [
+        24
+      ],
+      "near_width": 1.0,
+      "seed_best_indices": [
+        24,
+        24,
+        24,
+        24,
+        24,
+        24,
+        24,
+        24
+      ],
+      "seed_risks_at_best": [
+        0.06663341688084207,
+        0.06922593852410414,
+        0.08894659785204143,
+        0.06625621067949732,
+        0.09535000149142826,
+        0.06508431465731022,
+        0.08154489917990282,
+        0.08176907680856108
+      ],
+      "tau_bootstrap": null,
+      "paired_gain_ci95": null,
+      "norm_mean": 8.0,
+      "amplitude_mean": 0.6307863133067793,
+      "radial_raw_mean": 0.06750491959022024,
+      "radial_applied_mean": -3.1225022567582532e-18,
+      "angle_mean": 0.02499479361892016
+    },
+    {
+      "key": "2/learned_angle/64/0/64",
+      "problem": 2,
+      "group": "learned_angle",
+      "N": 64,
+      "mode": 0,
+      "ratio": 64,
+      "best_index": 22,
+      "best_value": 0.10615590636131074,
+      "tau": null,
+      "risk": 0.037401533904904874,
+      "se": 0.0027796566943623486,
+      "baseline": 0.7449370530244852,
+      "improvement": null,
+      "interior": true,
+      "identifiable": true,
+      "near_indices": [
+        22
+      ],
+      "near_width": 1.0,
+      "seed_best_indices": [
+        22,
+        23,
+        22,
+        22,
+        23,
+        22,
+        21,
+        23
+      ],
+      "seed_risks_at_best": [
+        0.028790544554437116,
+        0.036945804732981424,
+        0.035383923932691276,
+        0.033539484111608966,
+        0.05267182163134694,
+        0.029616803267186777,
+        0.038154960725089046,
+        0.04410892828389741
+      ],
+      "tau_bootstrap": null,
+      "paired_gain_ci95": null,
+      "norm_mean": 8.0,
+      "amplitude_mean": 0.5933709929170699,
+      "radial_raw_mean": 0.04013744271548534,
+      "radial_applied_mean": -6.245004513516506e-18,
+      "angle_mean": 0.013268709549944514
+    },
+    {
+      "key": "2/learned_angle/64/0/256",
+      "problem": 2,
+      "group": "learned_angle",
+      "N": 64,
+      "mode": 0,
+      "ratio": 256,
+      "best_index": 19,
+      "best_value": 0.04105021284117567,
+      "tau": null,
+      "risk": 0.015519018809888666,
+      "se": 0.0013507899645305982,
+      "baseline": 0.7119066833035707,
+      "improvement": null,
+      "interior": true,
+      "identifiable": true,
+      "near_indices": [
+        19
+      ],
+      "near_width": 1.0,
+      "seed_best_indices": [
+        20,
+        19,
+        18,
+        20,
+        20,
+        19,
+        18,
+        20
+      ],
+      "seed_risks_at_best": [
+        0.009919285550399956,
+        0.017635312165687436,
+        0.020427742121904357,
+        0.014047544162086832,
+        0.010946993775601082,
+        0.01644369584914053,
+        0.019764059540436942,
+        0.014967517313852182
+      ],
+      "tau_bootstrap": null,
+      "paired_gain_ci95": null,
+      "norm_mean": 8.0,
+      "amplitude_mean": 0.6221176968135194,
+      "radial_raw_mean": 0.013581228991195762,
+      "radial_applied_mean": 6.938893903907235e-20,
+      "angle_mean": 0.005131231570354765
+    },
+    {
+      "key": "2/learned_angle/64/0/1024",
+      "problem": 2,
+      "group": "learned_angle",
+      "N": 64,
+      "mode": 0,
+      "ratio": 1024,
+      "best_index": 16,
+      "best_value": 0.015874010519682003,
+      "tau": null,
+      "risk": 0.004819762652833811,
+      "se": 0.0004998880230217149,
+      "baseline": 0.6580706374067268,
+      "improvement": null,
+      "interior": true,
+      "identifiable": true,
+      "near_indices": [
+        16
+      ],
+      "near_width": 1.0,
+      "seed_best_indices": [
+        16,
+        16,
+        16,
+        17,
+        15,
+        16,
+        16,
+        17
+      ],
+      "seed_risks_at_best": [
+        0.005808049820065575,
+        0.004889896771485193,
+        0.00467334498612037,
+        0.004125806582514195,
+        0.0074866973365976894,
+        0.0033759939602849916,
+        0.005165347617935592,
+        0.0030329641476668804
+      ],
+      "tau_bootstrap": null,
+      "paired_gain_ci95": null,
+      "norm_mean": 8.0,
+      "amplitude_mean": 0.6960133999057982,
+      "radial_raw_mean": 0.007835394827299424,
+      "radial_applied_mean": 8.326672684688675e-19,
+      "angle_mean": 0.001984248710799741
+    },
+    {
+      "key": "2/learned_angle/64/1/16",
+      "problem": 2,
+      "group": "learned_angle",
+      "N": 64,
+      "mode": 1,
+      "ratio": 16,
+      "best_index": 20,
+      "best_value": 0.05634538227695686,
+      "tau": null,
+      "risk": 0.031945424539322725,
+      "se": 0.0018218632189586277,
+      "baseline": 0.7230488427431824,
+      "improvement": null,
+      "interior": true,
+      "identifiable": true,
+      "near_indices": [
+        20
+      ],
+      "near_width": 1.0,
+      "seed_best_indices": [
+        19,
+        20,
+        21,
+        21,
+        21,
+        20,
+        20,
+        20
+      ],
+      "seed_risks_at_best": [
+        0.03300495083154668,
+        0.03313256458795151,
+        0.023697974465112716,
+        0.030413941213989347,
+        0.039246629658967414,
+        0.033509094688016536,
+        0.0365864756490428,
+        0.02597176521995478
+      ],
+      "tau_bootstrap": null,
+      "paired_gain_ci95": null,
+      "norm_mean": 8.0,
+      "amplitude_mean": 0.6424557221935467,
+      "radial_raw_mean": 0.014365851092337617,
+      "radial_applied_mean": -1.1102230246251566e-18,
+      "angle_mean": 0.007043056326212011
+    },
+    {
+      "key": "2/learned_angle/64/1/64",
+      "problem": 2,
+      "group": "learned_angle",
+      "N": 64,
+      "mode": 1,
+      "ratio": 64,
+      "best_index": 18,
+      "best_value": 0.029906975624424414,
+      "tau": null,
+      "risk": 0.00966882835810045,
+      "se": 0.0007670850568388304,
+      "baseline": 0.6947614516033339,
+      "improvement": null,
+      "interior": true,
+      "identifiable": true,
+      "near_indices": [
+        18
+      ],
+      "near_width": 1.0,
+      "seed_best_indices": [
+        18,
+        19,
+        19,
+        17,
+        18,
+        18,
+        19,
+        18
+      ],
+      "seed_risks_at_best": [
+        0.009255176626599214,
+        0.012605790370899067,
+        0.008232552133058069,
+        0.011894722885255478,
+        0.008195191182974796,
+        0.008236309867664654,
+        0.006932588388322532,
+        0.011998295410029794
+      ],
+      "tau_bootstrap": null,
+      "paired_gain_ci95": null,
+      "norm_mean": 8.0,
+      "amplitude_mean": 0.68232941419889,
+      "radial_raw_mean": 0.005508603682360906,
+      "radial_applied_mean": 0.0,
+      "angle_mean": 0.0037383545380869684
+    },
+    {
+      "key": "2/learned_angle/64/1/256",
+      "problem": 2,
+      "group": "learned_angle",
+      "N": 64,
+      "mode": 1,
+      "ratio": 256,
+      "best_index": 14,
+      "best_value": 0.00842559987152912,
+      "tau": null,
+      "risk": 0.003500164472965489,
+      "se": 0.0002504496476023511,
+      "baseline": 0.5759470440265035,
+      "improvement": null,
+      "interior": true,
+      "identifiable": true,
+      "near_indices": [
+        14
+      ],
+      "near_width": 1.0,
+      "seed_best_indices": [
+        14,
+        15,
+        15,
+        15,
+        14,
+        14,
+        14,
+        14
+      ],
+      "seed_risks_at_best": [
+        0.0039791903039454075,
+        0.003470466426521377,
+        0.0019618757835500548,
+        0.0043926335283055035,
+        0.0033044571604818537,
+        0.003764412335255397,
+        0.0035247283527354255,
+        0.0036035518929288914
+      ],
+      "tau_bootstrap": null,
+      "paired_gain_ci95": null,
+      "norm_mean": 8.0,
+      "amplitude_mean": 0.7027345021253085,
+      "radial_raw_mean": 0.001506587104020943,
+      "radial_applied_mean": -6.938893903907229e-19,
+      "angle_mean": 0.0010531995945276477
+    },
+    {
+      "key": "2/learned_angle/128/0/16",
+      "problem": 2,
+      "group": "learned_angle",
+      "N": 128,
+      "mode": 0,
+      "ratio": 16,
+      "best_index": 24,
+      "best_value": 0.2,
+      "tau": null,
+      "risk": 0.07406205869155087,
+      "se": 0.008694607634322768,
+      "baseline": 0.8037787011052204,
+      "improvement": null,
+      "interior": false,
+      "identifiable": false,
+      "near_indices": [
+        24
+      ],
+      "near_width": 1.0,
+      "seed_best_indices": [
+        24,
+        24,
+        24,
+        23,
+        24,
+        24,
+        24,
+        24
+      ],
+      "seed_risks_at_best": [
+        0.07529298587487926,
+        0.06138117471277795,
+        0.05947025502323128,
+        0.1316688931647224,
+        0.07593051749345447,
+        0.07315443024101931,
+        0.056021883992693824,
+        0.05957632902962849
+      ],
+      "tau_bootstrap": null,
+      "paired_gain_ci95": null,
+      "norm_mean": 11.313708498984763,
+      "amplitude_mean": 0.5839906168737528,
+      "radial_raw_mean": 0.08585097004744308,
+      "radial_applied_mean": 5.134781488891349e-18,
+      "angle_mean": 0.01767582845094428
+    },
+    {
+      "key": "2/learned_angle/128/0/64",
+      "problem": 2,
+      "group": "learned_angle",
+      "N": 128,
+      "mode": 0,
+      "ratio": 64,
+      "best_index": 22,
+      "best_value": 0.10615590636131074,
+      "tau": null,
+      "risk": 0.035816637281055684,
+      "se": 0.0018340608716688569,
+      "baseline": 0.7314066321725394,
+      "improvement": null,
+      "interior": true,
+      "identifiable": true,
+      "near_indices": [
+        22
+      ],
+      "near_width": 1.0,
+      "seed_best_indices": [
+        22,
+        22,
+        23,
+        23,
+        22,
+        21,
+        21,
+        22
+      ],
+      "seed_risks_at_best": [
+        0.03324277236190863,
+        0.027394559801871103,
+        0.04168135213537681,
+        0.03462512056235745,
+        0.03620794250382317,
+        0.039371766558311226,
+        0.04245389253011696,
+        0.0315556917946801
+      ],
+      "tau_bootstrap": null,
+      "paired_gain_ci95": null,
+      "norm_mean": 11.313708498984763,
+      "amplitude_mean": 0.5286678418901833,
+      "radial_raw_mean": 0.04613994061083262,
+      "radial_applied_mean": 2.7755575615628915e-18,
+      "angle_mean": 0.009382669813830508
+    },
+    {
+      "key": "2/learned_angle/128/0/256",
+      "problem": 2,
+      "group": "learned_angle",
+      "N": 128,
+      "mode": 0,
+      "ratio": 256,
+      "best_index": 19,
+      "best_value": 0.04105021284117567,
+      "tau": null,
+      "risk": 0.01588603069934214,
+      "se": 0.000827554906723396,
+      "baseline": 0.7073709255242562,
+      "improvement": null,
+      "interior": true,
+      "identifiable": true,
+      "near_indices": [
+        19
+      ],
+      "near_width": 1.0,
+      "seed_best_indices": [
+        20,
+        19,
+        20,
+        20,
+        19,
+        19,
+        20,
+        20
+      ],
+      "seed_risks_at_best": [
+        0.012415821133916649,
+        0.017498057587469036,
+        0.01513342389920604,
+        0.013319608418014574,
+        0.019687693909002074,
+        0.016019359280578963,
+        0.017318170458218922,
+        0.01569611090833085
+      ],
+      "tau_bootstrap": null,
+      "paired_gain_ci95": null,
+      "norm_mean": 11.31370849898476,
+      "amplitude_mean": 0.5854667426687368,
+      "radial_raw_mean": 0.01768105015496079,
+      "radial_applied_mean": 1.0408340855860843e-17,
+      "angle_mean": 0.003628344561314058
+    },
+    {
+      "key": "2/learned_angle/128/0/1024",
+      "problem": 2,
+      "group": "learned_angle",
+      "N": 128,
+      "mode": 0,
+      "ratio": 1024,
+      "best_index": 17,
+      "best_value": 0.021788612752398597,
+      "tau": null,
+      "risk": 0.005301894323426723,
+      "se": 0.0006286049920761256,
+      "baseline": 0.5985645377812421,
+      "improvement": null,
+      "interior": true,
+      "identifiable": true,
+      "near_indices": [
+        17
+      ],
+      "near_width": 1.0,
+      "seed_best_indices": [
+        17,
+        16,
+        16,
+        17,
+        16,
+        17,
+        18,
+        17
+      ],
+      "seed_risks_at_best": [
+        0.005432243427752236,
+        0.004046961034018203,
+        0.006864002933217513,
+        0.008817496101799927,
+        0.004054917243722986,
+        0.00396959473241448,
+        0.0037597256474517175,
+        0.005470213467036718
+      ],
+      "tau_bootstrap": null,
+      "paired_gain_ci95": null,
+      "norm_mean": 11.313708498984761,
+      "amplitude_mean": 0.6802053279161949,
+      "radial_raw_mean": 0.013379127520129467,
+      "radial_applied_mean": -5.551115123125782e-19,
+      "angle_mean": 0.0019258570977765278
+    },
+    {
+      "key": "2/learned_angle/128/1/16",
+      "problem": 2,
+      "group": "learned_angle",
+      "N": 128,
+      "mode": 1,
+      "ratio": 16,
+      "best_index": 21,
+      "best_value": 0.0773394797298565,
+      "tau": null,
+      "risk": 0.028794614165055493,
+      "se": 0.0013253231858117922,
+      "baseline": 0.7234418909064195,
+      "improvement": null,
+      "interior": true,
+      "identifiable": true,
+      "near_indices": [
+        21
+      ],
+      "near_width": 1.0,
+      "seed_best_indices": [
+        21,
+        21,
+        21,
+        20,
+        21,
+        21,
+        21,
+        21
+      ],
+      "seed_risks_at_best": [
+        0.0337075421399601,
+        0.0224583703537717,
+        0.029854285500495414,
+        0.030949775695411557,
+        0.02780488127959904,
+        0.026027264176687846,
+        0.032755733321877645,
+        0.02679906085264064
+      ],
+      "tau_bootstrap": null,
+      "paired_gain_ci95": null,
+      "norm_mean": 11.313708498984763,
+      "amplitude_mean": 0.5931701034334744,
+      "radial_raw_mean": 0.038293169698975144,
+      "radial_applied_mean": -1.8041124150158794e-18,
+      "angle_mean": 0.006835802344413786
+    },
+    {
+      "key": "2/learned_angle/128/1/64",
+      "problem": 2,
+      "group": "learned_angle",
+      "N": 128,
+      "mode": 1,
+      "ratio": 64,
+      "best_index": 18,
+      "best_value": 0.029906975624424414,
+      "tau": null,
+      "risk": 0.013796797459106582,
+      "se": 0.0012596424024036864,
+      "baseline": 0.671821880405141,
+      "improvement": null,
+      "interior": true,
+      "identifiable": true,
+      "near_indices": [
+        18
+      ],
+      "near_width": 1.0,
+      "seed_best_indices": [
+        18,
+        17,
+        18,
+        18,
+        20,
+        20,
+        19,
+        19
+      ],
+      "seed_risks_at_best": [
+        0.016280685384888135,
+        0.01324483733067458,
+        0.010550308607897572,
+        0.01126911198725078,
+        0.012187676578926767,
+        0.016268582200539845,
+        0.020400977993832517,
+        0.010172199588842454
+      ],
+      "tau_bootstrap": null,
+      "paired_gain_ci95": null,
+      "norm_mean": 11.313708498984761,
+      "amplitude_mean": 0.6396589654717915,
+      "radial_raw_mean": 0.02023979310137835,
+      "radial_applied_mean": 1.942890293094024e-18,
+      "angle_mean": 0.0026434220014552915
+    },
+    {
+      "key": "2/learned_angle/128/1/256",
+      "problem": 2,
+      "group": "learned_angle",
+      "N": 128,
+      "mode": 1,
+      "ratio": 256,
+      "best_index": 15,
+      "best_value": 0.01156494967543242,
+      "tau": null,
+      "risk": 0.004736296162332331,
+      "se": 0.0004300869328762986,
+      "baseline": 0.47093745332526465,
+      "improvement": null,
+      "interior": true,
+      "identifiable": true,
+      "near_indices": [
+        15
+      ],
+      "near_width": 1.0,
+      "seed_best_indices": [
+        14,
+        15,
+        14,
+        15,
+        15,
+        16,
+        15,
+        15
+      ],
+      "seed_risks_at_best": [
+        0.0060958442240741486,
+        0.004054487122106707,
+        0.006531661445072703,
+        0.005256659927058581,
+        0.003569077606188552,
+        0.002956467947925534,
+        0.004813016904142777,
+        0.0046131541220896435
+      ],
+      "tau_bootstrap": null,
+      "paired_gain_ci95": null,
+      "norm_mean": 11.31370849898476,
+      "amplitude_mean": 0.5361878420634485,
+      "radial_raw_mean": 0.006265113132749062,
+      "radial_applied_mean": -2.498001805406602e-18,
+      "angle_mean": 0.0010222064364107304
+    }
+  ],
+  "calibration": {
+    "median_late_abs_change": 0.012959402334501824,
+    "max_late_abs_change": 0.2607906282653286,
+    "selected": [
+      {
+        "group": "fixed_adam_warm",
+        "delta": 0.001333521432163324,
+        "radius_mean": 1.6667381842186848
+      },
+      {
+        "group": "fixed_proj_warm",
+        "delta": 0.0007498942093324559,
+        "radius_mean": 2.130923554260438
+      }
+    ],
+    "fraction_abs_change_over_10pct": 0.08482142857142858
+  },
+  "wall_seconds": 0.03125606098910794
+}

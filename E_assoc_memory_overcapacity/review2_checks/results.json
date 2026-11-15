@@ -1,0 +1,139 @@
+{
+  "seed": 202611062,
+  "checks": {
+    "GD matrix polynomial identity": {
+      "count": 450,
+      "max_ratio": 0.0
+    },
+    "GD scalar proxy identity": {
+      "count": 450,
+      "max_ratio": 0.0
+    },
+    "GD operator difference (5.17)": {
+      "count": 450,
+      "max_ratio": 228141881846308.3
+    },
+    "GD Frobenius path bound": {
+      "count": 450,
+      "max_ratio": 5.204868161216863e+28
+    },
+    "GD first step exact": {
+      "count": 90,
+      "max_ratio": 0.0
+    },
+    "IBP smooth part plus signed jumps (3.4)": {
+      "count": 6,
+      "max_ratio": 0.0
+    },
+    "Sign covariance (4.1)": {
+      "count": 84,
+      "max_ratio": 0.15666530123909997
+    },
+    "Polynomial covariance (4.1)": {
+      "count": 336,
+      "max_ratio": 0.33497339808028437
+    },
+    "Regression variance including centering (4.4)": {
+      "count": 25,
+      "max_ratio": 0.5088343119454595
+    },
+    "Adam reachable update bound (5.9)": {
+      "count": 3888,
+      "max_ratio": 0.9999999989999999
+    },
+    "Adam reachable state bound (5.9)": {
+      "count": 3888,
+      "max_ratio": 0.9999999989999999
+    },
+    "Adam arbitrary-to-reachable (5.10)": {
+      "count": 15552,
+      "max_ratio": 0.49999999994249467
+    },
+    "Adaptive training diagonal (6.1)": {
+      "count": 128,
+      "max_ratio": 0.9962866273562333
+    },
+    "Adaptive training off diagonal (6.2)": {
+      "count": 128,
+      "max_ratio": 0.8073978769226299
+    },
+    "Maximum CDF jump (8.1)": {
+      "count": 209,
+      "max_ratio": 0.9903179610186615
+    },
+    "Every legal tied rank (8.1)": {
+      "count": 2471,
+      "max_ratio": 1.0000000000000004
+    }
+  },
+  "violations": [],
+  "ibp_values": [
+    {
+      "sigma": 0.03,
+      "regression_integral": -1.9972999999999983,
+      "derivative_plus_atoms": -1.9973
+    },
+    {
+      "sigma": 0.2,
+      "regression_integral": -1.2332459587607454,
+      "derivative_plus_atoms": -1.2332459587607447
+    },
+    {
+      "sigma": 0.7,
+      "regression_integral": 0.1294451670221359,
+      "derivative_plus_atoms": 0.12944516702213604
+    },
+    {
+      "sigma": 1.0,
+      "regression_integral": 1.402170890336093,
+      "derivative_plus_atoms": 1.402170890336093
+    },
+    {
+      "sigma": 3.0,
+      "regression_integral": 25.11945544413907,
+      "derivative_plus_atoms": 25.11945544413907
+    },
+    {
+      "sigma": 10.0,
+      "regression_integral": 298.0358869249517,
+      "derivative_plus_atoms": 298.0358869249516
+    }
+  ],
+  "nonintegrable_derivative_half_axis_lower_bounds": {
+    "10": 0.8376055194939895,
+    "100": 3.099050781181206,
+    "1000": 10.300951975320592,
+    "10000": 33.09155810118666
+  },
+  "reachable_zero_current_residual": {
+    "alpha": 0.6,
+    "e": 0.05,
+    "beta1": 0.9,
+    "beta2": 0,
+    "z": 0.5499999999999999,
+    "history": [
+      -0.5499999999999999,
+      0.0
+    ],
+    "update_factor": -5.210526315789473
+  },
+  "rational_certificate": {
+    "strict": 26,
+    "nonstrict": 2,
+    "output": "All manuscript rational comparisons passed."
+  },
+  "wall_seconds": 0.2322141240001656,
+  "max_rss_MiB": 80.42578125,
+  "thread_environment": {
+    "OPENBLAS_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1",
+    "BLIS_NUM_THREADS": "1"
+  },
+  "input_sha256": {
+    "THEOREM_M.md": "7eb71c3a3364312f0a2f1b71ffd5ac7add14dce9bc8a40f0838d6068f5db8bf9",
+    "PROOF_REVIEW.md": "d1f09dd8a00056e790bce982a4d587f87ae5a106f732823a0d58d1cf2885ce30",
+    "FIX_LOG.md": "a00c2f8a08371d284fe6e15de6cdcc843537770c15547a8be65f007e082277e8"
+  }
+}

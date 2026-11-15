@@ -1,0 +1,94 @@
+{
+  "rational_primitive_checks": 1000,
+  "mp_kernel_checks": [
+    {
+      "gamma": 16,
+      "t": 0.01,
+      "u": 0.03,
+      "absolute_difference": 1.595701348833245e-11
+    },
+    {
+      "gamma": 16,
+      "t": 0.5,
+      "u": 2.0,
+      "absolute_difference": 1.0696738633741987e-14
+    },
+    {
+      "gamma": 16,
+      "t": 3.0,
+      "u": 3.0,
+      "absolute_difference": 1.3552527156068805e-19
+    },
+    {
+      "gamma": 64,
+      "t": 0.01,
+      "u": 0.03,
+      "absolute_difference": 6.09823302966106e-12
+    },
+    {
+      "gamma": 64,
+      "t": 0.5,
+      "u": 2.0,
+      "absolute_difference": 2.018567604733512e-15
+    },
+    {
+      "gamma": 64,
+      "t": 3.0,
+      "u": 3.0,
+      "absolute_difference": 3.5540147214074835e-16
+    }
+  ],
+  "matrix_checks": [
+    {
+      "gamma": 16,
+      "d": 384,
+      "seed": 0,
+      "sample_k": 0.017519461591887206,
+      "limit_k": 0.017503177919284536,
+      "paired_identity_error": 1.249000902703301e-16
+    },
+    {
+      "gamma": 16,
+      "d": 384,
+      "seed": 1,
+      "sample_k": 0.017588533290154553,
+      "limit_k": 0.017503177919284536,
+      "paired_identity_error": 1.3530843112619095e-16
+    },
+    {
+      "gamma": 16,
+      "d": 384,
+      "seed": 2,
+      "sample_k": 0.01722917805440942,
+      "limit_k": 0.017503177919284536,
+      "paired_identity_error": 2.636779683484747e-16
+    },
+    {
+      "gamma": 64,
+      "d": 384,
+      "seed": 0,
+      "sample_k": 0.004355170156821735,
+      "limit_k": 0.004369229022821401,
+      "paired_identity_error": 1.1796119636642288e-16
+    },
+    {
+      "gamma": 64,
+      "d": 384,
+      "seed": 1,
+      "sample_k": 0.0043789858998226966,
+      "limit_k": 0.004369229022821401,
+      "paired_identity_error": 2.5587171270657905e-16
+    },
+    {
+      "gamma": 64,
+      "d": 384,
+      "seed": 2,
+      "sample_k": 0.0044558746298991,
+      "limit_k": 0.004369229022821401,
+      "paired_identity_error": 5.204170427930421e-17
+    }
+  ],
+  "first_coefficient_estimate": 0.2794938922981878,
+  "first_coefficient_exact": 0.2794938052100424,
+  "all_crossing_signs_pass": true
+}

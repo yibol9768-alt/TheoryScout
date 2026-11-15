@@ -1,0 +1,3262 @@
+{
+  "mode": "real",
+  "model_requested": "gpt-6-luna",
+  "endpoint": "http://127.0.0.1:18319/v1/chat/completions",
+  "started_utc": "2026-11-05T19:51:23.081712+00:00",
+  "concurrency": 1,
+  "global_call_cap": 500,
+  "per_run_call_cap": 20,
+  "max_completion_tokens": 2048,
+  "frozen_sha256": {
+    "pilot.py": "3ce5647451deb6df853ed3e5f3101a1a6ce0bf7809f88708cfc8f0a163888107",
+    "pilot2.py": "644931012785c7b158e78104e47d3eddc2cc7a3cb11c0e24a7d845b7ef188881",
+    "test_pilot.py": "bb0518ee9d1ce7a22bb7c2ef072ae37a40a49b9dad7ad3fd2a88a573f158e998",
+    "test_pilot2.py": "f6cb10a2184939a0785b860165bc05cc9f9a9cdf180cc6e75749ca18e712410f"
+  },
+  "prereg_sha256": "52d7bffa2dfaf31aa6719606fb5029609717f7680892d65bee1c88a7edf55a14",
+  "schedule": [
+    {
+      "family": "kv",
+      "seed": 3301,
+      "K": 2,
+      "injected": false
+    },
+    {
+      "family": "kv",
+      "seed": 3301,
+      "K": 2,
+      "injected": true
+    },
+    {
+      "family": "kv",
+      "seed": 3307,
+      "K": 2,
+      "injected": true
+    },
+    {
+      "family": "kv",
+      "seed": 3307,
+      "K": 2,
+      "injected": false
+    },
+    {
+      "family": "kv",
+      "seed": 3313,
+      "K": 2,
+      "injected": false
+    },
+    {
+      "family": "kv",
+      "seed": 3313,
+      "K": 2,
+      "injected": true
+    },
+    {
+      "family": "kv",
+      "seed": 3319,
+      "K": 3,
+      "injected": true
+    },
+    {
+      "family": "kv",
+      "seed": 3319,
+      "K": 3,
+      "injected": false
+    },
+    {
+      "family": "kv",
+      "seed": 3323,
+      "K": 3,
+      "injected": false
+    },
+    {
+      "family": "kv",
+      "seed": 3323,
+      "K": 3,
+      "injected": true
+    },
+    {
+      "family": "kv",
+      "seed": 3329,
+      "K": 3,
+      "injected": true
+    },
+    {
+      "family": "kv",
+      "seed": 3329,
+      "K": 3,
+      "injected": false
+    },
+    {
+      "family": "sheet",
+      "seed": 3301,
+      "K": 2,
+      "injected": false
+    },
+    {
+      "family": "sheet",
+      "seed": 3301,
+      "K": 2,
+      "injected": true
+    },
+    {
+      "family": "sheet",
+      "seed": 3307,
+      "K": 2,
+      "injected": true
+    },
+    {
+      "family": "sheet",
+      "seed": 3307,
+      "K": 2,
+      "injected": false
+    },
+    {
+      "family": "sheet",
+      "seed": 3313,
+      "K": 2,
+      "injected": false
+    },
+    {
+      "family": "sheet",
+      "seed": 3313,
+      "K": 2,
+      "injected": true
+    },
+    {
+      "family": "sheet",
+      "seed": 3319,
+      "K": 3,
+      "injected": true
+    },
+    {
+      "family": "sheet",
+      "seed": 3319,
+      "K": 3,
+      "injected": false
+    },
+    {
+      "family": "sheet",
+      "seed": 3323,
+      "K": 3,
+      "injected": false
+    },
+    {
+      "family": "sheet",
+      "seed": 3323,
+      "K": 3,
+      "injected": true
+    },
+    {
+      "family": "sheet",
+      "seed": 3329,
+      "K": 3,
+      "injected": true
+    },
+    {
+      "family": "sheet",
+      "seed": 3329,
+      "K": 3,
+      "injected": false
+    }
+  ],
+  "results": [
+    {
+      "family": "kv",
+      "seed": 3301,
+      "L": 16,
+      "K": 2,
+      "injected": false,
+      "status": "success",
+      "success": true,
+      "calls": 16,
+      "usage": {
+        "prompt_tokens": 7774,
+        "completion_tokens": 772,
+        "total_tokens": 8546
+      },
+      "progress": 16,
+      "work": 16,
+      "repair_events": 0,
+      "recoveries": 0,
+      "injections": 0,
+      "within_5L": true,
+      "peak_live_json_bytes": 284,
+      "peak_undo_slots": 1,
+      "repair_deltas": [],
+      "final": {
+        "obligations_ok": true,
+        "state_ok": true,
+        "current_prefix_ok": true,
+        "pending_empty": true,
+        "actual": {
+          "k0": -12,
+          "k1": -14,
+          "k2": -6,
+          "k3": -8,
+          "k4": 20,
+          "k5": 0,
+          "k6": 48,
+          "k7": 22
+        },
+        "expected": {
+          "k0": -12,
+          "k1": -14,
+          "k2": -6,
+          "k3": -8,
+          "k4": 20,
+          "k5": 0,
+          "k6": 48,
+          "k7": 22
+        },
+        "ledger": [
+          {
+            "step": 0,
+            "verified": true,
+            "state": {
+              "k0": 0,
+              "k1": 0,
+              "k2": 0,
+              "k3": 0,
+              "k4": 0,
+              "k5": 0,
+              "k6": 8,
+              "k7": 0
+            },
+            "undo_entries": 1
+          },
+          {
+            "step": 1,
+            "verified": true,
+            "state": {
+              "k0": 0,
+              "k1": -7,
+              "k2": 0,
+              "k3": 0,
+              "k4": 0,
+              "k5": 0,
+              "k6": 8,
+              "k7": 0
+            },
+            "undo_entries": 1
+          },
+          {
+            "step": 2,
+            "verified": true,
+            "state": {
+              "k0": 0,
+              "k1": -7,
+              "k2": 0,
+              "k3": 0,
+              "k4": 0,
+              "k5": 0,
+              "k6": 16,
+              "k7": 0
+            },
+            "undo_entries": 1
+          },
+          {
+            "step": 3,
+            "verified": true,
+            "state": {
+              "k0": 0,
+              "k1": -7,
+              "k2": 0,
+              "k3": 0,
+              "k4": 10,
+              "k5": 0,
+              "k6": 16,
+              "k7": 0
+            },
+            "undo_entries": 1
+          },
+          {
+            "step": 4,
+            "verified": true,
+            "state": {
+              "k0": 0,
+              "k1": -7,
+              "k2": 0,
+              "k3": 0,
+              "k4": 10,
+              "k5": 0,
+              "k6": 16,
+              "k7": 11
+            },
+            "undo_entries": 1
+          },
+          {
+            "step": 5,
+            "verified": true,
+            "state": {
+              "k0": 0,
+              "k1": -7,
+              "k2": 0,
+              "k3": 0,
+              "k4": 10,
+              "k5": 0,
+              "k6": 16,
+              "k7": 22
+            },
+            "undo_entries": 1
+          },
+          {
+            "step": 6,
+            "verified": true,
+            "state": {
+              "k0": 0,
+              "k1": -7,
+              "k2": -6,
+              "k3": 0,
+              "k4": 10,
+              "k5": 0,
+              "k6": 16,
+              "k7": 22
+            },
+            "undo_entries": 1
+          },
+          {
+            "step": 7,
+            "verified": true,
+            "state": {
+              "k0": 0,
+              "k1": -14,
+              "k2": -6,
+              "k3": 0,
+              "k4": 10,
+              "k5": 0,
+              "k6": 16,
+              "k7": 22
+            },
+            "undo_entries": 1
+          },
+          {
+            "step": 8,
+            "verified": true,
+            "state": {
+              "k0": 0,
+              "k1": -14,
+              "k2": -6,
+              "k3": 0,
+              "k4": 10,
+              "k5": 0,
+              "k6": 24,
+              "k7": 22
+            },
+            "undo_entries": 1
+          },
+          {
+            "step": 9,
+            "verified": true,
+            "state": {
+              "k0": 0,
+              "k1": -14,
+              "k2": -6,
+              "k3": 0,
+              "k4": 10,
+              "k5": 0,
+              "k6": 32,
+              "k7": 22
+            },
+            "undo_entries": 1
+          },
+          {
+            "step": 10,
+            "verified": true,
+            "state": {
+              "k0": 0,
+              "k1": -14,
+              "k2": -6,
+              "k3": -8,
+              "k4": 10,
+              "k5": 0,
+              "k6": 32,
+              "k7": 22
+            },
+            "undo_entries": 1
+          },
+          {
+            "step": 11,
+            "verified": true,
+            "state": {
+              "k0": 0,
+              "k1": -14,
+              "k2": -6,
+              "k3": -8,
+              "k4": 20,
+              "k5": 0,
+              "k6": 32,
+              "k7": 22
+            },
+            "undo_entries": 1
+          },
+          {
+            "step": 12,
+            "verified": true,
+            "state": {
+              "k0": -6,
+              "k1": -14,
+              "k2": -6,
+              "k3": -8,
+              "k4": 20,
+              "k5": 0,
+              "k6": 32,
+              "k7": 22
+            },
+            "undo_entries": 1
+          },
+          {
+            "step": 13,
+            "verified": true,
+            "state": {
+              "k0": -6,
+              "k1": -14,
+              "k2": -6,
+              "k3": -8,
+              "k4": 20,
+              "k5": 0,
+              "k6": 40,
+              "k7": 22
+            },
+            "undo_entries": 1
+          },
+          {
+            "step": 14,
+            "verified": true,
+            "state": {
+              "k0": -6,
+              "k1": -14,
+              "k2": -6,
+              "k3": -8,
+              "k4": 20,
+              "k5": 0,
+              "k6": 48,
+              "k7": 22
+            },
+            "undo_entries": 1
+          },
+          {
+            "step": 15,
+            "verified": true,
+            "state": {
+              "k0": -12,
+              "k1": -14,
+              "k2": -6,
+              "k3": -8,
+              "k4": 20,
+              "k5": 0,
+              "k6": 48,
+              "k7": 22
+            },
+            "undo_entries": 1
+          }
+        ]
+      },
+      "trace_bytes": 62876,
+      "trace": "pilot2_real/kv_3301_K2_clean.jsonl"
+    },
+    {
+      "family": "kv",
+      "seed": 3301,
+      "L": 16,
+      "K": 2,
+      "injected": true,
+      "status": "success",
+      "success": true,
+      "calls": 18,
+      "usage": {
+        "prompt_tokens": 8810,
+        "completion_tokens": 894,
+        "total_tokens": 9704
+      },
+      "progress": 16,
+      "work": 18,
+      "repair_events": 2,
+      "recoveries": 2,
+      "injections": 2,
+      "within_5L": true,
+      "peak_live_json_bytes": 443,
+      "peak_undo_slots": 1,
+      "repair_deltas": [
+        -1,
+        -1
+      ],
+      "final": {
+        "obligations_ok": true,
+        "state_ok": true,
+        "current_prefix_ok": true,
+        "pending_empty": true,
+        "actual": {
+          "k0": -12,
+          "k1": -14,
+          "k2": -6,
+          "k3": -8,
+          "k4": 20,
+          "k5": 0,
+          "k6": 48,
+          "k7": 22
+        },
+        "expected": {
+          "k0": -12,
+          "k1": -14,
+          "k2": -6,
+          "k3": -8,
+          "k4": 20,
+          "k5": 0,
+          "k6": 48,
+          "k7": 22
+        },
+        "ledger": [
+          {
+            "step": 0,
+            "verified": true,
+            "state": {
+              "k0": 0,
+              "k1": 0,
+              "k2": 0,
+              "k3": 0,
+              "k4": 0,
+              "k5": 0,
+              "k6": 8,
+              "k7": 0
+            },
+            "undo_entries": 1
+          },
+          {
+            "step": 1,
+            "verified": true,
+            "state": {
+              "k0": 0,
+              "k1": -7,
+              "k2": 0,
+              "k3": 0,
+              "k4": 0,
+              "k5": 0,
+              "k6": 8,
+              "k7": 0
+            },
+            "undo_entries": 1
+          },
+          {
+            "step": 2,
+            "verified": true,
+            "state": {
+              "k0": 0,
+              "k1": -7,
+              "k2": 0,
+              "k3": 0,
+              "k4": 0,
+              "k5": 0,
+              "k6": 16,
+              "k7": 0
+            },
+            "undo_entries": 1
+          },
+          {
+            "step": 3,
+            "verified": true,
+            "state": {
+              "k0": 0,
+              "k1": -7,
+              "k2": 0,
+              "k3": 0,
+              "k4": 10,
+              "k5": 0,
+              "k6": 16,
+              "k7": 0
+            },
+            "undo_entries": 1
+          },
+          {
+            "step": 4,
+            "verified": true,
+            "state": {
+              "k0": 0,
+              "k1": -7,
+              "k2": 0,
+              "k3": 0,
+              "k4": 10,
+              "k5": 0,
+              "k6": 16,
+              "k7": 11
+            },
+            "undo_entries": 2
+          },
+          {
+            "step": 5,
+            "verified": true,
+            "state": {
+              "k0": 0,
+              "k1": -7,
+              "k2": 0,
+              "k3": 0,
+              "k4": 10,
+              "k5": 0,
+              "k6": 16,
+              "k7": 22
+            },
+            "undo_entries": 1
+          },
+          {
+            "step": 6,
+            "verified": true,
+            "state": {
+              "k0": 0,
+              "k1": -7,
+              "k2": -6,
+              "k3": 0,
+              "k4": 10,
+              "k5": 0,
+              "k6": 16,
+              "k7": 22
+            },
+            "undo_entries": 1
+          },
+          {
+            "step": 7,
+            "verified": true,
+            "state": {
+              "k0": 0,
+              "k1": -14,
+              "k2": -6,
+              "k3": 0,
+              "k4": 10,
+              "k5": 0,
+              "k6": 16,
+              "k7": 22
+            },
+            "undo_entries": 1
+          },
+          {
+            "step": 8,
+            "verified": true,
+            "state": {
+              "k0": 0,
+              "k1": -14,
+              "k2": -6,
+              "k3": 0,
+              "k4": 10,
+              "k5": 0,
+              "k6": 24,
+              "k7": 22
+            },
+            "undo_entries": 1
+          },
+          {
+            "step": 9,
+            "verified": true,
+            "state": {
+              "k0": 0,
+              "k1": -14,
+              "k2": -6,
+              "k3": 0,
+              "k4": 10,
+              "k5": 0,
+              "k6": 32,
+              "k7": 22
+            },
+            "undo_entries": 1
+          },
+          {
+            "step": 10,
+            "verified": true,
+            "state": {
+              "k0": 0,
+              "k1": -14,
+              "k2": -6,
+              "k3": -8,
+              "k4": 10,
+              "k5": 0,
+              "k6": 32,
+              "k7": 22
+            },
+            "undo_entries": 2
+          },
+          {
+            "step": 11,
+            "verified": true,
+            "state": {
+              "k0": 0,
+              "k1": -14,
+              "k2": -6,
+              "k3": -8,
+              "k4": 20,
+              "k5": 0,
+              "k6": 32,
+              "k7": 22
+            },
+            "undo_entries": 1
+          },
+          {
+            "step": 12,
+            "verified": true,
+            "state": {
+              "k0": -6,
+              "k1": -14,
+              "k2": -6,
+              "k3": -8,
+              "k4": 20,
+              "k5": 0,
+              "k6": 32,
+              "k7": 22
+            },
+            "undo_entries": 1
+          },
+          {
+            "step": 13,
+            "verified": true,
+            "state": {
+              "k0": -6,
+              "k1": -14,
+              "k2": -6,
+              "k3": -8,
+              "k4": 20,
+              "k5": 0,
+              "k6": 40,
+              "k7": 22
+            },
+            "undo_entries": 1
+          },
+          {
+            "step": 14,
+            "verified": true,
+            "state": {
+              "k0": -6,
+              "k1": -14,
+              "k2": -6,
+              "k3": -8,
+              "k4": 20,
+              "k5": 0,
+              "k6": 48,
+              "k7": 22
+            },
+            "undo_entries": 1
+          },
+          {
+            "step": 15,
+            "verified": true,
+            "state": {
+              "k0": -12,
+              "k1": -14,
+              "k2": -6,
+              "k3": -8,
+              "k4": 20,
+              "k5": 0,
+              "k6": 48,
+              "k7": 22
+            },
+            "undo_entries": 1
+          }
+        ]
+      },
+      "trace_bytes": 71314,
+      "trace": "pilot2_real/kv_3301_K2_injected.jsonl"
+    },
+    {
+      "family": "kv",
+      "seed": 3307,
+      "L": 16,
+      "K": 2,
+      "injected": true,
+      "status": "success",
+      "success": true,
+      "calls": 18,
+      "usage": {
+        "prompt_tokens": 8766,
+        "completion_tokens": 834,
+        "total_tokens": 9600
+      },
+      "progress": 16,
+      "work": 18,
+      "repair_events": 2,
+      "recoveries": 2,
+      "injections": 2,
+      "within_5L": true,
+      "peak_live_json_bytes": 440,
+      "peak_undo_slots": 1,
+      "repair_deltas": [
+        -1,
+        -1
+      ],
+      "final": {
+        "obligations_ok": true,
+        "state_ok": true,
+        "current_prefix_ok": true,
+        "pending_empty": true,
+        "actual": {
+          "k0": 16,
+          "k1": 0,
+          "k2": 10,
+          "k3": 24,
+          "k4": -8,
+          "k5": 30,
+          "k6": -28,
+          "k7": -18
+        },
+        "expected": {
+          "k0": 16,
+          "k1": 0,
+          "k2": 10,
+          "k3": 24,
+          "k4": -8,
+          "k5": 30,
+          "k6": -28,
+          "k7": -18
+        },
+        "ledger": [
+          {
+            "step": 0,
+            "verified": true,
+            "state": {
+              "k0": 0,
+              "k1": 0,
+              "k2": 0,
+              "k3": 0,
+              "k4": 0,
+              "k5": 15,
+              "k6": 0,
+              "k7": 0
+            },
+            "undo_entries": 1
+          },
+          {
+            "step": 1,
+            "verified": true,
+            "state": {
+              "k0": 0,
+              "k1": 0,
+              "k2": 0,
+              "k3": 0,
+              "k4": 0,
+              "k5": 15,
+              "k6": 0,
+              "k7": 0
+            },
+            "undo_entries": 1
+          },
+          {
+            "step": 2,
+            "verified": true,
+            "state": {
+              "k0": 0,
+              "k1": 0,
+              "k2": 0,
+              "k3": 0,
+              "k4": 0,
+              "k5": 15,
+              "k6": 0,
+              "k7": -18
+            },
+            "undo_entries": 1
+          },
+          {
+            "step": 3,
+            "verified": true,
+            "state": {
+              "k0": 0,
+              "k1": 0,
+              "k2": 0,
+              "k3": 0,
+              "k4": 0,
+              "k5": 15,
+              "k6": 0,
+              "k7": -18
+            },
+            "undo_entries": 1
+          },
+          {
+            "step": 4,
+            "verified": true,
+            "state": {
+              "k0": 0,
+              "k1": 0,
+              "k2": 0,
+              "k3": 0,
+              "k4": 0,
+              "k5": 15,
+              "k6": -7,
+              "k7": -18
+            },
+            "undo_entries": 2
+          },
+          {
+            "step": 5,
+            "verified": true,
+            "state": {
+              "k0": 0,
+              "k1": 0,
+              "k2": 0,
+              "k3": 0,
+              "k4": 0,
+              "k5": 15,
+              "k6": -14,
+              "k7": -18
+            },
+            "undo_entries": 1
+          },
+          {
+            "step": 6,
+            "verified": true,
+            "state": {
+              "k0": 0,
+              "k1": 0,
+              "k2": 0,
+              "k3": 0,
+              "k4": 0,
+              "k5": 15,
+              "k6": -21,
+              "k7": -18
+            },
+            "undo_entries": 1
+          },
+          {
+            "step": 7,
+            "verified": true,
+            "state": {
+              "k0": 8,
+              "k1": 0,
+              "k2": 0,
+              "k3": 0,
+              "k4": 0,
+              "k5": 15,
+              "k6": -21,
+              "k7": -18
+            },
+            "undo_entries": 1
+          },
+          {
+            "step": 8,
+            "verified": true,
+            "state": {
+              "k0": 8,
+              "k1": 0,
+              "k2": 0,
+              "k3": 12,
+              "k4": 0,
+              "k5": 15,
+              "k6": -21,
+              "k7": -18
+            },
+            "undo_entries": 1
+          },
+          {
+            "step": 9,
+            "verified": true,
+            "state": {
+              "k0": 8,
+              "k1": 0,
+              "k2": 10,
+              "k3": 12,
+              "k4": 0,
+              "k5": 15,
+              "k6": -21,
+              "k7": -18
+            },
+            "undo_entries": 1
+          },
+          {
+            "step": 10,
+            "verified": true,
+            "state": {
+              "k0": 8,
+              "k1": 0,
+              "k2": 10,
+              "k3": 12,
+              "k4": 0,
+              "k5": 15,
+              "k6": -21,
+              "k7": -18
+            },
+            "undo_entries": 2
+          },
+          {
+            "step": 11,
+            "verified": true,
+            "state": {
+              "k0": 8,
+              "k1": 0,
+              "k2": 10,
+              "k3": 12,
+              "k4": -8,
+              "k5": 15,
+              "k6": -21,
+              "k7": -18
+            },
+            "undo_entries": 1
+          },
+          {
+            "step": 12,
+            "verified": true,
+            "state": {
+              "k0": 8,
+              "k1": 0,
+              "k2": 10,
+              "k3": 12,
+              "k4": -8,
+              "k5": 30,
+              "k6": -21,
+              "k7": -18
+            },
+            "undo_entries": 1
+          },
+          {
+            "step": 13,
+            "verified": true,
+            "state": {
+              "k0": 8,
+              "k1": 0,
+              "k2": 10,
+              "k3": 12,
+              "k4": -8,
+              "k5": 30,
+              "k6": -28,
+              "k7": -18
+            },
+            "undo_entries": 1
+          },
+          {
+            "step": 14,
+            "verified": true,
+            "state": {
+              "k0": 16,
+              "k1": 0,
+              "k2": 10,
+              "k3": 12,
+              "k4": -8,
+              "k5": 30,
+              "k6": -28,
+              "k7": -18
+            },
+            "undo_entries": 1
+          },
+          {
+            "step": 15,
+            "verified": true,
+            "state": {
+              "k0": 16,
+              "k1": 0,
+              "k2": 10,
+              "k3": 24,
+              "k4": -8,
+              "k5": 30,
+              "k6": -28,
+              "k7": -18
+            },
+            "undo_entries": 1
+          }
+        ]
+      },
+      "trace_bytes": 71295,
+      "trace": "pilot2_real/kv_3307_K2_injected.jsonl"
+    },
+    {
+      "family": "kv",
+      "seed": 3307,
+      "L": 16,
+      "K": 2,
+      "injected": false,
+      "status": "success",
+      "success": true,
+      "calls": 16,
+      "usage": {
+        "prompt_tokens": 7736,
+        "completion_tokens": 756,
+        "total_tokens": 8492
+      },
+      "progress": 16,
+      "work": 16,
+      "repair_events": 0,
+      "recoveries": 0,
+      "injections": 0,
+      "within_5L": true,
+      "peak_live_json_bytes": 285,
+      "peak_undo_slots": 1,
+      "repair_deltas": [],
+      "final": {
+        "obligations_ok": true,
+        "state_ok": true,
+        "current_prefix_ok": true,
+        "pending_empty": true,
+        "actual": {
+          "k0": 16,
+          "k1": 0,
+          "k2": 10,
+          "k3": 24,
+          "k4": -8,
+          "k5": 30,
+          "k6": -28,
+          "k7": -18
+        },
+        "expected": {
+          "k0": 16,
+          "k1": 0,
+          "k2": 10,
+          "k3": 24,
+          "k4": -8,
+          "k5": 30,
+          "k6": -28,
+          "k7": -18
+        },
+        "ledger": [
+          {
+            "step": 0,
+            "verified": true,
+            "state": {
+              "k0": 0,
+              "k1": 0,
+              "k2": 0,
+              "k3": 0,
+              "k4": 0,
+              "k5": 15,
+              "k6": 0,
+              "k7": 0
+            },
+            "undo_entries": 1
+          },
+          {
+            "step": 1,
+            "verified": true,
+            "state": {
+              "k0": 0,
+              "k1": 0,
+              "k2": 0,
+              "k3": 0,
+              "k4": 0,
+              "k5": 15,
+              "k6": 0,
+              "k7": 0
+            },
+            "undo_entries": 1
+          },
+          {
+            "step": 2,
+            "verified": true,
+            "state": {
+              "k0": 0,
+              "k1": 0,
+              "k2": 0,
+              "k3": 0,
+              "k4": 0,
+              "k5": 15,
+              "k6": 0,
+              "k7": -18
+            },
+            "undo_entries": 1
+          },
+          {
+            "step": 3,
+            "verified": true,
+            "state": {
+              "k0": 0,
+              "k1": 0,
+              "k2": 0,
+              "k3": 0,
+              "k4": 0,
+              "k5": 15,
+              "k6": 0,
+              "k7": -18
+            },
+            "undo_entries": 1
+          },
+          {
+            "step": 4,
+            "verified": true,
+            "state": {
+              "k0": 0,
+              "k1": 0,
+              "k2": 0,
+              "k3": 0,
+              "k4": 0,
+              "k5": 15,
+              "k6": -7,
+              "k7": -18
+            },
+            "undo_entries": 1
+          },
+          {
+            "step": 5,
+            "verified": true,
+            "state": {
+              "k0": 0,
+              "k1": 0,
+              "k2": 0,
+              "k3": 0,
+              "k4": 0,
+              "k5": 15,
+              "k6": -14,
+              "k7": -18
+            },
+            "undo_entries": 1
+          },
+          {
+            "step": 6,
+            "verified": true,
+            "state": {
+              "k0": 0,
+              "k1": 0,
+              "k2": 0,
+              "k3": 0,
+              "k4": 0,
+              "k5": 15,
+              "k6": -21,
+              "k7": -18
+            },
+            "undo_entries": 1
+          },
+          {
+            "step": 7,
+            "verified": true,
+            "state": {
+              "k0": 8,
+              "k1": 0,
+              "k2": 0,
+              "k3": 0,
+              "k4": 0,
+              "k5": 15,
+              "k6": -21,
+              "k7": -18
+            },
+            "undo_entries": 1
+          },
+          {
+            "step": 8,
+            "verified": true,
+            "state": {
+              "k0": 8,
+              "k1": 0,
+              "k2": 0,
+              "k3": 12,
+              "k4": 0,
+              "k5": 15,
+              "k6": -21,
+              "k7": -18
+            },
+            "undo_entries": 1
+          },
+          {
+            "step": 9,
+            "verified": true,
+            "state": {
+              "k0": 8,
+              "k1": 0,
+              "k2": 10,
+              "k3": 12,
+              "k4": 0,
+              "k5": 15,
+              "k6": -21,
+              "k7": -18
+            },
+            "undo_entries": 1
+          },
+          {
+            "step": 10,
+            "verified": true,
+            "state": {
+              "k0": 8,
+              "k1": 0,
+              "k2": 10,
+              "k3": 12,
+              "k4": 0,
+              "k5": 15,
+              "k6": -21,
+              "k7": -18
+            },
+            "undo_entries": 1
+          },
+          {
+            "step": 11,
+            "verified": true,
+            "state": {
+              "k0": 8,
+              "k1": 0,
+              "k2": 10,
+              "k3": 12,
+              "k4": -8,
+              "k5": 15,
+              "k6": -21,
+              "k7": -18
+            },
+            "undo_entries": 1
+          },
+          {
+            "step": 12,
+            "verified": true,
+            "state": {
+              "k0": 8,
+              "k1": 0,
+              "k2": 10,
+              "k3": 12,
+              "k4": -8,
+              "k5": 30,
+              "k6": -21,
+              "k7": -18
+            },
+            "undo_entries": 1
+          },
+          {
+            "step": 13,
+            "verified": true,
+            "state": {
+              "k0": 8,
+              "k1": 0,
+              "k2": 10,
+              "k3": 12,
+              "k4": -8,
+              "k5": 30,
+              "k6": -28,
+              "k7": -18
+            },
+            "undo_entries": 1
+          },
+          {
+            "step": 14,
+            "verified": true,
+            "state": {
+              "k0": 16,
+              "k1": 0,
+              "k2": 10,
+              "k3": 12,
+              "k4": -8,
+              "k5": 30,
+              "k6": -28,
+              "k7": -18
+            },
+            "undo_entries": 1
+          },
+          {
+            "step": 15,
+            "verified": true,
+            "state": {
+              "k0": 16,
+              "k1": 0,
+              "k2": 10,
+              "k3": 24,
+              "k4": -8,
+              "k5": 30,
+              "k6": -28,
+              "k7": -18
+            },
+            "undo_entries": 1
+          }
+        ]
+      },
+      "trace_bytes": 62888,
+      "trace": "pilot2_real/kv_3307_K2_clean.jsonl"
+    },
+    {
+      "family": "kv",
+      "seed": 3313,
+      "L": 16,
+      "K": 2,
+      "injected": false,
+      "status": "success",
+      "success": true,
+      "calls": 16,
+      "usage": {
+        "prompt_tokens": 7830,
+        "completion_tokens": 763,
+        "total_tokens": 8593
+      },
+      "progress": 16,
+      "work": 16,
+      "repair_events": 0,
+      "recoveries": 0,
+      "injections": 0,
+      "within_5L": true,
+      "peak_live_json_bytes": 293,
+      "peak_undo_slots": 1,
+      "repair_deltas": [],
+      "final": {
+        "obligations_ok": true,
+        "state_ok": true,
+        "current_prefix_ok": true,
+        "pending_empty": true,
+        "actual": {
+          "k0": 14,
+          "k1": -17,
+          "k2": -11,
+          "k3": 32,
+          "k4": -16,
+          "k5": -56,
+          "k6": -28,
+          "k7": 15
+        },
+        "expected": {
+          "k0": 14,
+          "k1": -17,
+          "k2": -11,
+          "k3": 32,
+          "k4": -16,
+          "k5": -56,
+          "k6": -28,
+          "k7": 15
+        },
+        "ledger": [
+          {
+            "step": 0,
+            "verified": true,
+            "state": {
+              "k0": 0,
+              "k1": 0,
+              "k2": 0,
+              "k3": 0,
+              "k4": -8,
+              "k5": 0,
+              "k6": 0,
+              "k7": 0
+            },
+            "undo_entries": 1
+          },
+          {
+            "step": 1,
+            "verified": true,
+            "state": {
+              "k0": 0,
+              "k1": 0,
+              "k2": 0,
+              "k3": 0,
+              "k4": -16,
+              "k5": 0,
+              "k6": 0,
+              "k7": 0
+            },
+            "undo_entries": 1
+          },
+          {
+            "step": 2,
+            "verified": true,
+            "state": {
+              "k0": 0,
+              "k1": -17,
+              "k2": 0,
+              "k3": 0,
+              "k4": -16,
+              "k5": 0,
+              "k6": 0,
+              "k7": 0
+            },
+            "undo_entries": 1
+          },
+          {
+            "step": 3,
+            "verified": true,
+            "state": {
+              "k0": 0,
+              "k1": -17,
+              "k2": 0,
+              "k3": 0,
+              "k4": -16,
+              "k5": -14,
+              "k6": 0,
+              "k7": 0
+            },
+            "undo_entries": 1
+          },
+          {
+            "step": 4,
+            "verified": true,
+            "state": {
+              "k0": 0,
+              "k1": -17,
+              "k2": 0,
+              "k3": 0,
+              "k4": -16,
+              "k5": -14,
+              "k6": 0,
+              "k7": 5
+            },
+            "undo_entries": 1
+          },
+          {
+            "step": 5,
+            "verified": true,
+            "state": {
+              "k0": 0,
+              "k1": -17,
+              "k2": 0,
+              "k3": 0,
+              "k4": -16,
+              "k5": -14,
+              "k6": -14,
+              "k7": 5
+            },
+            "undo_entries": 1
+          },
+          {
+            "step": 6,
+            "verified": true,
+            "state": {
+              "k0": 0,
+              "k1": -17,
+              "k2": -11,
+              "k3": 0,
+              "k4": -16,
+              "k5": -14,
+              "k6": -14,
+              "k7": 5
+            },
+            "undo_entries": 1
+          },
+          {
+            "step": 7,
+            "verified": true,
+            "state": {
+              "k0": 0,
+              "k1": -17,
+              "k2": -11,
+              "k3": 16,
+              "k4": -16,
+              "k5": -14,
+              "k6": -14,
+              "k7": 5
+            },
+            "undo_entries": 1
+          },
+          {
+            "step": 8,
+            "verified": true,
+            "state": {
+              "k0": 0,
+              "k1": -17,
+              "k2": -11,
+              "k3": 16,
+              "k4": -16,
+              "k5": -28,
+              "k6": -14,
+              "k7": 5
+            },
+            "undo_entries": 1
+          },
+          {
+            "step": 9,
+            "verified": true,
+            "state": {
+              "k0": 0,
+              "k1": -17,
+              "k2": -11,
+              "k3": 32,
+              "k4": -16,
+              "k5": -28,
+              "k6": -14,
+              "k7": 5
+            },
+            "undo_entries": 1
+          },
+          {
+            "step": 10,
+            "verified": true,
+            "state": {
+              "k0": 0,
+              "k1": -17,
+              "k2": -11,
+              "k3": 32,
+              "k4": -16,
+              "k5": -28,
+              "k6": -14,
+              "k7": 10
+            },
+            "undo_entries": 1
+          },
+          {
+            "step": 11,
+            "verified": true,
+            "state": {
+              "k0": 0,
+              "k1": -17,
+              "k2": -11,
+              "k3": 32,
+              "k4": -16,
+              "k5": -42,
+              "k6": -14,
+              "k7": 10
+            },
+            "undo_entries": 1
+          },
+          {
+            "step": 12,
+            "verified": true,
+            "state": {
+              "k0": 0,
+              "k1": -17,
+              "k2": -11,
+              "k3": 32,
+              "k4": -16,
+              "k5": -42,
+              "k6": -28,
+              "k7": 10
+            },
+            "undo_entries": 1
+          },
+          {
+            "step": 13,
+            "verified": true,
+            "state": {
+              "k0": 0,
+              "k1": -17,
+              "k2": -11,
+              "k3": 32,
+              "k4": -16,
+              "k5": -56,
+              "k6": -28,
+              "k7": 10
+            },
+            "undo_entries": 1
+          },
+          {
+            "step": 14,
+            "verified": true,
+            "state": {
+              "k0": 14,
+              "k1": -17,
+              "k2": -11,
+              "k3": 32,
+              "k4": -16,
+              "k5": -56,
+              "k6": -28,
+              "k7": 10
+            },
+            "undo_entries": 1
+          },
+          {
+            "step": 15,
+            "verified": true,
+            "state": {
+              "k0": 14,
+              "k1": -17,
+              "k2": -11,
+              "k3": 32,
+              "k4": -16,
+              "k5": -56,
+              "k6": -28,
+              "k7": 15
+            },
+            "undo_entries": 1
+          }
+        ]
+      },
+      "trace_bytes": 63381,
+      "trace": "pilot2_real/kv_3313_K2_clean.jsonl"
+    },
+    {
+      "family": "kv",
+      "seed": 3313,
+      "L": 16,
+      "K": 2,
+      "injected": true,
+      "status": "success",
+      "success": true,
+      "calls": 18,
+      "usage": {
+        "prompt_tokens": 8874,
+        "completion_tokens": 877,
+        "total_tokens": 9751
+      },
+      "progress": 16,
+      "work": 18,
+      "repair_events": 2,
+      "recoveries": 2,
+      "injections": 2,
+      "within_5L": true,
+      "peak_live_json_bytes": 453,
+      "peak_undo_slots": 1,
+      "repair_deltas": [
+        -1,
+        -1
+      ],
+      "final": {
+        "obligations_ok": true,
+        "state_ok": true,
+        "current_prefix_ok": true,
+        "pending_empty": true,
+        "actual": {
+          "k0": 14,
+          "k1": -17,
+          "k2": -11,
+          "k3": 32,
+          "k4": -16,
+          "k5": -56,
+          "k6": -28,
+          "k7": 15
+        },
+        "expected": {
+          "k0": 14,
+          "k1": -17,
+          "k2": -11,
+          "k3": 32,
+          "k4": -16,
+          "k5": -56,
+          "k6": -28,
+          "k7": 15
+        },
+        "ledger": [
+          {
+            "step": 0,
+            "verified": true,
+            "state": {
+              "k0": 0,
+              "k1": 0,
+              "k2": 0,
+              "k3": 0,
+              "k4": -8,
+              "k5": 0,
+              "k6": 0,
+              "k7": 0
+            },
+            "undo_entries": 1
+          },
+          {
+            "step": 1,
+            "verified": true,
+            "state": {
+              "k0": 0,
+              "k1": 0,
+              "k2": 0,
+              "k3": 0,
+              "k4": -16,
+              "k5": 0,
+              "k6": 0,
+              "k7": 0
+            },
+            "undo_entries": 1
+          },
+          {
+            "step": 2,
+            "verified": true,
+            "state": {
+              "k0": 0,
+              "k1": -17,
+              "k2": 0,
+              "k3": 0,
+              "k4": -16,
+              "k5": 0,
+              "k6": 0,
+              "k7": 0
+            },
+            "undo_entries": 1
+          },
+          {
+            "step": 3,
+            "verified": true,
+            "state": {
+              "k0": 0,
+              "k1": -17,
+              "k2": 0,
+              "k3": 0,
+              "k4": -16,
+              "k5": -14,
+              "k6": 0,
+              "k7": 0
+            },
+            "undo_entries": 1
+          },
+          {
+            "step": 4,
+            "verified": true,
+            "state": {
+              "k0": 0,
+              "k1": -17,
+              "k2": 0,
+              "k3": 0,
+              "k4": -16,
+              "k5": -14,
+              "k6": 0,
+              "k7": 5
+            },
+            "undo_entries": 2
+          },
+          {
+            "step": 5,
+            "verified": true,
+            "state": {
+              "k0": 0,
+              "k1": -17,
+              "k2": 0,
+              "k3": 0,
+              "k4": -16,
+              "k5": -14,
+              "k6": -14,
+              "k7": 5
+            },
+            "undo_entries": 1
+          },
+          {
+            "step": 6,
+            "verified": true,
+            "state": {
+              "k0": 0,
+              "k1": -17,
+              "k2": -11,
+              "k3": 0,
+              "k4": -16,
+              "k5": -14,
+              "k6": -14,
+              "k7": 5
+            },
+            "undo_entries": 1
+          },
+          {
+            "step": 7,
+            "verified": true,
+            "state": {
+              "k0": 0,
+              "k1": -17,
+              "k2": -11,
+              "k3": 16,
+              "k4": -16,
+              "k5": -14,
+              "k6": -14,
+              "k7": 5
+            },
+            "undo_entries": 1
+          },
+          {
+            "step": 8,
+            "verified": true,
+            "state": {
+              "k0": 0,
+              "k1": -17,
+              "k2": -11,
+              "k3": 16,
+              "k4": -16,
+              "k5": -28,
+              "k6": -14,
+              "k7": 5
+            },
+            "undo_entries": 1
+          },
+          {
+            "step": 9,
+            "verified": true,
+            "state": {
+              "k0": 0,
+              "k1": -17,
+              "k2": -11,
+              "k3": 32,
+              "k4": -16,
+              "k5": -28,
+              "k6": -14,
+              "k7": 5
+            },
+            "undo_entries": 1
+          },
+          {
+            "step": 10,
+            "verified": true,
+            "state": {
+              "k0": 0,
+              "k1": -17,
+              "k2": -11,
+              "k3": 32,
+              "k4": -16,
+              "k5": -28,
+              "k6": -14,
+              "k7": 10
+            },
+            "undo_entries": 2
+          },
+          {
+            "step": 11,
+            "verified": true,
+            "state": {
+              "k0": 0,
+              "k1": -17,
+              "k2": -11,
+              "k3": 32,
+              "k4": -16,
+              "k5": -42,
+              "k6": -14,
+              "k7": 10
+            },
+            "undo_entries": 1
+          },
+          {
+            "step": 12,
+            "verified": true,
+            "state": {
+              "k0": 0,
+              "k1": -17,
+              "k2": -11,
+              "k3": 32,
+              "k4": -16,
+              "k5": -42,
+              "k6": -28,
+              "k7": 10
+            },
+            "undo_entries": 1
+          },
+          {
+            "step": 13,
+            "verified": true,
+            "state": {
+              "k0": 0,
+              "k1": -17,
+              "k2": -11,
+              "k3": 32,
+              "k4": -16,
+              "k5": -56,
+              "k6": -28,
+              "k7": 10
+            },
+            "undo_entries": 1
+          },
+          {
+            "step": 14,
+            "verified": true,
+            "state": {
+              "k0": 14,
+              "k1": -17,
+              "k2": -11,
+              "k3": 32,
+              "k4": -16,
+              "k5": -56,
+              "k6": -28,
+              "k7": 10
+            },
+            "undo_entries": 1
+          },
+          {
+            "step": 15,
+            "verified": true,
+            "state": {
+              "k0": 14,
+              "k1": -17,
+              "k2": -11,
+              "k3": 32,
+              "k4": -16,
+              "k5": -56,
+              "k6": -28,
+              "k7": 15
+            },
+            "undo_entries": 1
+          }
+        ]
+      },
+      "trace_bytes": 71858,
+      "trace": "pilot2_real/kv_3313_K2_injected.jsonl"
+    },
+    {
+      "family": "kv",
+      "seed": 3319,
+      "L": 16,
+      "K": 3,
+      "injected": true,
+      "status": "success",
+      "success": true,
+      "calls": 18,
+      "usage": {
+        "prompt_tokens": 8734,
+        "completion_tokens": 848,
+        "total_tokens": 9582
+      },
+      "progress": 16,
+      "work": 18,
+      "repair_events": 2,
+      "recoveries": 2,
+      "injections": 2,
+      "within_5L": true,
+      "peak_live_json_bytes": 444,
+      "peak_undo_slots": 1,
+      "repair_deltas": [
+        -1,
+        -1
+      ],
+      "final": {
+        "obligations_ok": true,
+        "state_ok": true,
+        "current_prefix_ok": true,
+        "pending_empty": true,
+        "actual": {
+          "k0": 45,
+          "k1": 0,
+          "k2": -16,
+          "k3": 57,
+          "k4": 4,
+          "k5": -18,
+          "k6": 26,
+          "k7": 3
+        },
+        "expected": {
+          "k0": 45,
+          "k1": 0,
+          "k2": -16,
+          "k3": 57,
+          "k4": 4,
+          "k5": -18,
+          "k6": 26,
+          "k7": 3
+        },
+        "ledger": [
+          {
+            "step": 0,
+            "verified": true,
+            "state": {
+              "k0": 0,
+              "k1": 0,
+              "k2": -4,
+              "k3": 0,
+              "k4": 0,
+              "k5": 0,
+              "k6": 0,
+              "k7": 0
+            },
+            "undo_entries": 1
+          },
+          {
+            "step": 1,
+            "verified": true,
+            "state": {
+              "k0": 15,
+              "k1": 0,
+              "k2": -4,
+              "k3": 0,
+              "k4": 0,
+              "k5": 0,
+              "k6": 0,
+              "k7": 0
+            },
+            "undo_entries": 1
+          },
+          {
+            "step": 2,
+            "verified": true,
+            "state": {
+              "k0": 15,
+              "k1": 0,
+              "k2": -4,
+              "k3": 19,
+              "k4": 0,
+              "k5": 0,
+              "k6": 0,
+              "k7": 0
+            },
+            "undo_entries": 1
+          },
+          {
+            "step": 3,
+            "verified": true,
+            "state": {
+              "k0": 15,
+              "k1": 0,
+              "k2": -8,
+              "k3": 19,
+              "k4": 0,
+              "k5": 0,
+              "k6": 0,
+              "k7": 0
+            },
+            "undo_entries": 1
+          },
+          {
+            "step": 4,
+            "verified": true,
+            "state": {
+              "k0": 15,
+              "k1": 0,
+              "k2": -8,
+              "k3": 38,
+              "k4": 0,
+              "k5": 0,
+              "k6": 0,
+              "k7": 0
+            },
+            "undo_entries": 2
+          },
+          {
+            "step": 5,
+            "verified": true,
+            "state": {
+              "k0": 30,
+              "k1": 0,
+              "k2": -8,
+              "k3": 38,
+              "k4": 0,
+              "k5": 0,
+              "k6": 0,
+              "k7": 0
+            },
+            "undo_entries": 1
+          },
+          {
+            "step": 6,
+            "verified": true,
+            "state": {
+              "k0": 30,
+              "k1": 0,
+              "k2": -8,
+              "k3": 38,
+              "k4": 0,
+              "k5": 0,
+              "k6": 0,
+              "k7": 3
+            },
+            "undo_entries": 1
+          },
+          {
+            "step": 7,
+            "verified": true,
+            "state": {
+              "k0": 30,
+              "k1": 0,
+              "k2": -8,
+              "k3": 38,
+              "k4": 2,
+              "k5": 0,
+              "k6": 0,
+              "k7": 3
+            },
+            "undo_entries": 1
+          },
+          {
+            "step": 8,
+            "verified": true,
+            "state": {
+              "k0": 30,
+              "k1": 0,
+              "k2": -12,
+              "k3": 38,
+              "k4": 2,
+              "k5": 0,
+              "k6": 0,
+              "k7": 3
+            },
+            "undo_entries": 1
+          },
+          {
+            "step": 9,
+            "verified": true,
+            "state": {
+              "k0": 30,
+              "k1": 0,
+              "k2": -12,
+              "k3": 38,
+              "k4": 2,
+              "k5": -18,
+              "k6": 0,
+              "k7": 3
+            },
+            "undo_entries": 1
+          },
+          {
+            "step": 10,
+            "verified": true,
+            "state": {
+              "k0": 45,
+              "k1": 0,
+              "k2": -12,
+              "k3": 38,
+              "k4": 2,
+              "k5": -18,
+              "k6": 0,
+              "k7": 3
+            },
+            "undo_entries": 2
+          },
+          {
+            "step": 11,
+            "verified": true,
+            "state": {
+              "k0": 45,
+              "k1": 0,
+              "k2": -16,
+              "k3": 38,
+              "k4": 2,
+              "k5": -18,
+              "k6": 0,
+              "k7": 3
+            },
+            "undo_entries": 1
+          },
+          {
+            "step": 12,
+            "verified": true,
+            "state": {
+              "k0": 45,
+              "k1": 0,
+              "k2": -16,
+              "k3": 38,
+              "k4": 2,
+              "k5": -18,
+              "k6": 13,
+              "k7": 3
+            },
+            "undo_entries": 1
+          },
+          {
+            "step": 13,
+            "verified": true,
+            "state": {
+              "k0": 45,
+              "k1": 0,
+              "k2": -16,
+              "k3": 38,
+              "k4": 2,
+              "k5": -18,
+              "k6": 26,
+              "k7": 3
+            },
+            "undo_entries": 1
+          },
+          {
+            "step": 14,
+            "verified": true,
+            "state": {
+              "k0": 45,
+              "k1": 0,
+              "k2": -16,
+              "k3": 38,
+              "k4": 4,
+              "k5": -18,
+              "k6": 26,
+              "k7": 3
+            },
+            "undo_entries": 1
+          },
+          {
+            "step": 15,
+            "verified": true,
+            "state": {
+              "k0": 45,
+              "k1": 0,
+              "k2": -16,
+              "k3": 57,
+              "k4": 4,
+              "k5": -18,
+              "k6": 26,
+              "k7": 3
+            },
+            "undo_entries": 1
+          }
+        ]
+      },
+      "trace_bytes": 71206,
+      "trace": "pilot2_real/kv_3319_K3_injected.jsonl"
+    },
+    {
+      "family": "kv",
+      "seed": 3319,
+      "L": 16,
+      "K": 3,
+      "injected": false,
+      "status": "success",
+      "success": true,
+      "calls": 16,
+      "usage": {
+        "prompt_tokens": 7706,
+        "completion_tokens": 770,
+        "total_tokens": 8476
+      },
+      "progress": 16,
+      "work": 16,
+      "repair_events": 0,
+      "recoveries": 0,
+      "injections": 0,
+      "within_5L": true,
+      "peak_live_json_bytes": 281,
+      "peak_undo_slots": 1,
+      "repair_deltas": [],
+      "final": {
+        "obligations_ok": true,
+        "state_ok": true,
+        "current_prefix_ok": true,
+        "pending_empty": true,
+        "actual": {
+          "k0": 45,
+          "k1": 0,
+          "k2": -16,
+          "k3": 57,
+          "k4": 4,
+          "k5": -18,
+          "k6": 26,
+          "k7": 3
+        },
+        "expected": {
+          "k0": 45,
+          "k1": 0,
+          "k2": -16,
+          "k3": 57,
+          "k4": 4,
+          "k5": -18,
+          "k6": 26,
+          "k7": 3
+        },
+        "ledger": [
+          {
+            "step": 0,
+            "verified": true,
+            "state": {
+              "k0": 0,
+              "k1": 0,
+              "k2": -4,
+              "k3": 0,
+              "k4": 0,
+              "k5": 0,
+              "k6": 0,
+              "k7": 0
+            },
+            "undo_entries": 1
+          },
+          {
+            "step": 1,
+            "verified": true,
+            "state": {
+              "k0": 15,
+              "k1": 0,
+              "k2": -4,
+              "k3": 0,
+              "k4": 0,
+              "k5": 0,
+              "k6": 0,
+              "k7": 0
+            },
+            "undo_entries": 1
+          },
+          {
+            "step": 2,
+            "verified": true,
+            "state": {
+              "k0": 15,
+              "k1": 0,
+              "k2": -4,
+              "k3": 19,
+              "k4": 0,
+              "k5": 0,
+              "k6": 0,
+              "k7": 0
+            },
+            "undo_entries": 1
+          },
+          {
+            "step": 3,
+            "verified": true,
+            "state": {
+              "k0": 15,
+              "k1": 0,
+              "k2": -8,
+              "k3": 19,
+              "k4": 0,
+              "k5": 0,
+              "k6": 0,
+              "k7": 0
+            },
+            "undo_entries": 1
+          },
+          {
+            "step": 4,
+            "verified": true,
+            "state": {
+              "k0": 15,
+              "k1": 0,
+              "k2": -8,
+              "k3": 38,
+              "k4": 0,
+              "k5": 0,
+              "k6": 0,
+              "k7": 0
+            },
+            "undo_entries": 1
+          },
+          {
+            "step": 5,
+            "verified": true,
+            "state": {
+              "k0": 30,
+              "k1": 0,
+              "k2": -8,
+              "k3": 38,
+              "k4": 0,
+              "k5": 0,
+              "k6": 0,
+              "k7": 0
+            },
+            "undo_entries": 1
+          },
+          {
+            "step": 6,
+            "verified": true,
+            "state": {
+              "k0": 30,
+              "k1": 0,
+              "k2": -8,
+              "k3": 38,
+              "k4": 0,
+              "k5": 0,
+              "k6": 0,
+              "k7": 3
+            },
+            "undo_entries": 1
+          },
+          {
+            "step": 7,
+            "verified": true,
+            "state": {
+              "k0": 30,
+              "k1": 0,
+              "k2": -8,
+              "k3": 38,
+              "k4": 2,
+              "k5": 0,
+              "k6": 0,
+              "k7": 3
+            },
+            "undo_entries": 1
+          },
+          {
+            "step": 8,
+            "verified": true,
+            "state": {
+              "k0": 30,
+              "k1": 0,
+              "k2": -12,
+              "k3": 38,
+              "k4": 2,
+              "k5": 0,
+              "k6": 0,
+              "k7": 3
+            },
+            "undo_entries": 1
+          },
+          {
+            "step": 9,
+            "verified": true,
+            "state": {
+              "k0": 30,
+              "k1": 0,
+              "k2": -12,
+              "k3": 38,
+              "k4": 2,
+              "k5": -18,
+              "k6": 0,
+              "k7": 3
+            },
+            "undo_entries": 1
+          },
+          {
+            "step": 10,
+            "verified": true,
+            "state": {
+              "k0": 45,
+              "k1": 0,
+              "k2": -12,
+              "k3": 38,
+              "k4": 2,
+              "k5": -18,
+              "k6": 0,
+              "k7": 3
+            },
+            "undo_entries": 1
+          },
+          {
+            "step": 11,
+            "verified": true,
+            "state": {
+              "k0": 45,
+              "k1": 0,
+              "k2": -16,
+              "k3": 38,
+              "k4": 2,
+              "k5": -18,
+              "k6": 0,
+              "k7": 3
+            },
+            "undo_entries": 1
+          },
+          {
+            "step": 12,
+            "verified": true,
+            "state": {
+              "k0": 45,
+              "k1": 0,
+              "k2": -16,
+              "k3": 38,
+              "k4": 2,
+              "k5": -18,
+              "k6": 13,
+              "k7": 3
+            },
+            "undo_entries": 1
+          },
+          {
+            "step": 13,
+            "verified": true,
+            "state": {
+              "k0": 45,
+              "k1": 0,
+              "k2": -16,
+              "k3": 38,
+              "k4": 2,
+              "k5": -18,
+              "k6": 26,
+              "k7": 3
+            },
+            "undo_entries": 1
+          },
+          {
+            "step": 14,
+            "verified": true,
+            "state": {
+              "k0": 45,
+              "k1": 0,
+              "k2": -16,
+              "k3": 38,
+              "k4": 4,
+              "k5": -18,
+              "k6": 26,
+              "k7": 3
+            },
+            "undo_entries": 1
+          },
+          {
+            "step": 15,
+            "verified": true,
+            "state": {
+              "k0": 45,
+              "k1": 0,
+              "k2": -16,
+              "k3": 57,
+              "k4": 4,
+              "k5": -18,
+              "k6": 26,
+              "k7": 3
+            },
+            "undo_entries": 1
+          }
+        ]
+      },
+      "trace_bytes": 62766,
+      "trace": "pilot2_real/kv_3319_K3_clean.jsonl"
+    },
+    {
+      "family": "kv",
+      "seed": 3323,
+      "L": 16,
+      "K": 3,
+      "injected": false,
+      "status": "transport_or_response_error",
+      "success": false,
+      "calls": 11,
+      "usage": {
+        "prompt_tokens": 4880,
+        "completion_tokens": 482,
+        "total_tokens": 5362
+      },
+      "progress": 10,
+      "work": 10,
+      "repair_events": 0,
+      "recoveries": 0,
+      "injections": 0,
+      "within_5L": true,
+      "peak_live_json_bytes": 282,
+      "peak_undo_slots": 1,
+      "repair_deltas": [],
+      "final": {
+        "obligations_ok": false,
+        "state_ok": false,
+        "current_prefix_ok": true,
+        "pending_empty": true,
+        "actual": {
+          "k0": -34,
+          "k1": 16,
+          "k2": -6,
+          "k3": 0,
+          "k4": -40,
+          "k5": -16,
+          "k6": 0,
+          "k7": -10
+        },
+        "expected": {
+          "k0": -51,
+          "k1": 16,
+          "k2": -6,
+          "k3": 0,
+          "k4": -70,
+          "k5": -16,
+          "k6": 19,
+          "k7": -20
+        },
+        "ledger": [
+          {
+            "step": 0,
+            "verified": true,
+            "state": {
+              "k0": -17,
+              "k1": 0,
+              "k2": 0,
+              "k3": 0,
+              "k4": 0,
+              "k5": 0,
+              "k6": 0,
+              "k7": 0
+            },
+            "undo_entries": 1
+          },
+          {
+            "step": 1,
+            "verified": true,
+            "state": {
+              "k0": -17,
+              "k1": 0,
+              "k2": 0,
+              "k3": 0,
+              "k4": 0,
+              "k5": 0,
+              "k6": 0,
+              "k7": -10
+            },
+            "undo_entries": 1
+          },
+          {
+            "step": 2,
+            "verified": true,
+            "state": {
+              "k0": -17,
+              "k1": 0,
+              "k2": 0,
+              "k3": 0,
+              "k4": -10,
+              "k5": 0,
+              "k6": 0,
+              "k7": -10
+            },
+            "undo_entries": 1
+          },
+          {
+            "step": 3,
+            "verified": true,
+            "state": {
+              "k0": -34,
+              "k1": 0,
+              "k2": 0,
+              "k3": 0,
+              "k4": -10,
+              "k5": 0,
+              "k6": 0,
+              "k7": -10
+            },
+            "undo_entries": 1
+          },
+          {
+            "step": 4,
+            "verified": true,
+            "state": {
+              "k0": -34,
+              "k1": 0,
+              "k2": 0,
+              "k3": 0,
+              "k4": -20,
+              "k5": 0,
+              "k6": 0,
+              "k7": -10
+            },
+            "undo_entries": 1
+          },
+          {
+            "step": 5,
+            "verified": true,
+            "state": {
+              "k0": -34,
+              "k1": 0,
+              "k2": 0,
+              "k3": 0,
+              "k4": -30,
+              "k5": 0,
+              "k6": 0,
+              "k7": -10
+            },
+            "undo_entries": 1
+          },
+          {
+            "step": 6,
+            "verified": true,
+            "state": {
+              "k0": -34,
+              "k1": 16,
+              "k2": 0,
+              "k3": 0,
+              "k4": -30,
+              "k5": 0,
+              "k6": 0,
+              "k7": -10
+            },
+            "undo_entries": 1
+          },
+          {
+            "step": 7,
+            "verified": true,
+            "state": {
+              "k0": -34,
+              "k1": 16,
+              "k2": 0,
+              "k3": 0,
+              "k4": -40,
+              "k5": 0,
+              "k6": 0,
+              "k7": -10
+            },
+            "undo_entries": 1
+          },
+          {
+            "step": 8,
+            "verified": true,
+            "state": {
+              "k0": -34,
+              "k1": 16,
+              "k2": -6,
+              "k3": 0,
+              "k4": -40,
+              "k5": 0,
+              "k6": 0,
+              "k7": -10
+            },
+            "undo_entries": 1
+          },
+          {
+            "step": 9,
+            "verified": true,
+            "state": {
+              "k0": -34,
+              "k1": 16,
+              "k2": -6,
+              "k3": 0,
+              "k4": -40,
+              "k5": -16,
+              "k6": 0,
+              "k7": -10
+            },
+            "undo_entries": 1
+          }
+        ]
+      },
+      "trace_bytes": 42132,
+      "trace": "pilot2_real/kv_3323_K3_clean.jsonl"
+    },
+    {
+      "family": "kv",
+      "seed": 3323,
+      "L": 16,
+      "K": 3,
+      "injected": true,
+      "status": "transport_or_response_error",
+      "success": false,
+      "calls": 12,
+      "usage": {
+        "prompt_tokens": 5402,
+        "completion_tokens": 548,
+        "total_tokens": 5950
+      },
+      "progress": 10,
+      "work": 11,
+      "repair_events": 1,
+      "recoveries": 1,
+      "injections": 1,
+      "within_5L": true,
+      "peak_live_json_bytes": 449,
+      "peak_undo_slots": 1,
+      "repair_deltas": [
+        -1
+      ],
+      "final": {
+        "obligations_ok": false,
+        "state_ok": false,
+        "current_prefix_ok": true,
+        "pending_empty": true,
+        "actual": {
+          "k0": -34,
+          "k1": 16,
+          "k2": -6,
+          "k3": 0,
+          "k4": -40,
+          "k5": -16,
+          "k6": 0,
+          "k7": -10
+        },
+        "expected": {
+          "k0": -51,
+          "k1": 16,
+          "k2": -6,
+          "k3": 0,
+          "k4": -70,
+          "k5": -16,
+          "k6": 19,
+          "k7": -20
+        },
+        "ledger": [
+          {
+            "step": 0,
+            "verified": true,
+            "state": {
+              "k0": -17,
+              "k1": 0,
+              "k2": 0,
+              "k3": 0,
+              "k4": 0,
+              "k5": 0,
+              "k6": 0,
+              "k7": 0
+            },
+            "undo_entries": 1
+          },
+          {
+            "step": 1,
+            "verified": true,
+            "state": {
+              "k0": -17,
+              "k1": 0,
+              "k2": 0,
+              "k3": 0,
+              "k4": 0,
+              "k5": 0,
+              "k6": 0,
+              "k7": -10
+            },
+            "undo_entries": 1
+          },
+          {
+            "step": 2,
+            "verified": true,
+            "state": {
+              "k0": -17,
+              "k1": 0,
+              "k2": 0,
+              "k3": 0,
+              "k4": -10,
+              "k5": 0,
+              "k6": 0,
+              "k7": -10
+            },
+            "undo_entries": 1
+          },
+          {
+            "step": 3,
+            "verified": true,
+            "state": {
+              "k0": -34,
+              "k1": 0,
+              "k2": 0,
+              "k3": 0,
+              "k4": -10,
+              "k5": 0,
+              "k6": 0,
+              "k7": -10
+            },
+            "undo_entries": 1
+          },
+          {
+            "step": 4,
+            "verified": true,
+            "state": {
+              "k0": -34,
+              "k1": 0,
+              "k2": 0,
+              "k3": 0,
+              "k4": -20,
+              "k5": 0,
+              "k6": 0,
+              "k7": -10
+            },
+            "undo_entries": 2
+          },
+          {
+            "step": 5,
+            "verified": true,
+            "state": {
+              "k0": -34,
+              "k1": 0,
+              "k2": 0,
+              "k3": 0,
+              "k4": -30,
+              "k5": 0,
+              "k6": 0,
+              "k7": -10
+            },
+            "undo_entries": 1
+          },
+          {
+            "step": 6,
+            "verified": true,
+            "state": {
+              "k0": -34,
+              "k1": 16,
+              "k2": 0,
+              "k3": 0,
+              "k4": -30,
+              "k5": 0,
+              "k6": 0,
+              "k7": -10
+            },
+            "undo_entries": 1
+          },
+          {
+            "step": 7,
+            "verified": true,
+            "state": {
+              "k0": -34,
+              "k1": 16,
+              "k2": 0,
+              "k3": 0,
+              "k4": -40,
+              "k5": 0,
+              "k6": 0,
+              "k7": -10
+            },
+            "undo_entries": 1
+          },
+          {
+            "step": 8,
+            "verified": true,
+            "state": {
+              "k0": -34,
+              "k1": 16,
+              "k2": -6,
+              "k3": 0,
+              "k4": -40,
+              "k5": 0,
+              "k6": 0,
+              "k7": -10
+            },
+            "undo_entries": 1
+          },
+          {
+            "step": 9,
+            "verified": true,
+            "state": {
+              "k0": -34,
+              "k1": 16,
+              "k2": -6,
+              "k3": 0,
+              "k4": -40,
+              "k5": -16,
+              "k6": 0,
+              "k7": -10
+            },
+            "undo_entries": 1
+          }
+        ]
+      },
+      "trace_bytes": 46383,
+      "trace": "pilot2_resume_real/kv_3323_K3_injected.jsonl"
+    }
+  ],
+  "calls": 159,
+  "halt": "transport_or_response_error",
+  "updated_utc": "2026-11-05T20:02:50.545640+00:00",
+  "finished_utc": "2026-11-05T20:07:20.950253+00:00",
+  "continuation": {
+    "mode": "real",
+    "started_utc": "2026-11-05T20:04:23.153426+00:00",
+    "base_summary_sha256": "5f86892787a05d34820094926d00b216f9f23bcff4729217c83bf91ce1ce8b42",
+    "prior_calls": 147,
+    "schedule": [
+      {
+        "family": "kv",
+        "seed": 3323,
+        "K": 3,
+        "injected": true
+      },
+      {
+        "family": "kv",
+        "seed": 3329,
+        "K": 3,
+        "injected": true
+      },
+      {
+        "family": "kv",
+        "seed": 3329,
+        "K": 3,
+        "injected": false
+      },
+      {
+        "family": "sheet",
+        "seed": 3301,
+        "K": 2,
+        "injected": false
+      },
+      {
+        "family": "sheet",
+        "seed": 3301,
+        "K": 2,
+        "injected": true
+      },
+      {
+        "family": "sheet",
+        "seed": 3307,
+        "K": 2,
+        "injected": true
+      },
+      {
+        "family": "sheet",
+        "seed": 3307,
+        "K": 2,
+        "injected": false
+      },
+      {
+        "family": "sheet",
+        "seed": 3313,
+        "K": 2,
+        "injected": false
+      },
+      {
+        "family": "sheet",
+        "seed": 3313,
+        "K": 2,
+        "injected": true
+      },
+      {
+        "family": "sheet",
+        "seed": 3319,
+        "K": 3,
+        "injected": true
+      },
+      {
+        "family": "sheet",
+        "seed": 3319,
+        "K": 3,
+        "injected": false
+      },
+      {
+        "family": "sheet",
+        "seed": 3323,
+        "K": 3,
+        "injected": false
+      },
+      {
+        "family": "sheet",
+        "seed": 3323,
+        "K": 3,
+        "injected": true
+      },
+      {
+        "family": "sheet",
+        "seed": 3329,
+        "K": 3,
+        "injected": true
+      },
+      {
+        "family": "sheet",
+        "seed": 3329,
+        "K": 3,
+        "injected": false
+      }
+    ],
+    "results": [
+      {
+        "family": "kv",
+        "seed": 3323,
+        "L": 16,
+        "K": 3,
+        "injected": true,
+        "status": "transport_or_response_error",
+        "success": false,
+        "calls": 12,
+        "usage": {
+          "prompt_tokens": 5402,
+          "completion_tokens": 548,
+          "total_tokens": 5950
+        },
+        "progress": 10,
+        "work": 11,
+        "repair_events": 1,
+        "recoveries": 1,
+        "injections": 1,
+        "within_5L": true,
+        "peak_live_json_bytes": 449,
+        "peak_undo_slots": 1,
+        "repair_deltas": [
+          -1
+        ],
+        "final": {
+          "obligations_ok": false,
+          "state_ok": false,
+          "current_prefix_ok": true,
+          "pending_empty": true,
+          "actual": {
+            "k0": -34,
+            "k1": 16,
+            "k2": -6,
+            "k3": 0,
+            "k4": -40,
+            "k5": -16,
+            "k6": 0,
+            "k7": -10
+          },
+          "expected": {
+            "k0": -51,
+            "k1": 16,
+            "k2": -6,
+            "k3": 0,
+            "k4": -70,
+            "k5": -16,
+            "k6": 19,
+            "k7": -20
+          },
+          "ledger": [
+            {
+              "step": 0,
+              "verified": true,
+              "state": {
+                "k0": -17,
+                "k1": 0,
+                "k2": 0,
+                "k3": 0,
+                "k4": 0,
+                "k5": 0,
+                "k6": 0,
+                "k7": 0
+              },
+              "undo_entries": 1
+            },
+            {
+              "step": 1,
+              "verified": true,
+              "state": {
+                "k0": -17,
+                "k1": 0,
+                "k2": 0,
+                "k3": 0,
+                "k4": 0,
+                "k5": 0,
+                "k6": 0,
+                "k7": -10
+              },
+              "undo_entries": 1
+            },
+            {
+              "step": 2,
+              "verified": true,
+              "state": {
+                "k0": -17,
+                "k1": 0,
+                "k2": 0,
+                "k3": 0,
+                "k4": -10,
+                "k5": 0,
+                "k6": 0,
+                "k7": -10
+              },
+              "undo_entries": 1
+            },
+            {
+              "step": 3,
+              "verified": true,
+              "state": {
+                "k0": -34,
+                "k1": 0,
+                "k2": 0,
+                "k3": 0,
+                "k4": -10,
+                "k5": 0,
+                "k6": 0,
+                "k7": -10
+              },
+              "undo_entries": 1
+            },
+            {
+              "step": 4,
+              "verified": true,
+              "state": {
+                "k0": -34,
+                "k1": 0,
+                "k2": 0,
+                "k3": 0,
+                "k4": -20,
+                "k5": 0,
+                "k6": 0,
+                "k7": -10
+              },
+              "undo_entries": 2
+            },
+            {
+              "step": 5,
+              "verified": true,
+              "state": {
+                "k0": -34,
+                "k1": 0,
+                "k2": 0,
+                "k3": 0,
+                "k4": -30,
+                "k5": 0,
+                "k6": 0,
+                "k7": -10
+              },
+              "undo_entries": 1
+            },
+            {
+              "step": 6,
+              "verified": true,
+              "state": {
+                "k0": -34,
+                "k1": 16,
+                "k2": 0,
+                "k3": 0,
+                "k4": -30,
+                "k5": 0,
+                "k6": 0,
+                "k7": -10
+              },
+              "undo_entries": 1
+            },
+            {
+              "step": 7,
+              "verified": true,
+              "state": {
+                "k0": -34,
+                "k1": 16,
+                "k2": 0,
+                "k3": 0,
+                "k4": -40,
+                "k5": 0,
+                "k6": 0,
+                "k7": -10
+              },
+              "undo_entries": 1
+            },
+            {
+              "step": 8,
+              "verified": true,
+              "state": {
+                "k0": -34,
+                "k1": 16,
+                "k2": -6,
+                "k3": 0,
+                "k4": -40,
+                "k5": 0,
+                "k6": 0,
+                "k7": -10
+              },
+              "undo_entries": 1
+            },
+            {
+              "step": 9,
+              "verified": true,
+              "state": {
+                "k0": -34,
+                "k1": 16,
+                "k2": -6,
+                "k3": 0,
+                "k4": -40,
+                "k5": -16,
+                "k6": 0,
+                "k7": -10
+              },
+              "undo_entries": 1
+            }
+          ]
+        },
+        "trace_bytes": 46383,
+        "trace": "pilot2_resume_real/kv_3323_K3_injected.jsonl"
+      }
+    ],
+    "calls": 12,
+    "halt": "transport_or_response_error",
+    "concurrency": 1,
+    "global_call_cap": 500,
+    "amendment_sha256": "9b0d74db01c60c5a6867b584b14690026d864e4099b032841951e9fdb635d3b1",
+    "continuation_sha256": {
+      "resume_pilot2.py": "92ce1a96d86dd8af6b6d87e5a1d2b2f80a98c1549bf06b93e7f91f83d8a8b935",
+      "test_resume_pilot2.py": "e328cea08084fb363e4a7f43e79e05c258f5bf2d2f3dda75cdb013afdf066a0c"
+    },
+    "updated_utc": "2026-11-05T20:07:20.950273+00:00",
+    "finished_utc": "2026-11-05T20:07:20.950253+00:00"
+  },
+  "original_halt": "transport_or_response_error",
+  "original_finished_utc": "2026-11-05T20:02:50.545622+00:00"
+}

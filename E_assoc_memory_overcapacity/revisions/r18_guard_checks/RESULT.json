@@ -1,0 +1,12 @@
+[
+  {
+    "case": "old_snapshot",
+    "rejected": true,
+    "no_output_created": true
+  },
+  {
+    "case": "wrong_revision",
+    "rejected": true,
+    "no_output_created": true
+  }
+]

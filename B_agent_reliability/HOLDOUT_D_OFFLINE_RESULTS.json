@@ -1,0 +1,310 @@
+{
+  "sensitivity": {
+    "46": {
+      "cutoff": {
+        "critical": 1.964,
+        "strict": "T > critical",
+        "alpha": 0.025,
+        "upper_rounded_weights": [
+          419,
+          351,
+          -455,
+          -352,
+          78
+        ],
+        "lattice_unit": 0.001,
+        "null_tail_upper": 0.0249794944420355,
+        "numerical_margin": 1e-12,
+        "total_mass": 1.0,
+        "derivation": "U>=T pathwise; finite convolution under fixed A; P_A(T>c)<=P_A(U>c)<=.025"
+      },
+      "type1_MC": 0.0243,
+      "power_MC": 0.54079,
+      "power_log40_MC": 0.22691
+    },
+    "128": {
+      "cutoff": {
+        "critical": 0.875,
+        "strict": "T > critical",
+        "alpha": 0.025,
+        "upper_rounded_weights": [
+          419,
+          351,
+          -455,
+          -352,
+          78
+        ],
+        "lattice_unit": 0.001,
+        "null_tail_upper": 0.024986822589449145,
+        "numerical_margin": 1e-12,
+        "total_mass": 1.0,
+        "derivation": "U>=T pathwise; finite convolution under fixed A; P_A(T>c)<=P_A(U>c)<=.025"
+      },
+      "type1_MC": 0.02363,
+      "power_MC": 0.93113,
+      "power_log40_MC": 0.74906
+    },
+    "140": {
+      "cutoff": {
+        "critical": 0.627,
+        "strict": "T > critical",
+        "alpha": 0.025,
+        "upper_rounded_weights": [
+          419,
+          351,
+          -455,
+          -352,
+          78
+        ],
+        "lattice_unit": 0.001,
+        "null_tail_upper": 0.024994838132114925,
+        "numerical_margin": 1e-12,
+        "total_mass": 1.0,
+        "derivation": "U>=T pathwise; finite convolution under fixed A; P_A(T>c)<=P_A(U>c)<=.025"
+      },
+      "type1_MC": 0.02384,
+      "power_MC": 0.95131,
+      "power_log40_MC": 0.78705
+    },
+    "144": {
+      "cutoff": {
+        "critical": 0.541,
+        "strict": "T > critical",
+        "alpha": 0.025,
+        "upper_rounded_weights": [
+          419,
+          351,
+          -455,
+          -352,
+          78
+        ],
+        "lattice_unit": 0.001,
+        "null_tail_upper": 0.024998966904556084,
+        "numerical_margin": 1e-12,
+        "total_mass": 1.0,
+        "derivation": "U>=T pathwise; finite convolution under fixed A; P_A(T>c)<=P_A(U>c)<=.025"
+      },
+      "type1_MC": 0.02358,
+      "power_MC": 0.95589,
+      "power_log40_MC": 0.80057
+    },
+    "150": {
+      "cutoff": {
+        "critical": 0.411,
+        "strict": "T > critical",
+        "alpha": 0.025,
+        "upper_rounded_weights": [
+          419,
+          351,
+          -455,
+          -352,
+          78
+        ],
+        "lattice_unit": 0.001,
+        "null_tail_upper": 0.024990974253407496,
+        "numerical_margin": 1e-12,
+        "total_mass": 1.0,
+        "derivation": "U>=T pathwise; finite convolution under fixed A; P_A(T>c)<=P_A(U>c)<=.025"
+      },
+      "type1_MC": 0.02361,
+      "power_MC": 0.9622,
+      "power_log40_MC": 0.81495
+    },
+    "160": {
+      "cutoff": {
+        "critical": 0.186,
+        "strict": "T > critical",
+        "alpha": 0.025,
+        "upper_rounded_weights": [
+          419,
+          351,
+          -455,
+          -352,
+          78
+        ],
+        "lattice_unit": 0.001,
+        "null_tail_upper": 0.02499611120961417,
+        "numerical_margin": 1e-12,
+        "total_mass": 0.9999999999999999,
+        "derivation": "U>=T pathwise; finite convolution under fixed A; P_A(T>c)<=P_A(U>c)<=.025"
+      },
+      "type1_MC": 0.02289,
+      "power_MC": 0.97147,
+      "power_log40_MC": 0.8392
+    }
+  },
+  "protocol_D": {
+    "simulations": 100000,
+    "seed": 116990002,
+    "cost_mean": 7190.726,
+    "cost_sd": 361.55953835709795,
+    "cost_quantiles": {
+      "0.5": 7191.0,
+      "0.95": 7785.0,
+      "0.99": 8027.0,
+      "0.999": 8268.001000000004
+    },
+    "cap_exceed_count": 0,
+    "rates": {
+      "budget_complete": 1.0,
+      "llr": 0.95595,
+      "llr40": 0.80021,
+      "calibration": 0.96268,
+      "budget_and_llr": 0.95595,
+      "budget_calibration_llr": 0.92353,
+      "mechanism_eligible": 1.0,
+      "fatal_cluster_normal": 0.94578,
+      "r2_cluster_normal": 0.94977,
+      "joint_mechanism_cluster_normal": 0.92266,
+      "all_gates_normal_approx": 0.89188
+    },
+    "mean_segment_counts": [
+      [
+        1942.80103,
+        45.15727,
+        442.29463,
+        95.65622,
+        50.49895
+      ],
+      [
+        3745.00756,
+        39.16871,
+        808.30877,
+        156.65779,
+        117.48908
+      ]
+    ],
+    "segment_columns": [
+      "exposures",
+      "fatal",
+      "natural_errors",
+      "r2_attempts",
+      "r2_successes"
+    ],
+    "actual_bootstrap_power": {
+      "experiments": 300,
+      "bootstraps_each": 10000,
+      "seed": 116990006,
+      "eligible": 1.0,
+      "fatal_difference": 0.9533333333333334,
+      "r2_difference": 0.96,
+      "joint": 0.94,
+      "note": "Unconditional ideal fixed-D power; MC uncertainty is substantial at only 300 outer replicates"
+    }
+  },
+  "protocol_A": {
+    "simulations": 100000,
+    "seed": 116990003,
+    "cost_mean": 7579.81046,
+    "cost_sd": 332.61026032045544,
+    "cost_quantiles": {
+      "0.5": 7583.0,
+      "0.95": 8125.0,
+      "0.99": 8343.0,
+      "0.999": 8591.003000000012
+    },
+    "cap_exceed_count": 0,
+    "rates": {
+      "budget_complete": 1.0,
+      "llr": 0.02323,
+      "llr40": 0.00221,
+      "calibration": 0.4314,
+      "budget_and_llr": 0.02323,
+      "budget_calibration_llr": 0.02227,
+      "mechanism_eligible": 1.0,
+      "fatal_cluster_normal": 0.01821,
+      "r2_cluster_normal": 0.02294,
+      "joint_mechanism_cluster_normal": 0.00951,
+      "all_gates_normal_approx": 0.00913
+    },
+    "mean_segment_counts": [
+      [
+        2064.31791,
+        30.66223,
+        456.81477,
+        98.4345,
+        67.77227
+      ],
+      [
+        3908.88943,
+        58.11547,
+        864.86325,
+        186.4906,
+        128.37513
+      ]
+    ],
+    "segment_columns": [
+      "exposures",
+      "fatal",
+      "natural_errors",
+      "r2_attempts",
+      "r2_successes"
+    ]
+  },
+  "mechanisms": {
+    "expected_exposure_per_task": [
+      13.492039825830146,
+      26.011859228374092
+    ],
+    "expected_r2_per_task": [
+      0.6639964917701782,
+      1.087874620454779
+    ],
+    "expected_exposures_N": [
+      1942.853734919541,
+      3745.707728885869
+    ],
+    "expected_r2_N": [
+      95.61549481490566,
+      156.65394534548815
+    ],
+    "expected_fatal_N": [
+      45.151761440372105,
+      39.163486336372046
+    ],
+    "minimum_eligibility": {
+      "r2_attempts_each_segment": 30,
+      "fatal_each_segment": 10,
+      "bootstrap_valid": 9900,
+      "bootstrap_total": 10000
+    },
+    "normal_planning_requirements": {
+      "0.8": {
+        "fatal": {
+          "early_required": 1348,
+          "tail_required": 2599,
+          "tasks_required": 100
+        },
+        "r2": {
+          "early_required": 58,
+          "tail_required": 95,
+          "tasks_required": 88
+        }
+      },
+      "0.9": {
+        "fatal": {
+          "early_required": 1805,
+          "tail_required": 3479,
+          "tasks_required": 134
+        },
+        "r2": {
+          "early_required": 78,
+          "tail_required": 127,
+          "tasks_required": 117
+        }
+      }
+    },
+    "note": "Normal approximation at expected exposure ratio, not a guaranteed sufficient sample size. Final rule is whole-task bootstrap; failed denominator eligibility means 信息不足."
+  },
+  "MC_se_max_100000": 0.0015811388300841897,
+  "mechanism_bootstrap_MC_se_max_300": 0.02886751345948129,
+  "limitations": [
+    "fixed-parameter IID simulations; no transport/quota delay",
+    "model/parameter uncertainty is not integrated into ideal power",
+    "mechanism normal approximation distinct from exact frozen bootstrap",
+    "quota pause increases wall time; 15h is active-return estimate only"
+  ],
+  "no_network": true,
+  "no_llm": true,
+  "no_formal_or_smoke_batch": true
+}

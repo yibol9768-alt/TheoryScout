@@ -1,0 +1,281 @@
+{
+  "scope": "Exact rational input coefficients only; matrix construction and eigenvalues excluded",
+  "cases": [
+    {
+      "coefficients": [
+        "1",
+        "-1"
+      ],
+      "counts": [
+        8,
+        8
+      ],
+      "exact_scale": "8",
+      "tau": "2",
+      "cutoff": 64,
+      "panels": 64,
+      "quadrature_nodes": 512,
+      "probability": {
+        "lower_integer": "730750818651402138187682415903920490612135570245",
+        "upper_integer": "730750818679500780016002416812362529043796972731",
+        "denominator_power2": 160,
+        "approximate": [
+          0.4999999999903871,
+          0.500000000009613
+        ],
+        "width_approximate": 1.9225870919745062e-11
+      },
+      "arithmetic_only": {
+        "lower_integer": "730750818665451459101842416358141509827966271349",
+        "upper_integer": "730750818665451459101842416358141509827966271627",
+        "denominator_power2": 160,
+        "approximate": [
+          0.5,
+          0.5
+        ],
+        "width_approximate": 1.9021531888784138e-46
+      },
+      "finite_quadrature_error": {
+        "lower_integer": "509915728540648198358240761455240384",
+        "upper_integer": "509915728540648198358240782010582611",
+        "denominator_power2": 160,
+        "approximate": [
+          3.4889849967728546e-13,
+          3.4889849967728546e-13
+        ],
+        "width_approximate": 1.4064535886897542e-38
+      },
+      "infinite_tail_error": {
+        "lower_integer": "13539405185619352255862778433820118492",
+        "upper_integer": "13539405185619352255862778433820118493",
+        "denominator_power2": 160,
+        "approximate": [
+          9.264036960195246e-12,
+          9.264036960195246e-12
+        ],
+        "width_approximate": 6.842277657836021e-49
+      },
+      "derivative_bound": {
+        "lower_integer": "1474666844079979691690863625689391297096993183322875556000",
+        "upper_integer": "1474666844079979691690863625689391297096993183327983659000",
+        "denominator_power2": 160,
+        "approximate": [
+          1009008000.0,
+          1009008000.0
+        ],
+        "width_approximate": 3.495105903082515e-39
+      },
+      "target_width": "1/100000000",
+      "exact_reference": "1/2",
+      "contains_exact_reference": true
+    },
+    {
+      "coefficients": [
+        "1",
+        "-7/10"
+      ],
+      "counts": [
+        8,
+        12
+      ],
+      "exact_scale": "8",
+      "tau": "2",
+      "cutoff": 32,
+      "panels": 32,
+      "quadrature_nodes": 256,
+      "probability": {
+        "lower_integer": "662450818479235293433464073671160622369515078967",
+        "upper_integer": "662450821547262837275282988987530614878425654021",
+        "denominator_power2": 160,
+        "approximate": [
+          0.4532672434695657,
+          0.45326724556879533
+        ],
+        "width_approximate": 2.09922963168544e-09
+      },
+      "arithmetic_only": {
+        "lower_integer": "662450820013249065354373531329345618623970366376",
+        "upper_integer": "662450820013249065354373531329345618623970366612",
+        "denominator_power2": 160,
+        "approximate": [
+          0.45326724451918055,
+          0.45326724451918055
+        ],
+        "width_approximate": 1.614777527249301e-46
+      },
+      "finite_quadrature_error": {
+        "lower_integer": "212253120162167450082870164602000972",
+        "upper_integer": "212253120162167450082870173158190311",
+        "denominator_power2": 160,
+        "approximate": [
+          1.4522947818915825e-13,
+          1.4522947818915825e-13
+        ],
+        "width_approximate": 5.854382315045445e-39
+      },
+      "infinite_tail_error": {
+        "lower_integer": "1533801518800747290208102126081297097097",
+        "upper_integer": "1533801518800747290208102126081297097098",
+        "denominator_power2": 160,
+        "approximate": [
+          1.0494695863645308e-09,
+          1.0494695863645308e-09
+        ],
+        "width_approximate": 6.842277657836021e-49
+      },
+      "derivative_bound": {
+        "lower_integer": "1227664185811522824023421765143550685657984062504392473125",
+        "upper_integer": "1227664185811522824023421765143550685657984062544618784250",
+        "denominator_power2": 160,
+        "approximate": [
+          840001922.9903632,
+          840001922.9903632
+        ],
+        "width_approximate": 2.7523958986774807e-38
+      },
+      "target_width": "1/100000000",
+      "exact_reference": "53752000000/118587876497",
+      "contains_exact_reference": true
+    },
+    {
+      "coefficients": [
+        "1",
+        "-7/4"
+      ],
+      "counts": [
+        10,
+        6
+      ],
+      "exact_scale": "8",
+      "tau": "8/7",
+      "cutoff": 64,
+      "panels": 128,
+      "quadrature_nodes": 1024,
+      "probability": {
+        "lower_integer": "729154745671131397111860430230367804532810234057",
+        "upper_integer": "729154745698339236100400767899805871412905029019",
+        "denominator_power2": 160,
+        "approximate": [
+          0.49890792254106886,
+          0.4989079225596852
+        ],
+        "width_approximate": 1.8616358882928935e-11
+      },
+      "arithmetic_only": {
+        "lower_integer": "729154745684735316606130599065086837972857631406",
+        "upper_integer": "729154745684735316606130599065086837972857631670",
+        "denominator_power2": 160,
+        "approximate": [
+          0.498907922550377,
+          0.498907922550377
+        ],
+        "width_approximate": 1.8063613016687095e-46
+      },
+      "finite_quadrature_error": {
+        "lower_integer": "64514308650816578856255003626626206",
+        "upper_integer": "64514308650816578856255006227278856",
+        "denominator_power2": 160,
+        "approximate": [
+          4.414248126922194e-14,
+          4.414248126922194e-14
+        ],
+        "width_approximate": 1.779438752288704e-39
+      },
+      "infinite_tail_error": {
+        "lower_integer": "13539405185619352255862778433820118492",
+        "upper_integer": "13539405185619352255862778433820118493",
+        "denominator_power2": 160,
+        "approximate": [
+          9.264036960195246e-12,
+          9.264036960195246e-12
+        ],
+        "width_approximate": 6.842277657836021e-49
+      },
+      "derivative_bound": {
+        "lower_integer": "12227325847916698828039997498624283741106310874620871703197431",
+        "upper_integer": "12227325847916698828039997498624283741106310875118879233237192",
+        "denominator_power2": 160,
+        "approximate": [
+          8366275846428.131,
+          8366275846428.131
+        ],
+        "width_approximate": 3.4075057962251577e-34
+      },
+      "target_width": "1/100000000",
+      "exact_reference": "9722304/19487171",
+      "contains_exact_reference": true
+    },
+    {
+      "coefficients": [
+        "1",
+        "-2"
+      ],
+      "counts": [
+        20,
+        20
+      ],
+      "exact_scale": "16",
+      "tau": "2",
+      "cutoff": 32,
+      "panels": 32,
+      "quadrature_nodes": 256,
+      "probability": {
+        "lower_integer": "94655867566430050479967374707471857475838903680",
+        "upper_integer": "94655867588864086842002922229800211280446198639",
+        "denominator_power2": 160,
+        "approximate": [
+          0.06476617278328696,
+          0.06476617279863695
+        ],
+        "width_approximate": 1.534999057750367e-11
+      },
+      "arithmetic_only": {
+        "lower_integer": "94655867577647068660985148468636034378142550913",
+        "upper_integer": "94655867577647068660985148468636034378142551406",
+        "denominator_power2": 160,
+        "approximate": [
+          0.06476617279096196,
+          0.06476617279096196
+        ],
+        "width_approximate": 3.3732428853131583e-46
+      },
+      "finite_quadrature_error": {
+        "lower_integer": "4447315588208097633232787506116722005",
+        "upper_integer": "4447315588208097633232787685393587986",
+        "denominator_power2": 160,
+        "approximate": [
+          3.0429768086542126e-12,
+          3.0429768086542126e-12
+        ],
+        "width_approximate": 1.2266620946686589e-37
+      },
+      "infinite_tail_error": {
+        "lower_integer": "6769702592809676127931389216910059246",
+        "upper_integer": "6769702592809676127931389216910059247",
+        "denominator_power2": 160,
+        "approximate": [
+          4.632018480097623e-12,
+          4.632018480097623e-12
+        ],
+        "width_approximate": 6.842277657836021e-49
+      },
+      "derivative_bound": {
+        "lower_integer": "25723108647227126551749762405351683125929267508888766386406",
+        "upper_integer": "25723108647227126551749762405351683125929267509055258618563",
+        "denominator_power2": 160,
+        "approximate": [
+          17600465158.701073,
+          17600465158.701073
+        ],
+        "width_approximate": 1.139186080291089e-37
+      },
+      "target_width": "1/100000000",
+      "exact_reference": "75275227/1162261467",
+      "contains_exact_reference": true
+    }
+  ],
+  "wall_seconds": 0.27164255699608475,
+  "all_exact_references_contained": true,
+  "max_enclosure_width": 2.09922963168544e-09,
+  "caveat": "Implementation and mathematical derivation still require independent review; no certification of the R8 optimizer matrices"
+}

@@ -1,0 +1,22 @@
+{
+  "bundle_revision": "R17",
+  "bundle_files": 560,
+  "wall_seconds": 11.12648195699876,
+  "clean_build": true,
+  "only_cached_tex": true,
+  "body_pages": 8,
+  "total_pages": 147,
+  "pdf_text_identical": true,
+  "pdf_text_sha256": "127c0cbd5b99e868e9e7d1093370f75102c82610e3f03fdc575137c48d4b5909",
+  "pdf_bytes_identical": false,
+  "z4b_statistics_and_geometry_identical": true,
+  "immutable_bundle_reverified": true,
+  "gd_algebra_checks_identical": true,
+  "coverage": "Full manuscript build; table44 compact-count replay; declared deterministic GD algebra checks",
+  "exclusions": [
+    "Other experiments not regenerated",
+    "Raw Z4B ranks not bundled",
+    "t critical values and model slopes archived inputs",
+    "Not independent proof review, exact-matching guarantee, or complete scientific reproduction"
+  ]
+}

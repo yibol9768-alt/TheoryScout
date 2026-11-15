@@ -1,0 +1,23 @@
+{
+  "P2_original_direction_confirmed": 4,
+  "P2_high_direction_confirmed": 4,
+  "P2_high_attribution": {
+    "噪声解释相容到1pp": 2,
+    "未分辨": 2
+  },
+  "P3_old76_noise": {
+    "未分辨": 37,
+    "查询噪声相容_0.5pp": 39
+  },
+  "P3_old76_nonshrinking_noise": {
+    "未分辨": 19,
+    "查询噪声相容_0.5pp": 6
+  },
+  "P3_old76_shrinking": 51,
+  "P3_new_curve_failures": 43,
+  "mechanism_pass": 24,
+  "mechanism_total": 24,
+  "recorded_peak_RSS_MiB": 492.62109375,
+  "total_wall_seconds": 3073.21866607666,
+  "total_wall_with_planning_upper_bound": 3080.21866607666
+}

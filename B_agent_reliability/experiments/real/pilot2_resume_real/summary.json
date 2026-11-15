@@ -1,0 +1,317 @@
+{
+  "mode": "real",
+  "started_utc": "2026-11-05T20:04:23.153426+00:00",
+  "base_summary_sha256": "5f86892787a05d34820094926d00b216f9f23bcff4729217c83bf91ce1ce8b42",
+  "prior_calls": 147,
+  "schedule": [
+    {
+      "family": "kv",
+      "seed": 3323,
+      "K": 3,
+      "injected": true
+    },
+    {
+      "family": "kv",
+      "seed": 3329,
+      "K": 3,
+      "injected": true
+    },
+    {
+      "family": "kv",
+      "seed": 3329,
+      "K": 3,
+      "injected": false
+    },
+    {
+      "family": "sheet",
+      "seed": 3301,
+      "K": 2,
+      "injected": false
+    },
+    {
+      "family": "sheet",
+      "seed": 3301,
+      "K": 2,
+      "injected": true
+    },
+    {
+      "family": "sheet",
+      "seed": 3307,
+      "K": 2,
+      "injected": true
+    },
+    {
+      "family": "sheet",
+      "seed": 3307,
+      "K": 2,
+      "injected": false
+    },
+    {
+      "family": "sheet",
+      "seed": 3313,
+      "K": 2,
+      "injected": false
+    },
+    {
+      "family": "sheet",
+      "seed": 3313,
+      "K": 2,
+      "injected": true
+    },
+    {
+      "family": "sheet",
+      "seed": 3319,
+      "K": 3,
+      "injected": true
+    },
+    {
+      "family": "sheet",
+      "seed": 3319,
+      "K": 3,
+      "injected": false
+    },
+    {
+      "family": "sheet",
+      "seed": 3323,
+      "K": 3,
+      "injected": false
+    },
+    {
+      "family": "sheet",
+      "seed": 3323,
+      "K": 3,
+      "injected": true
+    },
+    {
+      "family": "sheet",
+      "seed": 3329,
+      "K": 3,
+      "injected": true
+    },
+    {
+      "family": "sheet",
+      "seed": 3329,
+      "K": 3,
+      "injected": false
+    }
+  ],
+  "results": [
+    {
+      "family": "kv",
+      "seed": 3323,
+      "L": 16,
+      "K": 3,
+      "injected": true,
+      "status": "transport_or_response_error",
+      "success": false,
+      "calls": 12,
+      "usage": {
+        "prompt_tokens": 5402,
+        "completion_tokens": 548,
+        "total_tokens": 5950
+      },
+      "progress": 10,
+      "work": 11,
+      "repair_events": 1,
+      "recoveries": 1,
+      "injections": 1,
+      "within_5L": true,
+      "peak_live_json_bytes": 449,
+      "peak_undo_slots": 1,
+      "repair_deltas": [
+        -1
+      ],
+      "final": {
+        "obligations_ok": false,
+        "state_ok": false,
+        "current_prefix_ok": true,
+        "pending_empty": true,
+        "actual": {
+          "k0": -34,
+          "k1": 16,
+          "k2": -6,
+          "k3": 0,
+          "k4": -40,
+          "k5": -16,
+          "k6": 0,
+          "k7": -10
+        },
+        "expected": {
+          "k0": -51,
+          "k1": 16,
+          "k2": -6,
+          "k3": 0,
+          "k4": -70,
+          "k5": -16,
+          "k6": 19,
+          "k7": -20
+        },
+        "ledger": [
+          {
+            "step": 0,
+            "verified": true,
+            "state": {
+              "k0": -17,
+              "k1": 0,
+              "k2": 0,
+              "k3": 0,
+              "k4": 0,
+              "k5": 0,
+              "k6": 0,
+              "k7": 0
+            },
+            "undo_entries": 1
+          },
+          {
+            "step": 1,
+            "verified": true,
+            "state": {
+              "k0": -17,
+              "k1": 0,
+              "k2": 0,
+              "k3": 0,
+              "k4": 0,
+              "k5": 0,
+              "k6": 0,
+              "k7": -10
+            },
+            "undo_entries": 1
+          },
+          {
+            "step": 2,
+            "verified": true,
+            "state": {
+              "k0": -17,
+              "k1": 0,
+              "k2": 0,
+              "k3": 0,
+              "k4": -10,
+              "k5": 0,
+              "k6": 0,
+              "k7": -10
+            },
+            "undo_entries": 1
+          },
+          {
+            "step": 3,
+            "verified": true,
+            "state": {
+              "k0": -34,
+              "k1": 0,
+              "k2": 0,
+              "k3": 0,
+              "k4": -10,
+              "k5": 0,
+              "k6": 0,
+              "k7": -10
+            },
+            "undo_entries": 1
+          },
+          {
+            "step": 4,
+            "verified": true,
+            "state": {
+              "k0": -34,
+              "k1": 0,
+              "k2": 0,
+              "k3": 0,
+              "k4": -20,
+              "k5": 0,
+              "k6": 0,
+              "k7": -10
+            },
+            "undo_entries": 2
+          },
+          {
+            "step": 5,
+            "verified": true,
+            "state": {
+              "k0": -34,
+              "k1": 0,
+              "k2": 0,
+              "k3": 0,
+              "k4": -30,
+              "k5": 0,
+              "k6": 0,
+              "k7": -10
+            },
+            "undo_entries": 1
+          },
+          {
+            "step": 6,
+            "verified": true,
+            "state": {
+              "k0": -34,
+              "k1": 16,
+              "k2": 0,
+              "k3": 0,
+              "k4": -30,
+              "k5": 0,
+              "k6": 0,
+              "k7": -10
+            },
+            "undo_entries": 1
+          },
+          {
+            "step": 7,
+            "verified": true,
+            "state": {
+              "k0": -34,
+              "k1": 16,
+              "k2": 0,
+              "k3": 0,
+              "k4": -40,
+              "k5": 0,
+              "k6": 0,
+              "k7": -10
+            },
+            "undo_entries": 1
+          },
+          {
+            "step": 8,
+            "verified": true,
+            "state": {
+              "k0": -34,
+              "k1": 16,
+              "k2": -6,
+              "k3": 0,
+              "k4": -40,
+              "k5": 0,
+              "k6": 0,
+              "k7": -10
+            },
+            "undo_entries": 1
+          },
+          {
+            "step": 9,
+            "verified": true,
+            "state": {
+              "k0": -34,
+              "k1": 16,
+              "k2": -6,
+              "k3": 0,
+              "k4": -40,
+              "k5": -16,
+              "k6": 0,
+              "k7": -10
+            },
+            "undo_entries": 1
+          }
+        ]
+      },
+      "trace_bytes": 46383,
+      "trace": "pilot2_resume_real/kv_3323_K3_injected.jsonl"
+    }
+  ],
+  "calls": 12,
+  "halt": "transport_or_response_error",
+  "concurrency": 1,
+  "global_call_cap": 500,
+  "amendment_sha256": "9b0d74db01c60c5a6867b584b14690026d864e4099b032841951e9fdb635d3b1",
+  "continuation_sha256": {
+    "resume_pilot2.py": "92ce1a96d86dd8af6b6d87e5a1d2b2f80a98c1549bf06b93e7f91f83d8a8b935",
+    "test_resume_pilot2.py": "e328cea08084fb363e4a7f43e79e05c258f5bf2d2f3dda75cdb013afdf066a0c"
+  },
+  "updated_utc": "2026-11-05T20:07:20.950273+00:00",
+  "finished_utc": "2026-11-05T20:07:20.950253+00:00"
+}

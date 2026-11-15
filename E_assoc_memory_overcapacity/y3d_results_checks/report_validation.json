@@ -1,0 +1,10 @@
+{
+  "report_sha256": "1bb7538fe75d9753c4352338f08423034b273aa5536e69352ddd6b5828d84e8d",
+  "all_three_confirmatory_pass": true,
+  "full72_equivalent": false,
+  "equivalent_cells": 10,
+  "diagnostic_rows": 72,
+  "old_absolute_rows": 45,
+  "secondary45_shifted_intervals_match": true,
+  "reviewed_inputs_unchanged": true
+}

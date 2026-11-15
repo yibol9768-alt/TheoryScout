@@ -1,0 +1,38 @@
+{
+  "status": "PASS",
+  "cases": 120,
+  "sign_max_ratio": 0.03536883900669386,
+  "adam_max_ratio": 0.07701437333772405,
+  "T": [
+    1,
+    2,
+    3,
+    5,
+    8
+  ],
+  "alpha": [
+    0.01,
+    0.6,
+    1.5,
+    4.0
+  ],
+  "e": [
+    0.03,
+    1.0,
+    10.0
+  ],
+  "beta1": [
+    0.0,
+    0.9,
+    0.999
+  ],
+  "beta2": [
+    0.0,
+    0.01,
+    0.99,
+    0.999999
+  ],
+  "interpretation": "finite diagnostics only; (34) is assessed analytically, not certified by these cases",
+  "threads": 1,
+  "matrix_checks": 120
+}

@@ -1,0 +1,97 @@
+# INVALID TARGET: this is an obstruction record, not a successful proof plan.
+# No affirmative decomposition exists under the unchanged hypotheses.
+metadata:
+  problem_id: "p4_false_psd_product.tex"
+  mode: "REWRITE"
+  attempt: 2
+  revision: 1
+  timestamp: "2026-11-05T11:16:33.987715"
+
+sources:
+  - id: S1
+    type: literature
+    statement: |
+      For every integer d >= 1 and all real symmetric positive semidefinite
+      A,B in R^{d x d}, the following three conditions are equivalent:
+        (AB)^T = AB;
+        AB = BA;
+        AB is symmetric positive semidefinite.
+    citation: |
+      <cite>type=theorem; label=Section 4.1, unnumbered commuting-product criterion; title=A Fresh Variational-Analysis Look at the Positive Semidefinite Matrices World; authors=Jean-Baptiste Hiriart-Urruty and Jerome Malick; source_url=https://www.math.univ-toulouse.fr/~jbhu/SDP-HU-Malick-2012pdf.pdf; verifier_locator=Journal of Optimization Theory and Applications 153 (2012), p. 563, PDF page 13, Section 4.1, Closedness Under Multiplication, paragraph beginning Let us come back; statement_match=exact; statement=For real symmetric PSD A and B, AB is positive semidefinite whenever it is symmetric, and symmetry holds exactly when A and B commute; usage=Diagnose the missing hypothesis in the original target, without adding that hypothesis or claiming a proof of GOAL.</cite>
+
+# Deliberately empty: true intermediate claims cannot prove the false GOAL.
+steps: []
+
+target:
+  id: GOAL
+  statement: |
+    \begin{problem}
+    Let $A,B\in\mathbb{R}^{d\times d}$ be symmetric positive semidefinite matrices. Prove that $AB$ is symmetric positive semidefinite and that $\lambda_{\max}(AB)\le\lambda_{\max}(A)\,\lambda_{\max}(B)$.
+    \end{problem}
+  inputs: []
+
+# GOAL is unproved and must not be represented as a completed proof node.
+proof_order: []
+key_steps: []
+
+self_critique:
+  plausibility_issues:
+    - |
+      STATUS: the original universal target is false, not an unresolved
+      intermediate lemma. In dimension d=2, take
+        A_0 = [[1,0],[0,0]], B_0 = [[1,1],[1,1]], x_0 = (-1,2)^T.
+      Both factors equal their transposes. For every (u,v) in R^2,
+        (u,v) A_0 (u,v)^T = u^2 >= 0,
+        (u,v) B_0 (u,v)^T = (u+v)^2 >= 0.
+      Nevertheless,
+        A_0 B_0 = [[1,1],[0,0]],
+        (A_0 B_0)_{12} - (A_0 B_0)_{21} = 1,
+        x_0^T A_0 B_0 x_0 = -1 < 0.
+      Thus the first conjunct of GOAL fails under its exact hypotheses.
+    - |
+      COMPLETENESS CHECK: no sound dependency chain from true literature
+      results and true intermediate claims can establish this GOAL. Empty
+      steps, target.inputs, proof_order, and key_steps explicitly record
+      that no proof decomposition is supplied. This file must not be
+      interpreted as a proof or a plan proving the requested assertion.
+  contradiction_checks:
+    - |
+      The two-dimensional example was recomputed independently using exact
+      rational arithmetic. It confirms the specific facts independently
+      verified in Phase 4f and recorded in plan_history.md; no factual
+      finding from that history is disputed.
+    - |
+      S1 agrees with the obstruction: A_0 B_0 - B_0 A_0 = [[0,1],[-1,0]]
+      is nonzero. Its cited statement was checked in the author-hosted
+      published PDF, p. 563. Commutativity is absent from the problem.
+    - |
+      The eigenvalues of A_0 B_0 are 1 and 0. Their nonnegativity does not
+      imply symmetry or quadratic-form nonnegativity, as the displayed
+      off-diagonal difference and value -1 demonstrate. Establishing the
+      second conjunct alone cannot establish the original conjunction.
+  refinements_made:
+    - |
+      Read the mandatory plan history before constructing this record and
+      read the problem, literature survey, and empty human-guidance file.
+      Rejected the earlier refutation-plus-spectral-bound decomposition
+      rather than repackaging it as a new proof strategy.
+    - |
+      Followed the regulator's recommendation to preserve the exact
+      original target and report impossibility until a different target
+      or deliverable is explicitly authorized. The rewrite instruction
+      supplies no such authorization. No commutativity assumption,
+      entrywise multiplication, restricted dimension, or altered GOAL
+      has been substituted.
+    - |
+      Retained the verified counterexample only as the explanation for
+      the invalid target in self_critique. S1 is diagnostic source material,
+      not an attempted bridge to GOAL. No refutation or corrected theorem
+      is presented as the requested affirmative decomposition.
+  difficulty_assessment: |
+    This is a specification obstruction rather than a difficult proof
+    step. The explicit d=2 calculation rules out every sound affirmative
+    proof of the unchanged target. No novel key step is designated because
+    none could repair this logical obstruction. A complete decomposition
+    requires an explicitly authorized correction to the target or accepted
+    deliverable; absent that correction, further proof search cannot
+    satisfy the stated completeness requirement.

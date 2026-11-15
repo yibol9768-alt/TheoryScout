@@ -1,0 +1,60 @@
+{
+  "scope": "algebra and deterministic identities only; not probability proofs",
+  "symbolic_residuals": {
+    "b1": "0",
+    "b2": "0",
+    "energy_trace_coefficient": "0",
+    "loss_trace_coefficient": "0",
+    "mu_derivative": "0",
+    "haar_diagonal_fourth_pairings": "0",
+    "haar_centered_variance": "0"
+  },
+  "deterministic_score_checks": {
+    "repetitions": 40,
+    "max_margin_error": 1.6653345369377348e-16,
+    "max_variance_error": 4.440892098500626e-16,
+    "minimum_variance_minus_lower_bound": 0.2335198597044327
+  },
+  "root_checks": {
+    "good_spectra_repetitions": 40,
+    "interval": [
+      0.0176606850198453,
+      0.052982055059535904
+    ],
+    "spectral_tolerance": 0.16666666666666669,
+    "derivative_lower_bound": 4.265172191182911,
+    "max_root_residual": 4.440892098500626e-16,
+    "no_root_example_minimum": 0.7904020537292519,
+    "failure_branch_returns_eta_star": true
+  },
+  "D3_coefficients": {
+    "mu": 0.9882444583396214,
+    "w": 1.9875503183267007,
+    "M": -0.974143557646418,
+    "s_eta": -0.013134206460490986,
+    "M_matched": -0.9647542076372614,
+    "L_Lambda": -0.08169066496910815
+  },
+  "input_hashes_before": {
+    "PROOF_REVIEW11.md": "643574cb088e8e4277c00da5b5d74d19082ba02720646d5f1c676941cf7cdcbd",
+    "Y1_D3_PROOFS.md": "6dd4401013ee8baa243bb6f64145603ea710c6daf9d43a3a3154cb5dd1f2f6b9",
+    "paper/appendix/D3_finite_d.tex": "aef2af2125270a5b9d8408af39a2422f827cb2c877721d7fc58c6f0da047db2f"
+  },
+  "input_hashes_after": {
+    "PROOF_REVIEW11.md": "643574cb088e8e4277c00da5b5d74d19082ba02720646d5f1c676941cf7cdcbd",
+    "Y1_D3_PROOFS.md": "6dd4401013ee8baa243bb6f64145603ea710c6daf9d43a3a3154cb5dd1f2f6b9",
+    "paper/appendix/D3_finite_d.tex": "aef2af2125270a5b9d8408af39a2422f827cb2c877721d7fc58c6f0da047db2f"
+  },
+  "resources": {
+    "python": "/home/liuyibo/venvs/theory/bin/python",
+    "threads": 1,
+    "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/run-r9b0caea480a740329ffd4e7d4d6d0041.scope",
+    "controls": {
+      "memory.max": "3221225472",
+      "memory.swap.max": "0",
+      "memory.peak": "78925824"
+    },
+    "rss_mib": 349.7421875,
+    "seconds": 0.4345234300017182
+  }
+}

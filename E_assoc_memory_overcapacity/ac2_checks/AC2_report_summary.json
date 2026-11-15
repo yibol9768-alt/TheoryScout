@@ -1,0 +1,14 @@
+{
+  "raw_datasets": 720,
+  "all_six_variance_series_decreasing": true,
+  "variance_reduction_ratios": [
+    42.077133120807616,
+    48.46677578146951,
+    32.70792738773245,
+    30.45503569659051,
+    48.66261133794242,
+    42.51857662432544
+  ],
+  "total_original_queries": 2667632,
+  "integrity_changed": []
+}

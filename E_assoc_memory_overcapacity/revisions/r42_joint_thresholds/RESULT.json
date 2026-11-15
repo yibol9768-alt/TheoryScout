@@ -1,0 +1,77 @@
+{
+  "n": 16595,
+  "q": 1024,
+  "rows": [
+    {
+      "c": "1/4",
+      "y": "-1/10",
+      "parent_directory": "node01",
+      "stem": "node01",
+      "C0_survival_interval": [
+        "366967102529085764574952023130794693981367611763/730750818665451459101842416358141509827966271488",
+        "733934544161638778681555881129828789315205502501/1461501637330902918203684832716283019655932542976"
+      ],
+      "approximate": [
+        0.5021781613591167,
+        0.5021783933831245
+      ]
+    },
+    {
+      "c": "1/4",
+      "y": "1/10",
+      "parent_directory": "node01",
+      "stem": "node02",
+      "C0_survival_interval": [
+        "311302685856295988611616932476736095076446180627/1461501637330902918203684832716283019655932542976",
+        "155651467741402398688089118751320420069140399191/730750818665451459101842416358141509827966271488"
+      ],
+      "approximate": [
+        0.21300194122588795,
+        0.21300211202727634
+      ]
+    },
+    {
+      "c": "3/10",
+      "y": "-1/10",
+      "parent_directory": "node02",
+      "stem": "node03",
+      "C0_survival_interval": [
+        "1081023376933289689081173721608608582432693045471/1461501637330902918203684832716283019655932542976",
+        "1081023628117002686276875346729244608566491304605/1461501637330902918203684832716283019655932542976"
+      ],
+      "approximate": [
+        0.7396662099589095,
+        0.7396663818257803
+      ]
+    },
+    {
+      "c": "3/10",
+      "y": "1/10",
+      "parent_directory": "node02",
+      "stem": "node04",
+      "C0_survival_interval": [
+        "715835425257723340813432902247775039740469808651/1461501637330902918203684832716283019655932542976",
+        "178958933468908248617158619154591193981050189113/365375409332725729550921208179070754913983135744"
+      ],
+      "approximate": [
+        0.48979447369284673,
+        0.48979468485778954
+      ]
+    }
+  ],
+  "source_hashes": {
+    "revisions/r41_joint_pencils/RESULT.json": "545dcfd5e571d0beba6b4ec978cf3709854c4eca1e6b7392892ffd2ad13ae1e9",
+    "tools/certify_weighted_chisquare.py": "f0c13011818f8cd23c5f531600ec6dfe034754f9e3b5e0aaaa2e32ec3c0b3db7",
+    "revisions/r41_joint_pencils/node01/actual_spectrum.json": "11c3001f1b41cef8b242c6be80860a601eb9a08214cc00d82eb21cf31c32e248",
+    "revisions/r41_joint_pencils/node01/ERRORS.json": "1a39d80b77f4fa449cd4349d4f27901a63e8158ba5082bc57fa3b7f0ac243f3b",
+    "revisions/r41_joint_pencils/node02/actual_spectrum.json": "aa2ba7daaa5b8f8ece04a0ad9a163abe8afd5a0f0841943c6876db401700a7ec",
+    "revisions/r41_joint_pencils/node02/ERRORS.json": "325726bec2554a69207776c57767120e67092de6173e0b8b933b9f5d50313fa7"
+  },
+  "new_integer_probability_integrals": 8,
+  "new_matrices": 0,
+  "new_samples": 0,
+  "full_null_padding_retained": true,
+  "independent_proof_review": false,
+  "not_recall_or_energy_flip_probability": true,
+  "wall_seconds": 180.88522761300555
+}

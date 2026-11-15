@@ -1,0 +1,221 @@
+{
+  "scope": "Post hoc diagnostic, not a proved Edgeworth law",
+  "summary": [
+    {
+      "d": 256,
+      "n": 5199,
+      "method": "GD3",
+      "L": 1,
+      "skew_D": 0.14441056327225296,
+      "excess_D": 0.0652125944704609,
+      "mean": {
+        "actual_joint_proxy": 0.4119941294193268,
+        "actual_D_fixed_energy": 0.41033511981368065,
+        "gaussian_fixed_energy": 0.41933394666790824,
+        "independent_gaussian": 0.4240565783866498,
+        "joint_gaussian": 0.41684899259820396,
+        "heuristic_skew_term": -0.008013421933743528,
+        "heuristic_joint_plus_skew": 0.4088355706644604
+      },
+      "invalid_gaussian_energy_mass": 4.0430481112537465e-15
+    },
+    {
+      "d": 256,
+      "n": 5199,
+      "method": "GD3",
+      "L": 5,
+      "skew_D": 0.14441056327225296,
+      "excess_D": 0.0652125944704609,
+      "mean": {
+        "actual_joint_proxy": 0.6302657276391983,
+        "actual_D_fixed_energy": 0.6182669065892696,
+        "gaussian_fixed_energy": 0.623954742083247,
+        "independent_gaussian": 0.624108067715607,
+        "joint_gaussian": 0.6336677534451193,
+        "heuristic_skew_term": -0.008017823330180082,
+        "heuristic_joint_plus_skew": 0.6256499301149392
+      },
+      "invalid_gaussian_energy_mass": 4.0430481112537465e-15
+    },
+    {
+      "d": 256,
+      "n": 4328,
+      "method": "Sign2",
+      "L": 1,
+      "skew_D": 0.14226626726596353,
+      "excess_D": 0.06503505441052482,
+      "mean": {
+        "actual_joint_proxy": 0.4022538475692272,
+        "actual_D_fixed_energy": 0.40098803490400314,
+        "gaussian_fixed_energy": 0.4112260551669485,
+        "independent_gaussian": 0.41611053619688293,
+        "joint_gaussian": 0.4084826195769218,
+        "heuristic_skew_term": -0.0077579662401222795,
+        "heuristic_joint_plus_skew": 0.4007246533367995
+      },
+      "invalid_gaussian_energy_mass": 5.085556493306653e-15
+    },
+    {
+      "d": 256,
+      "n": 4328,
+      "method": "Sign2",
+      "L": 5,
+      "skew_D": 0.14226626726596353,
+      "excess_D": 0.06503505441052482,
+      "mean": {
+        "actual_joint_proxy": 0.6236593574285507,
+        "actual_D_fixed_energy": 0.6106430478394032,
+        "gaussian_fixed_energy": 0.6194288737735821,
+        "independent_gaussian": 0.6196963280062593,
+        "joint_gaussian": 0.6286146426422362,
+        "heuristic_skew_term": -0.00799501026760751,
+        "heuristic_joint_plus_skew": 0.6206196323746287
+      },
+      "invalid_gaussian_energy_mass": 5.085556493306653e-15
+    },
+    {
+      "d": 256,
+      "n": 4908,
+      "method": "Adam2",
+      "L": 1,
+      "skew_D": 0.14689992341575764,
+      "excess_D": 0.06944017193685781,
+      "mean": {
+        "actual_joint_proxy": 0.39103617146611214,
+        "actual_D_fixed_energy": 0.39006397500634193,
+        "gaussian_fixed_energy": 0.39696265508068623,
+        "independent_gaussian": 0.4024724233800949,
+        "joint_gaussian": 0.39340300532603967,
+        "heuristic_skew_term": -0.007847188188752718,
+        "heuristic_joint_plus_skew": 0.385555817137287
+      },
+      "invalid_gaussian_energy_mass": 2.8839257273626384e-14
+    },
+    {
+      "d": 256,
+      "n": 4908,
+      "method": "Adam2",
+      "L": 5,
+      "skew_D": 0.14689992341575764,
+      "excess_D": 0.06944017193685781,
+      "mean": {
+        "actual_joint_proxy": 0.6028986908495426,
+        "actual_D_fixed_energy": 0.5913631655275822,
+        "gaussian_fixed_energy": 0.5985975254275794,
+        "independent_gaussian": 0.599257603797462,
+        "joint_gaussian": 0.6070767135187085,
+        "heuristic_skew_term": -0.008655357733140221,
+        "heuristic_joint_plus_skew": 0.5984213557855683
+      },
+      "invalid_gaussian_energy_mass": 2.8839257273626384e-14
+    },
+    {
+      "d": 512,
+      "n": 17599,
+      "method": "GD3",
+      "L": 1,
+      "skew_D": 0.08298067511015275,
+      "excess_D": 0.029505738441752194,
+      "mean": {
+        "actual_joint_proxy": 0.4243844412267208,
+        "actual_D_fixed_energy": 0.4238910637795925,
+        "gaussian_fixed_energy": 0.43266595377144507,
+        "independent_gaussian": 0.4351826228844018,
+        "joint_gaussian": 0.4314474821858095,
+        "heuristic_skew_term": -0.004734726025312757,
+        "heuristic_joint_plus_skew": 0.42671275616049675
+      },
+      "invalid_gaussian_energy_mass": 4.0986826424298586e-29
+    },
+    {
+      "d": 512,
+      "n": 17599,
+      "method": "GD3",
+      "L": 5,
+      "skew_D": 0.08298067511015275,
+      "excess_D": 0.029505738441752194,
+      "mean": {
+        "actual_joint_proxy": 0.6254383884370327,
+        "actual_D_fixed_energy": 0.6158190928399563,
+        "gaussian_fixed_energy": 0.624627923969432,
+        "independent_gaussian": 0.6245578359682742,
+        "joint_gaussian": 0.6305073244427601,
+        "heuristic_skew_term": -0.004613541066858825,
+        "heuristic_joint_plus_skew": 0.6258937833759013
+      },
+      "invalid_gaussian_energy_mass": 4.0986826424298586e-29
+    },
+    {
+      "d": 512,
+      "n": 14597,
+      "method": "Sign2",
+      "L": 1,
+      "skew_D": 0.0819887165486382,
+      "excess_D": 0.029579137511597686,
+      "mean": {
+        "actual_joint_proxy": 0.42138130590319633,
+        "actual_D_fixed_energy": 0.42004767432808876,
+        "gaussian_fixed_energy": 0.4241651741923994,
+        "independent_gaussian": 0.4267860674047787,
+        "joint_gaussian": 0.4227130092801181,
+        "heuristic_skew_term": -0.00462723792040232,
+        "heuristic_joint_plus_skew": 0.41808577135971575
+      },
+      "invalid_gaussian_energy_mass": 8.636035783196221e-29
+    },
+    {
+      "d": 512,
+      "n": 14597,
+      "method": "Sign2",
+      "L": 5,
+      "skew_D": 0.0819887165486382,
+      "excess_D": 0.029579137511597686,
+      "mean": {
+        "actual_joint_proxy": 0.6237883269786835,
+        "actual_D_fixed_energy": 0.6154553592205048,
+        "gaussian_fixed_energy": 0.6199493347721473,
+        "independent_gaussian": 0.6199510830076904,
+        "joint_gaussian": 0.6255269903297156,
+        "heuristic_skew_term": -0.004613677351061015,
+        "heuristic_joint_plus_skew": 0.6209133129786546
+      },
+      "invalid_gaussian_energy_mass": 8.636035783196221e-29
+    },
+    {
+      "d": 512,
+      "n": 16595,
+      "method": "Adam2",
+      "L": 1,
+      "skew_D": 0.08368914682621585,
+      "excess_D": 0.030719355957557926,
+      "mean": {
+        "actual_joint_proxy": 0.4117766134440899,
+        "actual_D_fixed_energy": 0.4114925190806389,
+        "gaussian_fixed_energy": 0.4134287817010216,
+        "independent_gaussian": 0.41630094129085343,
+        "joint_gaussian": 0.4115923788186822,
+        "heuristic_skew_term": -0.004630467832497451,
+        "heuristic_joint_plus_skew": 0.4069619109861847
+      },
+      "invalid_gaussian_energy_mass": 8.510198917718416e-28
+    },
+    {
+      "d": 512,
+      "n": 16595,
+      "method": "Adam2",
+      "L": 5,
+      "skew_D": 0.08368914682621585,
+      "excess_D": 0.030719355957557926,
+      "mean": {
+        "actual_joint_proxy": 0.61205218359828,
+        "actual_D_fixed_energy": 0.6043984778225422,
+        "gaussian_fixed_energy": 0.6084752088504575,
+        "independent_gaussian": 0.6085964640450929,
+        "joint_gaussian": 0.6138359161892838,
+        "heuristic_skew_term": -0.004843646889550956,
+        "heuristic_joint_plus_skew": 0.6089922692997329
+      },
+      "invalid_gaussian_energy_mass": 8.510198917718416e-28
+    }
+  ]
+}

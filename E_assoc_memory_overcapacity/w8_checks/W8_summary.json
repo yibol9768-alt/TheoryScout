@@ -1,0 +1,199 @@
+{
+  "seconds": 48.743551006000416,
+  "before": {
+    "controls": {
+      "memory.max": "2147483648",
+      "memory.swap.max": "0",
+      "memory.peak": "34701312"
+    },
+    "pools": [
+      {
+        "library": "/home/liuyibo/venvs/theory/lib/python3.12/site-packages/numpy.libs/libscipy_openblas64_-f48b354e.so",
+        "threads": 2
+      },
+      {
+        "library": "/home/liuyibo/venvs/theory/lib/python3.12/site-packages/scipy.libs/libscipy_openblas-5f890258.so",
+        "threads": 2
+      }
+    ],
+    "rss_mib": 58.4765625
+  },
+  "after": {
+    "controls": {
+      "memory.max": "2147483648",
+      "memory.swap.max": "0",
+      "memory.peak": "345583616"
+    },
+    "pools": [
+      {
+        "library": "/home/liuyibo/venvs/theory/lib/python3.12/site-packages/numpy.libs/libscipy_openblas64_-f48b354e.so",
+        "threads": 2
+      },
+      {
+        "library": "/home/liuyibo/venvs/theory/lib/python3.12/site-packages/scipy.libs/libscipy_openblas-5f890258.so",
+        "threads": 2
+      }
+    ],
+    "rss_mib": 354.1796875
+  },
+  "python": "/home/liuyibo/venvs/theory/bin/python",
+  "version": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+  "numpy": "2.5.4",
+  "hybrid": {
+    "eta": 0.6,
+    "alpha": 0.6,
+    "q": 1.2944768837780631,
+    "mu": 0.9481256669879962,
+    "coefficient": -0.4733655896874838
+  },
+  "source_sha256": "b87a8ab7ae83d4fd856a924239edbcde28a51880e1d94928ab8c5706a691da72",
+  "root_seed": [
+    20261106,
+    880008
+  ],
+  "summary": [
+    {
+      "d": 64,
+      "sign1_mean_prediction": 0.7978358632806567,
+      "sign1_var_prediction": 1.039147921580437,
+      "sign1_var_first_order": 1.0397887357729738,
+      "hybrid_mean_limit": 0.9481256669879962,
+      "hybrid_mean_first_order": 0.9407293296491293,
+      "hybrid_mean_second_taylor": 0.940819215693178,
+      "sign1_mean": {
+        "mean": 0.7982828250108425,
+        "se": 0.0011804345245777666,
+        "datasets": 64
+      },
+      "sign1_var": {
+        "mean": 1.0394634140418118,
+        "se": 0.002916379073100805,
+        "datasets": 64
+      },
+      "sign2_mean": {
+        "mean": 0.8972121054566005,
+        "se": 0.0018718943272616206,
+        "datasets": 64
+      },
+      "sign2_var": {
+        "mean": 1.0363543374798128,
+        "se": 0.003839312104157143,
+        "datasets": 64
+      },
+      "hybrid_mean": {
+        "mean": 0.9410532537451668,
+        "se": 0.0020666185148330973,
+        "datasets": 64
+      },
+      "hybrid_rb_mean": {
+        "mean": 0.9404726143480706,
+        "se": 0.00024532102994751843,
+        "datasets": 64
+      }
+    },
+    {
+      "d": 128,
+      "sign1_mean_prediction": 0.7978723861435489,
+      "sign1_var_prediction": 1.0197365338925137,
+      "sign1_var_first_order": 1.019894367886487,
+      "hybrid_mean_limit": 0.9481256669879962,
+      "hybrid_mean_first_order": 0.9444274983185627,
+      "hybrid_mean_second_taylor": 0.9444499698295749,
+      "sign1_mean": {
+        "mean": 0.7982445194722498,
+        "se": 0.0005893198412393295,
+        "datasets": 64
+      },
+      "sign1_var": {
+        "mean": 1.0186375591647565,
+        "se": 0.0015255412020603438,
+        "datasets": 64
+      },
+      "sign2_mean": {
+        "mean": 0.8985014921610238,
+        "se": 0.0009351231945327915,
+        "datasets": 64
+      },
+      "sign2_var": {
+        "mean": 1.0165426266519266,
+        "se": 0.001747786758722555,
+        "datasets": 64
+      },
+      "hybrid_mean": {
+        "mean": 0.9451421110337541,
+        "se": 0.0010453399144130441,
+        "datasets": 64
+      },
+      "hybrid_rb_mean": {
+        "mean": 0.9442882126591932,
+        "se": 8.413616786420012e-05,
+        "datasets": 64
+      }
+    },
+    {
+      "d": 256,
+      "sign1_mean_prediction": 0.7978815171206185,
+      "sign1_var_prediction": 1.0099080253870263,
+      "sign1_var_first_order": 1.0099471839432435,
+      "hybrid_mean_limit": 0.9481256669879962,
+      "hybrid_mean_first_order": 0.9462765826532794,
+      "hybrid_mean_second_taylor": 0.9462822005310325,
+      "sign1_mean": {
+        "mean": 0.7979755295019024,
+        "se": 0.00045388448245377544,
+        "datasets": 32
+      },
+      "sign1_var": {
+        "mean": 1.0082147917454587,
+        "se": 0.0009167699610696055,
+        "datasets": 32
+      },
+      "sign2_mean": {
+        "mean": 0.8990722397036484,
+        "se": 0.000760765233999837,
+        "datasets": 32
+      },
+      "sign2_var": {
+        "mean": 1.008923806050655,
+        "se": 0.0011747804858682495,
+        "datasets": 32
+      },
+      "hybrid_mean": {
+        "mean": 0.9463661478955372,
+        "se": 0.0008115054204748093,
+        "datasets": 32
+      },
+      "hybrid_rb_mean": {
+        "mean": 0.9462877385690591,
+        "se": 5.3449665925981434e-05,
+        "datasets": 32
+      }
+    }
+  ],
+  "w4_sign1": [
+    {
+      "d": 64,
+      "prediction": 1.039147921580437,
+      "mean": 1.0378178660867245,
+      "se": 0.005048073807909658,
+      "datasets": 16,
+      "residual_se": -0.2634778222989383
+    },
+    {
+      "d": 128,
+      "prediction": 1.0197365338925137,
+      "mean": 1.024094710145719,
+      "se": 0.002665841102089162,
+      "datasets": 16,
+      "residual_se": 1.634822214193418
+    },
+    {
+      "d": 256,
+      "prediction": 1.0099080253870263,
+      "mean": 1.0102591862400034,
+      "se": 0.0017941571514463617,
+      "datasets": 16,
+      "residual_se": 0.19572469038961368
+    }
+  ]
+}

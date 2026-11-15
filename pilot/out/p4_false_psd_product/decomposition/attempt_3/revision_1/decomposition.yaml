@@ -1,0 +1,100 @@
+# SPECIFICATION OBSTRUCTION: this is not an affirmative proof decomposition.
+# The original GOAL is false. A replacement deliverable has not been authorized.
+metadata:
+  problem_id: "p4_false_psd_product.tex"
+  mode: "REWRITE"
+  attempt: 3
+  revision: 1
+  timestamp: "2026-11-05T11:32:54.632500"
+
+sources:
+  - id: S1
+    type: literature
+    statement: |
+      For every integer d >= 1 and every pair of real symmetric positive
+      semidefinite matrices A,B in R^{d x d}, the following are equivalent:
+        (AB)^T = AB;
+        AB = BA;
+        (AB)^T = AB and x^T ABx >= 0 for every x in R^d.
+    citation: |
+      <cite>type=theorem; label=Section 4.1 commuting-product criterion; title=A Fresh Variational-Analysis Look at the Positive Semidefinite Matrices World; authors=Jean-Baptiste Hiriart-Urruty and Jerome Malick; source_url=https://www.math.univ-toulouse.fr/~jbhu/SDP-HU-Malick-2012pdf.pdf; verifier_locator=Journal of Optimization Theory and Applications 153 (2012), 551-577, Section 4.1, p. 563, paragraph concerning closedness under multiplication; statement_match=exact; statement=For symmetric PSD A and B, symmetry of AB, commutativity AB=BA, and symmetric positive semidefiniteness of AB are equivalent; usage=Documents the obstruction in the unchanged GOAL. No assertion of commutativity is inferred from its hypotheses.</cite>
+
+# No sound dependency chain ending at the unchanged GOAL exists.
+# Empty lists below denote an unavailable decomposition, not a completed proof.
+steps: []
+
+target:
+  id: GOAL
+  statement: |
+    \begin{problem}
+    Let $A,B\in\mathbb{R}^{d\times d}$ be symmetric positive semidefinite matrices. Prove that $AB$ is symmetric positive semidefinite and that $\lambda_{\max}(AB)\le\lambda_{\max}(A)\,\lambda_{\max}(B)$.
+    \end{problem}
+  inputs: []
+
+proof_order: []
+key_steps: []
+
+self_critique:
+  plausibility_issues:
+    - |
+      The requested GOAL has a counterexample satisfying all its hypotheses.
+      Set d=2, A=[[1,0],[0,0]], and B=[[1,1],[1,1]]. Both matrices equal
+      their transposes. For every u,v in R, (u,v)A(u,v)^T=u^2 >= 0 and
+      (u,v)B(u,v)^T=(u+v)^2 >= 0. Nevertheless, AB=[[1,1],[0,0]], so
+      (AB)_{12}=1 != 0=(AB)_{21}. Thus the symmetry assertion is false.
+    - |
+      The same example also violates positivity interpreted solely through
+      quadratic forms: for x=(-1,2)^T, ABx=(1,0)^T and x^T ABx=-1 < 0.
+      The failure therefore does not depend on a convention that includes
+      symmetry in the definition of positive semidefiniteness.
+    - |
+      Completeness cannot be satisfied: a sound derivation of the unchanged
+      universal GOAL from true source and intermediate statements would
+      imply a false statement for this admissible pair. This file is an
+      explicit specification-obstruction report, not a successful proof
+      plan, a proposed execution of an empty plan, or a replacement target.
+  contradiction_checks:
+    - |
+      The exact counterexample calculations agree with the independently
+      verified Phase 4f findings recorded for both previous attempts.
+      They also agree with the literature survey's explicit counterexample.
+    - |
+      S1 is consistent with the example: BA=[[1,0],[1,0]] differs from AB.
+      The original hypotheses do not assert AB=BA, so S1 cannot supply the
+      missing conclusion. Its source and locator were checked against the
+      author-hosted published paper, not merely against the plan history.
+    - |
+      For this pair only, lambda_max(A)=1, lambda_max(B)=2, and the product
+      has eigenvalues 1 and 0. Hence its largest-eigenvalue comparison is
+      1 <= 2. This calculation makes no universal spectral claim and cannot
+      repair the already false conjunction in GOAL.
+  refinements_made:
+    - |
+      Read the complete mandatory plan history before the other inputs.
+      The human-guidance file is empty, and no authorization to replace
+      the target is present in the input files or regulator decision.
+    - |
+      Independently recomputed AB, BA, and x^T ABx using exact integer
+      arithmetic and checked both hypothesis quadratic forms. The defect
+      is a false target, not an unproved lemma or a difficulty of proof.
+    - |
+      Followed the regulator's escalation recommendation by surfacing the
+      counterexample and requesting a specification choice. Pending an
+      explicit answer, retained the original target verbatim. Did not
+      construct another refutation-plus-spectral-bound plan or propose an
+      affirmative prover run on the unchanged goal.
+    - |
+      A completely different sound affirmative strategy is impossible for
+      this unchanged target. The required YAML location and schema are
+      used only to record that obstruction. The empty step and order
+      lists do not remedy or claim to pass affirmative completeness; a
+      corrected deliverable must be specified before a new decomposition.
+  difficulty_assessment: |
+    The obstruction is established by exact 2-by-2 arithmetic. No novel key
+    step is proposed because no true intermediate claim can bridge these
+    hypotheses to the refuted conclusion. The key-step and completeness
+    requirements of an affirmative decomposition are therefore unavailable,
+    rather than fulfilled. A refutation, a theorem with AB=BA added, or a
+    standalone universal spectral assertion would be different deliverables
+    requiring an explicit specification decision. No such change is made
+    here, and neither corrected theorem is claimed proved by this file.

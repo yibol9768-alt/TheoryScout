@@ -1,0 +1,15 @@
+{
+  "shifted_lower_event_probability": {
+    "lower_integer": "607077287739679487318492470748590253525962944842",
+    "upper_integer": "607077290865257651999310768250849072988975112165",
+    "denominator_power2": 160,
+    "approximate": [
+      0.4153791362480898,
+      0.4153791383866972
+    ],
+    "width_approximate": 2.138607364401568e-09
+  },
+  "ideal_fixed_threshold_success_lower_bound": "303538643869839743659246235374295126762981472421/730750818665451459101842416358141509827966271488",
+  "target": "Ideal exact Adam2 at NEW Cstar=F F^T; fixed t; lower bound only",
+  "caveat": "Not original R8 scatter, full random-threshold recall, single-dataset guarantee or independent review"
+}

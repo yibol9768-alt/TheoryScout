@@ -1,0 +1,303 @@
+# BLOCKED ORIGINAL TARGET: GOAL is refuted by the verified STEP1--STEP2.
+# This is a local revision and specification-review record, not an affirmative
+# decomposition of GOAL. Do not launch another affirmative prover run on GOAL.
+# STEP1 and STEP2 are unchanged. STEP3--STEP5 address the separately requested
+# eigenvalue bound, including singular factors; they cannot establish GOAL.
+# An explicit objective decision was requested in this session. No amended
+# objective has been received or assumed.
+metadata:
+  problem_id: "p4_false_psd_product.tex"
+  mode: "REVISE"
+  attempt: 4
+  revision: 2
+  timestamp: "2026-11-05T12:03:54.947673"
+
+sources:
+  - id: S1
+    type: literature
+    statement: |
+      For every integer d >= 1 and all real symmetric positive semidefinite
+      A,B in R^{d x d}, the following three conditions are equivalent:
+        (i) (AB)^T = AB;
+        (ii) AB = BA;
+        (iii) AB is symmetric positive semidefinite.
+    citation: |
+      <cite>type=theorem; label=S1;
+      title=A Fresh Variational-Analysis Look at the Positive Semidefinite Matrices World;
+      authors=Jean-Baptiste Hiriart-Urruty and Jérôme Malick;
+      source_url=https://www.math.univ-toulouse.fr/~jbhu/SDP-HU-Malick-2012pdf.pdf;
+      verifier_locator=Journal of Optimization Theory and Applications 153 (2012), 551–577, Section 4.1, printed p. 563 (PDF p. 13), Closedness Under Multiplication, paragraph beginning Let us come back, under the explicit hypothesis that A and B are PSD;
+      statement_match=exact;
+      statement=AB is positive semidefinite whenever it is symmetric—that is exactly when A and B commute.;
+      usage=The quoted passage gives the equivalence used in the unchanged STEP2. Direct transposition also proves its necessary symmetry condition.</cite>
+
+  - id: S2
+    type: literature
+    statement: |
+      For every integer d >= 1 and every real symmetric positive
+      semidefinite H in R^{d x d}, there is a unique real symmetric
+      positive semidefinite S in R^{d x d} with S^2=H.
+      This S is denoted H^{1/2}; singular H are included.
+    citation: |
+      <cite>type=theorem; label=S2;
+      title=A Fresh Variational-Analysis Look at the Positive Semidefinite Matrices World;
+      authors=Jean-Baptiste Hiriart-Urruty and Jérôme Malick;
+      source_url=https://www.math.univ-toulouse.fr/~jbhu/SDP-HU-Malick-2012pdf.pdf;
+      verifier_locator=Section 2.1, printed p. 553 (PDF p. 3), paragraph beginning This decomposition is used to define the square root matrix, with the hypothesis A positive semidefinite. Mathematical typesetting is normalized in the excerpt;
+      statement_match=exact;
+      statement=the unique S\succeq0 such that S^2=A;
+      usage=STEP3 uses the square root of the given A without assuming invertibility.</cite>
+
+  - id: S3
+    type: literature
+    statement: |
+      For every integer d >= 1, all X,Y in R^{d x d}, and every t in C,
+        det(t I_d-XY) = det(t I_d-YX).
+      Thus XY and YX have the same characteristic polynomial, including
+      the algebraic multiplicity of the zero eigenvalue.
+    citation: |
+      <cite>type=lemma; label=S3;
+      title=Matrix Analysis, Pólya frequency functions, and Preservers of (Total) Positivity;
+      authors=Apoorva Khare;
+      source_url=https://www.math.iisc.ac.in/~khare/teaching/Math341-notes.pdf;
+      verifier_locator=Lemma 3.3 and equation (3.4), printed p. 25 (PDF p. 25), specialized to n=m=d. The sentence following equation (3.4) explicitly includes lambda=0;
+      statement_match=exact;
+      statement=det(\lambda I_{n\times n}-AB)=\lambda^{n-m}det(\lambda I_{m\times m}-BA);
+      usage=STEP3 takes square factors X=A^{1/2} and Y=A^{1/2}B. No inverse or similarity assertion is required.</cite>
+
+  - id: S4
+    type: literature
+    statement: |
+      For every integer d >= 1 and every real symmetric H in R^{d x d},
+      all eigenvalues of H are real and
+        lambda_max(H) = max_{0 != x in R^d} (x^T H x)/(x^T x),
+        lambda_min(H) = min_{0 != x in R^d} (x^T H x)/(x^T x).
+      Both extrema are attained.
+    citation: |
+      <cite>type=theorem; label=S4;
+      title=Matrix Analysis, Pólya frequency functions, and Preservers of (Total) Positivity;
+      authors=Apoorva Khare;
+      source_url=https://www.math.iisc.ac.in/~khare/teaching/Math341-notes.pdf;
+      verifier_locator=Proposition 24.4(1), Rayleigh–Ritz theorem, printed p. 150 (PDF p. 150). Use its real symmetric specialization;
+      statement_match=exact;
+      statement=attains its maximum and minimum values, which equal lambda_max(A) and lambda_min(A), respectively.;
+      usage=STEP4 bounds quadratic forms of A and B, and STEP5 applies Rayleigh–Ritz to the symmetric matrix C from STEP3.</cite>
+
+steps:
+  - id: STEP1
+    statement: |
+      Set
+        A_* = [[1,0],[0,16]],  B_* = [[2,1],[1,2]].
+      Then A_*^T=A_* and B_*^T=B_*. For every z=(u,v)^T in R^2,
+        z^T A_* z = u^2+16v^2
+                  = ||z||_2^2+15v^2 >= ||z||_2^2,
+        z^T B_* z = 2u^2+2uv+2v^2
+                  = ||z||_2^2+(u+v)^2 >= ||z||_2^2.
+      Thus both matrices are positive definite and satisfy all the original
+      positive semidefinite hypotheses at the allowed dimension d=2.
+    inputs: []
+    difficulty: easy
+    is_key_step: false
+    rationale: |
+      These identities establish the hypotheses for an interior example
+      already recorded in the literature survey. Their lower bounds hold
+      for every vector, so no numerical PSD test is required.
+    strategy_hint: |
+      Expand both quadratic forms and use ||z||_2^2=u^2+v^2.
+
+  - id: STEP2
+    statement: |
+      For the matrices in STEP1,
+        A_* B_* = [[2,1],[16,32]],
+        B_* A_* = [[2,16],[1,32]] = (A_* B_*)^T,
+        ||A_* B_*-B_* A_*||_F^2 = 15^2+15^2 = 450 > 0.
+      Hence (A_* B_*)^T != A_* B_*, by S1.
+      In addition, for x_*=(-4,1)^T,
+        A_* B_* x_*=(-7,-32)^T,
+        x_*^T A_* B_* x_* = 28-32 = -4 < 0.
+      In particular, there exist d=2 and symmetric PSD A_*,B_* for which
+      the first conclusion of GOAL is false.
+    inputs: [S1, STEP1]
+    difficulty: easy
+    is_key_step: false
+    rationale: |
+      This is an exact certificate of incompatibility between the target
+      and its stated hypotheses. Failure of the first conjunct suffices to
+      refute the requested conjunction. The negative quadratic form also
+      verifies failure of positivity under a quadratic-form interpretation.
+    strategy_hint: |
+      Multiply the displayed matrices and vector over the integers.
+      Use the contrapositive of the equivalence in S1.
+
+  - id: STEP3
+    statement: |
+      For every integer d >= 1 and all real symmetric PSD A,B in
+      R^{d x d}, set S=A^{1/2}, C=SBS, X=S, and Y=SB. Then
+        XY=AB,  YX=C,  C^T=C,
+        x^T C x = (Sx)^T B(Sx) >= 0  for every x in R^d,
+        det(t I_d-AB)=det(t I_d-C)  for every t in C.
+      Consequently C is symmetric PSD, and AB and C have the same
+      characteristic polynomial with every algebraic multiplicity,
+      including that of zero.
+    inputs: [S2, S3]
+    difficulty: easy
+    is_key_step: false
+    rationale: |
+      This transfers the spectral question to a symmetric PSD matrix
+      for singular and nonsingular factors alike. It makes no assertion
+      that the original product is symmetric.
+    strategy_hint: |
+      Use S^T=S and S^2=A to verify the products and transpose identity.
+      Apply S3 to X and Y. The displayed quadratic form proves C is PSD.
+
+  - id: STEP4
+    statement: |
+      For every d,A,B,S,C as in STEP3, write
+        alpha=lambda_max(A),  beta=lambda_max(B).
+      Then alpha>=0 and beta>=0, and for every x in R^d,
+        0 <= x^T C x
+          <= beta x^T A x
+          <= alpha beta ||x||_2^2.
+      Equivalently, in the order on real symmetric matrices,
+        0 <= C <= beta A <= alpha beta I_d.
+    inputs: [S4, STEP3]
+    difficulty: easy
+    is_key_step: false
+    rationale: |
+      The explicit quadratic-form bound supplies the constant in the
+      requested inequality, with no loss and no invertibility hypothesis.
+    strategy_hint: |
+      By S4, y^T B y <= beta ||y||_2^2 for every real y, including
+      y=0. Substitute y=Sx and use ||Sx||_2^2=x^T A x.
+      Apply S4 again to A. PSD of A and B gives alpha,beta>=0,
+      so multiplication by beta preserves the inequality. Include x=0.
+
+  - id: STEP5
+    statement: |
+      For every integer d >= 1 and all real symmetric PSD A,B in
+      R^{d x d}, all d complex eigenvalues of AB, counted with algebraic
+      multiplicity, are real and belong to
+        [0, lambda_max(A) lambda_max(B)].
+      In particular, lambda_max(AB) is well-defined and satisfies
+        0 <= lambda_max(AB)
+          <= lambda_max(A) lambda_max(B).
+      These assertions include A=0, B=0, and all other singular cases.
+    inputs: [S4, STEP3, STEP4]
+    difficulty: easy
+    is_key_step: false
+    rationale: |
+      This establishes the second requested conclusion on its full
+      original domain. It does not establish the first conclusion or
+      the unchanged conjunction in GOAL.
+    strategy_hint: |
+      Apply S4 to C, using STEP4 for its largest eigenvalue and PSD
+      for its smallest. Transfer the entire eigenvalue multiset to AB
+      using STEP3. Apply no Rayleigh quotient directly to AB.
+
+target:
+  id: GOAL
+  statement: |
+    \begin{problem}
+    Let $A,B\in\mathbb{R}^{d\times d}$ be symmetric positive semidefinite matrices. Prove that $AB$ is symmetric positive semidefinite and that $\lambda_{\max}(AB)\le\lambda_{\max}(A)\,\lambda_{\max}(B)$.
+    \end{problem}
+  # STEP2 refutes GOAL. There are no sound inputs proving this target.
+  inputs: []
+
+# Order for the preserved certificate and the separate valid bound only.
+# GOAL is deliberately unscheduled: this is not an affirmative proof plan.
+proof_order: [STEP1, STEP2, STEP3, STEP4, STEP5]
+# All available claims are elementary or direct source applications.
+# No novel claim can overcome the counterexample to GOAL.
+key_steps: []
+
+self_critique:
+  plausibility_issues:
+    - |
+      GOAL is false, not an open conjecture under these hypotheses.
+      STEP1 and STEP2 give a verified admissible pair for which the
+      product is nonsymmetric and x_*^T A_*B_* x_*=-4. No true
+      intermediate claim can bridge these hypotheses to GOAL.
+    - |
+      STEP1 and STEP2 are preserved in full. Their universal-vector
+      identities and exact integer products give quantitative checks,
+      not numerical evidence or an unsupported prover complaint.
+    - |
+      STEP3 would fail as an argument using A^{-1/2} when A is singular.
+      Its actual statement uses only S, S^2=A, and the square-factor
+      characteristic-polynomial identity. Thus zero eigenvalues are
+      covered and no inverse or unwarranted similarity is asserted.
+    - |
+      STEP4 requires beta>=0 when bounding beta A. This is stated and
+      follows from PSD of B and S4. Its inequalities include x=0,
+      alpha=0, beta=0, and rank-deficient factors without division.
+    - |
+      STEP5 orders eigenvalues only after STEP3 identifies them with
+      those of symmetric PSD C. Nonnegative spectrum does not imply
+      symmetry or nonnegative quadratic forms for AB, so STEP5 cannot
+      supply the missing first conjunct.
+  contradiction_checks:
+    - |
+      Read the complete plan history through attempt 4 revision 1,
+      the current YAML, previous proof, supplied verification feedback,
+      and regulator guidance. The global human-guidance file is empty.
+      The independently verified refutation of GOAL is retained.
+    - |
+      S1 agrees with the nonzero commutator in STEP2. Its cited excerpt
+      is from the commuting-product paragraph, rather than treating
+      the separate nonclosure sentence as the full equivalence.
+    - |
+      S2--S4 are results listed in the supplied literature survey.
+      Checked the square-root paragraph in the published source text,
+      Khare's Lemma 3.3 and equation (3.4), and Proposition 24.4(1).
+      The square-case identity includes zero, as required by STEP3.
+    - |
+      The valid spectral assertion and the counterexample are compatible.
+      Rayleigh--Ritz is applied only to symmetric A, B, and C, never
+      directly to nonsymmetric AB. No general spectral-radius product
+      inequality or entrywise-product theorem is being substituted.
+  refinements_made:
+    - |
+      Updated metadata to REVISE, attempt 4, revision 2. Kept both
+      successful STEP1 and STEP2 unchanged, including their hypotheses,
+      quantitative statements, inputs, and strategy hints.
+    - |
+      Added STEP3--STEP5 to repair the omitted second requested task
+      with an explicit argument for all singular and nonsingular pairs.
+      These additions follow the regulator's suggested compression
+      argument and are not offered as a repair of the false conjunction.
+    - |
+      Requested an explicit objective decision from the problem owner
+      through a session question, identifying the regulator's requirement.
+      The options are accepting a refutation with the separate bound,
+      adding AB=BA, or retaining only the spectral assertion. No reply
+      authorizing an amendment has been received; no option is assumed.
+    - |
+      Preserved the original target verbatim, gave it no purported
+      proving dependencies, and excluded it from proof_order. The file
+      explicitly blocks another affirmative prover run until the
+      controlling workflow resolves the specification. This is the
+      unresolved acceptance issue, not a completed proof decomposition.
+    - |
+      Respected the history's prohibition on resubmitting a refutation
+      plus a spectral bound as an affirmative proof of unchanged GOAL.
+      The added bound addresses an independently requested conclusion;
+      it changes neither the target nor the fact that GOAL is refuted.
+      No unrequested commuting-pair theorem or new decomposition attempt
+      is introduced.
+    - |
+      Completeness audit: STEP1--STEP2 disprove the first conjunct;
+      S2,S3 feed STEP3, S4 and STEP3 feed STEP4, and S4,STEP3,STEP4
+      feed STEP5, which proves only the second conjunct. This order
+      respects every listed dependency. There is no sound extension
+      of this graph that establishes the unchanged false GOAL.
+  difficulty_assessment: |
+    Each retained or added mathematical claim is elementary or a direct
+    application of a cited result. The singular-factor issue is handled
+    by an exact polynomial identity; it needs no novel lemma. There are
+    therefore no genuine key original steps and key_steps is empty.
+    The overall affirmative request remains impossible because its
+    target is false. A specification decision, rather than a harder
+    intermediate theorem, is required before an affirmative plan can
+    be issued. This revision preserves the verified obstruction and
+    supplies a complete dependency chain for the separate valid bound,
+    while expressly leaving the original GOAL unproved.

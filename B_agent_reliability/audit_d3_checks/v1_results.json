@@ -1,0 +1,20 @@
+{
+  "resources": {
+    "cgroup": "/user.slice/user-1000.slice/user@1000.service/app.slice/run-r7fa11825ac3f4291a06fcfb499c3f2ea.scope",
+    "memory_max": "2147483648",
+    "swap_max": "0",
+    "threads": 1,
+    "env": {
+      "OMP_NUM_THREADS": "2",
+      "OPENBLAS_NUM_THREADS": "2",
+      "MKL_NUM_THREADS": "2",
+      "NUMEXPR_NUM_THREADS": "2"
+    }
+  },
+  "tests": 22,
+  "seconds": 44.66843223571777,
+  "passed": true,
+  "failures": [],
+  "errors": [],
+  "mapping": "Only BASE, allowed_dir and reconcile evidence directory. Original v1 assertions unchanged. Test-made v1 smoke approval is a fixture, not human release."
+}

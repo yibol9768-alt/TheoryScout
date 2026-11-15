@@ -1,0 +1,34 @@
+{
+  "passed": true,
+  "checks": [
+    "failed_statistics_execution_can_publish",
+    "failed_statistics_no_false_confirmation",
+    "single_candidate_flip_primary_both_passed",
+    "single_candidate_flip_d512_passed",
+    "single_candidate_flip_full72_equivalent",
+    "coverage_missing_row",
+    "coverage_duplicate_row",
+    "independent_endpoint_n",
+    "independent_endpoint_eligibility",
+    "independent_diagnostic_n",
+    "independent_diagnostic_equivalence",
+    "candidate_sample_summary",
+    "verify_candidate_decisions_control_publishes",
+    "verify_candidate_decisions_independent_rejection",
+    "verify_coverage_control_publishes",
+    "verify_coverage_independent_rejection",
+    "verify_sample_count_control_publishes",
+    "verify_sample_count_independent_rejection"
+  ],
+  "usage": {
+    "cpu_seconds": 8.65777,
+    "peak_rss_mib": 102.7578125,
+    "monotonic": 27665.524475362
+  },
+  "cpu_seconds_children": 0.0,
+  "no_formal_sampling": true,
+  "source_sha256": {
+    "publication.py": "4b6b70b4938af1453af18f486e5bda9bde6fa95385ef497741f88f0a6c40263b",
+    "analyze.py": "d2c76bf84efc416c41eee1057a8d44386f7b9910417b8426001f6d45109ef50f"
+  }
+}

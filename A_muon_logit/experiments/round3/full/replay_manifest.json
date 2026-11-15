@@ -1,0 +1,1891 @@
+{
+  "completed": [
+    {
+      "run_id": "e1_anisotropic_muon0_eta0.01_seed11_base",
+      "validation": {
+        "final_weight_max_error": 3.1102547481953735e-09,
+        "probe_Mabs_max_error": 1.24839401038912e-08,
+        "dense_CE_replay_error": 3.8226977139288465e-11,
+        "scalar_recurrence_error": 1.537875729540339e-14,
+        "max_xi_bound_excess": -1.5938731119955278,
+        "full_gradient_projection_error": 2.7755575615628914e-16,
+        "logit_identity_error": 3.552713678800501e-15
+      },
+      "resources": {
+        "elapsed_seconds": 10.728041152004153,
+        "peak_RSS_bytes": 135081984,
+        "executable": "/home/liuyibo/venvs/theory/bin/python",
+        "numpy_version": "2.5.4",
+        "threads": {
+          "OMP_NUM_THREADS": "4",
+          "OPENBLAS_NUM_THREADS": "4",
+          "MKL_NUM_THREADS": "4"
+        },
+        "device": "CPU; NumPy only; torch not imported",
+        "enforced_scope": "systemd-run --user --scope -p MemoryMax=3G -p MemorySwapMax=0",
+        "prereg_sha256": "58f0c4900615f7a2ec7d5cfaa2d95f5d8f5c3509e9dd08a5a76b73a085050b3b"
+      }
+    },
+    {
+      "run_id": "e1_anisotropic_muon0_eta0.01_seed23_base",
+      "validation": {
+        "final_weight_max_error": 3.583821905905893e-09,
+        "probe_Mabs_max_error": 2.97694278117433e-08,
+        "dense_CE_replay_error": 1.0472556155605162e-10,
+        "scalar_recurrence_error": 1.5617715454219194e-14,
+        "max_xi_bound_excess": -1.7351086397639466,
+        "full_gradient_projection_error": 3.191891195797325e-16,
+        "logit_identity_error": 3.552713678800501e-15
+      },
+      "resources": {
+        "elapsed_seconds": 9.838347295997664,
+        "peak_RSS_bytes": 145780736,
+        "executable": "/home/liuyibo/venvs/theory/bin/python",
+        "numpy_version": "2.5.4",
+        "threads": {
+          "OMP_NUM_THREADS": "4",
+          "OPENBLAS_NUM_THREADS": "4",
+          "MKL_NUM_THREADS": "4"
+        },
+        "device": "CPU; NumPy only; torch not imported",
+        "enforced_scope": "systemd-run --user --scope -p MemoryMax=3G -p MemorySwapMax=0",
+        "prereg_sha256": "58f0c4900615f7a2ec7d5cfaa2d95f5d8f5c3509e9dd08a5a76b73a085050b3b"
+      }
+    },
+    {
+      "run_id": "e1_anisotropic_muon0_eta0.01_seed47_base",
+      "validation": {
+        "final_weight_max_error": 3.2681838485482118e-09,
+        "probe_Mabs_max_error": 1.833290141917132e-08,
+        "dense_CE_replay_error": 1.2155543238634436e-10,
+        "scalar_recurrence_error": 1.641395352969255e-14,
+        "max_xi_bound_excess": -1.7027638765109816,
+        "full_gradient_projection_error": 1.942890293094024e-16,
+        "logit_identity_error": 4.440892098500626e-15
+      },
+      "resources": {
+        "elapsed_seconds": 11.43753933100379,
+        "peak_RSS_bytes": 149950464,
+        "executable": "/home/liuyibo/venvs/theory/bin/python",
+        "numpy_version": "2.5.4",
+        "threads": {
+          "OMP_NUM_THREADS": "4",
+          "OPENBLAS_NUM_THREADS": "4",
+          "MKL_NUM_THREADS": "4"
+        },
+        "device": "CPU; NumPy only; torch not imported",
+        "enforced_scope": "systemd-run --user --scope -p MemoryMax=3G -p MemorySwapMax=0",
+        "prereg_sha256": "58f0c4900615f7a2ec7d5cfaa2d95f5d8f5c3509e9dd08a5a76b73a085050b3b"
+      }
+    },
+    {
+      "run_id": "e1_anisotropic_muon0_eta0.03_seed11_base",
+      "validation": {
+        "final_weight_max_error": 7.700690154988088e-09,
+        "probe_Mabs_max_error": 3.185876096267748e-08,
+        "dense_CE_replay_error": 2.3880342148174805e-11,
+        "scalar_recurrence_error": 1.3825746103535153e-14,
+        "max_xi_bound_excess": -1.583488532457241,
+        "full_gradient_projection_error": 1.3530843112619095e-16,
+        "logit_identity_error": 3.552713678800501e-15
+      },
+      "resources": {
+        "elapsed_seconds": 9.440116622994537,
+        "peak_RSS_bytes": 152100864,
+        "executable": "/home/liuyibo/venvs/theory/bin/python",
+        "numpy_version": "2.5.4",
+        "threads": {
+          "OMP_NUM_THREADS": "4",
+          "OPENBLAS_NUM_THREADS": "4",
+          "MKL_NUM_THREADS": "4"
+        },
+        "device": "CPU; NumPy only; torch not imported",
+        "enforced_scope": "systemd-run --user --scope -p MemoryMax=3G -p MemorySwapMax=0",
+        "prereg_sha256": "58f0c4900615f7a2ec7d5cfaa2d95f5d8f5c3509e9dd08a5a76b73a085050b3b"
+      }
+    },
+    {
+      "run_id": "e1_anisotropic_muon0_eta0.03_seed23_base",
+      "validation": {
+        "final_weight_max_error": 5.983001843956615e-09,
+        "probe_Mabs_max_error": 6.12804456068261e-08,
+        "dense_CE_replay_error": 7.35635996562678e-11,
+        "scalar_recurrence_error": 1.7860712908657206e-14,
+        "max_xi_bound_excess": -1.9654494303551768,
+        "full_gradient_projection_error": 9.367506770274758e-17,
+        "logit_identity_error": 4.440892098500626e-15
+      },
+      "resources": {
+        "elapsed_seconds": 9.693382012002985,
+        "peak_RSS_bytes": 155283456,
+        "executable": "/home/liuyibo/venvs/theory/bin/python",
+        "numpy_version": "2.5.4",
+        "threads": {
+          "OMP_NUM_THREADS": "4",
+          "OPENBLAS_NUM_THREADS": "4",
+          "MKL_NUM_THREADS": "4"
+        },
+        "device": "CPU; NumPy only; torch not imported",
+        "enforced_scope": "systemd-run --user --scope -p MemoryMax=3G -p MemorySwapMax=0",
+        "prereg_sha256": "58f0c4900615f7a2ec7d5cfaa2d95f5d8f5c3509e9dd08a5a76b73a085050b3b"
+      }
+    },
+    {
+      "run_id": "e1_anisotropic_muon0_eta0.03_seed47_base",
+      "validation": {
+        "final_weight_max_error": 5.880396669599719e-09,
+        "probe_Mabs_max_error": 3.815658278227829e-08,
+        "dense_CE_replay_error": 3.874878196086229e-11,
+        "scalar_recurrence_error": 1.581026976005262e-14,
+        "max_xi_bound_excess": -1.7874701660410448,
+        "full_gradient_projection_error": 9.367506770274758e-17,
+        "logit_identity_error": 4.440892098500626e-15
+      },
+      "resources": {
+        "elapsed_seconds": 10.40434120199643,
+        "peak_RSS_bytes": 162476032,
+        "executable": "/home/liuyibo/venvs/theory/bin/python",
+        "numpy_version": "2.5.4",
+        "threads": {
+          "OMP_NUM_THREADS": "4",
+          "OPENBLAS_NUM_THREADS": "4",
+          "MKL_NUM_THREADS": "4"
+        },
+        "device": "CPU; NumPy only; torch not imported",
+        "enforced_scope": "systemd-run --user --scope -p MemoryMax=3G -p MemorySwapMax=0",
+        "prereg_sha256": "58f0c4900615f7a2ec7d5cfaa2d95f5d8f5c3509e9dd08a5a76b73a085050b3b"
+      }
+    },
+    {
+      "run_id": "e1_anisotropic_muon0_eta0.1_seed11_base",
+      "validation": {
+        "final_weight_max_error": 1.1234499552870147e-08,
+        "probe_Mabs_max_error": 1.0407729345018879e-07,
+        "dense_CE_replay_error": 9.960232638661637e-11,
+        "scalar_recurrence_error": 1.482147737874584e-14,
+        "max_xi_bound_excess": -1.9783854650975936,
+        "full_gradient_projection_error": 1.457167719820518e-16,
+        "logit_identity_error": 7.105427357601002e-15
+      },
+      "resources": {
+        "elapsed_seconds": 9.475318405995495,
+        "peak_RSS_bytes": 163430400,
+        "executable": "/home/liuyibo/venvs/theory/bin/python",
+        "numpy_version": "2.5.4",
+        "threads": {
+          "OMP_NUM_THREADS": "4",
+          "OPENBLAS_NUM_THREADS": "4",
+          "MKL_NUM_THREADS": "4"
+        },
+        "device": "CPU; NumPy only; torch not imported",
+        "enforced_scope": "systemd-run --user --scope -p MemoryMax=3G -p MemorySwapMax=0",
+        "prereg_sha256": "58f0c4900615f7a2ec7d5cfaa2d95f5d8f5c3509e9dd08a5a76b73a085050b3b"
+      }
+    },
+    {
+      "run_id": "e1_anisotropic_muon0_eta0.1_seed23_base",
+      "validation": {
+        "final_weight_max_error": 1.2108724245507574e-08,
+        "probe_Mabs_max_error": 1.1562338819715023e-07,
+        "dense_CE_replay_error": 1.4271472892346537e-10,
+        "scalar_recurrence_error": 1.4092893518835581e-14,
+        "max_xi_bound_excess": -2.061670792031615,
+        "full_gradient_projection_error": 1.0408340855860843e-16,
+        "logit_identity_error": 3.552713678800501e-15
+      },
+      "resources": {
+        "elapsed_seconds": 10.056252196998685,
+        "peak_RSS_bytes": 165457920,
+        "executable": "/home/liuyibo/venvs/theory/bin/python",
+        "numpy_version": "2.5.4",
+        "threads": {
+          "OMP_NUM_THREADS": "4",
+          "OPENBLAS_NUM_THREADS": "4",
+          "MKL_NUM_THREADS": "4"
+        },
+        "device": "CPU; NumPy only; torch not imported",
+        "enforced_scope": "systemd-run --user --scope -p MemoryMax=3G -p MemorySwapMax=0",
+        "prereg_sha256": "58f0c4900615f7a2ec7d5cfaa2d95f5d8f5c3509e9dd08a5a76b73a085050b3b"
+      }
+    },
+    {
+      "run_id": "e1_anisotropic_muon0_eta0.1_seed47_base",
+      "validation": {
+        "final_weight_max_error": 1.3235648254478205e-08,
+        "probe_Mabs_max_error": 9.93871056564899e-08,
+        "dense_CE_replay_error": 5.94747584514721e-11,
+        "scalar_recurrence_error": 1.4252488078625447e-14,
+        "max_xi_bound_excess": -1.843783515955165,
+        "full_gradient_projection_error": 9.020562075079397e-17,
+        "logit_identity_error": 4.440892098500626e-15
+      },
+      "resources": {
+        "elapsed_seconds": 9.712365116996807,
+        "peak_RSS_bytes": 168673280,
+        "executable": "/home/liuyibo/venvs/theory/bin/python",
+        "numpy_version": "2.5.4",
+        "threads": {
+          "OMP_NUM_THREADS": "4",
+          "OPENBLAS_NUM_THREADS": "4",
+          "MKL_NUM_THREADS": "4"
+        },
+        "device": "CPU; NumPy only; torch not imported",
+        "enforced_scope": "systemd-run --user --scope -p MemoryMax=3G -p MemorySwapMax=0",
+        "prereg_sha256": "58f0c4900615f7a2ec7d5cfaa2d95f5d8f5c3509e9dd08a5a76b73a085050b3b"
+      }
+    },
+    {
+      "run_id": "e1_isotropic_muon0_eta0.01_seed11_base",
+      "validation": {
+        "final_weight_max_error": 2.9660934819375484e-09,
+        "probe_Mabs_max_error": 3.0525921346225005e-08,
+        "dense_CE_replay_error": 1.1737344429718632e-10,
+        "scalar_recurrence_error": 1.748948208479817e-14,
+        "max_xi_bound_excess": -1.4919691863973341,
+        "full_gradient_projection_error": 3.469446951953614e-16,
+        "logit_identity_error": 3.552713678800501e-15
+      },
+      "resources": {
+        "elapsed_seconds": 9.888833374003298,
+        "peak_RSS_bytes": 172883968,
+        "executable": "/home/liuyibo/venvs/theory/bin/python",
+        "numpy_version": "2.5.4",
+        "threads": {
+          "OMP_NUM_THREADS": "4",
+          "OPENBLAS_NUM_THREADS": "4",
+          "MKL_NUM_THREADS": "4"
+        },
+        "device": "CPU; NumPy only; torch not imported",
+        "enforced_scope": "systemd-run --user --scope -p MemoryMax=3G -p MemorySwapMax=0",
+        "prereg_sha256": "58f0c4900615f7a2ec7d5cfaa2d95f5d8f5c3509e9dd08a5a76b73a085050b3b"
+      }
+    },
+    {
+      "run_id": "e1_isotropic_muon0_eta0.01_seed23_base",
+      "validation": {
+        "final_weight_max_error": 3.0844906698246355e-09,
+        "probe_Mabs_max_error": 2.8889871828141622e-08,
+        "dense_CE_replay_error": 3.435274287255652e-11,
+        "scalar_recurrence_error": 1.899348733847006e-14,
+        "max_xi_bound_excess": -1.5452427202587264,
+        "full_gradient_projection_error": 2.7755575615628914e-16,
+        "logit_identity_error": 3.552713678800501e-15
+      },
+      "resources": {
+        "elapsed_seconds": 9.43482043199765,
+        "peak_RSS_bytes": 175108096,
+        "executable": "/home/liuyibo/venvs/theory/bin/python",
+        "numpy_version": "2.5.4",
+        "threads": {
+          "OMP_NUM_THREADS": "4",
+          "OPENBLAS_NUM_THREADS": "4",
+          "MKL_NUM_THREADS": "4"
+        },
+        "device": "CPU; NumPy only; torch not imported",
+        "enforced_scope": "systemd-run --user --scope -p MemoryMax=3G -p MemorySwapMax=0",
+        "prereg_sha256": "58f0c4900615f7a2ec7d5cfaa2d95f5d8f5c3509e9dd08a5a76b73a085050b3b"
+      }
+    },
+    {
+      "run_id": "e1_isotropic_muon0_eta0.01_seed47_base",
+      "validation": {
+        "final_weight_max_error": 3.221297562028269e-09,
+        "probe_Mabs_max_error": 1.1419521328548399e-08,
+        "dense_CE_replay_error": 5.3443915959405786e-11,
+        "scalar_recurrence_error": 1.6240481182094868e-14,
+        "max_xi_bound_excess": -1.5432484117139031,
+        "full_gradient_projection_error": 2.914335439641036e-16,
+        "logit_identity_error": 6.217248937900877e-15
+      },
+      "resources": {
+        "elapsed_seconds": 8.960704468001495,
+        "peak_RSS_bytes": 175915008,
+        "executable": "/home/liuyibo/venvs/theory/bin/python",
+        "numpy_version": "2.5.4",
+        "threads": {
+          "OMP_NUM_THREADS": "4",
+          "OPENBLAS_NUM_THREADS": "4",
+          "MKL_NUM_THREADS": "4"
+        },
+        "device": "CPU; NumPy only; torch not imported",
+        "enforced_scope": "systemd-run --user --scope -p MemoryMax=3G -p MemorySwapMax=0",
+        "prereg_sha256": "58f0c4900615f7a2ec7d5cfaa2d95f5d8f5c3509e9dd08a5a76b73a085050b3b"
+      }
+    },
+    {
+      "run_id": "e1_isotropic_muon0_eta0.03_seed11_base",
+      "validation": {
+        "final_weight_max_error": 5.97948771052792e-09,
+        "probe_Mabs_max_error": 4.541223752596579e-08,
+        "dense_CE_replay_error": 2.0178814175153548e-10,
+        "scalar_recurrence_error": 2.3103047253059117e-14,
+        "max_xi_bound_excess": -1.8391293550375494,
+        "full_gradient_projection_error": 7.979727989493313e-17,
+        "logit_identity_error": 3.552713678800501e-15
+      },
+      "resources": {
+        "elapsed_seconds": 8.994994340988342,
+        "peak_RSS_bytes": 178999296,
+        "executable": "/home/liuyibo/venvs/theory/bin/python",
+        "numpy_version": "2.5.4",
+        "threads": {
+          "OMP_NUM_THREADS": "4",
+          "OPENBLAS_NUM_THREADS": "4",
+          "MKL_NUM_THREADS": "4"
+        },
+        "device": "CPU; NumPy only; torch not imported",
+        "enforced_scope": "systemd-run --user --scope -p MemoryMax=3G -p MemorySwapMax=0",
+        "prereg_sha256": "58f0c4900615f7a2ec7d5cfaa2d95f5d8f5c3509e9dd08a5a76b73a085050b3b"
+      }
+    },
+    {
+      "run_id": "e1_isotropic_muon0_eta0.03_seed23_base",
+      "validation": {
+        "final_weight_max_error": 5.9257495715892006e-09,
+        "probe_Mabs_max_error": 7.429112258705572e-08,
+        "dense_CE_replay_error": 2.360917017441011e-10,
+        "scalar_recurrence_error": 1.6112111644872584e-14,
+        "max_xi_bound_excess": -1.5759695325189487,
+        "full_gradient_projection_error": 9.020562075079397e-17,
+        "logit_identity_error": 4.440892098500626e-15
+      },
+      "resources": {
+        "elapsed_seconds": 8.297268613998313,
+        "peak_RSS_bytes": 179073024,
+        "executable": "/home/liuyibo/venvs/theory/bin/python",
+        "numpy_version": "2.5.4",
+        "threads": {
+          "OMP_NUM_THREADS": "4",
+          "OPENBLAS_NUM_THREADS": "4",
+          "MKL_NUM_THREADS": "4"
+        },
+        "device": "CPU; NumPy only; torch not imported",
+        "enforced_scope": "systemd-run --user --scope -p MemoryMax=3G -p MemorySwapMax=0",
+        "prereg_sha256": "58f0c4900615f7a2ec7d5cfaa2d95f5d8f5c3509e9dd08a5a76b73a085050b3b"
+      }
+    },
+    {
+      "run_id": "e1_isotropic_muon0_eta0.03_seed47_base",
+      "validation": {
+        "final_weight_max_error": 6.2598747296860324e-09,
+        "probe_Mabs_max_error": 7.024547343803533e-08,
+        "dense_CE_replay_error": 2.8228996917789573e-10,
+        "scalar_recurrence_error": 1.509296160273621e-14,
+        "max_xi_bound_excess": -1.9101195824001431,
+        "full_gradient_projection_error": 1.2836953722228372e-16,
+        "logit_identity_error": 3.552713678800501e-15
+      },
+      "resources": {
+        "elapsed_seconds": 8.916376483000931,
+        "peak_RSS_bytes": 179073024,
+        "executable": "/home/liuyibo/venvs/theory/bin/python",
+        "numpy_version": "2.5.4",
+        "threads": {
+          "OMP_NUM_THREADS": "4",
+          "OPENBLAS_NUM_THREADS": "4",
+          "MKL_NUM_THREADS": "4"
+        },
+        "device": "CPU; NumPy only; torch not imported",
+        "enforced_scope": "systemd-run --user --scope -p MemoryMax=3G -p MemorySwapMax=0",
+        "prereg_sha256": "58f0c4900615f7a2ec7d5cfaa2d95f5d8f5c3509e9dd08a5a76b73a085050b3b"
+      }
+    },
+    {
+      "run_id": "e1_isotropic_muon0_eta0.1_seed11_base",
+      "validation": {
+        "final_weight_max_error": 1.0964870816865258e-08,
+        "probe_Mabs_max_error": 1.2751900335672417e-07,
+        "dense_CE_replay_error": 1.4364842648717513e-10,
+        "scalar_recurrence_error": 1.3766765505351941e-14,
+        "max_xi_bound_excess": -2.0589755800333895,
+        "full_gradient_projection_error": 9.020562075079397e-17,
+        "logit_identity_error": 3.552713678800501e-15
+      },
+      "resources": {
+        "elapsed_seconds": 10.00097342900699,
+        "peak_RSS_bytes": 180056064,
+        "executable": "/home/liuyibo/venvs/theory/bin/python",
+        "numpy_version": "2.5.4",
+        "threads": {
+          "OMP_NUM_THREADS": "4",
+          "OPENBLAS_NUM_THREADS": "4",
+          "MKL_NUM_THREADS": "4"
+        },
+        "device": "CPU; NumPy only; torch not imported",
+        "enforced_scope": "systemd-run --user --scope -p MemoryMax=3G -p MemorySwapMax=0",
+        "prereg_sha256": "58f0c4900615f7a2ec7d5cfaa2d95f5d8f5c3509e9dd08a5a76b73a085050b3b"
+      }
+    },
+    {
+      "run_id": "e1_isotropic_muon0_eta0.1_seed23_base",
+      "validation": {
+        "final_weight_max_error": 1.0637714098482576e-08,
+        "probe_Mabs_max_error": 1.2719078057443767e-07,
+        "dense_CE_replay_error": 4.205986670058337e-10,
+        "scalar_recurrence_error": 1.4439838214030942e-14,
+        "max_xi_bound_excess": -2.067549130046838,
+        "full_gradient_projection_error": 1.214306433183765e-16,
+        "logit_identity_error": 5.329070518200751e-15
+      },
+      "resources": {
+        "elapsed_seconds": 9.788999812997645,
+        "peak_RSS_bytes": 180056064,
+        "executable": "/home/liuyibo/venvs/theory/bin/python",
+        "numpy_version": "2.5.4",
+        "threads": {
+          "OMP_NUM_THREADS": "4",
+          "OPENBLAS_NUM_THREADS": "4",
+          "MKL_NUM_THREADS": "4"
+        },
+        "device": "CPU; NumPy only; torch not imported",
+        "enforced_scope": "systemd-run --user --scope -p MemoryMax=3G -p MemorySwapMax=0",
+        "prereg_sha256": "58f0c4900615f7a2ec7d5cfaa2d95f5d8f5c3509e9dd08a5a76b73a085050b3b"
+      }
+    },
+    {
+      "run_id": "e1_isotropic_muon0_eta0.1_seed47_base",
+      "validation": {
+        "final_weight_max_error": 1.0448850493172124e-08,
+        "probe_Mabs_max_error": 8.522385464004856e-08,
+        "dense_CE_replay_error": 2.3950619265633577e-11,
+        "scalar_recurrence_error": 1.3225531780847177e-14,
+        "max_xi_bound_excess": -1.7868481802220564,
+        "full_gradient_projection_error": 7.632783294297951e-17,
+        "logit_identity_error": 3.552713678800501e-15
+      },
+      "resources": {
+        "elapsed_seconds": 9.9939719660033,
+        "peak_RSS_bytes": 180080640,
+        "executable": "/home/liuyibo/venvs/theory/bin/python",
+        "numpy_version": "2.5.4",
+        "threads": {
+          "OMP_NUM_THREADS": "4",
+          "OPENBLAS_NUM_THREADS": "4",
+          "MKL_NUM_THREADS": "4"
+        },
+        "device": "CPU; NumPy only; torch not imported",
+        "enforced_scope": "systemd-run --user --scope -p MemoryMax=3G -p MemorySwapMax=0",
+        "prereg_sha256": "58f0c4900615f7a2ec7d5cfaa2d95f5d8f5c3509e9dd08a5a76b73a085050b3b"
+      }
+    },
+    {
+      "run_id": "e1_anisotropic_adamw_eta0.01_seed11_base",
+      "validation": {
+        "final_weight_max_error": 1.3327120518269453e-09,
+        "probe_Mabs_max_error": 1.2299967266926615e-08,
+        "dense_CE_replay_error": 1.418118955598402e-10,
+        "scalar_recurrence_error": 0.0,
+        "max_xi_bound_excess": 0.0,
+        "full_gradient_projection_error": 0.0,
+        "logit_identity_error": 4.440892098500626e-15
+      },
+      "resources": {
+        "elapsed_seconds": 1.541264529005275,
+        "peak_RSS_bytes": 180080640,
+        "executable": "/home/liuyibo/venvs/theory/bin/python",
+        "numpy_version": "2.5.4",
+        "threads": {
+          "OMP_NUM_THREADS": "4",
+          "OPENBLAS_NUM_THREADS": "4",
+          "MKL_NUM_THREADS": "4"
+        },
+        "device": "CPU; NumPy only; torch not imported",
+        "enforced_scope": "systemd-run --user --scope -p MemoryMax=3G -p MemorySwapMax=0",
+        "prereg_sha256": "58f0c4900615f7a2ec7d5cfaa2d95f5d8f5c3509e9dd08a5a76b73a085050b3b"
+      }
+    },
+    {
+      "run_id": "e1_anisotropic_adamw_eta0.01_seed23_base",
+      "validation": {
+        "final_weight_max_error": 1.6934459667883317e-09,
+        "probe_Mabs_max_error": 9.24846688121761e-09,
+        "dense_CE_replay_error": 5.075717623981291e-12,
+        "scalar_recurrence_error": 0.0,
+        "max_xi_bound_excess": 0.0,
+        "full_gradient_projection_error": 0.0,
+        "logit_identity_error": 3.552713678800501e-15
+      },
+      "resources": {
+        "elapsed_seconds": 1.3170851730101276,
+        "peak_RSS_bytes": 180080640,
+        "executable": "/home/liuyibo/venvs/theory/bin/python",
+        "numpy_version": "2.5.4",
+        "threads": {
+          "OMP_NUM_THREADS": "4",
+          "OPENBLAS_NUM_THREADS": "4",
+          "MKL_NUM_THREADS": "4"
+        },
+        "device": "CPU; NumPy only; torch not imported",
+        "enforced_scope": "systemd-run --user --scope -p MemoryMax=3G -p MemorySwapMax=0",
+        "prereg_sha256": "58f0c4900615f7a2ec7d5cfaa2d95f5d8f5c3509e9dd08a5a76b73a085050b3b"
+      }
+    },
+    {
+      "run_id": "e1_anisotropic_adamw_eta0.01_seed47_base",
+      "validation": {
+        "final_weight_max_error": 1.2013894878926124e-09,
+        "probe_Mabs_max_error": 5.970651528741655e-09,
+        "dense_CE_replay_error": 7.646661082105766e-11,
+        "scalar_recurrence_error": 0.0,
+        "max_xi_bound_excess": 0.0,
+        "full_gradient_projection_error": 0.0,
+        "logit_identity_error": 4.440892098500626e-15
+      },
+      "resources": {
+        "elapsed_seconds": 1.3016316639987053,
+        "peak_RSS_bytes": 180080640,
+        "executable": "/home/liuyibo/venvs/theory/bin/python",
+        "numpy_version": "2.5.4",
+        "threads": {
+          "OMP_NUM_THREADS": "4",
+          "OPENBLAS_NUM_THREADS": "4",
+          "MKL_NUM_THREADS": "4"
+        },
+        "device": "CPU; NumPy only; torch not imported",
+        "enforced_scope": "systemd-run --user --scope -p MemoryMax=3G -p MemorySwapMax=0",
+        "prereg_sha256": "58f0c4900615f7a2ec7d5cfaa2d95f5d8f5c3509e9dd08a5a76b73a085050b3b"
+      }
+    },
+    {
+      "run_id": "e1_anisotropic_adamw_eta0.03_seed11_base",
+      "validation": {
+        "final_weight_max_error": 1.6175700778831015e-09,
+        "probe_Mabs_max_error": 1.618291634031266e-08,
+        "dense_CE_replay_error": 1.8471568719036213e-10,
+        "scalar_recurrence_error": 0.0,
+        "max_xi_bound_excess": 0.0,
+        "full_gradient_projection_error": 0.0,
+        "logit_identity_error": 5.329070518200751e-15
+      },
+      "resources": {
+        "elapsed_seconds": 1.3173340749926865,
+        "peak_RSS_bytes": 180080640,
+        "executable": "/home/liuyibo/venvs/theory/bin/python",
+        "numpy_version": "2.5.4",
+        "threads": {
+          "OMP_NUM_THREADS": "4",
+          "OPENBLAS_NUM_THREADS": "4",
+          "MKL_NUM_THREADS": "4"
+        },
+        "device": "CPU; NumPy only; torch not imported",
+        "enforced_scope": "systemd-run --user --scope -p MemoryMax=3G -p MemorySwapMax=0",
+        "prereg_sha256": "58f0c4900615f7a2ec7d5cfaa2d95f5d8f5c3509e9dd08a5a76b73a085050b3b"
+      }
+    },
+    {
+      "run_id": "e1_anisotropic_adamw_eta0.03_seed23_base",
+      "validation": {
+        "final_weight_max_error": 1.3603195236910892e-09,
+        "probe_Mabs_max_error": 1.906482971492096e-08,
+        "dense_CE_replay_error": 4.3580694608635895e-12,
+        "scalar_recurrence_error": 0.0,
+        "max_xi_bound_excess": 0.0,
+        "full_gradient_projection_error": 0.0,
+        "logit_identity_error": 4.440892098500626e-15
+      },
+      "resources": {
+        "elapsed_seconds": 1.2478401989937993,
+        "peak_RSS_bytes": 180080640,
+        "executable": "/home/liuyibo/venvs/theory/bin/python",
+        "numpy_version": "2.5.4",
+        "threads": {
+          "OMP_NUM_THREADS": "4",
+          "OPENBLAS_NUM_THREADS": "4",
+          "MKL_NUM_THREADS": "4"
+        },
+        "device": "CPU; NumPy only; torch not imported",
+        "enforced_scope": "systemd-run --user --scope -p MemoryMax=3G -p MemorySwapMax=0",
+        "prereg_sha256": "58f0c4900615f7a2ec7d5cfaa2d95f5d8f5c3509e9dd08a5a76b73a085050b3b"
+      }
+    },
+    {
+      "run_id": "e1_anisotropic_adamw_eta0.03_seed47_base",
+      "validation": {
+        "final_weight_max_error": 1.3933918741049212e-09,
+        "probe_Mabs_max_error": 9.682390000875785e-09,
+        "dense_CE_replay_error": 1.4106771306643395e-10,
+        "scalar_recurrence_error": 0.0,
+        "max_xi_bound_excess": 0.0,
+        "full_gradient_projection_error": 0.0,
+        "logit_identity_error": 3.552713678800501e-15
+      },
+      "resources": {
+        "elapsed_seconds": 1.3185161310102558,
+        "peak_RSS_bytes": 180080640,
+        "executable": "/home/liuyibo/venvs/theory/bin/python",
+        "numpy_version": "2.5.4",
+        "threads": {
+          "OMP_NUM_THREADS": "4",
+          "OPENBLAS_NUM_THREADS": "4",
+          "MKL_NUM_THREADS": "4"
+        },
+        "device": "CPU; NumPy only; torch not imported",
+        "enforced_scope": "systemd-run --user --scope -p MemoryMax=3G -p MemorySwapMax=0",
+        "prereg_sha256": "58f0c4900615f7a2ec7d5cfaa2d95f5d8f5c3509e9dd08a5a76b73a085050b3b"
+      }
+    },
+    {
+      "run_id": "e1_anisotropic_adamw_eta0.1_seed11_base",
+      "validation": {
+        "final_weight_max_error": 2.7239379640775496e-09,
+        "probe_Mabs_max_error": 3.1030851666002945e-08,
+        "dense_CE_replay_error": 1.0223932811470604e-11,
+        "scalar_recurrence_error": 0.0,
+        "max_xi_bound_excess": 0.0,
+        "full_gradient_projection_error": 0.0,
+        "logit_identity_error": 5.329070518200751e-15
+      },
+      "resources": {
+        "elapsed_seconds": 1.3391415239893831,
+        "peak_RSS_bytes": 180080640,
+        "executable": "/home/liuyibo/venvs/theory/bin/python",
+        "numpy_version": "2.5.4",
+        "threads": {
+          "OMP_NUM_THREADS": "4",
+          "OPENBLAS_NUM_THREADS": "4",
+          "MKL_NUM_THREADS": "4"
+        },
+        "device": "CPU; NumPy only; torch not imported",
+        "enforced_scope": "systemd-run --user --scope -p MemoryMax=3G -p MemorySwapMax=0",
+        "prereg_sha256": "58f0c4900615f7a2ec7d5cfaa2d95f5d8f5c3509e9dd08a5a76b73a085050b3b"
+      }
+    },
+    {
+      "run_id": "e1_anisotropic_adamw_eta0.1_seed23_base",
+      "validation": {
+        "final_weight_max_error": 3.1632596819708425e-09,
+        "probe_Mabs_max_error": 3.0323565880507886e-08,
+        "dense_CE_replay_error": 4.136724296444072e-11,
+        "scalar_recurrence_error": 0.0,
+        "max_xi_bound_excess": 0.0,
+        "full_gradient_projection_error": 0.0,
+        "logit_identity_error": 3.552713678800501e-15
+      },
+      "resources": {
+        "elapsed_seconds": 1.3001323770004092,
+        "peak_RSS_bytes": 180080640,
+        "executable": "/home/liuyibo/venvs/theory/bin/python",
+        "numpy_version": "2.5.4",
+        "threads": {
+          "OMP_NUM_THREADS": "4",
+          "OPENBLAS_NUM_THREADS": "4",
+          "MKL_NUM_THREADS": "4"
+        },
+        "device": "CPU; NumPy only; torch not imported",
+        "enforced_scope": "systemd-run --user --scope -p MemoryMax=3G -p MemorySwapMax=0",
+        "prereg_sha256": "58f0c4900615f7a2ec7d5cfaa2d95f5d8f5c3509e9dd08a5a76b73a085050b3b"
+      }
+    },
+    {
+      "run_id": "e1_anisotropic_adamw_eta0.1_seed47_base",
+      "validation": {
+        "final_weight_max_error": 3.4427538042614003e-09,
+        "probe_Mabs_max_error": 3.159568429111914e-08,
+        "dense_CE_replay_error": 2.2007839994842016e-11,
+        "scalar_recurrence_error": 0.0,
+        "max_xi_bound_excess": 0.0,
+        "full_gradient_projection_error": 0.0,
+        "logit_identity_error": 3.552713678800501e-15
+      },
+      "resources": {
+        "elapsed_seconds": 1.2912179810082307,
+        "peak_RSS_bytes": 180080640,
+        "executable": "/home/liuyibo/venvs/theory/bin/python",
+        "numpy_version": "2.5.4",
+        "threads": {
+          "OMP_NUM_THREADS": "4",
+          "OPENBLAS_NUM_THREADS": "4",
+          "MKL_NUM_THREADS": "4"
+        },
+        "device": "CPU; NumPy only; torch not imported",
+        "enforced_scope": "systemd-run --user --scope -p MemoryMax=3G -p MemorySwapMax=0",
+        "prereg_sha256": "58f0c4900615f7a2ec7d5cfaa2d95f5d8f5c3509e9dd08a5a76b73a085050b3b"
+      }
+    },
+    {
+      "run_id": "e1_anisotropic_muon09_eta0.01_seed11_base",
+      "validation": {
+        "final_weight_max_error": 3.0097083159041915e-09,
+        "probe_Mabs_max_error": 2.5597584496495074e-08,
+        "dense_CE_replay_error": 1.3491385786323917e-10,
+        "scalar_recurrence_error": 0.0,
+        "max_xi_bound_excess": 0.0,
+        "full_gradient_projection_error": 0.0,
+        "logit_identity_error": 5.329070518200751e-15
+      },
+      "resources": {
+        "elapsed_seconds": 1.4062075580004603,
+        "peak_RSS_bytes": 180080640,
+        "executable": "/home/liuyibo/venvs/theory/bin/python",
+        "numpy_version": "2.5.4",
+        "threads": {
+          "OMP_NUM_THREADS": "4",
+          "OPENBLAS_NUM_THREADS": "4",
+          "MKL_NUM_THREADS": "4"
+        },
+        "device": "CPU; NumPy only; torch not imported",
+        "enforced_scope": "systemd-run --user --scope -p MemoryMax=3G -p MemorySwapMax=0",
+        "prereg_sha256": "58f0c4900615f7a2ec7d5cfaa2d95f5d8f5c3509e9dd08a5a76b73a085050b3b"
+      }
+    },
+    {
+      "run_id": "e1_anisotropic_muon09_eta0.01_seed23_base",
+      "validation": {
+        "final_weight_max_error": 2.891087896861322e-09,
+        "probe_Mabs_max_error": 3.1870623473650994e-08,
+        "dense_CE_replay_error": 9.494138808463504e-11,
+        "scalar_recurrence_error": 0.0,
+        "max_xi_bound_excess": 0.0,
+        "full_gradient_projection_error": 0.0,
+        "logit_identity_error": 4.440892098500626e-15
+      },
+      "resources": {
+        "elapsed_seconds": 1.2950160859909374,
+        "peak_RSS_bytes": 180080640,
+        "executable": "/home/liuyibo/venvs/theory/bin/python",
+        "numpy_version": "2.5.4",
+        "threads": {
+          "OMP_NUM_THREADS": "4",
+          "OPENBLAS_NUM_THREADS": "4",
+          "MKL_NUM_THREADS": "4"
+        },
+        "device": "CPU; NumPy only; torch not imported",
+        "enforced_scope": "systemd-run --user --scope -p MemoryMax=3G -p MemorySwapMax=0",
+        "prereg_sha256": "58f0c4900615f7a2ec7d5cfaa2d95f5d8f5c3509e9dd08a5a76b73a085050b3b"
+      }
+    },
+    {
+      "run_id": "e1_anisotropic_muon09_eta0.01_seed47_base",
+      "validation": {
+        "final_weight_max_error": 2.9013776103870015e-09,
+        "probe_Mabs_max_error": 2.0630348984695956e-08,
+        "dense_CE_replay_error": 1.3260215148136467e-10,
+        "scalar_recurrence_error": 0.0,
+        "max_xi_bound_excess": 0.0,
+        "full_gradient_projection_error": 0.0,
+        "logit_identity_error": 5.329070518200751e-15
+      },
+      "resources": {
+        "elapsed_seconds": 1.5956119850015966,
+        "peak_RSS_bytes": 180080640,
+        "executable": "/home/liuyibo/venvs/theory/bin/python",
+        "numpy_version": "2.5.4",
+        "threads": {
+          "OMP_NUM_THREADS": "4",
+          "OPENBLAS_NUM_THREADS": "4",
+          "MKL_NUM_THREADS": "4"
+        },
+        "device": "CPU; NumPy only; torch not imported",
+        "enforced_scope": "systemd-run --user --scope -p MemoryMax=3G -p MemorySwapMax=0",
+        "prereg_sha256": "58f0c4900615f7a2ec7d5cfaa2d95f5d8f5c3509e9dd08a5a76b73a085050b3b"
+      }
+    },
+    {
+      "run_id": "e1_anisotropic_muon09_eta0.03_seed11_base",
+      "validation": {
+        "final_weight_max_error": 6.12540479449919e-09,
+        "probe_Mabs_max_error": 4.6243499696174695e-08,
+        "dense_CE_replay_error": 3.29097860074512e-11,
+        "scalar_recurrence_error": 0.0,
+        "max_xi_bound_excess": 0.0,
+        "full_gradient_projection_error": 0.0,
+        "logit_identity_error": 5.329070518200751e-15
+      },
+      "resources": {
+        "elapsed_seconds": 2.1897359769936884,
+        "peak_RSS_bytes": 180080640,
+        "executable": "/home/liuyibo/venvs/theory/bin/python",
+        "numpy_version": "2.5.4",
+        "threads": {
+          "OMP_NUM_THREADS": "4",
+          "OPENBLAS_NUM_THREADS": "4",
+          "MKL_NUM_THREADS": "4"
+        },
+        "device": "CPU; NumPy only; torch not imported",
+        "enforced_scope": "systemd-run --user --scope -p MemoryMax=3G -p MemorySwapMax=0",
+        "prereg_sha256": "58f0c4900615f7a2ec7d5cfaa2d95f5d8f5c3509e9dd08a5a76b73a085050b3b"
+      }
+    },
+    {
+      "run_id": "e1_anisotropic_muon09_eta0.03_seed23_base",
+      "validation": {
+        "final_weight_max_error": 6.516988393379108e-09,
+        "probe_Mabs_max_error": 6.164558996601954e-08,
+        "dense_CE_replay_error": 2.2059909454696935e-11,
+        "scalar_recurrence_error": 0.0,
+        "max_xi_bound_excess": 0.0,
+        "full_gradient_projection_error": 0.0,
+        "logit_identity_error": 5.329070518200751e-15
+      },
+      "resources": {
+        "elapsed_seconds": 1.3325510470021982,
+        "peak_RSS_bytes": 180080640,
+        "executable": "/home/liuyibo/venvs/theory/bin/python",
+        "numpy_version": "2.5.4",
+        "threads": {
+          "OMP_NUM_THREADS": "4",
+          "OPENBLAS_NUM_THREADS": "4",
+          "MKL_NUM_THREADS": "4"
+        },
+        "device": "CPU; NumPy only; torch not imported",
+        "enforced_scope": "systemd-run --user --scope -p MemoryMax=3G -p MemorySwapMax=0",
+        "prereg_sha256": "58f0c4900615f7a2ec7d5cfaa2d95f5d8f5c3509e9dd08a5a76b73a085050b3b"
+      }
+    },
+    {
+      "run_id": "e1_anisotropic_muon09_eta0.03_seed47_base",
+      "validation": {
+        "final_weight_max_error": 7.012183139698536e-09,
+        "probe_Mabs_max_error": 7.98053623185524e-08,
+        "dense_CE_replay_error": 2.2961965662204875e-11,
+        "scalar_recurrence_error": 0.0,
+        "max_xi_bound_excess": 0.0,
+        "full_gradient_projection_error": 0.0,
+        "logit_identity_error": 5.329070518200751e-15
+      },
+      "resources": {
+        "elapsed_seconds": 1.3580823980009882,
+        "peak_RSS_bytes": 180080640,
+        "executable": "/home/liuyibo/venvs/theory/bin/python",
+        "numpy_version": "2.5.4",
+        "threads": {
+          "OMP_NUM_THREADS": "4",
+          "OPENBLAS_NUM_THREADS": "4",
+          "MKL_NUM_THREADS": "4"
+        },
+        "device": "CPU; NumPy only; torch not imported",
+        "enforced_scope": "systemd-run --user --scope -p MemoryMax=3G -p MemorySwapMax=0",
+        "prereg_sha256": "58f0c4900615f7a2ec7d5cfaa2d95f5d8f5c3509e9dd08a5a76b73a085050b3b"
+      }
+    },
+    {
+      "run_id": "e1_anisotropic_muon09_eta0.1_seed11_base",
+      "validation": {
+        "final_weight_max_error": 1.1581575143360112e-08,
+        "probe_Mabs_max_error": 1.784300955876006e-07,
+        "dense_CE_replay_error": 1.0631162616903111e-11,
+        "scalar_recurrence_error": 0.0,
+        "max_xi_bound_excess": 0.0,
+        "full_gradient_projection_error": 0.0,
+        "logit_identity_error": 7.105427357601002e-15
+      },
+      "resources": {
+        "elapsed_seconds": 1.254894270998193,
+        "peak_RSS_bytes": 180080640,
+        "executable": "/home/liuyibo/venvs/theory/bin/python",
+        "numpy_version": "2.5.4",
+        "threads": {
+          "OMP_NUM_THREADS": "4",
+          "OPENBLAS_NUM_THREADS": "4",
+          "MKL_NUM_THREADS": "4"
+        },
+        "device": "CPU; NumPy only; torch not imported",
+        "enforced_scope": "systemd-run --user --scope -p MemoryMax=3G -p MemorySwapMax=0",
+        "prereg_sha256": "58f0c4900615f7a2ec7d5cfaa2d95f5d8f5c3509e9dd08a5a76b73a085050b3b"
+      }
+    },
+    {
+      "run_id": "e1_anisotropic_muon09_eta0.1_seed23_base",
+      "validation": {
+        "final_weight_max_error": 1.3715737962050056e-08,
+        "probe_Mabs_max_error": 1.0203941691599994e-07,
+        "dense_CE_replay_error": 2.2163049173684612e-11,
+        "scalar_recurrence_error": 0.0,
+        "max_xi_bound_excess": 0.0,
+        "full_gradient_projection_error": 0.0,
+        "logit_identity_error": 5.329070518200751e-15
+      },
+      "resources": {
+        "elapsed_seconds": 1.2945512070000404,
+        "peak_RSS_bytes": 180080640,
+        "executable": "/home/liuyibo/venvs/theory/bin/python",
+        "numpy_version": "2.5.4",
+        "threads": {
+          "OMP_NUM_THREADS": "4",
+          "OPENBLAS_NUM_THREADS": "4",
+          "MKL_NUM_THREADS": "4"
+        },
+        "device": "CPU; NumPy only; torch not imported",
+        "enforced_scope": "systemd-run --user --scope -p MemoryMax=3G -p MemorySwapMax=0",
+        "prereg_sha256": "58f0c4900615f7a2ec7d5cfaa2d95f5d8f5c3509e9dd08a5a76b73a085050b3b"
+      }
+    },
+    {
+      "run_id": "e1_anisotropic_muon09_eta0.1_seed47_base",
+      "validation": {
+        "final_weight_max_error": 1.1372959102251556e-08,
+        "probe_Mabs_max_error": 1.327162806319393e-07,
+        "dense_CE_replay_error": 3.9357184178356874e-11,
+        "scalar_recurrence_error": 0.0,
+        "max_xi_bound_excess": 0.0,
+        "full_gradient_projection_error": 0.0,
+        "logit_identity_error": 5.329070518200751e-15
+      },
+      "resources": {
+        "elapsed_seconds": 1.29128699300054,
+        "peak_RSS_bytes": 180080640,
+        "executable": "/home/liuyibo/venvs/theory/bin/python",
+        "numpy_version": "2.5.4",
+        "threads": {
+          "OMP_NUM_THREADS": "4",
+          "OPENBLAS_NUM_THREADS": "4",
+          "MKL_NUM_THREADS": "4"
+        },
+        "device": "CPU; NumPy only; torch not imported",
+        "enforced_scope": "systemd-run --user --scope -p MemoryMax=3G -p MemorySwapMax=0",
+        "prereg_sha256": "58f0c4900615f7a2ec7d5cfaa2d95f5d8f5c3509e9dd08a5a76b73a085050b3b"
+      }
+    },
+    {
+      "run_id": "e1_anisotropic_signsgd_eta0.01_seed11_base",
+      "validation": {
+        "final_weight_max_error": 0.0,
+        "probe_Mabs_max_error": 0.0,
+        "dense_CE_replay_error": 0.0,
+        "scalar_recurrence_error": 0.0,
+        "max_xi_bound_excess": 0.0,
+        "full_gradient_projection_error": 0.0,
+        "logit_identity_error": 4.440892098500626e-15
+      },
+      "resources": {
+        "elapsed_seconds": 0.9688589520083042,
+        "peak_RSS_bytes": 180080640,
+        "executable": "/home/liuyibo/venvs/theory/bin/python",
+        "numpy_version": "2.5.4",
+        "threads": {
+          "OMP_NUM_THREADS": "4",
+          "OPENBLAS_NUM_THREADS": "4",
+          "MKL_NUM_THREADS": "4"
+        },
+        "device": "CPU; NumPy only; torch not imported",
+        "enforced_scope": "systemd-run --user --scope -p MemoryMax=3G -p MemorySwapMax=0",
+        "prereg_sha256": "58f0c4900615f7a2ec7d5cfaa2d95f5d8f5c3509e9dd08a5a76b73a085050b3b"
+      }
+    },
+    {
+      "run_id": "e1_anisotropic_signsgd_eta0.01_seed23_base",
+      "validation": {
+        "final_weight_max_error": 0.0,
+        "probe_Mabs_max_error": 0.0,
+        "dense_CE_replay_error": 0.0,
+        "scalar_recurrence_error": 0.0,
+        "max_xi_bound_excess": 0.0,
+        "full_gradient_projection_error": 0.0,
+        "logit_identity_error": 3.552713678800501e-15
+      },
+      "resources": {
+        "elapsed_seconds": 0.9593278190004639,
+        "peak_RSS_bytes": 180080640,
+        "executable": "/home/liuyibo/venvs/theory/bin/python",
+        "numpy_version": "2.5.4",
+        "threads": {
+          "OMP_NUM_THREADS": "4",
+          "OPENBLAS_NUM_THREADS": "4",
+          "MKL_NUM_THREADS": "4"
+        },
+        "device": "CPU; NumPy only; torch not imported",
+        "enforced_scope": "systemd-run --user --scope -p MemoryMax=3G -p MemorySwapMax=0",
+        "prereg_sha256": "58f0c4900615f7a2ec7d5cfaa2d95f5d8f5c3509e9dd08a5a76b73a085050b3b"
+      }
+    },
+    {
+      "run_id": "e1_anisotropic_signsgd_eta0.01_seed47_base",
+      "validation": {
+        "final_weight_max_error": 0.0,
+        "probe_Mabs_max_error": 0.0,
+        "dense_CE_replay_error": 0.0,
+        "scalar_recurrence_error": 0.0,
+        "max_xi_bound_excess": 0.0,
+        "full_gradient_projection_error": 0.0,
+        "logit_identity_error": 4.440892098500626e-15
+      },
+      "resources": {
+        "elapsed_seconds": 0.9604807209980208,
+        "peak_RSS_bytes": 180080640,
+        "executable": "/home/liuyibo/venvs/theory/bin/python",
+        "numpy_version": "2.5.4",
+        "threads": {
+          "OMP_NUM_THREADS": "4",
+          "OPENBLAS_NUM_THREADS": "4",
+          "MKL_NUM_THREADS": "4"
+        },
+        "device": "CPU; NumPy only; torch not imported",
+        "enforced_scope": "systemd-run --user --scope -p MemoryMax=3G -p MemorySwapMax=0",
+        "prereg_sha256": "58f0c4900615f7a2ec7d5cfaa2d95f5d8f5c3509e9dd08a5a76b73a085050b3b"
+      }
+    },
+    {
+      "run_id": "e1_anisotropic_signsgd_eta0.03_seed11_base",
+      "validation": {
+        "final_weight_max_error": 0.0,
+        "probe_Mabs_max_error": 0.0,
+        "dense_CE_replay_error": 0.0,
+        "scalar_recurrence_error": 0.0,
+        "max_xi_bound_excess": 0.0,
+        "full_gradient_projection_error": 0.0,
+        "logit_identity_error": 4.440892098500626e-15
+      },
+      "resources": {
+        "elapsed_seconds": 1.0994224460009718,
+        "peak_RSS_bytes": 180080640,
+        "executable": "/home/liuyibo/venvs/theory/bin/python",
+        "numpy_version": "2.5.4",
+        "threads": {
+          "OMP_NUM_THREADS": "4",
+          "OPENBLAS_NUM_THREADS": "4",
+          "MKL_NUM_THREADS": "4"
+        },
+        "device": "CPU; NumPy only; torch not imported",
+        "enforced_scope": "systemd-run --user --scope -p MemoryMax=3G -p MemorySwapMax=0",
+        "prereg_sha256": "58f0c4900615f7a2ec7d5cfaa2d95f5d8f5c3509e9dd08a5a76b73a085050b3b"
+      }
+    },
+    {
+      "run_id": "e1_anisotropic_signsgd_eta0.03_seed23_base",
+      "validation": {
+        "final_weight_max_error": 0.0,
+        "probe_Mabs_max_error": 0.0,
+        "dense_CE_replay_error": 0.0,
+        "scalar_recurrence_error": 0.0,
+        "max_xi_bound_excess": 0.0,
+        "full_gradient_projection_error": 0.0,
+        "logit_identity_error": 6.217248937900877e-15
+      },
+      "resources": {
+        "elapsed_seconds": 0.9590929719997803,
+        "peak_RSS_bytes": 180080640,
+        "executable": "/home/liuyibo/venvs/theory/bin/python",
+        "numpy_version": "2.5.4",
+        "threads": {
+          "OMP_NUM_THREADS": "4",
+          "OPENBLAS_NUM_THREADS": "4",
+          "MKL_NUM_THREADS": "4"
+        },
+        "device": "CPU; NumPy only; torch not imported",
+        "enforced_scope": "systemd-run --user --scope -p MemoryMax=3G -p MemorySwapMax=0",
+        "prereg_sha256": "58f0c4900615f7a2ec7d5cfaa2d95f5d8f5c3509e9dd08a5a76b73a085050b3b"
+      }
+    },
+    {
+      "run_id": "e1_anisotropic_signsgd_eta0.03_seed47_base",
+      "validation": {
+        "final_weight_max_error": 0.0,
+        "probe_Mabs_max_error": 0.0,
+        "dense_CE_replay_error": 0.0,
+        "scalar_recurrence_error": 0.0,
+        "max_xi_bound_excess": 0.0,
+        "full_gradient_projection_error": 0.0,
+        "logit_identity_error": 5.329070518200751e-15
+      },
+      "resources": {
+        "elapsed_seconds": 0.9347268650017213,
+        "peak_RSS_bytes": 180080640,
+        "executable": "/home/liuyibo/venvs/theory/bin/python",
+        "numpy_version": "2.5.4",
+        "threads": {
+          "OMP_NUM_THREADS": "4",
+          "OPENBLAS_NUM_THREADS": "4",
+          "MKL_NUM_THREADS": "4"
+        },
+        "device": "CPU; NumPy only; torch not imported",
+        "enforced_scope": "systemd-run --user --scope -p MemoryMax=3G -p MemorySwapMax=0",
+        "prereg_sha256": "58f0c4900615f7a2ec7d5cfaa2d95f5d8f5c3509e9dd08a5a76b73a085050b3b"
+      }
+    },
+    {
+      "run_id": "e1_anisotropic_signsgd_eta0.1_seed11_base",
+      "validation": {
+        "final_weight_max_error": 0.0,
+        "probe_Mabs_max_error": 0.0,
+        "dense_CE_replay_error": 0.0,
+        "scalar_recurrence_error": 0.0,
+        "max_xi_bound_excess": 0.0,
+        "full_gradient_projection_error": 0.0,
+        "logit_identity_error": 5.329070518200751e-15
+      },
+      "resources": {
+        "elapsed_seconds": 0.9897693889943184,
+        "peak_RSS_bytes": 180080640,
+        "executable": "/home/liuyibo/venvs/theory/bin/python",
+        "numpy_version": "2.5.4",
+        "threads": {
+          "OMP_NUM_THREADS": "4",
+          "OPENBLAS_NUM_THREADS": "4",
+          "MKL_NUM_THREADS": "4"
+        },
+        "device": "CPU; NumPy only; torch not imported",
+        "enforced_scope": "systemd-run --user --scope -p MemoryMax=3G -p MemorySwapMax=0",
+        "prereg_sha256": "58f0c4900615f7a2ec7d5cfaa2d95f5d8f5c3509e9dd08a5a76b73a085050b3b"
+      }
+    },
+    {
+      "run_id": "e1_anisotropic_signsgd_eta0.1_seed23_base",
+      "validation": {
+        "final_weight_max_error": 0.0,
+        "probe_Mabs_max_error": 0.0,
+        "dense_CE_replay_error": 0.0,
+        "scalar_recurrence_error": 0.0,
+        "max_xi_bound_excess": 0.0,
+        "full_gradient_projection_error": 0.0,
+        "logit_identity_error": 5.329070518200751e-15
+      },
+      "resources": {
+        "elapsed_seconds": 0.9922402819938725,
+        "peak_RSS_bytes": 180080640,
+        "executable": "/home/liuyibo/venvs/theory/bin/python",
+        "numpy_version": "2.5.4",
+        "threads": {
+          "OMP_NUM_THREADS": "4",
+          "OPENBLAS_NUM_THREADS": "4",
+          "MKL_NUM_THREADS": "4"
+        },
+        "device": "CPU; NumPy only; torch not imported",
+        "enforced_scope": "systemd-run --user --scope -p MemoryMax=3G -p MemorySwapMax=0",
+        "prereg_sha256": "58f0c4900615f7a2ec7d5cfaa2d95f5d8f5c3509e9dd08a5a76b73a085050b3b"
+      }
+    },
+    {
+      "run_id": "e1_anisotropic_signsgd_eta0.1_seed47_base",
+      "validation": {
+        "final_weight_max_error": 0.0,
+        "probe_Mabs_max_error": 0.0,
+        "dense_CE_replay_error": 0.0,
+        "scalar_recurrence_error": 0.0,
+        "max_xi_bound_excess": 0.0,
+        "full_gradient_projection_error": 0.0,
+        "logit_identity_error": 5.329070518200751e-15
+      },
+      "resources": {
+        "elapsed_seconds": 0.892226356008905,
+        "peak_RSS_bytes": 180080640,
+        "executable": "/home/liuyibo/venvs/theory/bin/python",
+        "numpy_version": "2.5.4",
+        "threads": {
+          "OMP_NUM_THREADS": "4",
+          "OPENBLAS_NUM_THREADS": "4",
+          "MKL_NUM_THREADS": "4"
+        },
+        "device": "CPU; NumPy only; torch not imported",
+        "enforced_scope": "systemd-run --user --scope -p MemoryMax=3G -p MemorySwapMax=0",
+        "prereg_sha256": "58f0c4900615f7a2ec7d5cfaa2d95f5d8f5c3509e9dd08a5a76b73a085050b3b"
+      }
+    },
+    {
+      "run_id": "e1_isotropic_adamw_eta0.01_seed11_base",
+      "validation": {
+        "final_weight_max_error": 1.3267477672052053e-09,
+        "probe_Mabs_max_error": 5.583553175370071e-09,
+        "dense_CE_replay_error": 1.5682788401250036e-11,
+        "scalar_recurrence_error": 0.0,
+        "max_xi_bound_excess": 0.0,
+        "full_gradient_projection_error": 0.0,
+        "logit_identity_error": 3.552713678800501e-15
+      },
+      "resources": {
+        "elapsed_seconds": 1.5979672389948973,
+        "peak_RSS_bytes": 180080640,
+        "executable": "/home/liuyibo/venvs/theory/bin/python",
+        "numpy_version": "2.5.4",
+        "threads": {
+          "OMP_NUM_THREADS": "4",
+          "OPENBLAS_NUM_THREADS": "4",
+          "MKL_NUM_THREADS": "4"
+        },
+        "device": "CPU; NumPy only; torch not imported",
+        "enforced_scope": "systemd-run --user --scope -p MemoryMax=3G -p MemorySwapMax=0",
+        "prereg_sha256": "58f0c4900615f7a2ec7d5cfaa2d95f5d8f5c3509e9dd08a5a76b73a085050b3b"
+      }
+    },
+    {
+      "run_id": "e1_isotropic_adamw_eta0.01_seed23_base",
+      "validation": {
+        "final_weight_max_error": 1.0733914312943682e-09,
+        "probe_Mabs_max_error": 1.3462951642395637e-08,
+        "dense_CE_replay_error": 6.639355731863361e-12,
+        "scalar_recurrence_error": 0.0,
+        "max_xi_bound_excess": 0.0,
+        "full_gradient_projection_error": 0.0,
+        "logit_identity_error": 3.552713678800501e-15
+      },
+      "resources": {
+        "elapsed_seconds": 1.4896869420044823,
+        "peak_RSS_bytes": 180080640,
+        "executable": "/home/liuyibo/venvs/theory/bin/python",
+        "numpy_version": "2.5.4",
+        "threads": {
+          "OMP_NUM_THREADS": "4",
+          "OPENBLAS_NUM_THREADS": "4",
+          "MKL_NUM_THREADS": "4"
+        },
+        "device": "CPU; NumPy only; torch not imported",
+        "enforced_scope": "systemd-run --user --scope -p MemoryMax=3G -p MemorySwapMax=0",
+        "prereg_sha256": "58f0c4900615f7a2ec7d5cfaa2d95f5d8f5c3509e9dd08a5a76b73a085050b3b"
+      }
+    },
+    {
+      "run_id": "e1_isotropic_adamw_eta0.01_seed47_base",
+      "validation": {
+        "final_weight_max_error": 1.301337038128736e-09,
+        "probe_Mabs_max_error": 5.396376678845627e-09,
+        "dense_CE_replay_error": 2.1968205032862897e-11,
+        "scalar_recurrence_error": 0.0,
+        "max_xi_bound_excess": 0.0,
+        "full_gradient_projection_error": 0.0,
+        "logit_identity_error": 7.105427357601002e-15
+      },
+      "resources": {
+        "elapsed_seconds": 1.345119120000163,
+        "peak_RSS_bytes": 180080640,
+        "executable": "/home/liuyibo/venvs/theory/bin/python",
+        "numpy_version": "2.5.4",
+        "threads": {
+          "OMP_NUM_THREADS": "4",
+          "OPENBLAS_NUM_THREADS": "4",
+          "MKL_NUM_THREADS": "4"
+        },
+        "device": "CPU; NumPy only; torch not imported",
+        "enforced_scope": "systemd-run --user --scope -p MemoryMax=3G -p MemorySwapMax=0",
+        "prereg_sha256": "58f0c4900615f7a2ec7d5cfaa2d95f5d8f5c3509e9dd08a5a76b73a085050b3b"
+      }
+    },
+    {
+      "run_id": "e1_isotropic_adamw_eta0.03_seed11_base",
+      "validation": {
+        "final_weight_max_error": 1.6359261584275586e-09,
+        "probe_Mabs_max_error": 1.4280930216159504e-08,
+        "dense_CE_replay_error": 7.646228095126162e-11,
+        "scalar_recurrence_error": 0.0,
+        "max_xi_bound_excess": 0.0,
+        "full_gradient_projection_error": 0.0,
+        "logit_identity_error": 5.329070518200751e-15
+      },
+      "resources": {
+        "elapsed_seconds": 1.251818335003918,
+        "peak_RSS_bytes": 180080640,
+        "executable": "/home/liuyibo/venvs/theory/bin/python",
+        "numpy_version": "2.5.4",
+        "threads": {
+          "OMP_NUM_THREADS": "4",
+          "OPENBLAS_NUM_THREADS": "4",
+          "MKL_NUM_THREADS": "4"
+        },
+        "device": "CPU; NumPy only; torch not imported",
+        "enforced_scope": "systemd-run --user --scope -p MemoryMax=3G -p MemorySwapMax=0",
+        "prereg_sha256": "58f0c4900615f7a2ec7d5cfaa2d95f5d8f5c3509e9dd08a5a76b73a085050b3b"
+      }
+    },
+    {
+      "run_id": "e1_isotropic_adamw_eta0.03_seed23_base",
+      "validation": {
+        "final_weight_max_error": 1.9715648558182863e-09,
+        "probe_Mabs_max_error": 1.6440964145658654e-08,
+        "dense_CE_replay_error": 1.1363943119846454e-10,
+        "scalar_recurrence_error": 0.0,
+        "max_xi_bound_excess": 0.0,
+        "full_gradient_projection_error": 0.0,
+        "logit_identity_error": 5.329070518200751e-15
+      },
+      "resources": {
+        "elapsed_seconds": 1.4183678830013378,
+        "peak_RSS_bytes": 180080640,
+        "executable": "/home/liuyibo/venvs/theory/bin/python",
+        "numpy_version": "2.5.4",
+        "threads": {
+          "OMP_NUM_THREADS": "4",
+          "OPENBLAS_NUM_THREADS": "4",
+          "MKL_NUM_THREADS": "4"
+        },
+        "device": "CPU; NumPy only; torch not imported",
+        "enforced_scope": "systemd-run --user --scope -p MemoryMax=3G -p MemorySwapMax=0",
+        "prereg_sha256": "58f0c4900615f7a2ec7d5cfaa2d95f5d8f5c3509e9dd08a5a76b73a085050b3b"
+      }
+    },
+    {
+      "run_id": "e1_isotropic_adamw_eta0.03_seed47_base",
+      "validation": {
+        "final_weight_max_error": 1.5258664332051808e-09,
+        "probe_Mabs_max_error": 1.0746953549300997e-08,
+        "dense_CE_replay_error": 8.229927850322838e-11,
+        "scalar_recurrence_error": 0.0,
+        "max_xi_bound_excess": 0.0,
+        "full_gradient_projection_error": 0.0,
+        "logit_identity_error": 5.329070518200751e-15
+      },
+      "resources": {
+        "elapsed_seconds": 1.3172765109920874,
+        "peak_RSS_bytes": 180080640,
+        "executable": "/home/liuyibo/venvs/theory/bin/python",
+        "numpy_version": "2.5.4",
+        "threads": {
+          "OMP_NUM_THREADS": "4",
+          "OPENBLAS_NUM_THREADS": "4",
+          "MKL_NUM_THREADS": "4"
+        },
+        "device": "CPU; NumPy only; torch not imported",
+        "enforced_scope": "systemd-run --user --scope -p MemoryMax=3G -p MemorySwapMax=0",
+        "prereg_sha256": "58f0c4900615f7a2ec7d5cfaa2d95f5d8f5c3509e9dd08a5a76b73a085050b3b"
+      }
+    },
+    {
+      "run_id": "e1_isotropic_adamw_eta0.1_seed11_base",
+      "validation": {
+        "final_weight_max_error": 2.871464510612043e-09,
+        "probe_Mabs_max_error": 2.4147032817722902e-08,
+        "dense_CE_replay_error": 5.808464820233894e-12,
+        "scalar_recurrence_error": 0.0,
+        "max_xi_bound_excess": 0.0,
+        "full_gradient_projection_error": 0.0,
+        "logit_identity_error": 5.329070518200751e-15
+      },
+      "resources": {
+        "elapsed_seconds": 1.2836809729924425,
+        "peak_RSS_bytes": 180080640,
+        "executable": "/home/liuyibo/venvs/theory/bin/python",
+        "numpy_version": "2.5.4",
+        "threads": {
+          "OMP_NUM_THREADS": "4",
+          "OPENBLAS_NUM_THREADS": "4",
+          "MKL_NUM_THREADS": "4"
+        },
+        "device": "CPU; NumPy only; torch not imported",
+        "enforced_scope": "systemd-run --user --scope -p MemoryMax=3G -p MemorySwapMax=0",
+        "prereg_sha256": "58f0c4900615f7a2ec7d5cfaa2d95f5d8f5c3509e9dd08a5a76b73a085050b3b"
+      }
+    },
+    {
+      "run_id": "e1_isotropic_adamw_eta0.1_seed23_base",
+      "validation": {
+        "final_weight_max_error": 3.232935127939207e-09,
+        "probe_Mabs_max_error": 2.7489862830520906e-08,
+        "dense_CE_replay_error": 4.6075587789573547e-11,
+        "scalar_recurrence_error": 0.0,
+        "max_xi_bound_excess": 0.0,
+        "full_gradient_projection_error": 0.0,
+        "logit_identity_error": 5.329070518200751e-15
+      },
+      "resources": {
+        "elapsed_seconds": 1.2512368539901217,
+        "peak_RSS_bytes": 180080640,
+        "executable": "/home/liuyibo/venvs/theory/bin/python",
+        "numpy_version": "2.5.4",
+        "threads": {
+          "OMP_NUM_THREADS": "4",
+          "OPENBLAS_NUM_THREADS": "4",
+          "MKL_NUM_THREADS": "4"
+        },
+        "device": "CPU; NumPy only; torch not imported",
+        "enforced_scope": "systemd-run --user --scope -p MemoryMax=3G -p MemorySwapMax=0",
+        "prereg_sha256": "58f0c4900615f7a2ec7d5cfaa2d95f5d8f5c3509e9dd08a5a76b73a085050b3b"
+      }
+    },
+    {
+      "run_id": "e1_isotropic_adamw_eta0.1_seed47_base",
+      "validation": {
+        "final_weight_max_error": 3.0965447428421555e-09,
+        "probe_Mabs_max_error": 2.1623399959480594e-08,
+        "dense_CE_replay_error": 7.701428383910525e-11,
+        "scalar_recurrence_error": 0.0,
+        "max_xi_bound_excess": 0.0,
+        "full_gradient_projection_error": 0.0,
+        "logit_identity_error": 3.552713678800501e-15
+      },
+      "resources": {
+        "elapsed_seconds": 1.3808468019997235,
+        "peak_RSS_bytes": 180080640,
+        "executable": "/home/liuyibo/venvs/theory/bin/python",
+        "numpy_version": "2.5.4",
+        "threads": {
+          "OMP_NUM_THREADS": "4",
+          "OPENBLAS_NUM_THREADS": "4",
+          "MKL_NUM_THREADS": "4"
+        },
+        "device": "CPU; NumPy only; torch not imported",
+        "enforced_scope": "systemd-run --user --scope -p MemoryMax=3G -p MemorySwapMax=0",
+        "prereg_sha256": "58f0c4900615f7a2ec7d5cfaa2d95f5d8f5c3509e9dd08a5a76b73a085050b3b"
+      }
+    },
+    {
+      "run_id": "e1_isotropic_muon09_eta0.01_seed11_base",
+      "validation": {
+        "final_weight_max_error": 3.0907200410101865e-09,
+        "probe_Mabs_max_error": 1.8873127061169725e-08,
+        "dense_CE_replay_error": 2.361133510930813e-11,
+        "scalar_recurrence_error": 0.0,
+        "max_xi_bound_excess": 0.0,
+        "full_gradient_projection_error": 0.0,
+        "logit_identity_error": 3.552713678800501e-15
+      },
+      "resources": {
+        "elapsed_seconds": 1.3699944209947716,
+        "peak_RSS_bytes": 180080640,
+        "executable": "/home/liuyibo/venvs/theory/bin/python",
+        "numpy_version": "2.5.4",
+        "threads": {
+          "OMP_NUM_THREADS": "4",
+          "OPENBLAS_NUM_THREADS": "4",
+          "MKL_NUM_THREADS": "4"
+        },
+        "device": "CPU; NumPy only; torch not imported",
+        "enforced_scope": "systemd-run --user --scope -p MemoryMax=3G -p MemorySwapMax=0",
+        "prereg_sha256": "58f0c4900615f7a2ec7d5cfaa2d95f5d8f5c3509e9dd08a5a76b73a085050b3b"
+      }
+    },
+    {
+      "run_id": "e1_isotropic_muon09_eta0.01_seed23_base",
+      "validation": {
+        "final_weight_max_error": 3.086356489823139e-09,
+        "probe_Mabs_max_error": 1.4571464035384452e-08,
+        "dense_CE_replay_error": 1.991227183140154e-10,
+        "scalar_recurrence_error": 0.0,
+        "max_xi_bound_excess": 0.0,
+        "full_gradient_projection_error": 0.0,
+        "logit_identity_error": 5.329070518200751e-15
+      },
+      "resources": {
+        "elapsed_seconds": 1.3480325510026887,
+        "peak_RSS_bytes": 180080640,
+        "executable": "/home/liuyibo/venvs/theory/bin/python",
+        "numpy_version": "2.5.4",
+        "threads": {
+          "OMP_NUM_THREADS": "4",
+          "OPENBLAS_NUM_THREADS": "4",
+          "MKL_NUM_THREADS": "4"
+        },
+        "device": "CPU; NumPy only; torch not imported",
+        "enforced_scope": "systemd-run --user --scope -p MemoryMax=3G -p MemorySwapMax=0",
+        "prereg_sha256": "58f0c4900615f7a2ec7d5cfaa2d95f5d8f5c3509e9dd08a5a76b73a085050b3b"
+      }
+    },
+    {
+      "run_id": "e1_isotropic_muon09_eta0.01_seed47_base",
+      "validation": {
+        "final_weight_max_error": 3.199023712596727e-09,
+        "probe_Mabs_max_error": 1.6066202590536705e-08,
+        "dense_CE_replay_error": 3.429545536448586e-11,
+        "scalar_recurrence_error": 0.0,
+        "max_xi_bound_excess": 0.0,
+        "full_gradient_projection_error": 0.0,
+        "logit_identity_error": 7.105427357601002e-15
+      },
+      "resources": {
+        "elapsed_seconds": 1.4235853260033764,
+        "peak_RSS_bytes": 180080640,
+        "executable": "/home/liuyibo/venvs/theory/bin/python",
+        "numpy_version": "2.5.4",
+        "threads": {
+          "OMP_NUM_THREADS": "4",
+          "OPENBLAS_NUM_THREADS": "4",
+          "MKL_NUM_THREADS": "4"
+        },
+        "device": "CPU; NumPy only; torch not imported",
+        "enforced_scope": "systemd-run --user --scope -p MemoryMax=3G -p MemorySwapMax=0",
+        "prereg_sha256": "58f0c4900615f7a2ec7d5cfaa2d95f5d8f5c3509e9dd08a5a76b73a085050b3b"
+      }
+    },
+    {
+      "run_id": "e1_isotropic_muon09_eta0.03_seed11_base",
+      "validation": {
+        "final_weight_max_error": 6.894649073885262e-09,
+        "probe_Mabs_max_error": 5.368126387850225e-08,
+        "dense_CE_replay_error": 2.390310172017962e-12,
+        "scalar_recurrence_error": 0.0,
+        "max_xi_bound_excess": 0.0,
+        "full_gradient_projection_error": 0.0,
+        "logit_identity_error": 3.552713678800501e-15
+      },
+      "resources": {
+        "elapsed_seconds": 1.787543762999121,
+        "peak_RSS_bytes": 180080640,
+        "executable": "/home/liuyibo/venvs/theory/bin/python",
+        "numpy_version": "2.5.4",
+        "threads": {
+          "OMP_NUM_THREADS": "4",
+          "OPENBLAS_NUM_THREADS": "4",
+          "MKL_NUM_THREADS": "4"
+        },
+        "device": "CPU; NumPy only; torch not imported",
+        "enforced_scope": "systemd-run --user --scope -p MemoryMax=3G -p MemorySwapMax=0",
+        "prereg_sha256": "58f0c4900615f7a2ec7d5cfaa2d95f5d8f5c3509e9dd08a5a76b73a085050b3b"
+      }
+    },
+    {
+      "run_id": "e1_isotropic_muon09_eta0.03_seed23_base",
+      "validation": {
+        "final_weight_max_error": 5.825366355960426e-09,
+        "probe_Mabs_max_error": 3.988280106170805e-08,
+        "dense_CE_replay_error": 7.64306395950598e-11,
+        "scalar_recurrence_error": 0.0,
+        "max_xi_bound_excess": 0.0,
+        "full_gradient_projection_error": 0.0,
+        "logit_identity_error": 3.552713678800501e-15
+      },
+      "resources": {
+        "elapsed_seconds": 1.4466841149987886,
+        "peak_RSS_bytes": 180080640,
+        "executable": "/home/liuyibo/venvs/theory/bin/python",
+        "numpy_version": "2.5.4",
+        "threads": {
+          "OMP_NUM_THREADS": "4",
+          "OPENBLAS_NUM_THREADS": "4",
+          "MKL_NUM_THREADS": "4"
+        },
+        "device": "CPU; NumPy only; torch not imported",
+        "enforced_scope": "systemd-run --user --scope -p MemoryMax=3G -p MemorySwapMax=0",
+        "prereg_sha256": "58f0c4900615f7a2ec7d5cfaa2d95f5d8f5c3509e9dd08a5a76b73a085050b3b"
+      }
+    },
+    {
+      "run_id": "e1_isotropic_muon09_eta0.03_seed47_base",
+      "validation": {
+        "final_weight_max_error": 6.012379163977677e-09,
+        "probe_Mabs_max_error": 5.860784924038853e-08,
+        "dense_CE_replay_error": 6.66755539668884e-12,
+        "scalar_recurrence_error": 0.0,
+        "max_xi_bound_excess": 0.0,
+        "full_gradient_projection_error": 0.0,
+        "logit_identity_error": 8.881784197001252e-15
+      },
+      "resources": {
+        "elapsed_seconds": 1.2606889589951606,
+        "peak_RSS_bytes": 180080640,
+        "executable": "/home/liuyibo/venvs/theory/bin/python",
+        "numpy_version": "2.5.4",
+        "threads": {
+          "OMP_NUM_THREADS": "4",
+          "OPENBLAS_NUM_THREADS": "4",
+          "MKL_NUM_THREADS": "4"
+        },
+        "device": "CPU; NumPy only; torch not imported",
+        "enforced_scope": "systemd-run --user --scope -p MemoryMax=3G -p MemorySwapMax=0",
+        "prereg_sha256": "58f0c4900615f7a2ec7d5cfaa2d95f5d8f5c3509e9dd08a5a76b73a085050b3b"
+      }
+    },
+    {
+      "run_id": "e1_isotropic_muon09_eta0.1_seed11_base",
+      "validation": {
+        "final_weight_max_error": 1.1669963315141807e-08,
+        "probe_Mabs_max_error": 1.3148453703593077e-07,
+        "dense_CE_replay_error": 1.9619506019807886e-10,
+        "scalar_recurrence_error": 0.0,
+        "max_xi_bound_excess": 0.0,
+        "full_gradient_projection_error": 0.0,
+        "logit_identity_error": 3.552713678800501e-15
+      },
+      "resources": {
+        "elapsed_seconds": 1.247991627009469,
+        "peak_RSS_bytes": 180080640,
+        "executable": "/home/liuyibo/venvs/theory/bin/python",
+        "numpy_version": "2.5.4",
+        "threads": {
+          "OMP_NUM_THREADS": "4",
+          "OPENBLAS_NUM_THREADS": "4",
+          "MKL_NUM_THREADS": "4"
+        },
+        "device": "CPU; NumPy only; torch not imported",
+        "enforced_scope": "systemd-run --user --scope -p MemoryMax=3G -p MemorySwapMax=0",
+        "prereg_sha256": "58f0c4900615f7a2ec7d5cfaa2d95f5d8f5c3509e9dd08a5a76b73a085050b3b"
+      }
+    },
+    {
+      "run_id": "e1_isotropic_muon09_eta0.1_seed23_base",
+      "validation": {
+        "final_weight_max_error": 1.0787788551347433e-08,
+        "probe_Mabs_max_error": 1.4828639471886618e-07,
+        "dense_CE_replay_error": 3.436249063071273e-10,
+        "scalar_recurrence_error": 0.0,
+        "max_xi_bound_excess": 0.0,
+        "full_gradient_projection_error": 0.0,
+        "logit_identity_error": 7.105427357601002e-15
+      },
+      "resources": {
+        "elapsed_seconds": 1.3389929810073227,
+        "peak_RSS_bytes": 180080640,
+        "executable": "/home/liuyibo/venvs/theory/bin/python",
+        "numpy_version": "2.5.4",
+        "threads": {
+          "OMP_NUM_THREADS": "4",
+          "OPENBLAS_NUM_THREADS": "4",
+          "MKL_NUM_THREADS": "4"
+        },
+        "device": "CPU; NumPy only; torch not imported",
+        "enforced_scope": "systemd-run --user --scope -p MemoryMax=3G -p MemorySwapMax=0",
+        "prereg_sha256": "58f0c4900615f7a2ec7d5cfaa2d95f5d8f5c3509e9dd08a5a76b73a085050b3b"
+      }
+    },
+    {
+      "run_id": "e1_isotropic_muon09_eta0.1_seed47_base",
+      "validation": {
+        "final_weight_max_error": 1.1070076078034674e-08,
+        "probe_Mabs_max_error": 1.3766466366860186e-07,
+        "dense_CE_replay_error": 5.9598692647711e-10,
+        "scalar_recurrence_error": 0.0,
+        "max_xi_bound_excess": 0.0,
+        "full_gradient_projection_error": 0.0,
+        "logit_identity_error": 5.329070518200751e-15
+      },
+      "resources": {
+        "elapsed_seconds": 1.285537112999009,
+        "peak_RSS_bytes": 180080640,
+        "executable": "/home/liuyibo/venvs/theory/bin/python",
+        "numpy_version": "2.5.4",
+        "threads": {
+          "OMP_NUM_THREADS": "4",
+          "OPENBLAS_NUM_THREADS": "4",
+          "MKL_NUM_THREADS": "4"
+        },
+        "device": "CPU; NumPy only; torch not imported",
+        "enforced_scope": "systemd-run --user --scope -p MemoryMax=3G -p MemorySwapMax=0",
+        "prereg_sha256": "58f0c4900615f7a2ec7d5cfaa2d95f5d8f5c3509e9dd08a5a76b73a085050b3b"
+      }
+    },
+    {
+      "run_id": "e1_isotropic_signsgd_eta0.01_seed11_base",
+      "validation": {
+        "final_weight_max_error": 0.0,
+        "probe_Mabs_max_error": 0.0,
+        "dense_CE_replay_error": 0.0,
+        "scalar_recurrence_error": 0.0,
+        "max_xi_bound_excess": 0.0,
+        "full_gradient_projection_error": 0.0,
+        "logit_identity_error": 5.329070518200751e-15
+      },
+      "resources": {
+        "elapsed_seconds": 0.9045134920015698,
+        "peak_RSS_bytes": 180080640,
+        "executable": "/home/liuyibo/venvs/theory/bin/python",
+        "numpy_version": "2.5.4",
+        "threads": {
+          "OMP_NUM_THREADS": "4",
+          "OPENBLAS_NUM_THREADS": "4",
+          "MKL_NUM_THREADS": "4"
+        },
+        "device": "CPU; NumPy only; torch not imported",
+        "enforced_scope": "systemd-run --user --scope -p MemoryMax=3G -p MemorySwapMax=0",
+        "prereg_sha256": "58f0c4900615f7a2ec7d5cfaa2d95f5d8f5c3509e9dd08a5a76b73a085050b3b"
+      }
+    },
+    {
+      "run_id": "e1_isotropic_signsgd_eta0.01_seed23_base",
+      "validation": {
+        "final_weight_max_error": 0.0,
+        "probe_Mabs_max_error": 0.0,
+        "dense_CE_replay_error": 0.0,
+        "scalar_recurrence_error": 0.0,
+        "max_xi_bound_excess": 0.0,
+        "full_gradient_projection_error": 0.0,
+        "logit_identity_error": 4.440892098500626e-15
+      },
+      "resources": {
+        "elapsed_seconds": 1.0150249190046452,
+        "peak_RSS_bytes": 180080640,
+        "executable": "/home/liuyibo/venvs/theory/bin/python",
+        "numpy_version": "2.5.4",
+        "threads": {
+          "OMP_NUM_THREADS": "4",
+          "OPENBLAS_NUM_THREADS": "4",
+          "MKL_NUM_THREADS": "4"
+        },
+        "device": "CPU; NumPy only; torch not imported",
+        "enforced_scope": "systemd-run --user --scope -p MemoryMax=3G -p MemorySwapMax=0",
+        "prereg_sha256": "58f0c4900615f7a2ec7d5cfaa2d95f5d8f5c3509e9dd08a5a76b73a085050b3b"
+      }
+    },
+    {
+      "run_id": "e1_isotropic_signsgd_eta0.01_seed47_base",
+      "validation": {
+        "final_weight_max_error": 0.0,
+        "probe_Mabs_max_error": 0.0,
+        "dense_CE_replay_error": 0.0,
+        "scalar_recurrence_error": 0.0,
+        "max_xi_bound_excess": 0.0,
+        "full_gradient_projection_error": 0.0,
+        "logit_identity_error": 5.329070518200751e-15
+      },
+      "resources": {
+        "elapsed_seconds": 0.9046149690111633,
+        "peak_RSS_bytes": 180080640,
+        "executable": "/home/liuyibo/venvs/theory/bin/python",
+        "numpy_version": "2.5.4",
+        "threads": {
+          "OMP_NUM_THREADS": "4",
+          "OPENBLAS_NUM_THREADS": "4",
+          "MKL_NUM_THREADS": "4"
+        },
+        "device": "CPU; NumPy only; torch not imported",
+        "enforced_scope": "systemd-run --user --scope -p MemoryMax=3G -p MemorySwapMax=0",
+        "prereg_sha256": "58f0c4900615f7a2ec7d5cfaa2d95f5d8f5c3509e9dd08a5a76b73a085050b3b"
+      }
+    },
+    {
+      "run_id": "e1_isotropic_signsgd_eta0.03_seed11_base",
+      "validation": {
+        "final_weight_max_error": 0.0,
+        "probe_Mabs_max_error": 0.0,
+        "dense_CE_replay_error": 0.0,
+        "scalar_recurrence_error": 0.0,
+        "max_xi_bound_excess": 0.0,
+        "full_gradient_projection_error": 0.0,
+        "logit_identity_error": 5.329070518200751e-15
+      },
+      "resources": {
+        "elapsed_seconds": 1.0576746440056013,
+        "peak_RSS_bytes": 180080640,
+        "executable": "/home/liuyibo/venvs/theory/bin/python",
+        "numpy_version": "2.5.4",
+        "threads": {
+          "OMP_NUM_THREADS": "4",
+          "OPENBLAS_NUM_THREADS": "4",
+          "MKL_NUM_THREADS": "4"
+        },
+        "device": "CPU; NumPy only; torch not imported",
+        "enforced_scope": "systemd-run --user --scope -p MemoryMax=3G -p MemorySwapMax=0",
+        "prereg_sha256": "58f0c4900615f7a2ec7d5cfaa2d95f5d8f5c3509e9dd08a5a76b73a085050b3b"
+      }
+    },
+    {
+      "run_id": "e1_isotropic_signsgd_eta0.03_seed23_base",
+      "validation": {
+        "final_weight_max_error": 0.0,
+        "probe_Mabs_max_error": 0.0,
+        "dense_CE_replay_error": 0.0,
+        "scalar_recurrence_error": 0.0,
+        "max_xi_bound_excess": 0.0,
+        "full_gradient_projection_error": 0.0,
+        "logit_identity_error": 3.552713678800501e-15
+      },
+      "resources": {
+        "elapsed_seconds": 0.9105561600008514,
+        "peak_RSS_bytes": 180080640,
+        "executable": "/home/liuyibo/venvs/theory/bin/python",
+        "numpy_version": "2.5.4",
+        "threads": {
+          "OMP_NUM_THREADS": "4",
+          "OPENBLAS_NUM_THREADS": "4",
+          "MKL_NUM_THREADS": "4"
+        },
+        "device": "CPU; NumPy only; torch not imported",
+        "enforced_scope": "systemd-run --user --scope -p MemoryMax=3G -p MemorySwapMax=0",
+        "prereg_sha256": "58f0c4900615f7a2ec7d5cfaa2d95f5d8f5c3509e9dd08a5a76b73a085050b3b"
+      }
+    },
+    {
+      "run_id": "e1_isotropic_signsgd_eta0.03_seed47_base",
+      "validation": {
+        "final_weight_max_error": 0.0,
+        "probe_Mabs_max_error": 0.0,
+        "dense_CE_replay_error": 0.0,
+        "scalar_recurrence_error": 0.0,
+        "max_xi_bound_excess": 0.0,
+        "full_gradient_projection_error": 0.0,
+        "logit_identity_error": 4.440892098500626e-15
+      },
+      "resources": {
+        "elapsed_seconds": 0.8872142550098943,
+        "peak_RSS_bytes": 180080640,
+        "executable": "/home/liuyibo/venvs/theory/bin/python",
+        "numpy_version": "2.5.4",
+        "threads": {
+          "OMP_NUM_THREADS": "4",
+          "OPENBLAS_NUM_THREADS": "4",
+          "MKL_NUM_THREADS": "4"
+        },
+        "device": "CPU; NumPy only; torch not imported",
+        "enforced_scope": "systemd-run --user --scope -p MemoryMax=3G -p MemorySwapMax=0",
+        "prereg_sha256": "58f0c4900615f7a2ec7d5cfaa2d95f5d8f5c3509e9dd08a5a76b73a085050b3b"
+      }
+    },
+    {
+      "run_id": "e1_isotropic_signsgd_eta0.1_seed11_base",
+      "validation": {
+        "final_weight_max_error": 0.0,
+        "probe_Mabs_max_error": 0.0,
+        "dense_CE_replay_error": 0.0,
+        "scalar_recurrence_error": 0.0,
+        "max_xi_bound_excess": 0.0,
+        "full_gradient_projection_error": 0.0,
+        "logit_identity_error": 4.440892098500626e-15
+      },
+      "resources": {
+        "elapsed_seconds": 0.8189238229970215,
+        "peak_RSS_bytes": 180080640,
+        "executable": "/home/liuyibo/venvs/theory/bin/python",
+        "numpy_version": "2.5.4",
+        "threads": {
+          "OMP_NUM_THREADS": "4",
+          "OPENBLAS_NUM_THREADS": "4",
+          "MKL_NUM_THREADS": "4"
+        },
+        "device": "CPU; NumPy only; torch not imported",
+        "enforced_scope": "systemd-run --user --scope -p MemoryMax=3G -p MemorySwapMax=0",
+        "prereg_sha256": "58f0c4900615f7a2ec7d5cfaa2d95f5d8f5c3509e9dd08a5a76b73a085050b3b"
+      }
+    },
+    {
+      "run_id": "e1_isotropic_signsgd_eta0.1_seed23_base",
+      "validation": {
+        "final_weight_max_error": 0.0,
+        "probe_Mabs_max_error": 0.0,
+        "dense_CE_replay_error": 0.0,
+        "scalar_recurrence_error": 0.0,
+        "max_xi_bound_excess": 0.0,
+        "full_gradient_projection_error": 0.0,
+        "logit_identity_error": 5.329070518200751e-15
+      },
+      "resources": {
+        "elapsed_seconds": 1.0795354409929132,
+        "peak_RSS_bytes": 180080640,
+        "executable": "/home/liuyibo/venvs/theory/bin/python",
+        "numpy_version": "2.5.4",
+        "threads": {
+          "OMP_NUM_THREADS": "4",
+          "OPENBLAS_NUM_THREADS": "4",
+          "MKL_NUM_THREADS": "4"
+        },
+        "device": "CPU; NumPy only; torch not imported",
+        "enforced_scope": "systemd-run --user --scope -p MemoryMax=3G -p MemorySwapMax=0",
+        "prereg_sha256": "58f0c4900615f7a2ec7d5cfaa2d95f5d8f5c3509e9dd08a5a76b73a085050b3b"
+      }
+    },
+    {
+      "run_id": "e1_isotropic_signsgd_eta0.1_seed47_base",
+      "validation": {
+        "final_weight_max_error": 0.0,
+        "probe_Mabs_max_error": 0.0,
+        "dense_CE_replay_error": 0.0,
+        "scalar_recurrence_error": 0.0,
+        "max_xi_bound_excess": 0.0,
+        "full_gradient_projection_error": 0.0,
+        "logit_identity_error": 4.440892098500626e-15
+      },
+      "resources": {
+        "elapsed_seconds": 0.9282375060138293,
+        "peak_RSS_bytes": 180080640,
+        "executable": "/home/liuyibo/venvs/theory/bin/python",
+        "numpy_version": "2.5.4",
+        "threads": {
+          "OMP_NUM_THREADS": "4",
+          "OPENBLAS_NUM_THREADS": "4",
+          "MKL_NUM_THREADS": "4"
+        },
+        "device": "CPU; NumPy only; torch not imported",
+        "enforced_scope": "systemd-run --user --scope -p MemoryMax=3G -p MemorySwapMax=0",
+        "prereg_sha256": "58f0c4900615f7a2ec7d5cfaa2d95f5d8f5c3509e9dd08a5a76b73a085050b3b"
+      }
+    }
+  ],
+  "resources": {
+    "elapsed_seconds": 245.9377811250015,
+    "peak_RSS_bytes": 180080640,
+    "executable": "/home/liuyibo/venvs/theory/bin/python",
+    "numpy_version": "2.5.4",
+    "threads": {
+      "OMP_NUM_THREADS": "4",
+      "OPENBLAS_NUM_THREADS": "4",
+      "MKL_NUM_THREADS": "4"
+    },
+    "device": "CPU; NumPy only; torch not imported",
+    "enforced_scope": "systemd-run --user --scope -p MemoryMax=3G -p MemorySwapMax=0",
+    "prereg_sha256": "58f0c4900615f7a2ec7d5cfaa2d95f5d8f5c3509e9dd08a5a76b73a085050b3b"
+  },
+  "script_sha256": "fc9d576173f687ecbbf3079c377d24047b1139e3ada20a474e7e90cde9d4fd60"
+}

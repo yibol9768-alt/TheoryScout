@@ -1,0 +1,17 @@
+"""把状态反例扩展为完整288格，排除非计划缺失形状对反例的干扰。"""
+from pathlib import Path
+p=Path(__file__).with_name('adversarial_states.py')
+source=p.read_text()
+source=source.replace("OUT=ROOT/'audit_y3b_checks'", "OUT=ROOT/'audit_y3b_checks'/'full_plan_run'; OUT.mkdir()")
+source=source.replace('for s in range(32):\n    Q=8192', 'for d,ir,s in common.jobs(32):\n    Q=8192 if (d,ir)==(512,2) else 512')
+source=source.replace('d=512,ir=2,seed=s','d=d,ir=ir,seed=s')
+source=source.replace('pred[512,2,m,task]','pred[d,ir,m,task]')
+source=source.replace('np.where(ok,1,65536)','np.where(ok,1,d*d//4)')
+source=source.replace("f'd512_r2_s{s}.npz'", "f'd{d}_r{ir}_s{s}.npz'")
+source=source.replace('[[512,2,s] for s in range(32)]','[[d,ir,s] for d,ir,s in common.jobs(32)]')
+source=source.replace('for s in range(32):','for d,ir,s in common.jobs(32):')
+source=source.replace('[512,2,s]','[d,ir,s]')
+source=source.replace("'cpu_soft'","'planned_complete'")
+source=source.replace("d512_passed=result['d512_passed'],complete_cells", "d512_passed=result['d512_passed'],primary_both_passed=result['primary_both_passed'],complete_cells")
+source=source.replace("result['confirmation_valid'] and result['d512_passed'],label", "result['confirmation_valid'] and result['d512_passed'] and result['primary_both_passed'],label")
+exec(compile(source,str(p),'exec'),{'__name__':'__main__','__file__':str(p)})

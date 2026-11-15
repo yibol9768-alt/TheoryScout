@@ -1,0 +1,2225 @@
+{
+  "scope": "Analytic formulas evaluated in float64; no interval arithmetic certification",
+  "rows": [
+    {
+      "d": 256,
+      "n": 5199,
+      "method": "GD3",
+      "L": 1,
+      "rep": 0,
+      "t": 3.6447764951224935,
+      "lower": 0.41922824302866785,
+      "upper": 0.4560188509407284,
+      "width": 0.03679060791206057,
+      "lower_probability": {
+        "probability": 0.41922824302866785,
+        "tail_bound": 2.5000000000000075e-11,
+        "quad_error_estimate": 5.730521169992916e-14,
+        "cutoff": 32.465383842933825,
+        "tail_factors": 32
+      },
+      "best_energy_factor": 3.0,
+      "best_energy_outside": 0.004461556937161659,
+      "score_outside": 4.332762386927147e-06,
+      "sampled_actual_fixed_threshold": 0.4193115234375,
+      "minimum_lower_score_gap": 5.141132155550565e-07,
+      "candidates": [
+        {
+          "factor": 2.0,
+          "interval": [
+            0.7608860530523898,
+            1.2826985820368852
+          ],
+          "upper": 0.48664842868390024,
+          "quadratic_probability": {
+            "probability": 0.4353238436783583,
+            "tail_bound": 2.499999999999993e-11,
+            "quad_error_estimate": 2.8048848713259406e-13,
+            "cutoff": 32.49719599756034,
+            "tail_factors": 32
+          },
+          "energy_outside_bound": 0.05132025224315501,
+          "score_outside_bound": 4.332762386927147e-06,
+          "low_energy_probability": {
+            "probability": 0.9811081695618169,
+            "tail_bound": 2.5000000000000027e-11,
+            "quad_error_estimate": 1.2456788040134861e-14,
+            "cutoff": 23.96275247335959,
+            "tail_factors": 32
+          },
+          "high_energy_probability": {
+            "probability": 0.03242842180497191,
+            "tail_bound": 2.499999999999993e-11,
+            "quad_error_estimate": 4.991179661637625e-13,
+            "cutoff": 24.203626083028464,
+            "tail_factors": 32
+          },
+          "minimum_upper_score_gap": 0.006158036397724942
+        },
+        {
+          "factor": 2.5,
+          "interval": [
+            0.6956594869293278,
+            1.3479251481599472
+          ],
+          "upper": 0.45787084219585017,
+          "quadratic_probability": {
+            "probability": 0.4424972255307189,
+            "tail_bound": 2.4999999999999978e-11,
+            "quad_error_estimate": 4.324497541517328e-13,
+            "cutoff": 32.51671567913937,
+            "tail_factors": 32
+          },
+          "energy_outside_bound": 0.015369283902744335,
+          "score_outside_bound": 4.332762386927147e-06,
+          "low_energy_probability": {
+            "probability": 0.9968498064069766,
+            "tail_bound": 2.5000000000000027e-11,
+            "quad_error_estimate": 2.8048913378418256e-14,
+            "cutoff": 23.94209390457411,
+            "tail_factors": 32
+          },
+          "high_energy_probability": {
+            "probability": 0.012219090309720959,
+            "tail_bound": 2.5000000000000027e-11,
+            "quad_error_estimate": 1.128199868324493e-11,
+            "cutoff": 24.245074074138945,
+            "tail_factors": 32
+          },
+          "minimum_upper_score_gap": 0.00857483935421488
+        },
+        {
+          "factor": 3.0,
+          "interval": [
+            0.6304329208062659,
+            1.4131517142830092
+          ],
+          "upper": 0.4560188509407284,
+          "quadratic_probability": {
+            "probability": 0.45155296124117983,
+            "tail_bound": 2.5000000000000027e-11,
+            "quad_error_estimate": 6.896133163552551e-13,
+            "cutoff": 32.541642560412114,
+            "tail_factors": 32
+          },
+          "energy_outside_bound": 0.004461556937161659,
+          "score_outside_bound": 4.332762386927147e-06,
+          "low_energy_probability": {
+            "probability": 0.9997084984920155,
+            "tail_bound": 2.5000000000000075e-11,
+            "quad_error_estimate": 6.626107770670766e-14,
+            "cutoff": 23.923755549732174,
+            "tail_factors": 32
+          },
+          "high_energy_probability": {
+            "probability": 0.004170055429177144,
+            "tail_bound": 2.499999999999993e-11,
+            "quad_error_estimate": 6.339607861126035e-12,
+            "cutoff": 24.288930635302926,
+            "tail_factors": 32
+          },
+          "minimum_upper_score_gap": 0.00964151336148067
+        },
+        {
+          "factor": 3.5,
+          "interval": [
+            0.565206354683204,
+            1.478378280406071
+          ],
+          "upper": 0.4640118438852226,
+          "quadratic_probability": {
+            "probability": 0.4626929837630199,
+            "tail_bound": 2.4999999999999978e-11,
+            "quad_error_estimate": 1.1563800040127967e-12,
+            "cutoff": 32.57276876506717,
+            "tail_factors": 32
+          },
+          "energy_outside_bound": 0.0013145273598157425,
+          "score_outside_bound": 4.332762386927147e-06,
+          "low_energy_probability": {
+            "probability": 0.9999872719122085,
+            "tail_bound": 2.499999999999993e-11,
+            "quad_error_estimate": 2.3568665238482134e-13,
+            "cutoff": 23.907725153137974,
+            "tail_factors": 32
+          },
+          "high_energy_probability": {
+            "probability": 0.0013017992720242288,
+            "tail_bound": 2.4999999999999978e-11,
+            "quad_error_estimate": 2.995601783993884e-12,
+            "cutoff": 24.335201512190945,
+            "tail_factors": 32
+          },
+          "minimum_upper_score_gap": 0.0086009299946892
+        },
+        {
+          "factor": 4.0,
+          "interval": [
+            0.499979788560142,
+            1.543604846529133
+          ],
+          "upper": 0.476568472001542,
+          "quadratic_probability": {
+            "probability": 0.4761887869325958,
+            "tail_bound": 2.5000000000000075e-11,
+            "quad_error_estimate": 2.1671088136791926e-12,
+            "cutoff": 32.61120903229939,
+            "tail_factors": 32
+          },
+          "energy_outside_bound": 0.00037535230655927343,
+          "score_outside_bound": 4.332762386927147e-06,
+          "low_energy_probability": {
+            "probability": 0.9999997900829782,
+            "tail_bound": 2.4999999999999978e-11,
+            "quad_error_estimate": 1.883194680369464e-12,
+            "cutoff": 23.893989888274795,
+            "tail_factors": 32
+          },
+          "high_energy_probability": {
+            "probability": 0.00037514238953750834,
+            "tail_bound": 2.4999999999999978e-11,
+            "quad_error_estimate": 1.3880633894145156e-11,
+            "cutoff": 24.383891835160785,
+            "tail_factors": 32
+          },
+          "minimum_upper_score_gap": 0.011060603472947461
+        }
+      ]
+    },
+    {
+      "d": 256,
+      "n": 5199,
+      "method": "GD3",
+      "L": 5,
+      "rep": 0,
+      "t": 3.1223235344070943,
+      "lower": 0.6296303298624183,
+      "upper": 0.660657328760982,
+      "width": 0.03102699889856375,
+      "lower_probability": {
+        "probability": 0.6296303298624183,
+        "tail_bound": 2.4999999999999978e-11,
+        "quad_error_estimate": 7.330072875474763e-12,
+        "cutoff": 31.809917410918526,
+        "tail_factors": 32
+      },
+      "best_energy_factor": 3.0,
+      "best_energy_outside": 0.004461556937161659,
+      "score_outside": 4.332762386927147e-06,
+      "sampled_actual_fixed_threshold": 0.6292724609375,
+      "minimum_lower_score_gap": 4.4041871771760555e-07,
+      "candidates": [
+        {
+          "factor": 2.0,
+          "interval": [
+            0.7608860530523898,
+            1.2826985820368852
+          ],
+          "upper": 0.6943038569681124,
+          "quadratic_probability": {
+            "probability": 0.6429792719625704,
+            "tail_bound": 2.4999999999999978e-11,
+            "quad_error_estimate": 8.47476250870272e-12,
+            "cutoff": 31.835061394458297,
+            "tail_factors": 32
+          },
+          "energy_outside_bound": 0.05132025224315501,
+          "score_outside_bound": 4.332762386927147e-06,
+          "low_energy_probability": {
+            "probability": 0.9811081695618169,
+            "tail_bound": 2.5000000000000027e-11,
+            "quad_error_estimate": 1.2456788040134861e-14,
+            "cutoff": 23.96275247335959,
+            "tail_factors": 32
+          },
+          "high_energy_probability": {
+            "probability": 0.03242842180497191,
+            "tail_bound": 2.499999999999993e-11,
+            "quad_error_estimate": 4.991179661637625e-13,
+            "cutoff": 24.203626083028464,
+            "tail_factors": 32
+          },
+          "minimum_upper_score_gap": 0.005275325385817098
+        },
+        {
+          "factor": 2.5,
+          "interval": [
+            0.6956594869293278,
+            1.3479251481599472
+          ],
+          "upper": 0.6642252850439432,
+          "quadratic_probability": {
+            "probability": 0.6488516683788119,
+            "tail_bound": 2.5000000000000075e-11,
+            "quad_error_estimate": 9.062629853485557e-12,
+            "cutoff": 31.850467129393127,
+            "tail_factors": 32
+          },
+          "energy_outside_bound": 0.015369283902744335,
+          "score_outside_bound": 4.332762386927147e-06,
+          "low_energy_probability": {
+            "probability": 0.9968498064069766,
+            "tail_bound": 2.5000000000000027e-11,
+            "quad_error_estimate": 2.8048913378418256e-14,
+            "cutoff": 23.94209390457411,
+            "tail_factors": 32
+          },
+          "high_energy_probability": {
+            "probability": 0.012219090309720959,
+            "tail_bound": 2.5000000000000027e-11,
+            "quad_error_estimate": 1.128199868324493e-11,
+            "cutoff": 24.245074074138945,
+            "tail_factors": 32
+          },
+          "minimum_upper_score_gap": 0.007345696712886873
+        },
+        {
+          "factor": 3.0,
+          "interval": [
+            0.6304329208062659,
+            1.4131517142830092
+          ],
+          "upper": 0.660657328760982,
+          "quadratic_probability": {
+            "probability": 0.6561914390614334,
+            "tail_bound": 2.5000000000000075e-11,
+            "quad_error_estimate": 9.871764254306985e-12,
+            "cutoff": 31.870131753821852,
+            "tail_factors": 32
+          },
+          "energy_outside_bound": 0.004461556937161659,
+          "score_outside_bound": 4.332762386927147e-06,
+          "low_energy_probability": {
+            "probability": 0.9997084984920155,
+            "tail_bound": 2.5000000000000075e-11,
+            "quad_error_estimate": 6.626107770670766e-14,
+            "cutoff": 23.923755549732174,
+            "tail_factors": 32
+          },
+          "high_energy_probability": {
+            "probability": 0.004170055429177144,
+            "tail_bound": 2.499999999999993e-11,
+            "quad_error_estimate": 6.339607861126035e-12,
+            "cutoff": 24.288930635302926,
+            "tail_factors": 32
+          },
+          "minimum_upper_score_gap": 0.008259470537121949
+        },
+        {
+          "factor": 3.5,
+          "interval": [
+            0.565206354683204,
+            1.478378280406071
+          ],
+          "upper": 0.6664296808581016,
+          "quadratic_probability": {
+            "probability": 0.6651108207358989,
+            "tail_bound": 2.5000000000000075e-11,
+            "quad_error_estimate": 1.0972688939822249e-11,
+            "cutoff": 31.89467344137075,
+            "tail_factors": 32
+          },
+          "energy_outside_bound": 0.0013145273598157425,
+          "score_outside_bound": 4.332762386927147e-06,
+          "low_energy_probability": {
+            "probability": 0.9999872719122085,
+            "tail_bound": 2.499999999999993e-11,
+            "quad_error_estimate": 2.3568665238482134e-13,
+            "cutoff": 23.907725153137974,
+            "tail_factors": 32
+          },
+          "high_energy_probability": {
+            "probability": 0.0013017992720242288,
+            "tail_bound": 2.4999999999999978e-11,
+            "quad_error_estimate": 2.995601783993884e-12,
+            "cutoff": 24.335201512190945,
+            "tail_factors": 32
+          },
+          "minimum_upper_score_gap": 0.007368047444374692
+        },
+        {
+          "factor": 4.0,
+          "interval": [
+            0.499979788560142,
+            1.543604846529133
+          ],
+          "upper": 0.6761389688995787,
+          "quadratic_probability": {
+            "probability": 0.6757592838306324,
+            "tail_bound": 2.499999999999993e-11,
+            "quad_error_estimate": 1.2480992899744974e-11,
+            "cutoff": 31.92496150021373,
+            "tail_factors": 32
+          },
+          "energy_outside_bound": 0.00037535230655927343,
+          "score_outside_bound": 4.332762386927147e-06,
+          "low_energy_probability": {
+            "probability": 0.9999997900829782,
+            "tail_bound": 2.4999999999999978e-11,
+            "quad_error_estimate": 1.883194680369464e-12,
+            "cutoff": 23.893989888274795,
+            "tail_factors": 32
+          },
+          "high_energy_probability": {
+            "probability": 0.00037514238953750834,
+            "tail_bound": 2.4999999999999978e-11,
+            "quad_error_estimate": 1.3880633894145156e-11,
+            "cutoff": 24.383891835160785,
+            "tail_factors": 32
+          },
+          "minimum_upper_score_gap": 0.009475144106791067
+        }
+      ]
+    },
+    {
+      "d": 256,
+      "n": 4328,
+      "method": "Sign2",
+      "L": 1,
+      "rep": 0,
+      "t": 3.6011596633607343,
+      "lower": 0.41283979499531426,
+      "upper": 0.45049150104711283,
+      "width": 0.03765170605179857,
+      "lower_probability": {
+        "probability": 0.41283979499531426,
+        "tail_bound": 2.4999999999999878e-11,
+        "quad_error_estimate": 1.914071041821066e-15,
+        "cutoff": 32.42854379305192,
+        "tail_factors": 32
+      },
+      "best_energy_factor": 3.0,
+      "best_energy_outside": 0.004565033356850434,
+      "score_outside": 4.307005846582168e-06,
+      "sampled_actual_fixed_threshold": 0.411376953125,
+      "minimum_lower_score_gap": 6.264720675552837e-08,
+      "candidates": [
+        {
+          "factor": 2.0,
+          "interval": [
+            0.7754110703857654,
+            1.3130406199132865
+          ],
+          "upper": 0.4822639242750067,
+          "quadratic_probability": {
+            "probability": 0.4296428672632905,
+            "tail_bound": 2.4999999999999978e-11,
+            "quad_error_estimate": 1.3834845100758151e-13,
+            "cutoff": 32.35715412380149,
+            "tail_factors": 32
+          },
+          "energy_outside_bound": 0.05261675000586963,
+          "score_outside_bound": 4.307005846582168e-06,
+          "low_energy_probability": {
+            "probability": 0.9801549489860127,
+            "tail_bound": 2.5000000000000075e-11,
+            "quad_error_estimate": 1.14710141291786e-14,
+            "cutoff": 23.932826322827488,
+            "tail_factors": 32
+          },
+          "high_energy_probability": {
+            "probability": 0.03277169899188237,
+            "tail_bound": 2.5000000000000027e-11,
+            "quad_error_estimate": 4.919440515776452e-13,
+            "cutoff": 24.22058812898812,
+            "tail_factors": 32
+          },
+          "minimum_upper_score_gap": 0.008817654638516803
+        },
+        {
+          "factor": 2.5,
+          "interval": [
+            0.7082073766948253,
+            1.3802443136042264
+          ],
+          "upper": 0.45258596305818,
+          "quadratic_probability": {
+            "probability": 0.43683511905638805,
+            "tail_bound": 2.5000000000000027e-11,
+            "quad_error_estimate": 2.4182591359618547e-13,
+            "cutoff": 32.31422194347676,
+            "tail_factors": 32
+          },
+          "energy_outside_bound": 0.01574653699594536,
+          "score_outside_bound": 4.307005846582168e-06,
+          "low_energy_probability": {
+            "probability": 0.9966519333074306,
+            "tail_bound": 2.5000000000000027e-11,
+            "quad_error_estimate": 2.7123544115632287e-14,
+            "cutoff": 23.908013184162968,
+            "tail_factors": 32
+          },
+          "high_energy_probability": {
+            "probability": 0.012398470303375986,
+            "tail_bound": 2.5000000000000075e-11,
+            "quad_error_estimate": 1.111733915381558e-11,
+            "cutoff": 24.27037891520047,
+            "tail_factors": 32
+          },
+          "minimum_upper_score_gap": 0.009922160507423339
+        },
+        {
+          "factor": 3.0,
+          "interval": [
+            0.6410036830038852,
+            1.4474480072951665
+          ],
+          "upper": 0.45049150104711283,
+          "quadratic_probability": {
+            "probability": 0.4459221606844158,
+            "tail_bound": 2.499999999999993e-11,
+            "quad_error_estimate": 4.058611113761915e-13,
+            "cutoff": 32.259694500999636,
+            "tail_factors": 32
+          },
+          "energy_outside_bound": 0.004565033356850434,
+          "score_outside_bound": 4.307005846582168e-06,
+          "low_energy_probability": {
+            "probability": 0.9996869310423074,
+            "tail_bound": 2.5000000000000027e-11,
+            "quad_error_estimate": 6.236795659628385e-14,
+            "cutoff": 23.88598887332308,
+            "tail_factors": 32
+          },
+          "high_energy_probability": {
+            "probability": 0.00425196439915787,
+            "tail_bound": 2.5000000000000127e-11,
+            "quad_error_estimate": 6.137787922726934e-12,
+            "cutoff": 24.323085822706282,
+            "tail_factors": 32
+          },
+          "minimum_upper_score_gap": 0.006993117892324818
+        },
+        {
+          "factor": 3.5,
+          "interval": [
+            0.5737999893129451,
+            1.5146517009861067
+          ],
+          "upper": 0.4584656050398505,
+          "quadratic_probability": {
+            "probability": 0.4571125757818123,
+            "tail_bound": 2.5000000000000075e-11,
+            "quad_error_estimate": 6.731009527437233e-13,
+            "cutoff": 32.19206440621679,
+            "tail_factors": 32
+          },
+          "energy_outside_bound": 0.0013487222521916253,
+          "score_outside_bound": 4.307005846582168e-06,
+          "low_energy_probability": {
+            "probability": 0.9999862379307161,
+            "tail_bound": 2.5000000000000075e-11,
+            "quad_error_estimate": 1.941131133329162e-13,
+            "cutoff": 23.866735796511126,
+            "tail_factors": 32
+          },
+          "high_energy_probability": {
+            "probability": 0.0013349601829076851,
+            "tail_bound": 2.4999999999999978e-11,
+            "quad_error_estimate": 2.858558576278553e-12,
+            "cutoff": 24.378717278272212,
+            "tail_factors": 32
+          },
+          "minimum_upper_score_gap": 0.012575255780469918
+        },
+        {
+          "factor": 4.0,
+          "interval": [
+            0.5065962956220049,
+            1.5818553946770468
+          ],
+          "upper": 0.471079580094422,
+          "quadratic_probability": {
+            "probability": 0.4706878390369777,
+            "tail_bound": 2.5000000000000027e-11,
+            "quad_error_estimate": 1.1649121953893185e-12,
+            "cutoff": 32.10922588564483,
+            "tail_factors": 32
+          },
+          "energy_outside_bound": 0.0003874340515977459,
+          "score_outside_bound": 4.307005846582168e-06,
+          "low_energy_probability": {
+            "probability": 0.9999997733236918,
+            "tail_bound": 2.5000000000000175e-11,
+            "quad_error_estimate": 1.8373836191379855e-12,
+            "cutoff": 23.850235562390214,
+            "tail_factors": 32
+          },
+          "high_energy_probability": {
+            "probability": 0.0003872073752895777,
+            "tail_bound": 2.5000000000000075e-11,
+            "quad_error_estimate": 1.3058994471139624e-11,
+            "cutoff": 24.437280836277626,
+            "tail_factors": 32
+          },
+          "minimum_upper_score_gap": 0.019022575539820785
+        }
+      ]
+    },
+    {
+      "d": 256,
+      "n": 4328,
+      "method": "Sign2",
+      "L": 5,
+      "rep": 0,
+      "t": 3.0677402398783444,
+      "lower": 0.6275556987359167,
+      "upper": 0.6592707904239716,
+      "width": 0.031715091688054975,
+      "lower_probability": {
+        "probability": 0.6275556987359167,
+        "tail_bound": 2.4999999999999978e-11,
+        "quad_error_estimate": 6.962131430838926e-12,
+        "cutoff": 31.773342113129274,
+        "tail_factors": 32
+      },
+      "best_energy_factor": 3.0,
+      "best_energy_outside": 0.004565033356850434,
+      "score_outside": 4.307005846582168e-06,
+      "sampled_actual_fixed_threshold": 0.6268310546875,
+      "minimum_lower_score_gap": 5.336763009289314e-08,
+      "candidates": [
+        {
+          "factor": 2.0,
+          "interval": [
+            0.7754110703857654,
+            1.3130406199132865
+          ],
+          "upper": 0.6940953687934979,
+          "quadratic_probability": {
+            "probability": 0.6414743117817817,
+            "tail_bound": 2.4999999999999978e-11,
+            "quad_error_estimate": 8.092487892539892e-12,
+            "cutoff": 31.798174681991775,
+            "tail_factors": 32
+          },
+          "energy_outside_bound": 0.05261675000586963,
+          "score_outside_bound": 4.307005846582168e-06,
+          "low_energy_probability": {
+            "probability": 0.9801549489860127,
+            "tail_bound": 2.5000000000000075e-11,
+            "quad_error_estimate": 1.14710141291786e-14,
+            "cutoff": 23.932826322827488,
+            "tail_factors": 32
+          },
+          "high_energy_probability": {
+            "probability": 0.03277169899188237,
+            "tail_bound": 2.5000000000000027e-11,
+            "quad_error_estimate": 4.919440515776452e-13,
+            "cutoff": 24.22058812898812,
+            "tail_factors": 32
+          },
+          "minimum_upper_score_gap": 0.007511545303348299
+        },
+        {
+          "factor": 2.5,
+          "interval": [
+            0.7082073766948253,
+            1.3802443136042264
+          ],
+          "upper": 0.6631023126794684,
+          "quadratic_probability": {
+            "probability": 0.6473514686776765,
+            "tail_bound": 2.4999999999999978e-11,
+            "quad_error_estimate": 8.654530135644694e-12,
+            "cutoff": 31.81362329088227,
+            "tail_factors": 32
+          },
+          "energy_outside_bound": 0.01574653699594536,
+          "score_outside_bound": 4.307005846582168e-06,
+          "low_energy_probability": {
+            "probability": 0.9966519333074306,
+            "tail_bound": 2.5000000000000027e-11,
+            "quad_error_estimate": 2.7123544115632287e-14,
+            "cutoff": 23.908013184162968,
+            "tail_factors": 32
+          },
+          "high_energy_probability": {
+            "probability": 0.012398470303375986,
+            "tail_bound": 2.5000000000000075e-11,
+            "quad_error_estimate": 1.111733915381558e-11,
+            "cutoff": 24.27037891520047,
+            "tail_factors": 32
+          },
+          "minimum_upper_score_gap": 0.008452446961698001
+        },
+        {
+          "factor": 3.0,
+          "interval": [
+            0.6410036830038852,
+            1.4474480072951665
+          ],
+          "upper": 0.6592707904239716,
+          "quadratic_probability": {
+            "probability": 0.6547014500612747,
+            "tail_bound": 2.4999999999999978e-11,
+            "quad_error_estimate": 9.427063206012161e-12,
+            "cutoff": 31.833361204397413,
+            "tail_factors": 32
+          },
+          "energy_outside_bound": 0.004565033356850434,
+          "score_outside_bound": 4.307005846582168e-06,
+          "low_energy_probability": {
+            "probability": 0.9996869310423074,
+            "tail_bound": 2.5000000000000027e-11,
+            "quad_error_estimate": 6.236795659628385e-14,
+            "cutoff": 23.88598887332308,
+            "tail_factors": 32
+          },
+          "high_energy_probability": {
+            "probability": 0.00425196439915787,
+            "tail_bound": 2.5000000000000127e-11,
+            "quad_error_estimate": 6.137787922726934e-12,
+            "cutoff": 24.323085822706282,
+            "tail_factors": 32
+          },
+          "minimum_upper_score_gap": 0.005957266871214895
+        },
+        {
+          "factor": 3.5,
+          "interval": [
+            0.5737999893129451,
+            1.5146517009861067
+          ],
+          "upper": 0.6649930488167055,
+          "quadratic_probability": {
+            "probability": 0.6636400195586674,
+            "tail_bound": 2.4999999999999978e-11,
+            "quad_error_estimate": 1.0482370817931419e-11,
+            "cutoff": 31.858024442384327,
+            "tail_factors": 32
+          },
+          "energy_outside_bound": 0.0013487222521916253,
+          "score_outside_bound": 4.307005846582168e-06,
+          "low_energy_probability": {
+            "probability": 0.9999862379307161,
+            "tail_bound": 2.5000000000000075e-11,
+            "quad_error_estimate": 1.941131133329162e-13,
+            "cutoff": 23.866735796511126,
+            "tail_factors": 32
+          },
+          "high_energy_probability": {
+            "probability": 0.0013349601829076851,
+            "tail_bound": 2.4999999999999978e-11,
+            "quad_error_estimate": 2.858558576278553e-12,
+            "cutoff": 24.378717278272212,
+            "tail_factors": 32
+          },
+          "minimum_upper_score_gap": 0.010712554229964422
+        },
+        {
+          "factor": 4.0,
+          "interval": [
+            0.5065962956220049,
+            1.5818553946770468
+          ],
+          "upper": 0.6747136644715936,
+          "quadratic_probability": {
+            "probability": 0.6743219234141493,
+            "tail_bound": 2.5000000000000027e-11,
+            "quad_error_estimate": 1.1928385436179077e-11,
+            "cutoff": 31.88851042631519,
+            "tail_factors": 32
+          },
+          "energy_outside_bound": 0.0003874340515977459,
+          "score_outside_bound": 4.307005846582168e-06,
+          "low_energy_probability": {
+            "probability": 0.9999997733236918,
+            "tail_bound": 2.5000000000000175e-11,
+            "quad_error_estimate": 1.8373836191379855e-12,
+            "cutoff": 23.850235562390214,
+            "tail_factors": 32
+          },
+          "high_energy_probability": {
+            "probability": 0.0003872073752895777,
+            "tail_bound": 2.5000000000000075e-11,
+            "quad_error_estimate": 1.3058994471139624e-11,
+            "cutoff": 24.437280836277626,
+            "tail_factors": 32
+          },
+          "minimum_upper_score_gap": 0.016204868960232766
+        }
+      ]
+    },
+    {
+      "d": 256,
+      "n": 4908,
+      "method": "Adam2",
+      "L": 1,
+      "rep": 0,
+      "t": 3.6262055061345073,
+      "lower": 0.39196481201977995,
+      "upper": 0.430892988856178,
+      "width": 0.03892817683639804,
+      "lower_probability": {
+        "probability": 0.39196481201977995,
+        "tail_bound": 2.5000000000000027e-11,
+        "quad_error_estimate": 9.288452313839526e-14,
+        "cutoff": 31.801917849146673,
+        "tail_factors": 32
+      },
+      "best_energy_factor": 3.0,
+      "best_energy_outside": 0.004617154398816992,
+      "score_outside": 4.623235345391219e-06,
+      "sampled_actual_fixed_threshold": 0.408935546875,
+      "minimum_lower_score_gap": 7.1230598908123e-07,
+      "candidates": [
+        {
+          "factor": 2.0,
+          "interval": [
+            0.8071700642388562,
+            1.3904597451589864
+          ],
+          "upper": 0.46001487120933215,
+          "quadratic_probability": {
+            "probability": 0.40893148888211883,
+            "tail_bound": 2.4999999999999978e-11,
+            "quad_error_estimate": 3.645763426508276e-15,
+            "cutoff": 31.76799315463336,
+            "tail_factors": 32
+          },
+          "energy_outside_bound": 0.05107875909186793,
+          "score_outside_bound": 4.623235345391219e-06,
+          "low_energy_probability": {
+            "probability": 0.9817556866443291,
+            "tail_bound": 2.5000000000000075e-11,
+            "quad_error_estimate": 1.1425150207132012e-14,
+            "cutoff": 24.56126731331267,
+            "tail_factors": 32
+          },
+          "high_energy_probability": {
+            "probability": 0.03283444573619704,
+            "tail_bound": 2.5000000000000127e-11,
+            "quad_error_estimate": 8.607997696058163e-13,
+            "cutoff": 24.82957315849664,
+            "tail_factors": 32
+          },
+          "minimum_upper_score_gap": 0.00712497966444392
+        },
+        {
+          "factor": 2.5,
+          "interval": [
+            0.73425885412384,
+            1.4633709552740026
+          ],
+          "upper": 0.4320362977428193,
+          "quadratic_probability": {
+            "probability": 0.41657719749173283,
+            "tail_bound": 2.4999999999999978e-11,
+            "quad_error_estimate": 1.3646259036616533e-14,
+            "cutoff": 31.790064354815264,
+            "tail_factors": 32
+          },
+          "energy_outside_bound": 0.015454477015741097,
+          "score_outside_bound": 4.623235345391219e-06,
+          "low_energy_probability": {
+            "probability": 0.9970996292228187,
+            "tail_bound": 2.5000000000000075e-11,
+            "quad_error_estimate": 1.871883124334676e-14,
+            "cutoff": 24.538011461732353,
+            "tail_factors": 32
+          },
+          "high_energy_probability": {
+            "probability": 0.012554106238559792,
+            "tail_bound": 2.5000000000000075e-11,
+            "quad_error_estimate": 1.620058476741948e-11,
+            "cutoff": 24.875500590380916,
+            "tail_factors": 32
+          },
+          "minimum_upper_score_gap": 0.007107094023652394
+        },
+        {
+          "factor": 3.0,
+          "interval": [
+            0.6613476440088237,
+            1.5362821653890189
+          ],
+          "upper": 0.430892988856178,
+          "quadratic_probability": {
+            "probability": 0.4262712112220156,
+            "tail_bound": 2.5000000000000027e-11,
+            "quad_error_estimate": 6.612735905869263e-14,
+            "cutoff": 31.818361334740963,
+            "tail_factors": 32
+          },
+          "energy_outside_bound": 0.004617154398816992,
+          "score_outside_bound": 4.623235345391219e-06,
+          "low_energy_probability": {
+            "probability": 0.9997538251957435,
+            "tail_bound": 2.4999999999999978e-11,
+            "quad_error_estimate": 5.267373087240359e-14,
+            "cutoff": 24.51728127456956,
+            "tail_factors": 32
+          },
+          "high_energy_probability": {
+            "probability": 0.004370979594560509,
+            "tail_bound": 2.4999999999999978e-11,
+            "quad_error_estimate": 7.642727353164706e-12,
+            "cutoff": 24.924058359901522,
+            "tail_factors": 32
+          },
+          "minimum_upper_score_gap": 0.011707645397344368
+        },
+        {
+          "factor": 3.5,
+          "interval": [
+            0.5884364338938074,
+            1.6091933755040353
+          ],
+          "upper": 0.4396764549813571,
+          "quadratic_probability": {
+            "probability": 0.4382625922080907,
+            "tail_bound": 2.5000000000000127e-11,
+            "quad_error_estimate": 1.7533577257495794e-13,
+            "cutoff": 31.818264207870183,
+            "tail_factors": 32
+          },
+          "energy_outside_bound": 0.001409239537920992,
+          "score_outside_bound": 4.623235345391219e-06,
+          "low_energy_probability": {
+            "probability": 0.9999907393120597,
+            "tail_bound": 2.5000000000000127e-11,
+            "quad_error_estimate": 3.442081166537987e-13,
+            "cutoff": 24.499062380541353,
+            "tail_factors": 32
+          },
+          "high_energy_probability": {
+            "probability": 0.0013999788499807209,
+            "tail_bound": 2.5000000000000127e-11,
+            "quad_error_estimate": 9.549255933181985e-13,
+            "cutoff": 24.97525341581421,
+            "tail_factors": 32
+          },
+          "minimum_upper_score_gap": 0.012370499044149108
+        },
+        {
+          "factor": 4.0,
+          "interval": [
+            0.5155252237787912,
+            1.6821045856190513
+          ],
+          "upper": 0.4533125643465281,
+          "quadratic_probability": {
+            "probability": 0.45289151286521856,
+            "tail_bound": 2.4999999999999978e-11,
+            "quad_error_estimate": 3.704546055714335e-13,
+            "cutoff": 31.72909960043029,
+            "tail_factors": 32
+          },
+          "energy_outside_bound": 0.00041642824596416217,
+          "score_outside_bound": 4.623235345391219e-06,
+          "low_energy_probability": {
+            "probability": 0.9999998811929678,
+            "tail_bound": 2.4999999999999978e-11,
+            "quad_error_estimate": 1.3075040769137041e-12,
+            "cutoff": 24.4833397605903,
+            "tail_factors": 32
+          },
+          "high_energy_probability": {
+            "probability": 0.00041630943893194994,
+            "tail_bound": 2.4999999999999978e-11,
+            "quad_error_estimate": 9.484392839247811e-13,
+            "cutoff": 25.029092004008028,
+            "tail_factors": 32
+          },
+          "minimum_upper_score_gap": 0.009888524031465229
+        }
+      ]
+    },
+    {
+      "d": 256,
+      "n": 4908,
+      "method": "Adam2",
+      "L": 5,
+      "rep": 0,
+      "t": 3.1065060950500576,
+      "lower": 0.6016909360689284,
+      "upper": 0.6355405929675335,
+      "width": 0.033849656898605085,
+      "lower_probability": {
+        "probability": 0.6016909360689284,
+        "tail_bound": 2.4999999999999978e-11,
+        "quad_error_estimate": 4.2421340434726836e-12,
+        "cutoff": 31.421371577118485,
+        "tail_factors": 32
+      },
+      "best_energy_factor": 3.0,
+      "best_energy_outside": 0.004617154398816992,
+      "score_outside": 4.623235345391219e-06,
+      "sampled_actual_fixed_threshold": 0.6126708984375,
+      "minimum_lower_score_gap": 6.102199372470807e-07,
+      "candidates": [
+        {
+          "factor": 2.0,
+          "interval": [
+            0.8071700642388562,
+            1.3904597451589864
+          ],
+          "upper": 0.667378729736722,
+          "quadratic_probability": {
+            "probability": 0.6162953474095085,
+            "tail_bound": 2.5000000000000027e-11,
+            "quad_error_estimate": 4.8423372904631486e-12,
+            "cutoff": 31.424884970281283,
+            "tail_factors": 32
+          },
+          "energy_outside_bound": 0.05107875909186793,
+          "score_outside_bound": 4.623235345391219e-06,
+          "low_energy_probability": {
+            "probability": 0.9817556866443291,
+            "tail_bound": 2.5000000000000075e-11,
+            "quad_error_estimate": 1.1425150207132012e-14,
+            "cutoff": 24.56126731331267,
+            "tail_factors": 32
+          },
+          "high_energy_probability": {
+            "probability": 0.03283444573619704,
+            "tail_bound": 2.5000000000000127e-11,
+            "quad_error_estimate": 8.607997696058163e-13,
+            "cutoff": 24.82957315849664,
+            "tail_factors": 32
+          },
+          "minimum_upper_score_gap": 0.006103844009187398
+        },
+        {
+          "factor": 2.5,
+          "interval": [
+            0.73425885412384,
+            1.4633709552740026
+          ],
+          "upper": 0.6382418572777724,
+          "quadratic_probability": {
+            "probability": 0.6227827570266858,
+            "tail_bound": 2.499999999999993e-11,
+            "quad_error_estimate": 5.202921918599054e-12,
+            "cutoff": 31.44208561307915,
+            "tail_factors": 32
+          },
+          "energy_outside_bound": 0.015454477015741097,
+          "score_outside_bound": 4.623235345391219e-06,
+          "low_energy_probability": {
+            "probability": 0.9970996292228187,
+            "tail_bound": 2.5000000000000075e-11,
+            "quad_error_estimate": 1.871883124334676e-14,
+            "cutoff": 24.538011461732353,
+            "tail_factors": 32
+          },
+          "high_energy_probability": {
+            "probability": 0.012554106238559792,
+            "tail_bound": 2.5000000000000075e-11,
+            "quad_error_estimate": 1.620058476741948e-11,
+            "cutoff": 24.875500590380916,
+            "tail_factors": 32
+          },
+          "minimum_upper_score_gap": 0.0060885216971886535
+        },
+        {
+          "factor": 3.0,
+          "interval": [
+            0.6613476440088237,
+            1.5362821653890189
+          ],
+          "upper": 0.6355405929675335,
+          "quadratic_probability": {
+            "probability": 0.6309188153333711,
+            "tail_bound": 2.5000000000000027e-11,
+            "quad_error_estimate": 5.702743951408874e-12,
+            "cutoff": 31.464129152251655,
+            "tail_factors": 32
+          },
+          "energy_outside_bound": 0.004617154398816992,
+          "score_outside_bound": 4.623235345391219e-06,
+          "low_energy_probability": {
+            "probability": 0.9997538251957435,
+            "tail_bound": 2.4999999999999978e-11,
+            "quad_error_estimate": 5.267373087240359e-14,
+            "cutoff": 24.51728127456956,
+            "tail_factors": 32
+          },
+          "high_energy_probability": {
+            "probability": 0.004370979594560509,
+            "tail_bound": 2.4999999999999978e-11,
+            "quad_error_estimate": 7.642727353164706e-12,
+            "cutoff": 24.924058359901522,
+            "tail_factors": 32
+          },
+          "minimum_upper_score_gap": 0.010029732656907653
+        },
+        {
+          "factor": 3.5,
+          "interval": [
+            0.5884364338938074,
+            1.6091933755040353
+          ],
+          "upper": 0.6422627762542399,
+          "quadratic_probability": {
+            "probability": 0.6408489134809735,
+            "tail_bound": 2.5000000000000027e-11,
+            "quad_error_estimate": 6.398615726582926e-12,
+            "cutoff": 31.49178491427945,
+            "tail_factors": 32
+          },
+          "energy_outside_bound": 0.001409239537920992,
+          "score_outside_bound": 4.623235345391219e-06,
+          "low_energy_probability": {
+            "probability": 0.9999907393120597,
+            "tail_bound": 2.5000000000000127e-11,
+            "quad_error_estimate": 3.442081166537987e-13,
+            "cutoff": 24.499062380541353,
+            "tail_factors": 32
+          },
+          "high_energy_probability": {
+            "probability": 0.0013999788499807209,
+            "tail_bound": 2.5000000000000127e-11,
+            "quad_error_estimate": 9.549255933181985e-13,
+            "cutoff": 24.97525341581421,
+            "tail_factors": 32
+          },
+          "minimum_upper_score_gap": 0.010597587647596995
+        },
+        {
+          "factor": 4.0,
+          "interval": [
+            0.5155252237787912,
+            1.6821045856190513
+          ],
+          "upper": 0.6531905500539832,
+          "quadratic_probability": {
+            "probability": 0.6527694985726736,
+            "tail_bound": 2.5000000000000027e-11,
+            "quad_error_estimate": 7.373347751900648e-12,
+            "cutoff": 31.526153036831804,
+            "tail_factors": 32
+          },
+          "energy_outside_bound": 0.00041642824596416217,
+          "score_outside_bound": 4.623235345391219e-06,
+          "low_energy_probability": {
+            "probability": 0.9999998811929678,
+            "tail_bound": 2.4999999999999978e-11,
+            "quad_error_estimate": 1.3075040769137041e-12,
+            "cutoff": 24.4833397605903,
+            "tail_factors": 32
+          },
+          "high_energy_probability": {
+            "probability": 0.00041630943893194994,
+            "tail_bound": 2.4999999999999978e-11,
+            "quad_error_estimate": 9.484392839247811e-13,
+            "cutoff": 25.029092004008028,
+            "tail_factors": 32
+          },
+          "minimum_upper_score_gap": 0.008471323570279354
+        }
+      ]
+    },
+    {
+      "d": 512,
+      "n": 17599,
+      "method": "GD3",
+      "L": 1,
+      "rep": 0,
+      "t": 3.9489045582555358,
+      "lower": 0.4381143127818442,
+      "upper": 0.45762251790968766,
+      "width": 0.01950820512784346,
+      "lower_probability": {
+        "probability": 0.4381143127818442,
+        "tail_bound": 2.5000000000000027e-11,
+        "quad_error_estimate": 1.9304383715171988e-14,
+        "cutoff": 41.75455998811845,
+        "tail_factors": 32
+      },
+      "best_energy_factor": 3.0,
+      "best_energy_outside": 0.0035747459047743013,
+      "score_outside": 1.7556706483623508e-06,
+      "sampled_actual_fixed_threshold": 0.4324951171875,
+      "minimum_lower_score_gap": 4.1159733488171923e-07,
+      "candidates": [
+        {
+          "factor": 2.0,
+          "interval": [
+            0.8279265386683032,
+            1.1903384338886454
+          ],
+          "upper": 0.4936710115491126,
+          "quadratic_probability": {
+            "probability": 0.44575714150331414,
+            "tail_bound": 2.499999999999993e-11,
+            "quad_error_estimate": 1.681170801554408e-14,
+            "cutoff": 41.7752281369855,
+            "tail_factors": 32
+          },
+          "energy_outside_bound": 0.04791211437515008,
+          "score_outside_bound": 1.7556706483623508e-06,
+          "low_energy_probability": {
+            "probability": 0.9813694083215027,
+            "tail_bound": 2.4999999999999978e-11,
+            "quad_error_estimate": 7.026762884673044e-15,
+            "cutoff": 27.023475294854194,
+            "tail_factors": 32
+          },
+          "high_energy_probability": {
+            "probability": 0.02928152269665274,
+            "tail_bound": 2.5000000000000027e-11,
+            "quad_error_estimate": 3.5762390651938792e-12,
+            "cutoff": 27.114839519881,
+            "tail_factors": 32
+          },
+          "minimum_upper_score_gap": 0.0025116437494174804
+        },
+        {
+          "factor": 2.5,
+          "interval": [
+            0.7826250517657605,
+            1.2356399207911881
+          ],
+          "upper": 0.4632639862175567,
+          "quadratic_probability": {
+            "probability": 0.44945661352450794,
+            "tail_bound": 2.499999999999993e-11,
+            "quad_error_estimate": 1.567417646970076e-14,
+            "cutoff": 41.78723445801001,
+            "tail_factors": 32
+          },
+          "energy_outside_bound": 0.013805617022400407,
+          "score_outside_bound": 1.7556706483623508e-06,
+          "low_energy_probability": {
+            "probability": 0.9963731288968184,
+            "tail_bound": 2.5000000000000075e-11,
+            "quad_error_estimate": 1.0833102574295031e-13,
+            "cutoff": 27.015353552283205,
+            "tail_factors": 32
+          },
+          "high_energy_probability": {
+            "probability": 0.010178745919218801,
+            "tail_bound": 2.499999999999993e-11,
+            "quad_error_estimate": 3.8800231829858636e-14,
+            "cutoff": 27.12986593485287,
+            "tail_factors": 32
+          },
+          "minimum_upper_score_gap": 0.0029048259961854672
+        },
+        {
+          "factor": 3.0,
+          "interval": [
+            0.7373235648632178,
+            1.2809414076937307
+          ],
+          "upper": 0.45762251790968766,
+          "quadratic_probability": {
+            "probability": 0.454046016334265,
+            "tail_bound": 2.4999999999999978e-11,
+            "quad_error_estimate": 1.4329135534727192e-14,
+            "cutoff": 41.802201835476446,
+            "tail_factors": 32
+          },
+          "energy_outside_bound": 0.0035747459047743013,
+          "score_outside_bound": 1.7556706483623508e-06,
+          "low_energy_probability": {
+            "probability": 0.9995451514267906,
+            "tail_bound": 2.5000000000000027e-11,
+            "quad_error_estimate": 7.826276728813567e-13,
+            "cutoff": 27.008002246941025,
+            "tail_factors": 32
+          },
+          "high_energy_probability": {
+            "probability": 0.0031198973315648693,
+            "tail_bound": 2.4999999999999978e-11,
+            "quad_error_estimate": 1.3383897196814872e-13,
+            "cutoff": 27.14567258994972,
+            "tail_factors": 32
+          },
+          "minimum_upper_score_gap": 0.0020733958672636277
+        },
+        {
+          "factor": 3.5,
+          "interval": [
+            0.692022077960675,
+            1.3262428945962736
+          ],
+          "upper": 0.46045550413645386,
+          "quadratic_probability": {
+            "probability": 0.4595689717975223,
+            "tail_bound": 2.4999999999999978e-11,
+            "quad_error_estimate": 1.280782028016373e-14,
+            "cutoff": 41.82032430825293,
+            "tail_factors": 32
+          },
+          "energy_outside_bound": 0.0008847766682831826,
+          "score_outside_bound": 1.7556706483623508e-06,
+          "low_energy_probability": {
+            "probability": 0.9999659283622486,
+            "tail_bound": 2.5000000000000075e-11,
+            "quad_error_estimate": 1.8215830642704456e-13,
+            "cutoff": 27.001420045247098,
+            "tail_factors": 32
+          },
+          "high_energy_probability": {
+            "probability": 0.0008507050305318065,
+            "tail_bound": 2.5000000000000075e-11,
+            "quad_error_estimate": 4.007629674161484e-13,
+            "cutoff": 27.162260129310756,
+            "tail_factors": 32
+          },
+          "minimum_upper_score_gap": 0.003973557361772073
+        },
+        {
+          "factor": 4.0,
+          "interval": [
+            0.6467205910581323,
+            1.3715443814988162
+          ],
+          "upper": 0.46629125718061637,
+          "quadratic_probability": {
+            "probability": 0.46607996869738394,
+            "tail_bound": 2.4999999999999978e-11,
+            "quad_error_estimate": 1.113627502298093e-14,
+            "cutoff": 41.84184995648734,
+            "tail_factors": 32
+          },
+          "energy_outside_bound": 0.00020953281258406786,
+          "score_outside_bound": 1.7556706483623508e-06,
+          "low_energy_probability": {
+            "probability": 0.9999986069010929,
+            "tail_bound": 2.5000000000000027e-11,
+            "quad_error_estimate": 1.6593130139620305e-14,
+            "cutoff": 26.995605551506678,
+            "tail_factors": 32
+          },
+          "high_energy_probability": {
+            "probability": 0.00020813971367694695,
+            "tail_bound": 2.499999999999993e-11,
+            "quad_error_estimate": 7.927833624808821e-13,
+            "cutoff": 27.179629133368575,
+            "tail_factors": 32
+          },
+          "minimum_upper_score_gap": 0.005119875726012246
+        }
+      ]
+    },
+    {
+      "d": 512,
+      "n": 17599,
+      "method": "GD3",
+      "L": 5,
+      "rep": 0,
+      "t": 3.466693354026602,
+      "lower": 0.6306135175611878,
+      "upper": 0.6475492019593443,
+      "width": 0.016935684398156514,
+      "lower_probability": {
+        "probability": 0.6306135175611878,
+        "tail_bound": 2.4999999999999978e-11,
+        "quad_error_estimate": 1.3929730858795288e-14,
+        "cutoff": 41.094980715633106,
+        "tail_factors": 32
+      },
+      "best_energy_factor": 3.0,
+      "best_energy_outside": 0.0035747459047743013,
+      "score_outside": 1.7556706483623508e-06,
+      "sampled_actual_fixed_threshold": 0.6256103515625,
+      "minimum_lower_score_gap": 3.6133609349064955e-07,
+      "candidates": [
+        {
+          "factor": 2.0,
+          "interval": [
+            0.8279265386683032,
+            1.1903384338886454
+          ],
+          "upper": 0.6849646231606765,
+          "quadratic_probability": {
+            "probability": 0.6370507531148781,
+            "tail_bound": 2.5000000000000075e-11,
+            "quad_error_estimate": 1.372289785233908e-14,
+            "cutoff": 41.112280601158254,
+            "tail_factors": 32
+          },
+          "energy_outside_bound": 0.04791211437515008,
+          "score_outside_bound": 1.7556706483623508e-06,
+          "low_energy_probability": {
+            "probability": 0.9813694083215027,
+            "tail_bound": 2.4999999999999978e-11,
+            "quad_error_estimate": 7.026762884673044e-15,
+            "cutoff": 27.023475294854194,
+            "tail_factors": 32
+          },
+          "high_energy_probability": {
+            "probability": 0.02928152269665274,
+            "tail_bound": 2.5000000000000027e-11,
+            "quad_error_estimate": 3.5762390651938792e-12,
+            "cutoff": 27.114839519881,
+            "tail_factors": 32
+          },
+          "minimum_upper_score_gap": 0.002204940272761746
+        },
+        {
+          "factor": 2.5,
+          "interval": [
+            0.7826250517657605,
+            1.2356399207911881
+          ],
+          "upper": 0.6539555560601289,
+          "quadratic_probability": {
+            "probability": 0.6401481833670801,
+            "tail_bound": 2.5000000000000075e-11,
+            "quad_error_estimate": 1.3596627962292024e-14,
+            "cutoff": 41.12232627870518,
+            "tail_factors": 32
+          },
+          "energy_outside_bound": 0.013805617022400407,
+          "score_outside_bound": 1.7556706483623508e-06,
+          "low_energy_probability": {
+            "probability": 0.9963731288968184,
+            "tail_bound": 2.5000000000000075e-11,
+            "quad_error_estimate": 1.0833102574295031e-13,
+            "cutoff": 27.015353552283205,
+            "tail_factors": 32
+          },
+          "high_energy_probability": {
+            "probability": 0.010178745919218801,
+            "tail_bound": 2.499999999999993e-11,
+            "quad_error_estimate": 3.8800231829858636e-14,
+            "cutoff": 27.12986593485287,
+            "tail_factors": 32
+          },
+          "minimum_upper_score_gap": 0.0025501099930429483
+        },
+        {
+          "factor": 3.0,
+          "interval": [
+            0.7373235648632178,
+            1.2809414076937307
+          ],
+          "upper": 0.6475492019593443,
+          "quadratic_probability": {
+            "probability": 0.6439727003839215,
+            "tail_bound": 2.5000000000000027e-11,
+            "quad_error_estimate": 1.3469541722311282e-14,
+            "cutoff": 41.13484789083775,
+            "tail_factors": 32
+          },
+          "energy_outside_bound": 0.0035747459047743013,
+          "score_outside_bound": 1.7556706483623508e-06,
+          "low_energy_probability": {
+            "probability": 0.9995451514267906,
+            "tail_bound": 2.5000000000000027e-11,
+            "quad_error_estimate": 7.826276728813567e-13,
+            "cutoff": 27.008002246941025,
+            "tail_factors": 32
+          },
+          "high_energy_probability": {
+            "probability": 0.0031198973315648693,
+            "tail_bound": 2.4999999999999978e-11,
+            "quad_error_estimate": 1.3383897196814872e-13,
+            "cutoff": 27.14567258994972,
+            "tail_factors": 32
+          },
+          "minimum_upper_score_gap": 0.0018202080013001165
+        },
+        {
+          "factor": 3.5,
+          "interval": [
+            0.692022077960675,
+            1.3262428945962736
+          ],
+          "upper": 0.6494355837156169,
+          "quadratic_probability": {
+            "probability": 0.6485490513766853,
+            "tail_bound": 2.5000000000000075e-11,
+            "quad_error_estimate": 1.329300694162245e-14,
+            "cutoff": 41.150006697975655,
+            "tail_factors": 32
+          },
+          "energy_outside_bound": 0.0008847766682831826,
+          "score_outside_bound": 1.7556706483623508e-06,
+          "low_energy_probability": {
+            "probability": 0.9999659283622486,
+            "tail_bound": 2.5000000000000075e-11,
+            "quad_error_estimate": 1.8215830642704456e-13,
+            "cutoff": 27.001420045247098,
+            "tail_factors": 32
+          },
+          "high_energy_probability": {
+            "probability": 0.0008507050305318065,
+            "tail_bound": 2.5000000000000075e-11,
+            "quad_error_estimate": 4.007629674161484e-13,
+            "cutoff": 27.162260129310756,
+            "tail_factors": 32
+          },
+          "minimum_upper_score_gap": 0.003488335738350834
+        },
+        {
+          "factor": 4.0,
+          "interval": [
+            0.6467205910581323,
+            1.3715443814988162
+          ],
+          "upper": 0.6541192648989806,
+          "quadratic_probability": {
+            "probability": 0.6539079764157482,
+            "tail_bound": 2.5000000000000075e-11,
+            "quad_error_estimate": 1.3029393797448107e-14,
+            "cutoff": 41.16800882641262,
+            "tail_factors": 32
+          },
+          "energy_outside_bound": 0.00020953281258406786,
+          "score_outside_bound": 1.7556706483623508e-06,
+          "low_energy_probability": {
+            "probability": 0.9999986069010929,
+            "tail_bound": 2.5000000000000027e-11,
+            "quad_error_estimate": 1.6593130139620305e-14,
+            "cutoff": 26.995605551506678,
+            "tail_factors": 32
+          },
+          "high_energy_probability": {
+            "probability": 0.00020813971367694695,
+            "tail_bound": 2.499999999999993e-11,
+            "quad_error_estimate": 7.927833624808821e-13,
+            "cutoff": 27.179629133368575,
+            "tail_factors": 32
+          },
+          "minimum_upper_score_gap": 0.004494674128222131
+        }
+      ]
+    },
+    {
+      "d": 512,
+      "n": 14597,
+      "method": "Sign2",
+      "L": 1,
+      "rep": 0,
+      "t": 3.903477978561123,
+      "lower": 0.42682422948059684,
+      "upper": 0.4465363544717269,
+      "width": 0.019712124991130064,
+      "lower_probability": {
+        "probability": 0.42682422948059684,
+        "tail_bound": 2.4999999999999978e-11,
+        "quad_error_estimate": 2.19874949818806e-14,
+        "cutoff": 41.661390868961746,
+        "tail_factors": 32
+      },
+      "best_energy_factor": 3.0,
+      "best_energy_outside": 0.0036222859124748763,
+      "score_outside": 1.736676463692799e-06,
+      "sampled_actual_fixed_threshold": 0.4306640625,
+      "minimum_lower_score_gap": 1.1853247028348335e-07,
+      "candidates": [
+        {
+          "factor": 2.0,
+          "interval": [
+            0.8406117962905055,
+            1.2112772634615276
+          ],
+          "upper": 0.4831007696008942,
+          "quadratic_probability": {
+            "probability": 0.4346544677366993,
+            "tail_bound": 2.4999999999999978e-11,
+            "quad_error_estimate": 1.9217344945290146e-14,
+            "cutoff": 41.68197118776326,
+            "tail_factors": 32
+          },
+          "energy_outside_bound": 0.048444565187731214,
+          "score_outside_bound": 1.736676463692799e-06,
+          "low_energy_probability": {
+            "probability": 0.981008758545288,
+            "tail_bound": 2.4999999999999978e-11,
+            "quad_error_estimate": 7.132969222838144e-15,
+            "cutoff": 27.090659680100305,
+            "tail_factors": 32
+          },
+          "high_energy_probability": {
+            "probability": 0.029453323733019232,
+            "tail_bound": 2.499999999999993e-11,
+            "quad_error_estimate": 2.2895787271121688e-11,
+            "cutoff": 27.201196304072326,
+            "tail_factors": 32
+          },
+          "minimum_upper_score_gap": 0.003112364867416284
+        },
+        {
+          "factor": 2.5,
+          "interval": [
+            0.7942786128941277,
+            1.2576104468579055
+          ],
+          "upper": 0.45231256758742927,
+          "quadratic_probability": {
+            "probability": 0.4383391647714999,
+            "tail_bound": 2.5000000000000027e-11,
+            "quad_error_estimate": 1.8014128105977728e-14,
+            "cutoff": 41.69397271493632,
+            "tail_factors": 32
+          },
+          "energy_outside_bound": 0.013971666139465655,
+          "score_outside_bound": 1.736676463692799e-06,
+          "low_energy_probability": {
+            "probability": 0.9962942526385621,
+            "tail_bound": 2.5000000000000027e-11,
+            "quad_error_estimate": 1.0647834854152577e-13,
+            "cutoff": 27.08079757149431,
+            "tail_factors": 32
+          },
+          "high_energy_probability": {
+            "probability": 0.010265918778027738,
+            "tail_bound": 2.499999999999993e-11,
+            "quad_error_estimate": 3.7846221964906415e-14,
+            "cutoff": 27.219407206770477,
+            "tail_factors": 32
+          },
+          "minimum_upper_score_gap": 0.003389842105391949
+        },
+        {
+          "factor": 3.0,
+          "interval": [
+            0.7479454294977499,
+            1.3039436302542833
+          ],
+          "upper": 0.4465363544717269,
+          "quadratic_probability": {
+            "probability": 0.44291233188278833,
+            "tail_bound": 2.5000000000000075e-11,
+            "quad_error_estimate": 1.6566960020699502e-14,
+            "cutoff": 41.70893855741897,
+            "tail_factors": 32
+          },
+          "energy_outside_bound": 0.0036222859124748763,
+          "score_outside_bound": 1.736676463692799e-06,
+          "low_energy_probability": {
+            "probability": 0.9995349929772845,
+            "tail_bound": 2.5000000000000075e-11,
+            "quad_error_estimate": 7.060500308703345e-13,
+            "cutoff": 27.071867564743833,
+            "tail_factors": 32
+          },
+          "high_energy_probability": {
+            "probability": 0.0031572788897594184,
+            "tail_bound": 2.4999999999999978e-11,
+            "quad_error_estimate": 1.2618609771320274e-13,
+            "cutoff": 27.238564535094,
+            "tail_factors": 32
+          },
+          "minimum_upper_score_gap": 0.0036568187472325597
+        },
+        {
+          "factor": 3.5,
+          "interval": [
+            0.7016122461013721,
+            1.350276813650661
+          ],
+          "upper": 0.44931978660804556,
+          "quadratic_probability": {
+            "probability": 0.448418856287999,
+            "tail_bound": 2.5000000000000127e-11,
+            "quad_error_estimate": 1.4943957921992825e-14,
+            "cutoff": 41.72706587088358,
+            "tail_factors": 32
+          },
+          "energy_outside_bound": 0.000899193643582874,
+          "score_outside_bound": 1.736676463692799e-06,
+          "low_energy_probability": {
+            "probability": 0.9999652476858581,
+            "tail_bound": 2.5000000000000027e-11,
+            "quad_error_estimate": 1.9793083088484689e-13,
+            "cutoff": 27.06386771469288,
+            "tail_factors": 32
+          },
+          "high_energy_probability": {
+            "probability": 0.0008644413294410236,
+            "tail_bound": 2.5000000000000075e-11,
+            "quad_error_estimate": 3.4626342687007587e-13,
+            "cutoff": 27.25866923812678,
+            "tail_factors": 32
+          },
+          "minimum_upper_score_gap": 0.002821386660850189
+        },
+        {
+          "factor": 4.0,
+          "interval": [
+            0.6552790627049944,
+            1.396609997047039
+          ],
+          "upper": 0.4551305744274038,
+          "quadratic_probability": {
+            "probability": 0.45491490121915823,
+            "tail_bound": 2.5000000000000075e-11,
+            "quad_error_estimate": 1.3151317510166171e-14,
+            "cutoff": 41.748606986813485,
+            "tail_factors": 32
+          },
+          "energy_outside_bound": 0.00021393653178186645,
+          "score_outside_bound": 1.736676463692799e-06,
+          "low_energy_probability": {
+            "probability": 0.9999985885546523,
+            "tail_bound": 2.4999999999999978e-11,
+            "quad_error_estimate": 2.644309597479562e-14,
+            "cutoff": 27.056795986637283,
+            "tail_factors": 32
+          },
+          "high_energy_probability": {
+            "probability": 0.00021252508643415657,
+            "tail_bound": 2.5000000000000075e-11,
+            "quad_error_estimate": 5.462394123867718e-13,
+            "cutoff": 27.279722172627643,
+            "tail_factors": 32
+          },
+          "minimum_upper_score_gap": 0.005462524164716598
+        }
+      ]
+    },
+    {
+      "d": 512,
+      "n": 14597,
+      "method": "Sign2",
+      "L": 5,
+      "rep": 0,
+      "t": 3.4138412985062025,
+      "lower": 0.62249940480058,
+      "upper": 0.6397163315755408,
+      "width": 0.017216926774960783,
+      "lower_probability": {
+        "probability": 0.62249940480058,
+        "tail_bound": 2.5000000000000075e-11,
+        "quad_error_estimate": 1.4353258385117887e-14,
+        "cutoff": 40.98209377483166,
+        "tail_factors": 32
+      },
+      "best_energy_factor": 3.0,
+      "best_energy_outside": 0.0036222859124748763,
+      "score_outside": 1.736676463692799e-06,
+      "sampled_actual_fixed_threshold": 0.621826171875,
+      "minimum_lower_score_gap": 1.0366423119911872e-07,
+      "candidates": [
+        {
+          "factor": 2.0,
+          "interval": [
+            0.8406117962905055,
+            1.2112772634615276
+          ],
+          "upper": 0.6775913160794382,
+          "quadratic_probability": {
+            "probability": 0.6291450142152434,
+            "tail_bound": 2.5000000000000075e-11,
+            "quad_error_estimate": 1.4193792878978964e-14,
+            "cutoff": 40.999237544497326,
+            "tail_factors": 32
+          },
+          "energy_outside_bound": 0.048444565187731214,
+          "score_outside_bound": 1.736676463692799e-06,
+          "low_energy_probability": {
+            "probability": 0.981008758545288,
+            "tail_bound": 2.4999999999999978e-11,
+            "quad_error_estimate": 7.132969222838144e-15,
+            "cutoff": 27.090659680100305,
+            "tail_factors": 32
+          },
+          "high_energy_probability": {
+            "probability": 0.029453323733019232,
+            "tail_bound": 2.499999999999993e-11,
+            "quad_error_estimate": 2.2895787271121688e-11,
+            "cutoff": 27.201196304072326,
+            "tail_factors": 32
+          },
+          "minimum_upper_score_gap": 0.0027219622548830813
+        },
+        {
+          "factor": 2.5,
+          "interval": [
+            0.7942786128941277,
+            1.2576104468579055
+          ],
+          "upper": 0.6462265579739488,
+          "quadratic_probability": {
+            "probability": 0.6322531551580195,
+            "tail_bound": 2.5000000000000075e-11,
+            "quad_error_estimate": 1.4124315105802051e-14,
+            "cutoff": 41.009229869614956,
+            "tail_factors": 32
+          },
+          "energy_outside_bound": 0.013971666139465655,
+          "score_outside_bound": 1.736676463692799e-06,
+          "low_energy_probability": {
+            "probability": 0.9962942526385621,
+            "tail_bound": 2.5000000000000027e-11,
+            "quad_error_estimate": 1.0647834854152577e-13,
+            "cutoff": 27.08079757149431,
+            "tail_factors": 32
+          },
+          "high_energy_probability": {
+            "probability": 0.010265918778027738,
+            "tail_bound": 2.499999999999993e-11,
+            "quad_error_estimate": 3.7846221964906415e-14,
+            "cutoff": 27.219407206770477,
+            "tail_factors": 32
+          },
+          "minimum_upper_score_gap": 0.002964633856874954
+        },
+        {
+          "factor": 3.0,
+          "interval": [
+            0.7479454294977499,
+            1.3039436302542833
+          ],
+          "upper": 0.6397163315755408,
+          "quadratic_probability": {
+            "probability": 0.6360923089866021,
+            "tail_bound": 2.4999999999999978e-11,
+            "quad_error_estimate": 1.4027581186196616e-14,
+            "cutoff": 41.021688596262656,
+            "tail_factors": 32
+          },
+          "energy_outside_bound": 0.0036222859124748763,
+          "score_outside_bound": 1.736676463692799e-06,
+          "low_energy_probability": {
+            "probability": 0.9995349929772845,
+            "tail_bound": 2.5000000000000075e-11,
+            "quad_error_estimate": 7.060500308703345e-13,
+            "cutoff": 27.071867564743833,
+            "tail_factors": 32
+          },
+          "high_energy_probability": {
+            "probability": 0.0031572788897594184,
+            "tail_bound": 2.4999999999999978e-11,
+            "quad_error_estimate": 1.2618609771320274e-13,
+            "cutoff": 27.238564535094,
+            "tail_factors": 32
+          },
+          "minimum_upper_score_gap": 0.0031981220155505863
+        },
+        {
+          "factor": 3.5,
+          "interval": [
+            0.7016122461013721,
+            1.350276813650661
+          ],
+          "upper": 0.6415891931895858,
+          "quadratic_probability": {
+            "probability": 0.6406882628695392,
+            "tail_bound": 2.4999999999999978e-11,
+            "quad_error_estimate": 1.3915553515575812e-14,
+            "cutoff": 41.03677673016127,
+            "tail_factors": 32
+          },
+          "energy_outside_bound": 0.000899193643582874,
+          "score_outside_bound": 1.736676463692799e-06,
+          "low_energy_probability": {
+            "probability": 0.9999652476858581,
+            "tail_bound": 2.5000000000000027e-11,
+            "quad_error_estimate": 1.9793083088484689e-13,
+            "cutoff": 27.06386771469288,
+            "tail_factors": 32
+          },
+          "high_energy_probability": {
+            "probability": 0.0008644413294410236,
+            "tail_bound": 2.5000000000000075e-11,
+            "quad_error_estimate": 3.4626342687007587e-13,
+            "cutoff": 27.25866923812678,
+            "tail_factors": 32
+          },
+          "minimum_upper_score_gap": 0.0024674831918516382
+        },
+        {
+          "factor": 4.0,
+          "interval": [
+            0.6552790627049944,
+            1.396609997047039
+          ],
+          "upper": 0.646288775053949,
+          "quadratic_probability": {
+            "probability": 0.6460731018457033,
+            "tail_bound": 2.5000000000000075e-11,
+            "quad_error_estimate": 1.3748238971051881e-14,
+            "cutoff": 41.05470284681284,
+            "tail_factors": 32
+          },
+          "energy_outside_bound": 0.00021393653178186645,
+          "score_outside_bound": 1.736676463692799e-06,
+          "low_energy_probability": {
+            "probability": 0.9999985885546523,
+            "tail_bound": 2.4999999999999978e-11,
+            "quad_error_estimate": 2.644309597479562e-14,
+            "cutoff": 27.056795986637283,
+            "tail_factors": 32
+          },
+          "high_energy_probability": {
+            "probability": 0.00021252508643415657,
+            "tail_bound": 2.5000000000000075e-11,
+            "quad_error_estimate": 5.462394123867718e-13,
+            "cutoff": 27.279722172627643,
+            "tail_factors": 32
+          },
+          "minimum_upper_score_gap": 0.004777326960729633
+        }
+      ]
+    },
+    {
+      "d": 512,
+      "n": 16595,
+      "method": "Adam2",
+      "L": 1,
+      "rep": 0,
+      "t": 3.9324487790539058,
+      "lower": 0.4157581899320363,
+      "upper": 0.43593446117668666,
+      "width": 0.02017627124465038,
+      "lower_probability": {
+        "probability": 0.4157581899320363,
+        "tail_bound": 2.5000000000000027e-11,
+        "quad_error_estimate": 2.439788956308503e-14,
+        "cutoff": 41.27888940285757,
+        "tail_factors": 32
+      },
+      "best_energy_factor": 3.0,
+      "best_energy_outside": 0.0036337781189096363,
+      "score_outside": 1.8003377142417065e-06,
+      "sampled_actual_fixed_threshold": 0.421630859375,
+      "minimum_lower_score_gap": 2.7663671353650443e-09,
+      "candidates": [
+        {
+          "factor": 2.0,
+          "interval": [
+            0.862414232800859,
+            1.251569587474055
+          ],
+          "upper": 0.47159006379396134,
+          "quadratic_probability": {
+            "probability": 0.4236872688792998,
+            "tail_bound": 2.499999999999993e-11,
+            "quad_error_estimate": 2.118570436142112e-14,
+            "cutoff": 41.30108297778695,
+            "tail_factors": 32
+          },
+          "energy_outside_bound": 0.0479009945769473,
+          "score_outside_bound": 1.8003377142417065e-06,
+          "low_energy_probability": {
+            "probability": 0.981609531382746,
+            "tail_bound": 2.4999999999999978e-11,
+            "quad_error_estimate": 1.319142823176418e-14,
+            "cutoff": 26.402005455879237,
+            "tail_factors": 32
+          },
+          "high_energy_probability": {
+            "probability": 0.02951052595969328,
+            "tail_bound": 2.5000000000000027e-11,
+            "quad_error_estimate": 2.3928426964536074e-12,
+            "cutoff": 26.494491816465413,
+            "tail_factors": 32
+          },
+          "minimum_upper_score_gap": 0.002833751663108286
+        },
+        {
+          "factor": 2.5,
+          "interval": [
+            0.8137698134667096,
+            1.3002140068082042
+          ],
+          "upper": 0.44138740956359546,
+          "quadratic_probability": {
+            "probability": 0.4275278075217836,
+            "tail_bound": 2.5000000000000075e-11,
+            "quad_error_estimate": 1.97542019899816e-14,
+            "cutoff": 41.31399429458435,
+            "tail_factors": 32
+          },
+          "energy_outside_bound": 0.013857801704097616,
+          "score_outside_bound": 1.8003377142417065e-06,
+          "low_energy_probability": {
+            "probability": 0.9964851000373537,
+            "tail_bound": 2.5000000000000027e-11,
+            "quad_error_estimate": 6.270230408728448e-14,
+            "cutoff": 26.393863225196533,
+            "tail_factors": 32
+          },
+          "high_energy_probability": {
+            "probability": 0.010342901741451305,
+            "tail_bound": 2.5000000000000075e-11,
+            "quad_error_estimate": 1.4898939605565426e-14,
+            "cutoff": 26.509788007317233,
+            "tail_factors": 32
+          },
+          "minimum_upper_score_gap": 0.0028596442715924653
+        },
+        {
+          "factor": 3.0,
+          "interval": [
+            0.7651253941325602,
+            1.3488584261423537
+          ],
+          "upper": 0.43593446117668666,
+          "quadratic_probability": {
+            "probability": 0.4322988827200628,
+            "tail_bound": 2.5000000000000075e-11,
+            "quad_error_estimate": 1.8079818208649978e-14,
+            "cutoff": 41.330107089439664,
+            "tail_factors": 32
+          },
+          "energy_outside_bound": 0.0036337781189096363,
+          "score_outside_bound": 1.8003377142417065e-06,
+          "low_energy_probability": {
+            "probability": 0.9995726979569534,
+            "tail_bound": 2.499999999999993e-11,
+            "quad_error_estimate": 5.947256189399801e-13,
+            "cutoff": 26.386519183969455,
+            "tail_factors": 32
+          },
+          "high_energy_probability": {
+            "probability": 0.003206476075862996,
+            "tail_bound": 2.4999999999999978e-11,
+            "quad_error_estimate": 1.876524005867489e-11,
+            "cutoff": 26.525892910587487,
+            "tail_factors": 32
+          },
+          "minimum_upper_score_gap": 0.0035805896324014874
+        },
+        {
+          "factor": 3.5,
+          "interval": [
+            0.7164809747984107,
+            1.3975028454765033
+          ],
+          "upper": 0.43896992809778157,
+          "quadratic_probability": {
+            "probability": 0.4380503467527932,
+            "tail_bound": 2.5000000000000075e-11,
+            "quad_error_estimate": 1.619817731831645e-14,
+            "cutoff": 41.34964259400557,
+            "tail_factors": 32
+          },
+          "energy_outside_bound": 0.0009177810072741321,
+          "score_outside_bound": 1.8003377142417065e-06,
+          "low_energy_probability": {
+            "probability": 0.9999695350811408,
+            "tail_bound": 2.5000000000000127e-11,
+            "quad_error_estimate": 5.409192805210143e-13,
+            "cutoff": 26.379971892053376,
+            "tail_factors": 32
+          },
+          "high_energy_probability": {
+            "probability": 0.0008873160884149689,
+            "tail_bound": 2.5000000000000027e-11,
+            "quad_error_estimate": 5.185843608256772e-13,
+            "cutoff": 26.542807209305934,
+            "tail_factors": 32
+          },
+          "minimum_upper_score_gap": 0.003553976849551832
+        },
+        {
+          "factor": 4.0,
+          "interval": [
+            0.6678365554642612,
+            1.4461472648106528
+          ],
+          "upper": 0.4450688154406919,
+          "quadratic_probability": {
+            "probability": 0.44484475271170043,
+            "tail_bound": 2.5000000000000027e-11,
+            "quad_error_estimate": 1.4156045422883828e-14,
+            "cutoff": 41.372884883039696,
+            "tail_factors": 32
+          },
+          "energy_outside_bound": 0.00022226239127720593,
+          "score_outside_bound": 1.8003377142417065e-06,
+          "low_energy_probability": {
+            "probability": 0.9999988446990379,
+            "tail_bound": 2.4999999999999978e-11,
+            "quad_error_estimate": 1.2747085267315967e-11,
+            "cutoff": 26.37421984113604,
+            "tail_factors": 32
+          },
+          "high_energy_probability": {
+            "probability": 0.0002211070903150869,
+            "tail_bound": 2.4999999999999878e-11,
+            "quad_error_estimate": 2.5429104658319005e-12,
+            "cutoff": 26.56053151652351,
+            "tail_factors": 32
+          },
+          "minimum_upper_score_gap": 0.018071516333088677
+        }
+      ]
+    },
+    {
+      "d": 512,
+      "n": 16595,
+      "method": "Adam2",
+      "L": 5,
+      "rep": 0,
+      "t": 3.4468958684725224,
+      "lower": 0.6101906481188969,
+      "upper": 0.6280427624027021,
+      "width": 0.017852114283805176,
+      "lower_probability": {
+        "probability": 0.6101906481188969,
+        "tail_bound": 2.5000000000000027e-11,
+        "quad_error_estimate": 1.5526692403512937e-14,
+        "cutoff": 40.59733435654898,
+        "tail_factors": 32
+      },
+      "best_energy_factor": 3.0,
+      "best_energy_outside": 0.0036337781189096363,
+      "score_outside": 1.8003377142417065e-06,
+      "sampled_actual_fixed_threshold": 0.6103515625,
+      "minimum_lower_score_gap": 2.4247941432520292e-09,
+      "candidates": [
+        {
+          "factor": 2.0,
+          "interval": [
+            0.862414232800859,
+            1.251569587474055
+          ],
+          "upper": 0.6649409705553692,
+          "quadratic_probability": {
+            "probability": 0.6170381756407076,
+            "tail_bound": 2.5000000000000075e-11,
+            "quad_error_estimate": 1.5341788603817642e-14,
+            "cutoff": 40.615866133844584,
+            "tail_factors": 32
+          },
+          "energy_outside_bound": 0.0479009945769473,
+          "score_outside_bound": 1.8003377142417065e-06,
+          "low_energy_probability": {
+            "probability": 0.981609531382746,
+            "tail_bound": 2.4999999999999978e-11,
+            "quad_error_estimate": 1.319142823176418e-14,
+            "cutoff": 26.402005455879237,
+            "tail_factors": 32
+          },
+          "high_energy_probability": {
+            "probability": 0.02951052595969328,
+            "tail_bound": 2.5000000000000027e-11,
+            "quad_error_estimate": 2.3928426964536074e-12,
+            "cutoff": 26.494491816465413,
+            "tail_factors": 32
+          },
+          "minimum_upper_score_gap": 0.00248385864600853
+        },
+        {
+          "factor": 2.5,
+          "interval": [
+            0.8137698134667096,
+            1.3002140068082042
+          ],
+          "upper": 0.6341932994616979,
+          "quadratic_probability": {
+            "probability": 0.6203336974198861,
+            "tail_bound": 2.4999999999999978e-11,
+            "quad_error_estimate": 1.5299250284256915e-14,
+            "cutoff": 40.62664262778396,
+            "tail_factors": 32
+          },
+          "energy_outside_bound": 0.013857801704097616,
+          "score_outside_bound": 1.8003377142417065e-06,
+          "low_energy_probability": {
+            "probability": 0.9964851000373537,
+            "tail_bound": 2.5000000000000027e-11,
+            "quad_error_estimate": 6.270230408728448e-14,
+            "cutoff": 26.393863225196533,
+            "tail_factors": 32
+          },
+          "high_energy_probability": {
+            "probability": 0.010342901741451305,
+            "tail_bound": 2.5000000000000075e-11,
+            "quad_error_estimate": 1.4898939605565426e-14,
+            "cutoff": 26.509788007317233,
+            "tail_factors": 32
+          },
+          "minimum_upper_score_gap": 0.0025065542055000556
+        },
+        {
+          "factor": 3.0,
+          "interval": [
+            0.7651253941325602,
+            1.3488584261423537
+          ],
+          "upper": 0.6280427624027021,
+          "quadratic_probability": {
+            "probability": 0.6244071839460782,
+            "tail_bound": 2.5000000000000075e-11,
+            "quad_error_estimate": 1.5223695498555432e-14,
+            "cutoff": 40.640089441297626,
+            "tail_factors": 32
+          },
+          "energy_outside_bound": 0.0036337781189096363,
+          "score_outside_bound": 1.8003377142417065e-06,
+          "low_energy_probability": {
+            "probability": 0.9995726979569534,
+            "tail_bound": 2.499999999999993e-11,
+            "quad_error_estimate": 5.947256189399801e-13,
+            "cutoff": 26.386519183969455,
+            "tail_factors": 32
+          },
+          "high_energy_probability": {
+            "probability": 0.003206476075862996,
+            "tail_bound": 2.4999999999999978e-11,
+            "quad_error_estimate": 1.876524005867489e-11,
+            "cutoff": 26.525892910587487,
+            "tail_factors": 32
+          },
+          "minimum_upper_score_gap": 0.0031384819749868953
+        },
+        {
+          "factor": 3.5,
+          "interval": [
+            0.7164809747984107,
+            1.3975028454765033
+          ],
+          "upper": 0.6302074848638608,
+          "quadratic_probability": {
+            "probability": 0.6292879035188724,
+            "tail_bound": 2.5000000000000075e-11,
+            "quad_error_estimate": 1.5179695759443373e-14,
+            "cutoff": 40.65638996570285,
+            "tail_factors": 32
+          },
+          "energy_outside_bound": 0.0009177810072741321,
+          "score_outside_bound": 1.8003377142417065e-06,
+          "low_energy_probability": {
+            "probability": 0.9999695350811408,
+            "tail_bound": 2.5000000000000127e-11,
+            "quad_error_estimate": 5.409192805210143e-13,
+            "cutoff": 26.379971892053376,
+            "tail_factors": 32
+          },
+          "high_energy_probability": {
+            "probability": 0.0008873160884149689,
+            "tail_bound": 2.5000000000000027e-11,
+            "quad_error_estimate": 5.185843608256772e-13,
+            "cutoff": 26.542807209305934,
+            "tail_factors": 32
+          },
+          "minimum_upper_score_gap": 0.0031151551635248964
+        },
+        {
+          "factor": 4.0,
+          "interval": [
+            0.6678365554642612,
+            1.4461472648106528
+          ],
+          "upper": 0.6352364215545642,
+          "quadratic_probability": {
+            "probability": 0.6350123588255727,
+            "tail_bound": 2.5000000000000075e-11,
+            "quad_error_estimate": 1.5112490030429705e-14,
+            "cutoff": 40.67577963021669,
+            "tail_factors": 32
+          },
+          "energy_outside_bound": 0.00022226239127720593,
+          "score_outside_bound": 1.8003377142417065e-06,
+          "low_energy_probability": {
+            "probability": 0.9999988446990379,
+            "tail_bound": 2.4999999999999978e-11,
+            "quad_error_estimate": 1.2747085267315967e-11,
+            "cutoff": 26.37421984113604,
+            "tail_factors": 32
+          },
+          "high_energy_probability": {
+            "probability": 0.0002211070903150869,
+            "tail_bound": 2.4999999999999878e-11,
+            "quad_error_estimate": 2.5429104658319005e-12,
+            "cutoff": 26.56053151652351,
+            "tail_factors": 32
+          },
+          "minimum_upper_score_gap": 0.015840164356963893
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "summary": [
+    {
+      "case": "iso",
+      "seeds": 24,
+      "mean": 0.4358723958333333,
+      "half95": 0.004663277307904133,
+      "pred": 0.43913116181963646,
+      "query_KS_mean": 0.015225433932842055,
+      "correct_mean": 1.1269042718909856,
+      "correct_var": 1.01858681914531
+    },
+    {
+      "case": "diag",
+      "seeds": 24,
+      "mean": 0.3956298828125,
+      "half95": 0.004600460960549558,
+      "pred": 0.40009388201708757,
+      "query_KS_mean": 0.016843345285746384,
+      "correct_mean": 1.0277202921948474,
+      "correct_var": 1.0147108448097657
+    },
+    {
+      "case": "rot",
+      "seeds": 24,
+      "mean": 0.3672281901041667,
+      "half95": 0.0030508776978175585,
+      "pred": 0.37086306941487956,
+      "query_KS_mean": 0.01690475732437495,
+      "correct_mean": 0.9447371567307831,
+      "correct_var": 1.0309663694659623
+    }
+  ],
+  "contrasts": [
+    {
+      "left": "iso",
+      "right": "rot",
+      "delta": 0.06864420572916667,
+      "half95": 0.004677228039774324,
+      "pred": 0.0682680924047569
+    },
+    {
+      "left": "diag",
+      "right": "rot",
+      "delta": 0.028401692708333332,
+      "half95": 0.005431208769913269,
+      "pred": 0.029230812602208
+    }
+  ],
+  "metadata": {
+    "d": 256,
+    "n": 32768,
+    "queries": 1024,
+    "seeds": 24,
+    "seconds": 31.224753034999594,
+    "maxrss_kib": 660360,
+    "reason": "After broad run: focused precision for equal marginal c and same spectrum; new independent data seeds, not preregistered.",
+    "seed_base": 19000000,
+    "budget_seconds": 720
+  }
+}

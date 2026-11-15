@@ -1,0 +1,92 @@
+{
+  "symbolic_residuals": {
+    "raw_block_covariance_0011": "0",
+    "raw_block_covariance_1110": "0",
+    "FT0_exact_mean": "0",
+    "FT0_energy_leading": "0",
+    "FT0_correct_variance_coefficient": "0",
+    "FT0_wrong_second_moment_coefficient": "0",
+    "FT1_exact_mean": "0",
+    "FT1_energy_leading": "0",
+    "FT1_correct_variance_coefficient": "0",
+    "FT1_wrong_second_moment_coefficient": "0",
+    "exact_expansion_recall": "0",
+    "exact_expansion_rank": "0"
+  },
+  "exact_raw_Wick_formulas": {
+    "0": {
+      "query_mean": "-(alpha*d*x**2 - alpha*n*x*y + alpha*n + alpha*x**2 - n)/n",
+      "query_second_moment": "(alpha**2*d**3*x**4 - 2*alpha**2*d**2*n*x**3*y + 2*alpha**2*d**2*n*x**2 + 6*alpha**2*d**2*x**4 + 4*alpha**2*d**2*x**2 + alpha**2*d*n**2*x**2*y**2 - 2*alpha**2*d*n**2*x*y + alpha**2*d*n**2 - 6*alpha**2*d*n*x**3*y + 10*alpha**2*d*n*x**2 - 4*alpha**2*d*n*x*y + 2*alpha**2*d*n + 11*alpha**2*d*x**4 + 20*alpha**2*d*x**2 + alpha**2*n**2*x**2*y**2 - 4*alpha**2*n**2*x*y + alpha**2*n**2*y**2 + 2*alpha**2*n**2 - 4*alpha**2*n*x**3*y + 12*alpha**2*n*x**2 - 8*alpha**2*n*x*y + 4*alpha**2*n + 6*alpha**2*x**4 + 24*alpha**2*x**2 - 2*alpha*d**2*n*x**2 + 2*alpha*d*n**2*x*y - 2*alpha*d*n**2 - 10*alpha*d*n*x**2 + 4*alpha*n**2*x*y - 4*alpha*n**2 - 12*alpha*n*x**2 + d*n**2 + 2*n**2)/(d*n**2)",
+      "energy": "(alpha**2*d**3*x**4 + 2*alpha**2*d**2*n*x**4 - 2*alpha**2*d**2*n*x**3*y + 4*alpha**2*d**2*n*x**2 + 4*alpha**2*d**2*x**4 + 2*alpha**2*d**2*x**2 - 2*alpha**2*d*n**2*x**3*y + 5*alpha**2*d*n**2*x**2 - 4*alpha**2*d*n**2*x*y + 2*alpha**2*d*n**2 + 4*alpha**2*d*n*x**4 - 4*alpha**2*d*n*x**3*y + 12*alpha**2*d*n*x**2 - 2*alpha**2*d*n*x*y + alpha**2*d*n + 7*alpha**2*d*x**4 + 14*alpha**2*d*x**2 - 2*alpha**2*n**3*x*y + 2*alpha**2*n**3 - 2*alpha**2*n**2*x**3*y + 5*alpha**2*n**2*x**2 - 4*alpha**2*n**2*x*y + 2*alpha**2*n**2 + 2*alpha**2*n*x**4 - 2*alpha**2*n*x**3*y + 16*alpha**2*n*x**2 - 6*alpha**2*n*x*y + 3*alpha**2*n + 4*alpha**2*x**4 + 16*alpha**2*x**2 - 2*alpha*d**2*n*x**2 - 4*alpha*d*n**2*x**2 + 2*alpha*d*n**2*x*y - 2*alpha*d*n**2 - 6*alpha*d*n*x**2 + 2*alpha*n**3*x*y - 2*alpha*n**3 - 4*alpha*n**2*x**2 + 2*alpha*n**2*x*y - 2*alpha*n**2 - 8*alpha*n*x**2 + d*n**2 + n**3 + n**2)/n**3",
+      "correct_variance": "-(6*alpha**2*d**3*x**4 + 4*alpha**2*d**3*x**2 + 2*alpha**2*d**2*n*x**4 - 8*alpha**2*d**2*n*x**3*y + 14*alpha**2*d**2*n*x**2 - 4*alpha**2*d**2*n*x*y + 2*alpha**2*d**2*n + 20*alpha**2*d**2*x**4 + 26*alpha**2*d**2*x**2 - 2*alpha**2*d*n**2*x**3*y + 2*alpha**2*d*n**2*x**2*y**2 + 5*alpha**2*d*n**2*x**2 - 10*alpha**2*d*n**2*x*y + alpha**2*d*n**2*y**2 + 5*alpha**2*d*n**2 + 4*alpha**2*d*n*x**4 - 14*alpha**2*d*n*x**3*y + 34*alpha**2*d*n*x**2 - 14*alpha**2*d*n*x*y + 7*alpha**2*d*n + 24*alpha**2*d*x**4 + 58*alpha**2*d*x**2 - 2*alpha**2*n**3*x*y + 2*alpha**2*n**3 - 2*alpha**2*n**2*x**3*y + alpha**2*n**2*x**2*y**2 + 5*alpha**2*n**2*x**2 - 8*alpha**2*n**2*x*y + alpha**2*n**2*y**2 + 4*alpha**2*n**2 + 2*alpha**2*n*x**4 - 6*alpha**2*n*x**3*y + 28*alpha**2*n*x**2 - 14*alpha**2*n*x*y + 7*alpha**2*n + 10*alpha**2*x**4 + 40*alpha**2*x**2 - 12*alpha*d**2*n*x**2 - 4*alpha*d*n**2*x**2 + 8*alpha*d*n**2*x*y - 8*alpha*d*n**2 - 28*alpha*d*n*x**2 + 2*alpha*n**3*x*y - 2*alpha*n**3 - 4*alpha*n**2*x**2 + 6*alpha*n**2*x*y - 6*alpha*n**2 - 20*alpha*n*x**2 + 4*d*n**2 + n**3 + 3*n**2)/(n**3*(2*alpha**2*x*y - 2*alpha**2 - 2*alpha*x*y + 2*alpha - 1))"
+    },
+    "1": {
+      "query_mean": "-(alpha*d*x*y + alpha*n*x*y - alpha*n + alpha*x*y - n*x*y)/n",
+      "query_second_moment": "(alpha**2*d**3*x**2*y**2 + 2*alpha**2*d**2*n*x**2*y**2 - 2*alpha**2*d**2*n*x*y + 9*alpha**2*d**2*x**2*y**2 + alpha**2*d**2*y**2 + alpha**2*d*n**2*x**2*y**2 - 2*alpha**2*d*n**2*x*y + alpha**2*d*n**2 + 9*alpha**2*d*n*x**2*y**2 - 10*alpha**2*d*n*x*y + 3*alpha**2*d*n*y**2 + 28*alpha**2*d*x**2*y**2 + 3*alpha**2*d*y**2 + alpha**2*n**2*x**2*y**2 - 4*alpha**2*n**2*x*y + alpha**2*n**2*y**2 + 2*alpha**2*n**2 + 13*alpha**2*n*x**2*y**2 - 12*alpha**2*n*x*y + 3*alpha**2*n*y**2 + 26*alpha**2*x**2*y**2 + 4*alpha**2*y**2 - 2*alpha*d**2*n*x**2*y**2 - 2*alpha*d*n**2*x**2*y**2 + 2*alpha*d*n**2*x*y - 8*alpha*d*n*x**2*y**2 - 2*alpha*d*n*y**2 - 2*alpha*n**2*x**2*y**2 + 4*alpha*n**2*x*y - 2*alpha*n**2*y**2 - 10*alpha*n*x**2*y**2 - 2*alpha*n*y**2 + d*n**2*x**2*y**2 + n**2*x**2*y**2 + n**2*y**2)/(d*n**2)",
+      "energy": "(alpha**2*d**3*x**2 + 5*alpha**2*d**2*n*x**2 - 2*alpha**2*d**2*n*x*y + alpha**2*d**2*n + 6*alpha**2*d**2*x**2 + 3*alpha**2*d*n**2*x**2 - 6*alpha**2*d*n**2*x*y + 4*alpha**2*d*n**2 + 14*alpha**2*d*n*x**2 - 6*alpha**2*d*n*x*y + 3*alpha**2*d*n + 21*alpha**2*d*x**2 - 2*alpha**2*n**3*x*y + 2*alpha**2*n**3 + 3*alpha**2*n**2*x**2 - 6*alpha**2*n**2*x*y + 4*alpha**2*n**2 + 17*alpha**2*n*x**2 - 8*alpha**2*n*x*y + 4*alpha**2*n + 20*alpha**2*x**2 - 2*alpha*d**2*n*x**2 - 4*alpha*d*n**2*x**2 + 2*alpha*d*n**2*x*y - 2*alpha*d*n**2 - 6*alpha*d*n*x**2 + 2*alpha*n**3*x*y - 2*alpha*n**3 - 4*alpha*n**2*x**2 + 2*alpha*n**2*x*y - 2*alpha*n**2 - 8*alpha*n*x**2 + d*n**2*x**2 + n**3 + n**2*x**2)/n**3",
+      "correct_variance": "-(8*alpha**2*d**3*x**2*y**2 + alpha**2*d**3*x**2 + alpha**2*d**3*y**2 + 9*alpha**2*d**2*n*x**2*y**2 + 5*alpha**2*d**2*n*x**2 - 12*alpha**2*d**2*n*x*y + 3*alpha**2*d**2*n*y**2 + alpha**2*d**2*n + 36*alpha**2*d**2*x**2*y**2 + 6*alpha**2*d**2*x**2 + 4*alpha**2*d**2*y**2 + 2*alpha**2*d*n**2*x**2*y**2 + 3*alpha**2*d*n**2*x**2 - 12*alpha**2*d*n**2*x*y + alpha**2*d*n**2*y**2 + 7*alpha**2*d*n**2 + 22*alpha**2*d*n*x**2*y**2 + 14*alpha**2*d*n*x**2 - 28*alpha**2*d*n*x*y + 6*alpha**2*d*n*y**2 + 3*alpha**2*d*n + 54*alpha**2*d*x**2*y**2 + 21*alpha**2*d*x**2 + 7*alpha**2*d*y**2 - 2*alpha**2*n**3*x*y + 2*alpha**2*n**3 + alpha**2*n**2*x**2*y**2 + 3*alpha**2*n**2*x**2 - 10*alpha**2*n**2*x*y + alpha**2*n**2*y**2 + 6*alpha**2*n**2 + 13*alpha**2*n*x**2*y**2 + 17*alpha**2*n*x**2 - 20*alpha**2*n*x*y + 3*alpha**2*n*y**2 + 4*alpha**2*n + 26*alpha**2*x**2*y**2 + 20*alpha**2*x**2 + 4*alpha**2*y**2 - 8*alpha*d**2*n*x**2*y**2 - 2*alpha*d**2*n*x**2 - 2*alpha*d**2*n*y**2 - 4*alpha*d*n**2*x**2*y**2 - 4*alpha*d*n**2*x**2 + 8*alpha*d*n**2*x*y - 2*alpha*d*n**2*y**2 - 2*alpha*d*n**2 - 18*alpha*d*n*x**2*y**2 - 6*alpha*d*n*x**2 - 4*alpha*d*n*y**2 + 2*alpha*n**3*x*y - 2*alpha*n**3 - 2*alpha*n**2*x**2*y**2 - 4*alpha*n**2*x**2 + 6*alpha*n**2*x*y - 2*alpha*n**2*y**2 - 2*alpha*n**2 - 10*alpha*n*x**2*y**2 - 8*alpha*n*x**2 - 2*alpha*n*y**2 + 2*d*n**2*x**2*y**2 + d*n**2*x**2 + d*n**2*y**2 + n**3 + n**2*x**2*y**2 + n**2*x**2 + n**2*y**2)/(n**3*(2*alpha**2*x*y - 2*alpha**2 - 2*alpha*x*y + 2*alpha - 1))"
+    }
+  },
+  "joint_representation_max_abs_errors_F_N_W_V": [
+    1.3322676295501878e-15,
+    8.881784197001252e-16,
+    2.6645352591003757e-15,
+    1.7763568394002505e-15
+  ],
+  "pathwise_joint_constructions": 300,
+  "root_obstruction": {
+    "T": 4,
+    "eigenvalues": [
+      1,
+      100
+    ],
+    "weights": [
+      0.9,
+      0.1
+    ],
+    "global_minimizer": 0.016969044962552988,
+    "global_minimum": 0.7904020537292519,
+    "target": 0.75,
+    "matching_root_exists": false,
+    "reason": "Strictly convex sum of even powers; the unique critical point is its global minimum. A neighborhood has positive Gaussian-model probability."
+  },
+  "root_remainder_diagnostic": [
+    {
+      "d": 64,
+      "exact_root": 0.31321992730375103,
+      "second_order_root": 0.3146035156250001,
+      "error_times_d_3_2": -0.7083972204795259
+    },
+    {
+      "d": 256,
+      "exact_root": 0.3558325276003629,
+      "second_order_root": 0.35599462890625017,
+      "error_times_d_3_2": -0.6639669489143216
+    },
+    {
+      "d": 1024,
+      "exact_root": 0.37765085155253364,
+      "second_order_root": 0.37767053222656266,
+      "error_times_d_3_2": -0.6448963265829661
+    },
+    {
+      "d": 4096,
+      "exact_root": 0.3887511436784969,
+      "second_order_root": 0.3887535705566408,
+      "error_times_d_3_2": -0.6361915441520978
+    }
+  ],
+  "inputs_unchanged": true,
+  "limits": "Finite algebra, exact identities, and root diagnostic; these do not certify probability remainder bounds.",
+  "resources": {
+    "python": "/home/liuyibo/venvs/theory/bin/python",
+    "seconds": 15.071921064001799,
+    "threads": 1,
+    "cgroup": {
+      "memory.max": "3221225472",
+      "memory.swap.max": "0",
+      "memory.peak": "90497024"
+    },
+    "rss_peak_kib": 352228
+  }
+}

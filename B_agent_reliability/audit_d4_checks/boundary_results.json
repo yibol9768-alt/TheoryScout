@@ -1,0 +1,182 @@
+{
+  "tests": 12,
+  "passed": false,
+  "errors": [],
+  "failures": [
+    [
+      "test_11_reserved_unsent_request_must_obey_new_service_pause (__main__.Boundary.test_11_reserved_unsent_request_must_obey_new_service_pause)",
+      "Traceback (most recent call last):\n  File \"/mnt/c/Users/liuyibo/Desktop/auto-llm-driving/TheoryScout/B_agent_reliability/audit_d4_checks/boundary_tests.py\", line 143, in test_11_reserved_unsent_request_must_obey_new_service_pause\n    self.assertEqual([x['sends_during_pause'] for x in findings],[0]*len(findings),'pre-reserved unsent HTTP must not start during global service pause')\nAssertionError: Lists differ: [1, 1, 1, 1] != [0, 0, 0, 0]\n\nFirst differing element 0:\n1\n0\n\n- [1, 1, 1, 1]\n+ [0, 0, 0, 0] : pre-reserved unsent HTTP must not start during global service pause\n"
+    ],
+    [
+      "test_12_normal_request_thread_interleaving_must_obey_pause (__main__.Boundary.test_12_normal_request_thread_interleaving_must_obey_pause)",
+      "Traceback (most recent call last):\n  File \"/mnt/c/Users/liuyibo/Desktop/auto-llm-driving/TheoryScout/B_agent_reliability/audit_d4_checks/boundary_tests.py\", line 163, in test_12_normal_request_thread_interleaving_must_obey_pause\n    self.assertEqual(finding['sends_during_pause'],0,'normal Engine.request can be descheduled between reserve and production send')\nAssertionError: 1 != 0 : normal Engine.request can be descheduled between reserve and production send\n"
+    ]
+  ],
+  "resources": {
+    "cgroup": "/user.slice/user-1000.slice/user@1000.service/app.slice/run-r3ced254f728d4cfd9f49eabdf2ce684a.scope",
+    "memory_max": "2147483648",
+    "swap_max": "0",
+    "threads": 1
+  },
+  "thread_counts": [
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2
+  ],
+  "http_stub_records": [
+    {
+      "host": "127.0.0.1",
+      "port": 49152,
+      "method": "POST",
+      "path": "/ok"
+    },
+    {
+      "host": "127.0.0.1",
+      "port": 49152,
+      "method": "POST",
+      "path": "/ok"
+    },
+    {
+      "host": "127.0.0.1",
+      "port": 18319,
+      "method": "POST",
+      "path": "/v1/chat/completions"
+    },
+    {
+      "host": "127.0.0.1",
+      "port": 18319,
+      "method": "POST",
+      "path": "/v1/chat/completions"
+    },
+    {
+      "host": "127.0.0.1",
+      "port": 49152,
+      "method": "POST",
+      "path": "/start"
+    },
+    {
+      "host": "127.0.0.1",
+      "port": 18319,
+      "method": "POST",
+      "path": "/v1/chat/completions"
+    },
+    {
+      "host": "127.0.0.1",
+      "port": 49152,
+      "method": "POST",
+      "path": "/start"
+    },
+    {
+      "host": "127.0.0.1",
+      "port": 18319,
+      "method": "POST",
+      "path": "/v1/chat/completions"
+    },
+    {
+      "host": "127.0.0.1",
+      "port": 49152,
+      "method": "POST",
+      "path": "/start"
+    },
+    {
+      "host": "127.0.0.1",
+      "port": 18319,
+      "method": "POST",
+      "path": "/v1/chat/completions"
+    },
+    {
+      "host": "127.0.0.1",
+      "port": 49152,
+      "method": "POST",
+      "path": "/start"
+    },
+    {
+      "host": "127.0.0.1",
+      "port": 18319,
+      "method": "POST",
+      "path": "/v1/chat/completions"
+    },
+    {
+      "host": "127.0.0.1",
+      "port": 49152,
+      "method": "POST",
+      "path": "/start"
+    },
+    {
+      "host": "127.0.0.1",
+      "port": 18319,
+      "method": "POST",
+      "path": "/v1/chat/completions"
+    },
+    {
+      "host": "127.0.0.1",
+      "port": 49152,
+      "method": "POST",
+      "path": "/start"
+    },
+    {
+      "host": "127.0.0.1",
+      "port": 18319,
+      "method": "POST",
+      "path": "/v1/chat/completions"
+    },
+    {
+      "host": "127.0.0.1",
+      "port": 49152,
+      "method": "POST",
+      "path": "/start"
+    },
+    {
+      "host": "127.0.0.1",
+      "port": 18319,
+      "method": "POST",
+      "path": "/v1/chat/completions"
+    },
+    {
+      "host": "127.0.0.1",
+      "port": 49152,
+      "method": "POST",
+      "path": "/start"
+    },
+    {
+      "host": "127.0.0.1",
+      "port": 18319,
+      "method": "POST",
+      "path": "/v1/chat/completions"
+    },
+    {
+      "host": "127.0.0.1",
+      "port": 49152,
+      "method": "POST",
+      "path": "/start"
+    },
+    {
+      "host": "127.0.0.1",
+      "port": 18319,
+      "method": "POST",
+      "path": "/v1/chat/completions"
+    },
+    {
+      "host": "127.0.0.1",
+      "port": 49152,
+      "method": "POST",
+      "path": "/start"
+    },
+    {
+      "host": "127.0.0.1",
+      "port": 18319,
+      "method": "POST",
+      "path": "/v1/chat/completions"
+    }
+  ]
+}

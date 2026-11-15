@@ -1,0 +1,232 @@
+{
+  "seed": 202611062,
+  "checks": {
+    "GD matrix polynomial identity": {
+      "count": 450,
+      "max_resolved_ratio": 0.0,
+      "near_roundoff_rhs": 450,
+      "max_absolute_excess": 2.7270499938696377e-10
+    },
+    "GD scalar proxy identity": {
+      "count": 450,
+      "max_resolved_ratio": 0.0,
+      "near_roundoff_rhs": 450,
+      "max_absolute_excess": 9.1869087580083e-16
+    },
+    "GD operator difference (5.17)": {
+      "count": 450,
+      "max_resolved_ratio": 1.000000002194258,
+      "near_roundoff_rhs": 214,
+      "max_absolute_excess": 9.186904522843566e-16
+    },
+    "GD Frobenius path bound": {
+      "count": 450,
+      "max_resolved_ratio": 1.000000000000067,
+      "near_roundoff_rhs": 254,
+      "max_absolute_excess": 7.105427357601002e-15
+    },
+    "GD first step exact": {
+      "count": 90,
+      "max_resolved_ratio": 0.0,
+      "near_roundoff_rhs": 90,
+      "max_absolute_excess": 0.0
+    },
+    "IBP smooth part plus signed jumps (3.4)": {
+      "count": 6,
+      "max_resolved_ratio": 0.0,
+      "near_roundoff_rhs": 6,
+      "max_absolute_excess": 5.684341886080802e-14
+    },
+    "Sign covariance (4.1)": {
+      "count": 84,
+      "max_resolved_ratio": 0.15666530123909997,
+      "near_roundoff_rhs": 0,
+      "max_absolute_excess": 0.0
+    },
+    "Polynomial covariance (4.1)": {
+      "count": 336,
+      "max_resolved_ratio": 0.33497339808028437,
+      "near_roundoff_rhs": 0,
+      "max_absolute_excess": 0.0
+    },
+    "Regression variance including centering (4.4)": {
+      "count": 25,
+      "max_resolved_ratio": 0.5088343119454595,
+      "near_roundoff_rhs": 6,
+      "max_absolute_excess": 0.0
+    },
+    "Adam reachable update bound (5.9)": {
+      "count": 3888,
+      "max_resolved_ratio": 0.9999999989999999,
+      "near_roundoff_rhs": 0,
+      "max_absolute_excess": 0.0
+    },
+    "Adam reachable state bound (5.9)": {
+      "count": 3888,
+      "max_resolved_ratio": 0.9999999989999999,
+      "near_roundoff_rhs": 0,
+      "max_absolute_excess": 0.0
+    },
+    "Adam arbitrary-to-reachable (5.10)": {
+      "count": 15552,
+      "max_resolved_ratio": 0.49999999799863426,
+      "near_roundoff_rhs": 682,
+      "max_absolute_excess": 0.0
+    },
+    "Adaptive training diagonal (6.1)": {
+      "count": 128,
+      "max_resolved_ratio": 0.9962866273562333,
+      "near_roundoff_rhs": 0,
+      "max_absolute_excess": 0.0
+    },
+    "Adaptive training off diagonal (6.2)": {
+      "count": 128,
+      "max_resolved_ratio": 0.8073978769226299,
+      "near_roundoff_rhs": 0,
+      "max_absolute_excess": 0.0
+    },
+    "Maximum CDF jump (8.1)": {
+      "count": 209,
+      "max_resolved_ratio": 0.9903179610186615,
+      "near_roundoff_rhs": 0,
+      "max_absolute_excess": 0.0
+    },
+    "Every legal tied rank (8.1)": {
+      "count": 2471,
+      "max_resolved_ratio": 1.0000000000000004,
+      "near_roundoff_rhs": 0,
+      "max_absolute_excess": 1.1102230246251565e-16
+    }
+  },
+  "violations": [],
+  "GD_exact_rational_scalar_bounds": 150,
+  "ibp_values": [
+    {
+      "sigma": 0.03,
+      "regression_integral": -1.9972999999999983,
+      "derivative_plus_atoms": -1.9973
+    },
+    {
+      "sigma": 0.2,
+      "regression_integral": -1.2332459587607454,
+      "derivative_plus_atoms": -1.2332459587607447
+    },
+    {
+      "sigma": 0.7,
+      "regression_integral": 0.1294451670221359,
+      "derivative_plus_atoms": 0.12944516702213604
+    },
+    {
+      "sigma": 1.0,
+      "regression_integral": 1.402170890336093,
+      "derivative_plus_atoms": 1.402170890336093
+    },
+    {
+      "sigma": 3.0,
+      "regression_integral": 25.11945544413907,
+      "derivative_plus_atoms": 25.11945544413907
+    },
+    {
+      "sigma": 10.0,
+      "regression_integral": 298.0358869249517,
+      "derivative_plus_atoms": 298.0358869249516
+    }
+  ],
+  "nonintegrable_derivative_half_axis_lower_bounds": {
+    "10": 0.8376055194939895,
+    "100": 3.099050781181206,
+    "1000": 10.300951975320592,
+    "10000": 33.09155810118666
+  },
+  "reachable_zero_current_residual": {
+    "alpha": 0.6,
+    "e": 0.05,
+    "beta1": 0.9,
+    "beta2": 0,
+    "z": 0.5499999999999999,
+    "history": [
+      -0.5499999999999999,
+      0.0
+    ],
+    "update_factor": -5.210526315789473
+  },
+  "missing_query_tie_independence_counterexample": {
+    "n": 2,
+    "q": 0.5,
+    "uniform_I": true,
+    "iid_continuous_priorities_possible": true,
+    "outcomes_probability_each": 0.25,
+    "outcomes": [
+      {
+        "H1": 0,
+        "H2": 0,
+        "I": 2,
+        "H_I": 0,
+        "empirical_recall": 0.0
+      },
+      {
+        "H1": 0,
+        "H2": 1,
+        "I": 2,
+        "H_I": 1,
+        "empirical_recall": 0.5
+      },
+      {
+        "H1": 1,
+        "H2": 0,
+        "I": 1,
+        "H_I": 1,
+        "empirical_recall": 0.5
+      },
+      {
+        "H1": 1,
+        "H2": 1,
+        "I": 1,
+        "H_I": 1,
+        "empirical_recall": 1.0
+      }
+    ],
+    "E_H_I": 0.75,
+    "E_empirical_recall": 0.5,
+    "SignGD_open_event_center": {
+      "d": 1,
+      "n": 2,
+      "alpha": 1,
+      "T": 2,
+      "X": [
+        [
+          0.1,
+          0.1
+        ]
+      ],
+      "Y": [
+        [
+          0.01,
+          0.01
+        ]
+      ],
+      "S": 0.010000000000000002,
+      "Z": 0.001414213562373095,
+      "U2": 0.0
+    }
+  },
+  "rational_certificate": {
+    "strict": 26,
+    "nonstrict": 2,
+    "output": "All manuscript rational comparisons passed."
+  },
+  "wall_seconds": 0.3910325040051248,
+  "max_rss_MiB": 80.3359375,
+  "thread_environment": {
+    "OPENBLAS_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1",
+    "BLIS_NUM_THREADS": "1"
+  },
+  "input_sha256": {
+    "THEOREM_M.md": "7eb71c3a3364312f0a2f1b71ffd5ac7add14dce9bc8a40f0838d6068f5db8bf9",
+    "PROOF_REVIEW.md": "d1f09dd8a00056e790bce982a4d587f87ae5a106f732823a0d58d1cf2885ce30",
+    "FIX_LOG.md": "a00c2f8a08371d284fe6e15de6cdcc843537770c15547a8be65f007e082277e8"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "shifted_lower_event_probability": {
+    "lower_integer": "607076260345322736928859983266281762834958520639",
+    "upper_integer": "607076263470877959996531517479589369084668124750",
+    "denominator_power2": 160,
+    "approximate": [
+      0.41537843327634455,
+      0.4153784354149362
+    ],
+    "width_approximate": 2.138591667112861e-09
+  },
+  "ideal_fixed_threshold_success_lower_bound": "607076260345322736928859983266281762834958520639/1461501637330902918203684832716283019655932542976",
+  "target": "Ideal exact Adam2 at represented C0; fixed t; LOWER bound only",
+  "caveat": "Not unrounded Gaussian data, full random-threshold recall, single-dataset guarantee or independent review"
+}

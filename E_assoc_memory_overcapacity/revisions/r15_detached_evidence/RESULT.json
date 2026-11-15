@@ -1,0 +1,21 @@
+{
+  "bundle_revision": "R14",
+  "bundle_files": 554,
+  "wall_seconds": 10.144823399998131,
+  "clean_build": true,
+  "only_cached_tex": true,
+  "body_pages": 8,
+  "total_pages": 145,
+  "pdf_text_identical": true,
+  "pdf_text_sha256": "aa63a1f1fbf51f22ab4f3f67b18ffafd4dae72b782748cab239e2c4da1adf6d9",
+  "pdf_bytes_identical": false,
+  "z4b_statistics_and_geometry_identical": true,
+  "immutable_bundle_reverified": true,
+  "coverage": "Full manuscript build; compact-count statistical and local-proxy replay for table44 only",
+  "exclusions": [
+    "Other experiments not regenerated",
+    "Raw Z4B ranks not bundled",
+    "t critical values and model slopes archived inputs",
+    "Not independent proof review, exact-matching guarantee, or complete scientific reproduction"
+  ]
+}

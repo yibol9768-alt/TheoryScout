@@ -1,0 +1,151 @@
+{
+  "G1": {
+    "max_abs_error": 0.011510677651578538,
+    "max_equivalence_bound": 0.040111268318826235
+  },
+  "G3": {
+    "max_abs_error": 0.002874258045500122,
+    "max_equivalence_bound": 0.005036429370594663
+  },
+  "G5": {
+    "max_abs_error": 0.004623536606986001,
+    "max_equivalence_bound": 0.02887435307823488
+  },
+  "asymptotic_advantages": {
+    "0.0": -0.060014397013374854,
+    "0.01": -0.038731373265981084,
+    "0.1": 0.027159276745238436,
+    "1.0": 0.1366621722820518,
+    "GD": 0.17809724509617242
+  },
+  "certified_envelopes": [
+    {
+      "gamma": 16,
+      "lower": 0.6240889558609779,
+      "upper": 1.9556861095934126,
+      "decisions": {
+        "0.0": "unresolved",
+        "0.01": "unresolved",
+        "0.1": "unresolved",
+        "1.0": "unresolved",
+        "GD": "unresolved"
+      }
+    },
+    {
+      "gamma": 64,
+      "lower": 0.8072888689805672,
+      "upper": 0.8943386304762806,
+      "decisions": {
+        "0.0": "below",
+        "0.01": "unresolved",
+        "0.1": "unresolved",
+        "1.0": "above",
+        "GD": "above"
+      }
+    },
+    {
+      "gamma": 256,
+      "lower": 0.8431467121691648,
+      "upper": 0.8539456095898552,
+      "decisions": {
+        "0.0": "below",
+        "0.01": "below",
+        "0.1": "above",
+        "1.0": "above",
+        "GD": "above"
+      }
+    },
+    {
+      "gamma": 512,
+      "lower": 0.8467591395329411,
+      "upper": 0.8505748517772432,
+      "decisions": {
+        "0.0": "below",
+        "0.01": "below",
+        "0.1": "above",
+        "1.0": "above",
+        "GD": "above"
+      }
+    },
+    {
+      "gamma": 1024,
+      "lower": 0.8480700200827499,
+      "upper": 0.8494185241599229,
+      "decisions": {
+        "0.0": "below",
+        "0.01": "below",
+        "0.1": "above",
+        "1.0": "above",
+        "GD": "above"
+      }
+    },
+    {
+      "gamma": 4096,
+      "lower": 0.8487214154401304,
+      "upper": 0.8488898893330377,
+      "decisions": {
+        "0.0": "below",
+        "0.01": "below",
+        "0.1": "above",
+        "1.0": "above",
+        "GD": "above"
+      }
+    }
+  ],
+  "resources": [
+    {
+      "stage": "prepare",
+      "seconds": 0.026573979994282126,
+      "rss_mib": 353.30859375,
+      "cgroup_peak_mib": 60.58984375
+    },
+    {
+      "stage": "smoke",
+      "seconds": 0.05587995301175397,
+      "rss_mib": 103.80078125,
+      "cgroup_peak_mib": 64.58203125
+    },
+    {
+      "stage": "formal",
+      "seconds": 38.7316474509862,
+      "rss_mib": 386.78515625,
+      "cgroup_peak_mib": 348.890625
+    },
+    {
+      "stage": "analysis",
+      "seconds": 0.046334273007232696,
+      "rss_mib": 100.359375,
+      "cgroup_peak_mib": 63.015625
+    },
+    {
+      "stage": "audit",
+      "seconds": 6.402457858988782,
+      "rss_mib": 477.05078125,
+      "cgroup_peak_mib": 457.8828125
+    }
+  ],
+  "cumulative_wall_seconds_plus_planning_upper": 391.3110725879669,
+  "report_resource": {
+    "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/run-rc2405aa708574b33bceb8d7297947ec8.scope",
+    "controls": {
+      "memory.max": "2147483648",
+      "memory.swap.max": "0",
+      "memory.peak": "62222336",
+      "memory.events": "low 0\nhigh 0\nmax 0\noom 0\noom_kill 0\noom_group_kill 0"
+    },
+    "threadpools": [
+      {
+        "filepath": "/home/liuyibo/venvs/theory/lib/python3.12/site-packages/numpy.libs/libscipy_openblas64_-f48b354e.so",
+        "num_threads": 2,
+        "symbol": "scipy_openblas_get_num_threads64_"
+      },
+      {
+        "filepath": "/home/liuyibo/venvs/theory/lib/python3.12/site-packages/scipy.libs/libscipy_openblas-5f890258.so",
+        "num_threads": 2,
+        "symbol": "scipy_openblas_get_num_threads"
+      }
+    ],
+    "rss_mib": 96.90234375,
+    "interpreter": "/home/liuyibo/venvs/theory/bin/python"
+  }
+}

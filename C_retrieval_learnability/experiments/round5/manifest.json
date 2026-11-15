@@ -1,0 +1,30 @@
+{
+  "frozen_epoch": 1793953397.0860455,
+  "hashes": {
+    "PREREG_ROUND5.md": "97890482280e43dbec3ab72a0c83bac1a9f3c51fb4aed23a3ff9b36a5b20f595",
+    "PREREG_ROUND5.sha256": "2dca65f7bcc83693e77872548e7fdde866e6fa4254c4568254281b1b86957f55",
+    "experiments/round5/experiment.py": "20b3e4eb1a6fe1fbf793f72a1eca3a55a8c8c9f96376ed719fdd3aeb24298565",
+    "experiments/round5/bias_solver.c": "c29d90088baa6abc25052c6b50dce2b82b99b6efd6df83cb96793794d667c3fd",
+    "experiments/round5/bias_solver.so": "0f1ab9be43f431b15bf9bd3481b40db144c325947518286d59a0c495e7d9ed50",
+    "experiments/round5/run.py": "41d84dd4620ca34120963b94bf7bf4b8c7583a1373280bde6260ac725453dd5e",
+    "experiments/round5/smoke.py": "c61eb1dcc3926b0c1db4f48cf9544f78a6710c4ce28af4d320ecd228a23ea9e1",
+    "experiments/round5/assess.py": "6c7d90d0cc028cf3f007d8f0cc86e6e19960467a1159bdd4c860c8a39ec18614",
+    "experiments/round5/validate.py": "dbf26917eba86aed9514ece75b9ae6a0c313d6aa839949e0353a8470592d04a7",
+    "experiments/round5/smoke.json": "986b50fe1f995b30d1d9866e3196ca9609fa5664d4f24091578965f074db3bd3"
+  },
+  "copied_sources": {
+    "experiments/round4/experiment.py": "a292ab0228c5f723101250637e6a4038d3ece91bcf292d074bd9b4306c82df0c",
+    "experiments/round4/bias_solver.c": "e9bb038d12a12bbec65e6a97c9b6e5cd525e79e8c58604f5bd2113b24aea66b1"
+  },
+  "grid_main": 100,
+  "grid_holdout": 24,
+  "threads": {
+    "OMP": 1,
+    "BLAS": 1,
+    "MKL": 1,
+    "NUMEXPR": 1,
+    "workers": 2
+  },
+  "memory_max": "4G",
+  "memory_swap_max": 0
+}
